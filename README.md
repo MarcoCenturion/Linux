@@ -24,23 +24,61 @@ Porque muchos servers a los que accedemos, corren **apache**, o **nginx**, y ent
 
 Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 
+## stderr stdin stdout pipe 
+|Comando|Utilidad|
+|---|---|
+|ls > archivos.txt|Envía la salida del comando 'ls' a 'archivos.txt' |
+|cat archivos.txt \| grep linux|La salida de 'cat' es la entrada de 'grep'|
+|apt update && apt upgrade |Hace un update del sistema y luego upgrade|
+
+
+
 ## System
 |Comando|Utilidad|
 |---|---|
-|Whoami|que usuario estoy usando|
 |date|Despliega día y hora|
 |uname -a|Toda la info del sistema|
-
+|screenfetch|descripción del sistema 2.0|
+|cd|Cambia de directorio|
+|man *cd*|Manual del comando|
+|cd --help|Ayuda rápida del comando cd|
+|~|Directorio Home|
+|mkdir|Crea un directorio|
+|mv -*argumentos*|Mueve archivos o directorios|
+|cp -*argumentos*|Copia archivos y directorios|
+|rm|Borra|
+|dd|Copia completamente un disco o imagen|
 
 ## Hardware
+|Comando|Utilidad|
+|---|---|
+|fdisk|Formatea particiones|
+
+## Sistema de paquetes
+|Comando|Utilidad|
+|---|---|
+|yum rpm|Red hat, Suse, Centos|
+|apt deb|Debian, Ubuntu y derivados|
+|slapt txz|Slackware|
 
 ## Permisos
 
 ## Red
 
 ## Usuarios
+|Comando|Utilidad|
+|---|---|
+|whoami|que usuario estoy usando|
 
 ## Búsquedas
+
+## Tareas programadas
+|Comando|Utilidad|
+|---|---|
+|cron|Se ejecuta un comando periodicamente un comando|
+|at|A determinado momento se ejecuta una sola vez este comando|
+|---|---|
+
 
 ## SSH
 
@@ -49,7 +87,7 @@ Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 ## Disco
 
 
-## vi, emacs, nano, joe
+## Editores: vi, emacs, nano, joe
 
 ## awk
 
