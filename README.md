@@ -3,7 +3,9 @@ Que es Linux
 
 ## El Kernel.
 
-Linux Torval, de  21 años en abril de 1991, empezó a escribir el primer kernel de Linux, intentando hacer un Minix (un Unix pequeño) desde cero, escribe su intención en un foro y pronto se suman muchos entusiastas.  El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de código
+Linux Torval, de  21 años en abril de 1991, empezó a escribir el primer kernel de Linux, intentando hacer un Minix (un Unix pequeño) desde cero, escribe su intención en un foro y pronto se suman muchos entusiastas.  
+
+El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de código
 
 Hoy tiene 25.5 M de líneas de código.
 
@@ -13,3 +15,42 @@ Es la pieza de código que controla periféricos, controla los recursos, alreded
 
 El escritor de Ciencia Ficción Neal Stephenson escribió este ensayo interesante, 
 [Link para En Principio fue la línea de Comandos](https://www.holaebook.com/book/neal-stephenson-en-el-principio-fue-la-linea-de-comandos.html)
+
+La metáfora de la tienda de Deportivos italianos, frente a la de bicicletas con motor y la comunidad de hippies que arma tanques de última generación, que tienen la estética de los deportivos italianos (de hecho ultimamente los deportivos copian a Linux), gastan menos que la bicicleta y son **gratis**.
+
+## Porqué es obligatorio saber comandos bash
+
+Porque muchos servers a los que accedemos, corren **apache**, o **nginx**, y entramos por SSH a hacer cualquier tipo de tareas administrativas o de gestión.  Ver logs puede ser muy tedioso.  Con un par de combinaciones de comandos se simplifica mucho.
+
+Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
+
+## System
+|Comando|Utilidad|
+|---|---|
+|Whoami|que usuario estoy usando|
+|date|Despliega día y hora|
+|uname -a|Toda la info del sistema|
+
+
+## Hardware
+
+## Permisos
+
+## Red
+
+## Usuarios
+
+## Búsquedas
+
+## SSH
+
+## Procesos
+
+## Disco
+
+
+## vi, emacs, nano, joe
+
+## awk
+
+## Scripting
