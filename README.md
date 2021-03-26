@@ -24,17 +24,17 @@ Porque muchos servers a los que accedemos, corren **apache**, o **nginx**, y ent
 
 Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 
-La filosofía de Linux es hacer programas muy específicos, que hagan una sola cosa pero bien.
+La filosofía de Linux es hacer programas muy simples, muy específicos, que hagan una sola cosa, pero bien.  Esto nos da combinaciones de programas que tienen como entradas la salida de otro.
 
 ## stderr stdin stdout pipe y atajos de teclado
 |Comando|Utilidad|
 |---|---|
-|Tab|Completa predictivamente el comando|
-|ls > archivos.txt|Envía la salida del comando 'ls' a 'archivos.txt'|
-|ls >> archivos.txt|Agrega a archivos.txt el resultado de ls|
-|cat archivos.txt \| grep linux|La salida de 'cat' es la entrada de 'grep'|
+|fsc `Tab`|Completa predictivamente el comando fsck y muestra un listado de posibles comandos|
+|ls > `archivos.txt`|Envía la salida del comando 'ls' a 'archivos.txt'|
+|ls >> `archivos.txt`|Agrega a archivos.txt el resultado de ls|
+|cat `archivos.txt` \| grep linux|La salida de 'cat' es la entrada de 'grep'|
 |apt update `&&` apt upgrade |Hace un update del sistema y luego upgrade|
-|rm * `||` ls |Borra todos los archivos y si falla lista los archivos| 
+|rm * \`||` ls |Borra todos los archivos y si falla lista los archivos| 
 |Ctrl + 1|Cambia a la TTS 1 de las 7 que tiene|
 |Ctrl + c|Termina comando que se está ejecutando|
 |Ctrl + z|Suspende un proceso|
@@ -105,7 +105,7 @@ La filosofía de Linux es hacer programas muy específicos, que hagan una sola c
 |netconf|Muestra la configuración de red|
 |ping `host`|Envía una señal a google y espera el regreso|
 |ip addr show|Muestra todas las interfaces direcciones IP|
-|ip address add xxx.xxx.xxx.xxx dev etc0|Asinga una ip|
+|ip address add xxx.xxx.xxx.xxx dev etc0|Asinga una ip a una tarjeta de red|
 |wget file|Baja un archivo|
 |dig domino|Obtiene el DNS del dominio|
 
@@ -114,7 +114,7 @@ La filosofía de Linux es hacer programas muy específicos, que hagan una sola c
 |---|---|
 |whoami|Que usuario estoy usando|
 |adduser o useradd|Agrega un nuevo usuario|
-|groupadd -|
+|groupadd -|Agrega un grupo de usuario|
 |userdel|Borra usuario|
 |su|Cambia de usuario|
 |passwd|Cambia la contraseña|
@@ -132,8 +132,8 @@ La filosofía de Linux es hacer programas muy específicos, que hagan una sola c
 |locale `file`|Localizar un archivo en el sistema|
 |find `parámetros`|Encontrar un archivo según los parámetros|
 |grep|Encontrar un patrón dentro de un archivo|
-|tr '.' '\t' `archivo.txt`|Cambiar todos los puntos de archivo.txt por tabulados|
-|cut -d, -f4|Cortar el archivo segun las comas y mostrar el campo 4|
+|tr `'.' '\t'` `archivo.txt`|Cambiar todos los puntos del archivo.txt por tabulados|
+|cut `-d, -f4`|Cortar el archivo segun las comas y mostrar el campo 4|
 |which `python`|Muestra la versión de Python|
 |column|Encolumna los resultados|
 
@@ -146,7 +146,7 @@ La filosofía de Linux es hacer programas muy específicos, que hagan una sola c
 ## accesos remotos
 |Comando|Utilidad|
 |---|---|
-|ssh|Entra a otra pc por SSH, como Putty en windows|
+|ssh `usuario@host`|Entra a otra pc por SSH, como Putty en windows|
 |ftp|Entra a una pc por protocolo ftp|
 |rdesktop|Acceso a otra computadora por Remote Desktop de Windows|
 |vnc|Acceso por VNC|
@@ -166,10 +166,10 @@ La filosofía de Linux es hacer programas muy específicos, que hagan una sola c
 |---|---|
 |lsblk|Listado de dispositivos montados|
 |fdisk|Formatea particiones|
-|df -h|Espacio en Disco '-h human readable'|
-|dd|Copia todo el disco completo como imagen|
+|df `-h`|Espacio en Disco '-h human readable'|
+|dd `if of`|Copia todo el disco completo como imagen|
 |mount|Monta un sistema de archivos|
-|fsck *.fat* *.ext3*|Estado y corrección del sistema de archivos|
+|fsck `.fat .ext3`|Estado y corrección del sistema de archivos|
 
 ## Editores: vi, emacs, nano, joe
 |Comando|Utilidad|
