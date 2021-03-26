@@ -50,19 +50,19 @@ total 356
 
 chmod o+wx README.md va a permitir que otros puedan leer y "ejecutar" README.md si fuera ejecutable
 
-chmod g+rx Permite leer y escribir a este grupo
+**chmod g+rx** Permite leer y escribir a este grupo
 
-chmod g-r Quita permisos de lectura a este grupo
+**chmod g-r** Quita permisos de lectura a este grupo
 
-chmod g+r,o-rwx Agrega permiso de lectura al grupo y elimina todos al resto de los usuarios. 
+**chmod g+r,o-rwx** Agrega permiso de lectura al grupo y elimina todos al resto de los usuarios. 
  
-chgrp juan README.md va a permitir que usuarios del grupo llamado juan puedan leer
+**chgrp** juan README.md va a permitir que usuarios del grupo llamado juan puedan leer
 
-# find 
-Cuando listamos con `find` podemos indicar que solo sean `-file` o tipos puntuales de archivos como ejecutables.  `-name` indica el nombre.  La salida del comando **find** es la pasado a **cat** como argumento.
+## find 
+Cuando listamos con `find` podemos indicar que solo sean `-file` o tipos puntuales de archivos como ejecutables.  `-name` indica el nombre.  La salida del comando **find** es la pasado a **cat** como argumento y le pedimos que numere los renglones.
 
 ```
-find . -name | xargs cat
+find . -name READ*| xargs cat | grep archivos -n
 ```
 
 ## stderr stdin stdout pipe y atajos de teclado
@@ -115,15 +115,17 @@ find . -name | xargs cat
 ## Hardware
 |Comando|Utilidad|
 |---|---|
+|lscpu|Muestra info del Hard y Soft|
+|lsblk|Muestra los dispositivos y el punto de montaje|
 |lspci|Muestra periféricos conectados a la máquina|
 |lsusb|Muestra puertos usb|
 
 ## Sistema de paquetes
 |Comando|Utilidad|
 |---|---|
-|yum rpm|Red hat, Suse, Centos|
-|apt deb|Debian, Ubuntu y derivados|
-|slapt txz|Slackware|
+|yum rpm|Sistema de paquetes de Red hat, Suse, Centos|
+|apt deb|Sistema de paquetes Debian, Ubuntu y derivados|
+|slapt txz|Sistema de paquetes Slackware|
 |pacman|Sistema de paquetes de ArchLinux|
 |tar|Empaquedador de archivos sin comprimir|
 |gzip|Empaquetador y compresor de archivos|
@@ -132,10 +134,10 @@ find . -name | xargs cat
 ## Permisos
 |Comando|Utilidad|
 |---|---|
-|chmod +x `archivo`|Da permisos de ejecución a ese archivo|
-|chmod -r `archivo`|Elminia permisos de lectura a ese archivo|
+|chmod o+x `archivo`|Da permisos de ejecución a otros a este archivo|
+|chmod g-r `archivo`|Elminia permisos de lectura al grupo para este archivo|
 |chown `usuario archivo`|Cambia el usuario de un archivo|
-|chgrp|Cambia el grupo|
+|chgrp|Cambia el grupo `marco`|
 |sha256sum|Algoritmo sha-2 de hash seguro de 256 bits|
 
 ## Red
