@@ -26,6 +26,45 @@ Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 
 La filosofía de Linux es hacer programas muy simples, muy específicos, que hagan una sola cosa, pero bien.  Esto nos da combinaciones de programas que tienen como entradas la salida de otro.
 
+Dentro de Bash tenemos cientos de programas instalados por defecto en todas las distribuciones **[Li|U]nix**, dejamos un listado de apenas algunas.
+
+La analogía que me gusta mostrar siempre es intentar ver el contenido de un archivo .csv ***-grande-*** en la línea de comando y en Excel.  
+
+# Listado de Archivos
+Cuando listamos, podemos agregar parámetros al comando `ls` archivos vemos algo parecido a esto, `-a` agrega la posibilidad de ver ficheros ocultos.
+
+```
+[marco@marcocenturion Linux]$ ls -lsa
+total 356
+  4 drwxr-xr-x  8 marco marco   4096 mar 25 23:42 .git
+  4 drwxr-xr-x  2 marco marco   4096 mar 25 20:20 images
+296 -rw-r--r--  1 marco marco 302548 mar 25 23:23 index.html
+ 36 -rw-r--r--  1 marco marco  35149 mar 25 19:42 LICENSE
+  8 -rw-r--r--  1 marco marco   8179 mar 26 08:49 README.md
+```
+
+    d = directorio
+     rwx = Permisos de lectura (r) escritura (w) y ejecución (x) del usuario marco
+        rwx = Permisos de lectura (r) escritura (w) y ejecución (x) del grupo marco
+            rwx = Permisos del resto de los usuarios
+
+chmod o+wx README.md va a permitir que otros puedan leer y "ejecutar" README.md si fuera ejecutable
+
+chmod g+rx Permite leer y escribir a este grupo
+
+chmod g-r Quita permisos de lectura a este grupo
+
+chmod g+r,o-rwx Agrega permiso de lectura al grupo y elimina todos al resto de los usuarios. 
+ 
+chgrp juan README.md va a permitir que usuarios del grupo llamado juan puedan leer
+
+# find 
+Cuando listamos con `find` podemos indicar que solo sean `-file` o tipos puntuales de archivos como ejecutables.  `-name` indica el nombre.  La salida del comando **find** es la pasado a **cat** como argumento.
+
+```
+find . -name | xargs cat
+```
+
 ## stderr stdin stdout pipe y atajos de teclado
 |Comando|Utilidad|
 |---|---|
@@ -34,14 +73,13 @@ La filosofía de Linux es hacer programas muy simples, muy específicos, que hag
 |ls >> `archivos.txt`|Agrega a archivos.txt el resultado de ls|
 |cat `archivos.txt` \| grep linux|La salida de 'cat' es la entrada de 'grep'|
 |apt update `&&` apt upgrade |Hace un update del sistema y luego upgrade|
-|rm * \`||` ls |Borra todos los archivos y si falla lista los archivos| 
+|rm * \|| ls |Borra todos los archivos y si falla lista los archivos| 
 |Ctrl + 1|Cambia a la TTS 1 de las 7 que tiene|
 |Ctrl + c|Termina comando que se está ejecutando|
 |Ctrl + z|Suspende un proceso|
 |Ctrl + d|Muestra el final de un archivo|
 |Ctrl + Alt + t|Abre una nueva terminal|
 |&|Al final del comando lo hace correr en segundo plano|
-|cd|Cambia de carpeta `~` va directamente al directorio home|
 
 ## System
 |Comando|Utilidad|
@@ -50,7 +88,7 @@ La filosofía de Linux es hacer programas muy simples, muy específicos, que hag
 |uname `-a`|Toda la info del sistema|
 |screenfetch|descripción del sistema 2.0|
 |ls `-argumentos`|Listado de archivos y directorios|
-|cd|Cambia de directorio|
+|cd|Cambia de directorio, `~` es el home|
 |pwd|Muestra el directorio actual|
 |man `cd`|Manual del comando|
 |cd `--help`|Ayuda rápida del comando cd|
@@ -87,6 +125,9 @@ La filosofía de Linux es hacer programas muy simples, muy específicos, que hag
 |apt deb|Debian, Ubuntu y derivados|
 |slapt txz|Slackware|
 |pacman|Sistema de paquetes de ArchLinux|
+|tar|Empaquedador de archivos sin comprimir|
+|gzip|Empaquetador y compresor de archivos|
+|7z|Compresor de archivos universal|
 
 ## Permisos
 |Comando|Utilidad|
@@ -94,6 +135,8 @@ La filosofía de Linux es hacer programas muy simples, muy específicos, que hag
 |chmod +x `archivo`|Da permisos de ejecución a ese archivo|
 |chmod -r `archivo`|Elminia permisos de lectura a ese archivo|
 |chown `usuario archivo`|Cambia el usuario de un archivo|
+|chgrp|Cambia el grupo|
+|sha256sum|Algoritmo sha-2 de hash seguro de 256 bits|
 
 ## Red
 |Comando|Utilidad|
@@ -114,16 +157,19 @@ La filosofía de Linux es hacer programas muy simples, muy específicos, que hag
 |---|---|
 |whoami|Que usuario estoy usando|
 |adduser o useradd|Agrega un nuevo usuario|
-|groupadd -|Agrega un grupo de usuario|
 |userdel|Borra usuario|
 |su|Cambia de usuario|
 |passwd|Cambia la contraseña|
 |who|Muestra los usuarios en el sistema|
 |id|Datos de identificación del usuario|
+|groupadd -|Agrega un grupo de usuario|
+|addgroup|Agrega un grupo|
 
-## Búsquedas
+## Gestión de archivos, búsquedas, flags
 |Comando|Utilidad|
 |---|---|
+|*|Todos los archivos|
+|*.txt|Todos los archivos con extension txt|
 |cat `archivo.txt`|Muestra todo el contenido de archivo.txt|
 |more `archivo.txt`|Muestra el contenido de archivo.txt por página|
 |head `archivo.txt`|Muestra los 10 primeros renglones de archivo.txt|
@@ -136,6 +182,11 @@ La filosofía de Linux es hacer programas muy simples, muy específicos, que hag
 |cut `-d, -f4`|Cortar el archivo segun las comas y mostrar el campo 4|
 |which `python`|Muestra la versión de Python|
 |column|Encolumna los resultados|
+|sed|Cambia una cadena por otra|
+|sort `Parámetros`|Ordena una lista de archivos sergún parámetros|
+|uniq|En un listado ordenado elimina las cadenas repetidas|
+|diff `archivo.txt` `archivo1.txt`|Muestra las diferencias entre dos archivos|
+|xargs|Ejecuta un comando tomando como entrada la salida de un comando anterior|
 
 ## Tareas programadas
 |Comando|Utilidad|
@@ -146,7 +197,7 @@ La filosofía de Linux es hacer programas muy simples, muy específicos, que hag
 ## accesos remotos
 |Comando|Utilidad|
 |---|---|
-|ssh `usuario@host`|Entra a otra pc por SSH, como Putty en windows|
+|ssh `usuario@host -p`|Entra a otra pc por SSH, como Putty en windows|
 |ftp|Entra a una pc por protocolo ftp|
 |rdesktop|Acceso a otra computadora por Remote Desktop de Windows|
 |vnc|Acceso por VNC|
@@ -179,5 +230,10 @@ La filosofía de Linux es hacer programas muy simples, muy específicos, que hag
 
 
 ## awk
+> Awk es todo un lenguaje que se ejecuta línea por línea
+
+|Comando|Utilidad|
+|---|---|
+
 
 ## Scripting
