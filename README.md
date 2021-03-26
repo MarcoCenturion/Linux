@@ -24,41 +24,43 @@ Porque muchos servers a los que accedemos, corren **apache**, o **nginx**, y ent
 
 Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 
+La filosofía de Linux es hacer programas muy específicos, que hagan una sola cosa pero bien.
+
 ## stderr stdin stdout pipe y atajos de teclado
 |Comando|Utilidad|
 |---|---|
 |Tab|Completa predictivamente el comando|
-|ls > archivos.txt|Envía la salida del comando 'ls' a 'archivos.txt' |
+|ls > archivos.txt|Envía la salida del comando 'ls' a 'archivos.txt'|
+|ls >> archivos.txt|Agrega a archivos.txt el resultado de ls|
 |cat archivos.txt \| grep linux|La salida de 'cat' es la entrada de 'grep'|
-|apt update && apt upgrade |Hace un update del sistema y luego upgrade|
-|rm * \||| ls |Borra todos los archivos y si falla ese comando ejecuta ls|
+|apt update `&&` apt upgrade |Hace un update del sistema y luego upgrade|
+|rm * `||` ls |Borra todos los archivos y si falla lista los archivos| 
 |Ctrl + 1|Cambia a la TTS 1 de las 7 que tiene|
 |Ctrl + c|Termina comando que se está ejecutando|
 |Ctrl + z|Suspende un proceso|
 |Ctrl + d|Muestra el final de un archivo|
 |Ctrl + Alt + t|Abre una nueva terminal|
 |&|Al final del comando lo hace correr en segundo plano|
+|cd|Cambia de carpeta `~` va directamente al directorio home|
 
 ## System
 |Comando|Utilidad|
 |---|---|
 |date|Despliega día y hora|
-|uname -a|Toda la info del sistema|
+|uname `-a`|Toda la info del sistema|
 |screenfetch|descripción del sistema 2.0|
-|ls -*argumentos*|Listado de archivos y directorios|
+|ls `-argumentos`|Listado de archivos y directorios|
 |cd|Cambia de directorio|
 |pwd|Muestra el directorio actual|
-|man *cd*|Manual del comando|
-|cd --help|Ayuda rápida del comando cd|
-|~|Directorio Home|
+|man `cd`|Manual del comando|
+|cd `--help`|Ayuda rápida del comando cd|
 |mkdir|Crea un directorio|
-|mv -*argumentos*|Mueve archivos o directorios|
-|cp -*argumentos*|Copia archivos y directorios|
+|mv `-argumentos`|Mueve archivos y directorios o renombra|
+|cp `-argumentos`|Copia archivos y directorios|
 |rm|Borra|
 |cal|Calendario|
-|cat|Muestra el contenido del un archivo|
-|file *archivo*|Muestra que tipo de archivo es|
-|history|Historial de comandos en Bash|
+|file `archivo.txt`|Muestra que tipo de archivo|
+|history|Historial de comandos en Bash `-n` agrega el número de línea|
 |alias|Genera un enlace a un comando con un nombre distinto, puede agregar parámetros|
 |set|Información del entorno de usuario|
 |halt|Detiene el sistema|
@@ -68,6 +70,9 @@ Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 |env|Muestra las variables de entorno del usuario|
 |bc|Calculadora en línea de comando|
 |mc|Midnight Commander clone de Norton Commander|
+|tree|Muestra el Arbol de directorio desde donde está parado el usuario|
+|clear|Limpia la pantalla|
+|echo 'Hola mundo'|Saca por pantalla hola mundo|
 
 ## Hardware
 |Comando|Utilidad|
@@ -81,16 +86,35 @@ Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 |yum rpm|Red hat, Suse, Centos|
 |apt deb|Debian, Ubuntu y derivados|
 |slapt txz|Slackware|
+|pacman|Sistema de paquetes de ArchLinux|
 
 ## Permisos
+|Comando|Utilidad|
+|---|---|
+|chmod +x `archivo`|Da permisos de ejecución a ese archivo|
+|chmod -r `archivo`|Elminia permisos de lectura a ese archivo|
+|chown `usuario archivo`|Cambia el usuario de un archivo|
 
 ## Red
+|Comando|Utilidad|
+|---|---|
+|netstat|Muestra el estado de la red|
+|ifconfig|Muestra la configuración de la placa de ethernet|
+|iwconfig|Muestra la configuración de la placa de wifi|
+|nmap|Muestra los puertos|
+|netconf|Muestra la configuración de red|
+|ping `host`|Envía una señal a google y espera el regreso|
+|ip addr show|Muestra todas las interfaces direcciones IP|
+|ip address add xxx.xxx.xxx.xxx dev etc0|Asinga una ip|
+|wget file|Baja un archivo|
+|dig domino|Obtiene el DNS del dominio|
 
 ## Usuarios
 |Comando|Utilidad|
 |---|---|
-|whoami|que usuario estoy usando|
+|whoami|Que usuario estoy usando|
 |adduser o useradd|Agrega un nuevo usuario|
+|groupadd -|
 |userdel|Borra usuario|
 |su|Cambia de usuario|
 |passwd|Cambia la contraseña|
@@ -98,6 +122,20 @@ Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 |id|Datos de identificación del usuario|
 
 ## Búsquedas
+|Comando|Utilidad|
+|---|---|
+|cat `archivo.txt`|Muestra todo el contenido de archivo.txt|
+|more `archivo.txt`|Muestra el contenido de archivo.txt por página|
+|head `archivo.txt`|Muestra los 10 primeros renglones de archivo.txt|
+|tail `archivo.txt`|Muestra los 10 últimos renglones de archivo.txt|
+|wc|Cuenta el contenido de un fichero `-l` líneas `-c` caracteres `-w` palabras|
+|locale `file`|Localizar un archivo en el sistema|
+|find `parámetros`|Encontrar un archivo según los parámetros|
+|grep|Encontrar un patrón dentro de un archivo|
+|tr '.' '\t' `archivo.txt`|Cambiar todos los puntos de archivo.txt por tabulados|
+|cut -d, -f4|Cortar el archivo segun las comas y mostrar el campo 4|
+|which `python`|Muestra la versión de Python|
+|column|Encolumna los resultados|
 
 ## Tareas programadas
 |Comando|Utilidad|
@@ -126,6 +164,7 @@ Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 ## Disco
 |Comando|Utilidad|
 |---|---|
+|lsblk|Listado de dispositivos montados|
 |fdisk|Formatea particiones|
 |df -h|Espacio en Disco '-h human readable'|
 |dd|Copia todo el disco completo como imagen|
@@ -136,7 +175,8 @@ Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 |Comando|Utilidad|
 |---|---|
 |touch|Crea un archivo|
-|
+|vi `archivo.txt`|Abre archivo.txt con vi, sale con `esc` +wq|
+
 
 ## awk
 
