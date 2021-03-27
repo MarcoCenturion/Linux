@@ -10,7 +10,7 @@ El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de c
 Hoy tiene 25.5 M de líneas de código.
 
 Es la pieza de código que controla periféricos, controla los recursos, alrededor de esto se montan los otros programas, con una declaración de principios.  Cada programa hace una sola cosa, pero la hace bien y de documenta todo.
-
+---
 ## En principio fue la línea de comandos.
 
 El escritor de Ciencia Ficción Neal Stephenson escribió este ensayo interesante, 
@@ -18,8 +18,8 @@ El escritor de Ciencia Ficción Neal Stephenson escribió este ensayo interesant
 
 La metáfora de la tienda de Deportivos italianos, frente a la de bicicletas con motor y la comunidad de hippies que arma tanques de última generación, que tienen la estética de los deportivos italianos (de hecho ultimamente los deportivos copian a Linux), gastan menos que la bicicleta y son **gratis**.
 
+---
 ## Porqué es obligatorio saber comandos bash
-
 Porque muchos servers a los que accedemos, corren **apache**, o **nginx**, y entramos por SSH a hacer cualquier tipo de tareas administrativas o de gestión.  Ver logs puede ser muy tedioso.  Con un par de combinaciones de comandos se simplifica mucho.
 
 Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
@@ -29,7 +29,7 @@ La filosofía de Linux es hacer programas muy simples, muy específicos, que hag
 Dentro de Bash tenemos cientos de programas instalados por defecto en todas las distribuciones **[Li|U]nix**, dejamos un listado de apenas algunas.
 
 La analogía que me gusta mostrar siempre es intentar ver el contenido de un archivo .csv ***-grande-*** en la línea de comando y en Excel.  
-
+---
 # Listado de Archivos
 Cuando listamos, podemos agregar parámetros al comando `ls` archivos vemos algo parecido a esto, `-a` agrega la posibilidad de ver ficheros ocultos.
 
@@ -57,11 +57,11 @@ chmod o+wx README.md va a permitir que otros puedan leer y "ejecutar" README.md 
 **chmod g+r,o-rwx** Agrega permiso de lectura al grupo y elimina todos al resto de los usuarios. 
  
 **chgrp** juan README.md va a permitir que usuarios del grupo llamado juan puedan leer
-
+---
 ## find 
 Cuando listamos con `find` podemos indicar que solo sean `-file` o tipos puntuales de archivos como ejecutables.  `-name` indica el nombre.  La lógica es la siguiente:
 
-find <directorio> <opciones> <termino a buscar>
+find <directorio> <opciones> <parametros>
     Directorio actual `.` Todo el sistema `/` Desde el home `~`
 
 `find . -name archivo.txt` ## -iname para omitir case sensitive.
@@ -206,6 +206,7 @@ find . -name READ*| xargs cat | grep archivos -n
 |uniq|En un listado ordenado elimina las cadenas repetidas|
 |diff `archivo.txt` `archivo1.txt`|Muestra las diferencias entre dos archivos|
 |xargs|Ejecuta un comando tomando como entrada la salida de un comando anterior|
+|wget|bajar el contenido de un sitio|
 
 ## Tareas programadas
 |Comando|Utilidad|
