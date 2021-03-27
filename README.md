@@ -5,11 +5,9 @@ Que es Linux
 
 Linux Torval, de  21 años en abril de 1991, empezó a escribir el primer kernel de Linux, intentando hacer un Minix (un Unix pequeño) desde cero, escribe su intención en un foro y pronto se suman muchos entusiastas.  
 
-El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de código
+El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de código, hoy tiene 25.5 M de líneas de código en el linux 5..
 
-Hoy tiene 25.5 M de líneas de código.
-
-Es la pieza de código que controla periféricos, controla los recursos, alrededor de esto se montan los otros programas, con una declaración de principios.  Cada programa hace una sola cosa, pero la hace bien y de documenta todo.
+La pieza de código que controla periféricos, controla los recursos, alrededor de esto se montan los otros programas, con una declaración de principios.  Cada programa hace una sola cosa, pero la hace bien y de documenta todo.
 ---
 ## En principio fue la línea de comandos.
 
@@ -20,17 +18,17 @@ La metáfora de la tienda de Deportivos italianos, frente a la de bicicletas con
 
 ---
 ## Porqué es obligatorio saber comandos bash
-Porque muchos servers a los que accedemos, corren **apache**, o **nginx**, y entramos por SSH a hacer cualquier tipo de tareas administrativas o de gestión.  Ver logs puede ser muy tedioso.  Con un par de combinaciones de comandos se simplifica mucho.
-
-Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
-
-La filosofía de Linux es hacer programas muy simples, muy específicos, que hagan una sola cosa, pero bien.  Esto nos da combinaciones de programas que tienen como entradas la salida de otro.
-
-Dentro de Bash tenemos cientos de programas instalados por defecto en todas las distribuciones **[Li|U]nix**, dejamos un listado de apenas algunas.
-
-La analogía que me gusta mostrar siempre es intentar ver el contenido de un archivo .csv ***-grande-*** en la línea de comando y en Excel.  
+* Porque muchos servers a los que accedemos, corren **apache**, o **nginx**, y entramos por SSH a hacer cualquier tipo de tareas administrativas o de gestión.  Ver logs puede ser muy tedioso.  Con un par de combinaciones de comandos se simplifica mucho. Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
+* Pueden borrarse cientos de miles de archivos con un comando que cabe en una línea y luego dejarlo como tarea programada.
+* Cuando se rompe un windows, podes bootear una llave USB con una distribución live y arreglar gran parte de los problemas.
+* La filosofía de Linux es hacer programas muy **simples**, muy **específicos**, consumiendo muy **pocos recursos**, que hacen una **sola cosa**, pero **bien**.  
+* Esto nos da combinaciones de programas que tienen como entradas la salida de otro.  
+* Programas que corren en serie (vía pipe) la salida del primer programa, es la entrada del siguiente y así sucesivamente.
+* Programas que corren en paralelo (vía segundo plano)
+* Dentro de Bash tenemos cientos de programas instalados por defecto en todas las distribuciones [Li|U]nix, dejamos un listado de apenas algunas.
+* La analogía que me gusta mostrar siempre es intentar ver el contenido de un archivo .csv ***-grande-*** en la línea de comando y en Excel.  
 ---
-# Listado de Archivos
+##Listado de Archivos
 Cuando listamos, podemos agregar parámetros al comando `ls` archivos vemos algo parecido a esto, `-a` agrega la posibilidad de ver ficheros ocultos.
 
 ```
@@ -48,15 +46,15 @@ total 356
         rwx = Permisos de lectura (r) escritura (w) y ejecución (x) del grupo marco
             rwx = Permisos del resto de los usuarios
 
-chmod o+wx README.md va a permitir que otros puedan leer y "ejecutar" README.md si fuera ejecutable
+`chmod o+wx README.md` va a permitir que otros puedan leer y "ejecutar" README.md si fuera ejecutable
 
-**chmod g+rx** Permite leer y escribir a este grupo
+`chmod g+rx` Permite leer y escribir a este grupo
 
-**chmod g-r** Quita permisos de lectura a este grupo
+`chmod g-r` Quita permisos de lectura a este grupo
 
-**chmod g+r,o-rwx** Agrega permiso de lectura al grupo y elimina todos al resto de los usuarios. 
+`chmod g+r,o-rwx` Agrega permiso de lectura al grupo y elimina todos al resto de los usuarios. 
  
-**chgrp** juan README.md va a permitir que usuarios del grupo llamado juan puedan leer
+`chgrp juan README.md` va a permitir que usuarios del grupo llamado juan puedan leer
 ---
 ## find 
 Cuando listamos con `find` podemos indicar que solo sean `-file` o tipos puntuales de archivos como ejecutables.  `-name` indica el nombre.  La lógica es la siguiente:
@@ -64,12 +62,18 @@ Cuando listamos con `find` podemos indicar que solo sean `-file` o tipos puntual
 find <directorio> <opciones> <parametros>
     Directorio actual `.` Todo el sistema `/` Desde el home `~`
 
-`find . -name archivo.txt` ## -iname para omitir case sensitive.
+`find . -name archivo.txt` SI en lugar de -name ponemos -iname para omitir case sensitive.
+
 `find . -type d` (d=directorio f=archivo i=enlace)
+
 `find . -atime 1` (un día desde la última lectura o escritura -mtime desde la    última modificación)
+
 `find . -f -mmin -10` Encontrar un archvio que fue modificado hace menos de 10 minutos. 
+
 `find . -size 10M` exactamente 10 megabites `+1G` mas de un gigabite
+
 `find ~ -type f -size +1G` todos los archivos de mas de 1G (para eliminar)
+
 `finde ~ -executable` buscar ejecutables
 
 La **salida** del comando **find** se la pasamos en este caso a **cat** como **argumento** y le pedimos que numere los renglones.
@@ -77,7 +81,6 @@ La **salida** del comando **find** se la pasamos en este caso a **cat** como **a
 ```
 find . -name READ*| xargs cat | grep archivos -n
 ```
-
 
 
 ---
