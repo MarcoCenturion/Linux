@@ -59,11 +59,28 @@ chmod o+wx README.md va a permitir que otros puedan leer y "ejecutar" README.md 
 **chgrp** juan README.md va a permitir que usuarios del grupo llamado juan puedan leer
 
 ## find 
-Cuando listamos con `find` podemos indicar que solo sean `-file` o tipos puntuales de archivos como ejecutables.  `-name` indica el nombre.  La salida del comando **find** es la pasado a **cat** como argumento y le pedimos que numere los renglones.
+Cuando listamos con `find` podemos indicar que solo sean `-file` o tipos puntuales de archivos como ejecutables.  `-name` indica el nombre.  La lógica es la siguiente:
+
+find <directorio> <opciones> <termino a buscar>
+    Directorio actual `.` Todo el sistema `/` Desde el home `~`
+
+`find . -name archivo.txt` ## -iname para omitir case sensitive.
+`find . -type d` (d=directorio f=archivo i=enlace)
+`find . -atime 1` (un día desde la última lectura o escritura -mtime desde la    última modificación)
+`find . -f -mmin -10` Encontrar un archvio que fue modificado hace menos de 10 minutos. 
+`find . -size 10M` exactamente 10 megabites `+1G` mas de un gigabite
+`find ~ -type f -size +1G` todos los archivos de mas de 1G (para eliminar)
+`finde ~ -executable` buscar ejecutables
+
+La **salida** del comando **find** se la pasamos en este caso a **cat** como **argumento** y le pedimos que numere los renglones.
 
 ```
 find . -name READ*| xargs cat | grep archivos -n
 ```
+
+
+
+---
 
 ## stderr stdin stdout pipe y atajos de teclado
 |Comando|Utilidad|
