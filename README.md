@@ -3,11 +3,14 @@ Que es Linux
 
 ## El Kernel.
 
-Linux Torval, de  21 años en abril de 1991, empezó a escribir el primer kernel de Linux, intentando hacer un Minix (un Unix pequeño) desde cero, escribe su intención en un foro y pronto se suman muchos entusiastas.  
+**Linux Torval**, de  21 años en abril de 1991, empezó a escribir el primer kernel de Linux, intentando hacer un Minix (un Unix pequeño) desde cero, escribe su intención en un foro y pronto se suman muchos entusiastas.  
 
-El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de código, hoy tiene 25.5 M de líneas de código en el linux 5..
+El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de código, hoy tiene 25.5 M de líneas de código en el linux 5.12
+
+Hoy es esponsoreado por las grandes corporaciones
 
 La pieza de código que controla periféricos, controla los recursos, alrededor de esto se montan los otros programas, con una declaración de principios.  Cada programa hace una sola cosa, pero la hace bien y de documenta todo.
+
 ---
 ## En principio fue la línea de comandos.
 
@@ -16,8 +19,10 @@ El escritor de Ciencia Ficción Neal Stephenson escribió este ensayo interesant
 
 La metáfora de la tienda de Deportivos italianos, frente a la de bicicletas con motor y la comunidad de hippies que arma tanques de última generación, que tienen la estética de los deportivos italianos (de hecho ultimamente los deportivos copian a Linux), gastan menos que la bicicleta y son **gratis**.
 
+Lo que comienza como una religión de hippies fundamentalistas termina el 9 de julio del 2019 cuando **IBM** anuncia la compra de **RedHat** en 34 mil millones de dólares. [IBM compró RedHat](https://www.redhat.com/en/about/press-releases/ibm-closes-landmark-acquisition-red-hat-34-billion-defines-open-hybrid-cloud-future)
+
 ---
-## Porqué es obligatorio saber comandos bash
+## Porqué Linux
 * Porque muchos servers a los que accedemos, corren **apache**, o **nginx**, y entramos por SSH a hacer cualquier tipo de tareas administrativas o de gestión.  Ver logs puede ser muy tedioso.  Con un par de combinaciones de comandos se simplifica mucho. Todas esas tareas vamos a tener que hacerlas desde la línea de comando.
 * Pueden borrarse cientos de miles de archivos con un comando que cabe en una línea y luego dejarlo como tarea programada.
 * Cuando se rompe un windows, podes bootear una llave USB con una distribución live y arreglar gran parte de los problemas.
@@ -27,6 +32,13 @@ La metáfora de la tienda de Deportivos italianos, frente a la de bicicletas con
 * Programas que corren en paralelo (vía segundo plano)
 * Dentro de Bash tenemos cientos de programas instalados por defecto en todas las distribuciones [Li|U]nix, dejamos un listado de apenas algunas.
 * La analogía que me gusta mostrar siempre es intentar ver el contenido de un archivo .csv ***-grande-*** en la línea de comando y en Excel.  
+* Aparece nuevo Hard diariamente, micro computadoras como raspberry, o tvbox que utilizan microprocesadores de la familia ARM con menor consumo.
+* Market share distinto para Desktop `3%`, mobile, servers, supercomputadoras. [Nota wikipedia](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems)
+* Licencias, no solo por costos, en linux la licencia GNU permite copiar, usar, distribuir y mejorar un programa, con la sola obligación de seguir el trace de los colaboradores.  Y **costos**
+* Customización, no solo estética, que para usuarios de escritorio es muy importante, sino por hacer puntualemente una cosa bien.  Las imágenes para servers no incluyen configuraciones de sonido, ni impresoras, ni entornos gráficos.  Son mas eficientes.
+* Encendes una pc con linux instalado hace 3 años y arranca como el primer día.
+* Seguridad, la cuota de mercado de virus para linux es casi inexistente.
+* El FBI, la NASA, la bolsa de NYC, Facebook, twitter, usan la mayoría red hat enterprise.  Google usa una versión de ubuntu.  El CERN Comisión Europea para la Investigación Nuclear, donde está el mayor colisionador de hadrones del mundo, usa tambien Red Hat Enterprise.
 ---
 ##Listado de Archivos
 Cuando listamos, podemos agregar parámetros al comando `ls` archivos vemos algo parecido a esto, `-a` agrega la posibilidad de ver ficheros ocultos.
