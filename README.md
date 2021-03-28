@@ -85,6 +85,62 @@ find . -name READ*| xargs cat | grep archivos -n
 
 ---
 
+##Arbol de carpetas linux
+En el árbol de directorios de linux, existen directorios a los que puede acceder un usuario sin privilegios y otros a los que solo puede acceder el super usuario **root**
+
+Usuarios sin permisos
+/home/usuario
+/var/logs
+/var/html
+/opt
+
+Solo accede el superusuario o dándole permisos de superusuario a un usuario
+/etc
+/boot
+/root
+
+Directorio Raiz
+/
+
+Directorio de arranque, donde se almacenan los ejecutables para que arranque el sistema, la imagen del kernel
+/boot
+
+Directorio donde se archivan los ejecutables de sistema
+/bin (ejecutables de todos los usuarios)
+/sbin (ejecutables solo por root)
+
+Directorio de los dispositivos, ya que todos los dispositivos de linux, son tratados como un archivo, dependiendo de la distribución, estos archivos están dentro de 
+/dev
+
+Directorio de configuración del sistema
+/etc
+
+Directorio del usuario, por lo general, al crearse un usuario, Linux crea un entorno para ese usuario dentro del cual crea un directorio en 
+/home/usuario
+
+Directorio de las librerías (por ejemplo java)
+/lib
+
+Directorio de programas que no vienen por defecto en linux
+/opt
+
+Directorio de los procesos que están corriendo
+/proc
+
+Directorio de los logs
+/var/logs
+
+Directorio de temporales
+/tmp
+
+Directorio de los programas, los ejecutables, librerías, fuentes, man pages
+/usr
+
+Directorio recuperado
+/lost+found
+
+---
+
 ## stderr stdin stdout pipe y atajos de teclado
 |Comando|Utilidad|
 |---|---|
