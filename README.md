@@ -39,7 +39,9 @@ Lo que comienza como una religión de hippies fundamentalistas termina el 9 de j
 * Encendes una pc con linux instalado hace 3 años y arranca como el primer día.
 * Seguridad, la cuota de mercado de virus para linux es casi inexistente.
 * El FBI, la NASA, la bolsa de NYC, Facebook, twitter, usan la mayoría red hat enterprise.  Google usa una versión de ubuntu.  El CERN Comisión Europea para la Investigación Nuclear, donde está el mayor colisionador de hadrones del mundo, usa tambien Red Hat Enterprise.
+
 ---
+
 ##Listado de Archivos
 Cuando listamos, podemos agregar parámetros al comando `ls` archivos vemos algo parecido a esto, `-a` agrega la posibilidad de ver ficheros ocultos.
 
@@ -65,9 +67,12 @@ total 356
 `chmod g-r` Quita permisos de lectura a este grupo
 
 `chmod g+r,o-rwx` Agrega permiso de lectura al grupo y elimina todos al resto de los usuarios. 
+
  
 `chgrp juan README.md` va a permitir que usuarios del grupo llamado juan puedan leer
+
 ---
+
 ## find 
 Cuando listamos con `find` podemos indicar que solo sean `-file` o tipos puntuales de archivos como ejecutables.  `-name` indica el nombre.  La lógica es la siguiente:
 
@@ -267,12 +272,13 @@ Directorio recuperado
 |wc|Cuenta el contenido de un fichero `-l` líneas `-c` caracteres `-w` palabras|
 |locale `file`|Localizar un archivo en el sistema|
 |find `parámetros`|Encontrar un archivo según los parámetros|
-|grep|Encontrar un patrón dentro de un archivo|
+|grep |Encontrar un patrón dentro de un archivo|
+|grep -E 'rojo|negro' | Expresiones regulares|
 |tr `'.' '\t'` `archivo.txt`|Cambiar todos los puntos del archivo.txt por tabulados|
 |cut `-d, -f4`|Cortar el archivo segun las comas y mostrar el campo 4|
 |which `python`|Muestra la versión de Python|
 |column|Encolumna los resultados|
-|sed|Cambia una cadena por otra|
+|sed 's/esto/aquello/g'|Cambia una cadena por otra|
 |sort `Parámetros`|Ordena una lista de archivos sergún parámetros|
 |uniq|En un listado ordenado elimina las cadenas repetidas|
 |diff `archivo.txt` `archivo1.txt`|Muestra las diferencias entre dos archivos|
