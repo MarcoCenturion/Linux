@@ -42,7 +42,7 @@ Lo que comienza como una religión de hippies fundamentalistas termina el 9 de j
 
 ---
 
-##Listado de Archivos
+## Listado de Archivos
 Cuando listamos, podemos agregar parámetros al comando `ls` archivos vemos algo parecido a esto, `-a` agrega la posibilidad de ver ficheros ocultos.
 
 ```
@@ -283,7 +283,8 @@ Directorio recuperado
 |uniq|En un listado ordenado elimina las cadenas repetidas|
 |diff `archivo.txt` `archivo1.txt`|Muestra las diferencias entre dos archivos|
 |xargs|Ejecuta un comando tomando como entrada la salida de un comando anterior|
-|wget|bajar el contenido de un sitio|
+|wget|Bajar el contenido de un sitio|
+|curl|Traer el codigo html de un sitio|
 
 ## Tareas programadas
 |Comando|Utilidad|
