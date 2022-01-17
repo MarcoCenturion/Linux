@@ -102,7 +102,7 @@ find . -name READ*| xargs cat | grep archivos -n
 
 ---
 
-##Arbol de carpetas linux
+## Arbol de carpetas linux
 En el árbol de directorios de linux, existen directorios a los que puede acceder un usuario sin privilegios y otros a los que solo puede acceder el super usuario **root**
 
 Usuarios sin permisos
