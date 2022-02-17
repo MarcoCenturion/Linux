@@ -1,0 +1,1 @@
+wordcloud_cli --text che.txt --background black --mask che.jpg --color white --width 900 --height 900 --imagefile che19.jpg --stopwords che_stop.txt --contour_color red --contour_width 12
