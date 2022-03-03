@@ -1,7 +1,11 @@
 # contador de palabras
 # Solo una prueba para una foto
 
-palabras = open('CondicionesGenerales.txt')
+# ingrear el archivo
+
+archivo = input('ingresar el arcivo a leer: ')
+
+palabras = open(archivo)
 print(palabras)
 contar = dict()
 print(contar)
@@ -19,5 +23,5 @@ for key, val in contar.items():
     lista.append(superior)
     
 lista = sorted(lista, reverse=True)
-for val, key in lista[:20] :
+for val, key in lista[:10] :
     print(key, val)
