@@ -1,0 +1,1 @@
+wordcloud_cli --text cias.txt --background white --color blue --width 900 --height 500 --imagefile crisnes6.png --contour_color blue --contour_width 4
