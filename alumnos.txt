@@ -1,0 +1,6 @@
+Juan García, 4, 6, 10
+Eustaquio el Hermoso, 10, 9, 4
+Dorotea la Cautiva, 8, 8, 8
+Micaela Costa Salvador, 6, 6, 7
+Julieta Centurion Salvador, 9, 6, 7
+
