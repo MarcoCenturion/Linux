@@ -3,21 +3,23 @@ Que es Linux
 
 ## El Kernel.
 
-**Linux Torval**, de  21 años en abril de 1991, empezó a escribir el primer kernel de Linux, intentando hacer un Minix (un Unix pequeño) desde cero, escribe su intención en un foro y pronto se suman muchos entusiastas.  
+**Linux Torval**, de  21 años en abril de 1991, se dispuso a escribir el primer kernel de Linux, intentando hacer un Minix -un Unix pequeño- desde cero, comparte su intención en un foro y pronto se suman muchos entusiastas.  Aparentan ser simples nerds enfrascados en discusiones entre técnicas y filosóficas.  
 
-El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de código, hoy tiene 25.5 M de líneas de código en el linux 5.12
+El 14 de marzo de 1994, salió Linux 1.0.0, que constaba de 176.250 líneas de código, hoy tiene 25.5 millones de líneas de código en el linux 5.12 [^1].  Justo en una época en la que nadie, absolutamente nadie en su sano juicio, hubiera imaginado discutir al imperio de Bill Gates, comienza una ola imparable de fundamentalistas de no pagar patentes por la receta de la pizza, como Richard Stallman.
+
+[^1]:“Mucha gente pequeña, en lugares pequeños, haciendo cosas pequeñas, puede cambiar el mundo” --Eduardo Galeano.
 
 Hoy es esponsoreado por las grandes corporaciones
 
-La pieza de código que controla periféricos, controla los recursos, alrededor de esto se montan los otros programas, con una declaración de principios.  Cada programa hace una sola cosa, pero la hace bien y de documenta todo.
+El kernes es la pieza de código que controla periféricos, los recursos, almacenamiento, memoria, teclados, discos, etc.  Sobre este soporte se montan los programas, con una declaración de principios.  **Cada programa hace una sola cosa, pero la hace bien y de documenta todo**.
 
 ---
 ## En principio fue la línea de comandos.
 
 El escritor de Ciencia Ficción Neal Stephenson escribió este ensayo interesante, 
-[Link para En Principio fue la línea de Comandos](https://www.holaebook.com/book/neal-stephenson-en-el-principio-fue-la-linea-de-comandos.html)
+[En Principio fue la línea de Comandos](https://www.holaebook.com/book/neal-stephenson-en-el-principio-fue-la-linea-de-comandos.html)
 
-La metáfora de la tienda de Deportivos italianos, frente a la de bicicletas con motor y la comunidad de hippies que arma tanques de última generación, que tienen la estética de los deportivos italianos (de hecho ultimamente los deportivos copian a Linux), gastan menos que la bicicleta y son **gratis**.
+La metáfora de la *tienda de deportivos italianos* -Mac-, frente a la de *bicicletas con motor* -DOS al que agregaron una ventana- y la comunidad de hippies -Linux- que arma tanques de última generación, que tienen la estética de los deportivos italianos (de hecho ultimamente los deportivos copian a Linux), gastan menos que la bicicleta y son **gratis**.
 
 Lo que comienza como una religión de hippies fundamentalistas termina el 9 de julio del 2019 cuando **IBM** anuncia la compra de **RedHat** en 34 mil millones de dólares. [IBM compró RedHat](https://www.redhat.com/en/about/press-releases/ibm-closes-landmark-acquisition-red-hat-34-billion-defines-open-hybrid-cloud-future)
 
@@ -103,58 +105,26 @@ find . -name READ*| xargs cat | grep archivos -n
 ---
 
 ## Arbol de carpetas linux
+
 En el árbol de directorios de linux, existen directorios a los que puede acceder un usuario sin privilegios y otros a los que solo puede acceder el super usuario **root**
 
-Usuarios sin permisos
-/home/usuario
-/var/logs
-/var/html
-/opt
-
-Solo accede el superusuario o dándole permisos de superusuario a un usuario
-/etc
-/boot
-/root
-
-Directorio Raiz
-/
-
-Directorio de arranque, donde se almacenan los ejecutables para que arranque el sistema, la imagen del kernel
-/boot
-
-Directorio donde se archivan los ejecutables de sistema
-/bin (ejecutables de todos los usuarios)
-/sbin (ejecutables solo por root)
-
-Directorio de los dispositivos, ya que todos los dispositivos de linux, son tratados como un archivo, dependiendo de la distribución, estos archivos están dentro de 
-/dev
-
-Directorio de configuración del sistema
-/etc
-
-Directorio del usuario, por lo general, al crearse un usuario, Linux crea un entorno para ese usuario dentro del cual crea un directorio en 
-/home/usuario
-
-Directorio de las librerías (por ejemplo java)
-/lib
-
-Directorio de programas que no vienen por defecto en linux
-/opt
-
-Directorio de los procesos que están corriendo
-/proc
-
-Directorio de los logs
-/var/logs
-
-Directorio de temporales
-/tmp
-
-Directorio de los programas, los ejecutables, librerías, fuentes, man pages
-/usr
-
-Directorio recuperado
-/lost+found
+|Detalle |Directorio|
+|---|---|
+|Usuarios sin permisos:|`/home/usuari@ /var/logs /var/html /opt`|
+|Solo accede el superusuario o dándole permisos de superusuario a un usuari@:|`/etc /boot /root`
+|Directorio Raiz:|`/`|
+|Directorio de arranque, donde se almacenan los ejecutables para que arranque el sistema, la imagen del kernel:|`/boot`|
+|Directorio donde se archivan los ejecutables de sistema:|`/bin (ejecutables de todos los usuarios) /sbin (ejecutables solo por root)`|
+|Directorio de los dispositivos, ya que todos los dispositivos de linux, son tratados como un archivo, dependiendo de la distribución, estos archivos están dentro de:|`/dev`|
+|Directorio de configuración del sistema:|`/etc`|
+|Directorio del usuario, por lo general, al crearse un usuario, Linux crea un entorno para ese usuario dentro del cual crea un directorio en home:|`/home/usuario`|
+|Directorio de las librerías (por ejemplo java)|`/lib`|
+|Directorio de programas que no vienen por defecto en linux|`/opt`|
+|Directorio de los procesos que están corriendo|`/proc`|
+|Directorio de los logs|`/var/logs`|
+|Directorio de temporales|`/tmp`|
+|Directorio de los programas, los ejecutables, librerías, fuentes, man pages|`/usr`|
+|Directorio recuperado|`/lost+found`|
 
 ---
 
@@ -165,14 +135,16 @@ Directorio recuperado
 |ls > `archivos.txt`|Envía la salida del comando 'ls' a 'archivos.txt'|
 |ls >> `archivos.txt`|Agrega a archivos.txt el resultado de ls|
 |cat `archivos.txt` \| grep linux|La salida de 'cat' es la entrada de 'grep'|
-|apt update `&&` apt upgrade |Hace un update del sistema y luego upgrade|
-|rm * \|| ls |Borra todos los archivos y si falla lista los archivos| 
+|`apt update && apt upgrade`|Hace un update del sistema y luego upgrade en distribuciones debian|
+|`ls %% rm`|Ejecuta ls y en caso de error rm|
+|rm * \| ls |Borra todos los archivos y si falla lista los archivos| 
 |Ctrl + 1|Cambia a la TTS 1 de las 7 que tiene|
 |Ctrl + c|Termina comando que se está ejecutando|
 |Ctrl + z|Suspende un proceso|
 |Ctrl + d|Muestra el final de un archivo|
-|Ctrl + Alt + t|Abre una nueva terminal|
-|&|Al final del comando lo hace correr en segundo plano|
+|`Ctrl + Alt + t`|Abre una nueva terminal|
+|`&`|Al final del comando lo hace correr en segundo plano|
+|`!{letra}+tab`|Recuerda el último comando iniciado con la {letra}|
 
 ## System
 |Comando|Utilidad|
@@ -182,6 +154,7 @@ Directorio recuperado
 |screenfetch|descripción del sistema 2.0|
 |ls `-argumentos`|Listado de archivos y directorios|
 |cd|Cambia de directorio, `~` es el home|
+|cd ~|Cambia al directorio /home/usuari@|
 |pwd|Muestra el directorio actual|
 |man `cd`|Manual del comando|
 |cd `--help`|Ayuda rápida del comando cd|

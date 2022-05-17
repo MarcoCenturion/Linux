@@ -1,5 +1,3 @@
-#!/home/marco/Beautifullsoup/bin/python3
-
 import PySimpleGUI as sg
 
 sg.theme('BluePurple')
