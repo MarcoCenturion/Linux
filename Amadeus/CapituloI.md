@@ -5,6 +5,15 @@ Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma qu
 ![Turismo y Hoteleria Consultora](index.png)
 ## Codificiación y Decodificacion
 
+En esta sección veremos como comunicarnos en el idioma que el sistema nos entienda.  Para poder hacer una búsqueda necesitamos indicarle a Amadeus correctamente que estamos buscando y al revés interpretar que nos está diciendo.
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|DANMADRID |Codificar un destino (puede ser ciudad, aeropuerto, estación de trenes, etc. en este caso **Madrid**|
+|DACAEP |Decodificar un código en este caso **Aeroparque** |
+|DAE732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
+|DNA220 |Codificar o decodificar cías. aéreas.  En este Caso **Lufthansa** podemos indicarle el nombre de la Cía, el número o el código, en este caso **220**, **LH** o **Lufthansa** |
+
 ## Coversiones
 
 ## Frecuencias de vuelos entre ciudades.  (TA, TD, TN)
