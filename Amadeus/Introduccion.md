@@ -8,15 +8,16 @@ En este breve curso veremos los conceptos básicos para que desde cero, el usuar
 |Título|Contenido|
 |---|---|
 |Codificiación y Decodificacion (ciudades, aeropuertos, cías aéreas, etc)|Este es el *[Capítulo I](https://www.markdownguide.org)*|
-|Coversiones|Este es el *[Capítulo I](https://www.markdownguide.org)*|Este es el *[Capítulo I](https://www.markdownguide.org)*|*
-|Frecuencias de vuelos entre ciudades.  (TA, TD, TN)|Este es el *[Capítulo I](https://www.markdownguide.org)*|
-|Disponibilidad por pares de ciudades.  (AA, AD, AN)|Este es el *[Capítulo I](https://www.markdownguide.org)*|
+|Coversiones|Este es el *[Capítulo I](https://www.markdownguide.org)*|Este es el *[Capítulo I](https://www.markdownguide.org)|*
+|Frecuencias de vuelos entre ciudades.  **(TA, TD, TN)**|Este es el *[Capítulo I](https://www.markdownguide.org)*|
+|Disponibilidad por pares de ciudades.  **(AA, AD, AN)**|Este es el *[Capítulo I](https://www.markdownguide.org)*|
 |Refinamiento de la búsqueda.  (conexiones, cias, alianzas, clases, etc)|Este es el *[Capítulo I](https://www.markdownguide.org)*|
 |Vuelos, tarifas y armado de una reserva|Este es el *[Capítulo I](https://www.markdownguide.org)*|
 |PNR |Este es el *[Capítulo II](https://www.markdownguide.org)*|
-|Campos Obligatorios (NM, AP, TK, RF, itinerario)|Este es el *[Capítulo I](https://www.markdownguide.org)*|
-|Campos opcionales (SR, OS)|Este es el *[Capítulo III](https://www.markdownguide.org)*|
+|Campos Obligatorios **(NM, AP, TK, RF, itinerario)**|Este es el *[Capítulo I](https://www.markdownguide.org)*|
+|Campos opcionales **(SR, OS)**|Este es el *[Capítulo III](https://www.markdownguide.org)*|
 |Breve introducción a tarifas|Este es el *[Capítulo IV](https://www.markdownguide.org)*|
+|MasterPricer **(FXD)** |Este es el *[Capítulo IV](https://www.markdownguide.org)*|
 |Help|Este es el *[Capítulo V](https://www.markdownguide.org)*|
 |Colas|Este es el *[Capítulo V](https://www.markdownguide.org)*|
 |Glosario de términos|Este es el *[Capítulo VI](https://www.markdownguide.org)*|
