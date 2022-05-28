@@ -17,7 +17,8 @@ En este breve curso veremos los conceptos básicos para que desde cero, el usuar
 |Campos Obligatorios **(NM, AP, TK, RF, itinerario)**|Este es el *[Capítulo I](https://www.markdownguide.org)*|
 |Campos opcionales **(SR, OS)**|Este es el *[Capítulo III](https://www.markdownguide.org)*|
 |Breve introducción a tarifas|Este es el *[Capítulo IV](https://www.markdownguide.org)*|
-|MasterPricer **(FXD)** |Este es el *[Capítulo IV](https://www.markdownguide.org)*|
+|MasterPricer **(FXD)**|Este es el *[Capítulo IV](https://www.markdownguide.org)*|
+|Offers **(OFS)**|Este es el *[Capítulo IV](https://www.markdownguide.org)*|
 |Help|Este es el *[Capítulo V](https://www.markdownguide.org)*|
 |Colas|Este es el *[Capítulo V](https://www.markdownguide.org)*|
 |Glosario de términos|Este es el *[Capítulo VI](https://www.markdownguide.org)*|
