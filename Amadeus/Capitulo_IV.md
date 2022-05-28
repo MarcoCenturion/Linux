@@ -1,5 +1,7 @@
 ![Turismo y Hoteleria Consultora](logo_th.png)
 
+[[toc]]
+
 ## Capítulo IV
 
 Este cuarto módulo enfocado en mejorar la experiencia del usuario que busca vuelos, unificando las taréas de búsqueda de disponibilidad y tarifa en una sola acción.

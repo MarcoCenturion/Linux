@@ -1,5 +1,7 @@
 ![Turismo y Hoteleria Consultora](logo_th.png)
 
+[[toc]]
+
 ## Capítulo II
 
 Este segundo módulo 

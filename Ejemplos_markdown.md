@@ -56,7 +56,7 @@ gantt
 ```
 
 
-# Js-sequence-diagrama
+## Js-sequence-diagrama Original
 
 ``` sequence-diagrams
 Pasajero\nConsulta->Agente\ndeViajes: Dice
@@ -66,8 +66,7 @@ Cliente-->>Agencia\nMinorista: Como haremos con este quilombo?
 Agencia\nMinorista-->>Cliente: 
 ```
 
-
-# Cliente y agencia
+## Cliente y agencia
 
 ``` sequence-diagrams
 Pasajeros-->Agencia: Consulta
@@ -75,9 +74,14 @@ Agencia->>Pasajero: Fecha\ncantidad pasajeros
 Pasajero->Agencia: Respuesta
 ```
 
+## Nueva etiqueta
+``` sequence-diagrams
+Pasajeros-->Agencia: Consulta
+Aencia-->Pasajeros: Respuesta 
 
+```
 
-# Flowchart
+## Flowchart
 
 ``` flowchart
 st=>start: Start|past:>http://www.google.com[blank]
@@ -321,4 +325,184 @@ Project starts 2020-07-01
 ---
 
 
+@startuml PERT
+left to right direction
+' Horizontal lines: -->, <--, <-->
+' Vertical lines: ->, <-, <->
+title PERT: Project Name
 
+map Kick.Off {
+}
+map task.1 {
+    Start => End
+}
+map task.2 {
+    Start => End
+}
+map task.3 {
+    Start => End
+}
+map task.4 {
+    Start => End
+}
+map task.5 {
+    Start => End
+}
+Kick.Off --> task.1 : Label 1
+Kick.Off --> task.2 : Label 2
+Kick.Off --> task.3 : Label 3
+task.1 --> task.4
+task.2 --> task.4
+task.3 --> task.4
+task.4 --> task.5 : Label 4
+@enduml
+
+
+---
+
+@startuml
+
+[*] --> Active
+Active --> Inactive
+
+note left of Active : this is a short\nnote
+
+note right of Inactive
+  A note can also
+  be defined on
+  several lines
+end note
+
+@enduml
+
+
+---
+
+@startuml
+participant Participant [
+    =Title
+    ----
+    ""SubTitle""
+]
+
+participant Bob
+
+Participant -> Bob
+@enduml
+
+---
+
+
+@startuml
+Alice -> Bob: Authentication Request
+
+alt successful case
+
+    Bob -> Alice: Authentication Accepted
+
+else some kind of failure
+
+    Bob -> Alice: Authentication Failure
+    group My own label
+    Alice -> Log : Log attack start
+        loop 1000 times
+            Alice -> Bob: DNS Attack
+        end
+    Alice -> Log : Log attack end
+    end
+
+else Another type of failure
+
+   Bob -> Alice: Please repeat
+
+end
+@enduml
+
+---
+
+
+@startuml
+
+box "Internal Service" #LightBlue
+participant Bob
+participant Alice
+end box
+participant Other
+
+Bob -> Alice : hello
+Alice -> Other : hello
+
+@enduml
+
+
+----
+
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+
+skinparam sequence {
+ArrowColor DeepSkyBlue
+ActorBorderColor DeepSkyBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor #A9DCDF
+
+ParticipantBorderColor DeepSkyBlue
+ParticipantBackgroundColor DodgerBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+
+ActorBackgroundColor aqua
+ActorFontColor DeepSkyBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+
+actor User
+participant "First Class" as A
+participant "Second Class" as B
+participant "Last Class" as C
+
+User -> A: DoWork
+activate A
+
+A -> B: Create Request
+activate B
+
+B -> C: DoWork
+activate C
+C --> B: WorkDone
+destroy C
+
+B --> A: Request Created
+deactivate B
+
+A --> User: Done
+deactivate A
+
+@enduml
+
+
+---
+### Practica servicio externo
+
+
+@startuml
+
+box "Aéreo Retail" #LightBlue
+participant Pasajero
+participant Agencia
+end box
+participant  Amadeus
+
+Pasajero -> Agencia : Consulta\naéreo
+Agencia -> Amadeus : FXD
+Amadeus -> Agencia : Respuesta
+Agencia --> Pasajero : Opciones\nOffers
+Agencia --> Amadeus : Guarda\nOfertas
+Agencia -->> Pasajero : 24hs.
+ 
+
+
+@enduml

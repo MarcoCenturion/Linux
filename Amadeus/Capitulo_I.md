@@ -1,5 +1,7 @@
 ![Turismo y Hoteleria Consultora](logo_th.png)
 
+[[toc]]
+
 ## Capítulo I 
 
 Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma que maneja el GDS, la forma en que el sistema entiende nuestras preguntas y lo que espera de nosotros.  Si bien existe el modo gráfico, es conveniente que el usuario se familiarice con el idioma que habla todo el mundo en la industria.  
@@ -10,16 +12,38 @@ Como codificar ciudades, paises, prestando especial atención a la similitud de 
 
 ## Codificiación y Decodificacion
 
----
-
 En esta sección veremos como comunicarnos en el idioma que el sistema nos entienda.  Para poder hacer una búsqueda necesitamos indicarle a Amadeus correctamente que estamos buscando y al revés interpretar que nos está diciendo.
 
 |Comando Amadeus|Traducción humana|
 |---|---|
 |DANMADRID |Codificar un destino (puede ser ciudad, aeropuerto, estación de trenes, etc. en este caso **Madrid**|
 |DACAEP |Decodificar un código en este caso **Aeroparque** |
+|DANBONN/S|Buscar el aeropuerto asociado a una ciudad sin aeropuerto|
+|DANNEW/GB|Buscar ciudades que empiecen con NEW solo en Reino Unido GB|
+
+## Interpretación de la codificación y decodificación de Ciudades
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|A:APT 	|Aeropuerto.|
+|B:BUS 	|Estación de autobuses o autocares.|
+|C:CITY 	|Ciudad.|
+|G:GRD 	|Transporte terrestre.|
+|H:HELI 	|Helipuerto.|
+|O:OFF-PT 	|Punto fuera de línea, una ciudad con un código IATA pero sin ninguna sublocalización, como un aeropuerto, una estación de autobuses,  un helipuerto, un transporte terrestre o una estación de tren.  |
+|R:RAIL 	|Estación de ferrocarril.|
+|S:ASSOC TOWN 	|Una ubicación con o sin su propio código IATA, pero vinculada.|
+
+### Codificaciones de aeronaves, estados, rentadoras de autos, cadenas hoteleras .
+
+
+|Comando Amadeus|Traducción humana|
+|---|---|
 |DAE732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
 |DNA220 |Codificar o decodificar cías. aéreas.  En este Caso **Lufthansa** podemos indicarle el nombre de la Cía, el número o el código, en este caso **220**, **LH** o **Lufthansa** |
+|DNSBR|Listar los estados en Brasil|
+|DNCZI|Codificar o Decodificar rentadora ZI|
+|DNHSI|Codificar o Decodificar Cadena hotelera|
 
 ## Coversiones
 
@@ -49,6 +73,8 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 
 En la pantalla de Tablas de horario (de Timetable en inglés) vemos la programación semanal de los vuelos regulares.  Se muestra un rango alrededor de la fecha buscada.  Con los días de la semana de operación.  Se detallan vuelos sin paradas, vuelos directos y vuelos en conexión.
 
+## Interpretación de los renglones en las Tablas de horarios.
+
 |Descripción|
 |---|
 |D = Operación Diaria.|
@@ -66,7 +92,20 @@ La disponibilidad standard, muestra la cantidad de lugares que quedan en un vuel
 
 Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicios. En una pantalla de disponibilidad, para que el vuelo aparezca en la pantalla, debe haber al menos una clase disponible para reservar o poner en lista de espera.  Al lado de cada clase de servicio hay un código de estado. Estos códigos de estado pueden indicar la cantidad de asientos disponibles o si puede poner un vuelo en lista de espera. A continuación se ofrece una lista de los posibles códigos de estado para cada clase de servicio y su explicación, ejemplo:
 
-Ejemplo de respuesta a un pedido de disponibilidad
+|Comando Amadeus|Traducción humana|
+|---|---|
+|AD02OCTBUEROM|Solicitud de disponibilidad para vuelos BUE ROM para el 02 de Octubre del año en curso[^2] |
+|AD10JUNMADLON|Búsqueda de lugares para el 10 de Junio del año en curso.  **AD** es filtrado por Despegue.  Búsqueda global sin indicarle horario, asume que es a las 1000 hs.|
+|AD10JUNMADLON1900|Idem anterior pero forzando la búsqueda a vuelos a partir de las 1900 hs.|
+|AA10JUNBUELON/X-SAO|La misma búsqueda indicándole al sistema que no tenga en cuenta conexiones vía SAO pero en lugar de filtrado por despegue, sea por Arribo|
+|AA10JUNBUELON/XSCL|La misma búsqueda indicándole al sistema que **FUERCE** la búsqueda a conexiones vía **SCL**|
+|AN10SEPBUELON|Disponibilidad para una Ida BUE LON sin especificar filtros|
+|AN10SEPBUELON\*23SEP|Disponibilidad para una Ida y vuelta BUE LON sin especificar filtros|
+
+[^2]:  Amadeus almacena 11 meses de vuelos en adelante de la fecha actual.
+
+
+#### Ejemplo de respuesta a un pedido de disponibilidad
 
 ~~~
 14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
@@ -86,18 +125,6 @@ Ejemplo de respuesta a un pedido de disponibilidad
 |9 |Nueve o mas asientos|
 |0 o L |No hay disponibilidad, se puede agregar a lista de espera|
 |R |La cía aérea responderá cuando tenga lugares para el vuelo|
-
-
-### Comandos
-
-|Comando Amadeus|Traducción humana|
-|---|---|
-|AD10JUNMADLON|Búsqueda de lugares para el 10 de Junio del año en curso.  **AD** es filtrado por Despegue.  Búsqueda global sin indicarle horario, asume que es a las 1000 hs.|
-|AD10JUNMADLON1900|Idem anterior pero forzando la búsqueda a vuelos a partir de las 1900 hs.|
-|AA10JUNBUELON/X-SAO|La misma búsqueda indicándole al sistema que no tenga en cuenta conexiones vía SAO pero en lugar de filtrado por despegue, sea por Arribo|
-|AA10JUNBUELON/XSCL|La misma búsqueda indicándole al sistema que **FUERCE** la búsqueda a conexiones vía **SCL**|
-|AN10SEPBUELON|Disponibilidad para una Ida BUE LON sin especificar filtros|
-|AN10SEPBUELON\*23SEP|Disponibilidad para una Ida y vuelta BUE LON sin especificar filtros|
 
 #### Respuesta del sistema a un pedido Ida y Vuelta
 ~~~ AN19OCTMIALON*25OCT
