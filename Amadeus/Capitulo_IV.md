@@ -54,6 +54,15 @@ Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
 
 ### Contáctenos:
 
+```json
+{
+  "firstName": "Marco Adrián",
+  "lastName": "Centurión",
+  "Email": "aulavirtualturismo@gmail.com",
+  "Tel/Whats": "+543513070654",
+  "Web": "https://thconsultora.com.ar"
+}
+```
 Para mayor información sobre cursos, noticias y más
 
 http://thconsultora.com.ar 

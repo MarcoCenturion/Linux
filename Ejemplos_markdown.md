@@ -506,3 +506,14 @@ Agencia -->> Pasajero : 24hs.
 
 
 @enduml
+
+
+```json
+{
+  "firstName": "Marco Adrián",
+  "lastName": "Centurión",
+  "Email": "aulavirtualturismo@gmail.com",
+  "Tel/Whats": "+543513070654",
+  "Web": "https://thconsultora.com.ar"
+}
+```
