@@ -1,8 +1,8 @@
-![Turismo y Hoteleria Consultora](logo_th.png)
+[Turismo y Hoteleria Consultora](logo_th.png)
 
 [[toc]]
 
-## Capítulo I 
+### Capítulo I 
 
 Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma que maneja el GDS, la forma en que el sistema entiende nuestras preguntas y lo que espera de nosotros.  Si bien existe el modo gráfico, es conveniente que el usuario se familiarice con el idioma que habla todo el mundo en la industria.  
 
@@ -10,7 +10,20 @@ Como codificar ciudades, paises, prestando especial atención a la similitud de 
 
 ![Turismo y Hoteleria Consultora](index.png)
 
-## Codificiación y Decodificacion
+### Scrolling
+
+Nos movemos dentro de las páginas de Amadeus indicandole al prompt > los siguientes comandos.
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|MD o M|Moverse hacia abajo, avanza una página a lo que vemos en pantalla|
+|MU|Moverse hacia arriba, volvemos una página|
+|MB|Moverse hacia el final, a la última página|
+|MT|Volvemos a la primera página|
+|MY|Próximo Día -para búsquedas relacionadas con vechas por ejemplo disponibilidades-
+|MN|Un día antes|
+
+### Codificiación y Decodificacion
 
 En esta sección veremos como comunicarnos en el idioma que el sistema nos entienda.  Para poder hacer una búsqueda necesitamos indicarle a Amadeus correctamente que estamos buscando y al revés interpretar que nos está diciendo.
 
@@ -20,8 +33,11 @@ En esta sección veremos como comunicarnos en el idioma que el sistema nos entie
 |DACAEP |Decodificar un código en este caso **Aeroparque** |
 |DANBONN/S|Buscar el aeropuerto asociado a una ciudad sin aeropuerto|
 |DANNEW/GB|Buscar ciudades que empiecen con NEW solo en Reino Unido GB|
+|DANLON|Buscar la codificiación de ciudades que empiecen con LON|
+|DCP|Listado de paises que empiezan con P|
+|DNS US|Codificar estados y provincias, en este caso Estados Unidos|
 
-## Interpretación de la codificación y decodificación de Ciudades
+### Interpretación de la codificación y decodificación de Ciudades
 
 |Comando Amadeus|Traducción humana|
 |---|---|
@@ -36,7 +52,6 @@ En esta sección veremos como comunicarnos en el idioma que el sistema nos entie
 
 ### Codificaciones de aeronaves, estados, rentadoras de autos, cadenas hoteleras .
 
-
 |Comando Amadeus|Traducción humana|
 |---|---|
 |DAE732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
@@ -45,7 +60,7 @@ En esta sección veremos como comunicarnos en el idioma que el sistema nos entie
 |DNCZI|Codificar o Decodificar rentadora ZI|
 |DNHSI|Codificar o Decodificar Cadena hotelera|
 
-## Coversiones
+### Coversiones
 
 En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de utilidades a las que tenemos que prestar mucha atención.
 
@@ -55,17 +70,19 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 |DDMIA/LON|Diferencia horaria entre dos ciudades.|
 |DM|Tiempo mínimo de conexión[^1] entre dos vuelos.|
 |DMORY/CDG|Tiempo mínimo de conexión entre vuelos que llega y salen de dos aeropuertos distintos en la misma ciudad.|
+|DKMK100|Convertir 100 Millas a Kilómetros|
+|DKKM100|Convertir 100 Kilómetros a Millas|
 
 [^1]:  Si bien el sistema lanza un alerta al intentar cerrar por primera vez el PNR, avisando que no se cumple este `Tiempo mínimo de conexión` lo muestra una sola vez.
 
-## Frecuencias de vuelos entre ciudades.  (TA, TD, TN)
+### Frecuencias de vuelos entre ciudades.  (TA, TD, TN)
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|TA|Ordenados de hora de llegada|
-|TD|Ordenados por hora de salida|
-|TE|Ordenados por horas transcurridas|
-|TN|Por orden neutro|
+|TA10NOVBUEMIA|Ordenados de hora de llegada|
+|TD20DECSYDSCL|Ordenados por hora de salida|
+|TELONROM|Ordenados por horas transcurridas|
+|TNBUESCL|Por orden neutro|
 |TNMADLON|Vuelos entre London y Madrid para la fecha en curso|
 |TDMADLON/ABA,SK|idem pero solo para las cías BA y SK|
 |TN10JUNROMMOW|Frecuencia de vuelos para un par de ciudades en una fecha específica|
@@ -73,7 +90,7 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 
 En la pantalla de Tablas de horario (de Timetable en inglés) vemos la programación semanal de los vuelos regulares.  Se muestra un rango alrededor de la fecha buscada.  Con los días de la semana de operación.  Se detallan vuelos sin paradas, vuelos directos y vuelos en conexión.
 
-## Interpretación de los renglones en las Tablas de horarios.
+### Interpretación de los renglones en las Tablas de horarios.
 
 |Descripción|
 |---|
@@ -84,7 +101,7 @@ En la pantalla de Tablas de horario (de Timetable en inglés) vemos la programac
 
 Fechas de inicio y fin de vigencia para cada número de vuelo.   
 
-## Disponibilidad por pares de ciudades.  (AA, AD, AN)
+### Disponibilidad por pares de ciudades.  (AA, AD, AN)
 
 Los despliegues de disponibilidad, pueden pedirse:  **AD** Disponibilidad por despegue, **AA** Por arribo o **AN** Neutral.  La diferencia la notamos en la respuesta.  
 
@@ -101,11 +118,31 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
 |AA10JUNBUELON/XSCL|La misma búsqueda indicándole al sistema que **FUERCE** la búsqueda a conexiones vía **SCL**|
 |AN10SEPBUELON|Disponibilidad para una Ida BUE LON sin especificar filtros|
 |AN10SEPBUELON\*23SEP|Disponibilidad para una Ida y vuelta BUE LON sin especificar filtros|
+|AN/20JULBUEMIA/AAA/CW|Buscar a partir del 20JUL lugares en AA clase W durante una semana, muestra la primera ocurrencia.|
+|AD10NOVBUEMIA/AAA/CW\*R18NOV|Disponibilidad con AA clase W ida y vuelta|
+|AN02OCTMIANYC\*|Disponibilidad ida y vuelta en el día|
+|AN12OCTMIALGA\*BOSFLL|Visualiza la disponibilidad entre dos pares de ciudades diferentes para la misma fecha|
+|AN12OCTMIALGA\*+4BOSFLL |Visualiza la disponibilidad entre dos pares de ciudades diferentes con fecha de salida 4 días después|
 
 [^2]:  Amadeus almacena 11 meses de vuelos en adelante de la fecha actual.
 
+### Cambiar la disponibilidad que tenemos en pantalla
 
-#### Ejemplo de respuesta a un pedido de disponibilidad
+|Comando Amadeus|Traducción humana|
+|---|---|
+|AC2200|Por defecto los vuelos mostrados son en la mañana, con este comando pedimos que nos muestre los de las 2200, siguiendo la lógica anterior, si el comando anterior fue AD, seguirá siendo la hora de salida|
+|AC7|Cambiar la disponibilidad por 7 días mas adelante|
+|AC-7|Cambiar por 7 días menos|
+|ACSD|Cambiar la disponibilidad por una vista de horarios -cuando no vemos contenido de un vuelo puede estar cerrado-|
+|ACR|Cambiar por el regreso el mismo día|
+|ACR10|Cambiar la disponibilidad, con todos sus filtros, por un regreso|
+|ACMDZ|Cambia la ciudad de Salida|
+|AC//ROM|Cambia la ciduad de Destino|
+|AC/XSAO|Cambia el punto de Conexión|
+|AC/X-SAO|Cambia para que no muestre las conexiones vía SAO|
+|AC/X-JFK|Cambia para que las conexiones no sean vía un aeropuerto puntual, seguirán mostrandose conexiones por otros aeropuertos de New York|
+
+### Ejemplo de respuesta a un pedido de disponibilidad
 
 ~~~
 14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
@@ -126,7 +163,8 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
 |0 o L |No hay disponibilidad, se puede agregar a lista de espera|
 |R |La cía aérea responderá cuando tenga lugares para el vuelo|
 
-#### Respuesta del sistema a un pedido Ida y Vuelta
+### Respuesta del sistema a un pedido Ida y Vuelta
+
 ~~~ AN19OCTMIALON*25OCT
 ** AMADEUS AVAILABILITY - AN **           36 TH 19OCT 0000
  1   BA2294  F9 A9 J9 D9 Y9 B9 H9 /MIA   LGW N  440P    610A+1E0/777       8:30
@@ -144,11 +182,11 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
              V9 Q9 T9
 13   VS 005  J4 D0 W4 Y7 B7 L7 M7  LGW S MIA   1045A    315P   0.747       9:30
              Q7 X7
-14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
+14 SU:GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
              L0 Q0 D0
 ~~~
 
-#### Explicación a la respuesta del sistema
+### Explicación a la respuesta del sistema
 
 |Respuesta del sistema|Significado|
 |--|--|
@@ -162,18 +200,35 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
 |WE 	|Día de la semana|
 |25OCT 	|Fecha de regreso|
 |0000 	|Hora por defecto de disponibilidad|
+|SU:GF5157|Vuelo código compartido|
+|SU\*GF5157|Vuelo Joint Venture.  Cías que funcionan una dentro de la otra.|
 
-
-#### Mas opciones para disponibilidad de vuelos.
+### Vender un segmento
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|AN02OCTMIANYC\*|Disponibilidad ida y vuelta en el día|
-|AN12OCTMIALGA\*BOSFLL|Visualiza la disponibilidad entre dos pares de ciudades diferentes para la misma fecha|
-|AN12OCTMIALGA\*+4BOSFLL |Visualiza la disponibilidad entre dos pares de ciudades diferentes con fecha de salida 4 días después|
+|SS2B1|Solicitar 2 asientos del renglón 1 en clase B.!
+|SSCM101B20JUNCORPTY2|Vender dos asientos en CM101 Clase B para una fecha puntual.|
+|SS2MK2|Vender dos asientos en vuelos en conexión, el primero en clase M y el segundo en clase K.|
+|SS1Y1\*M11\Vender un asiento en clase Y en el primer tramo y en clase M en el segundo, para casos en que pedimos ida y vuelta.|
+|SIARNK|Agregar un tramo arribo desconocido|
+|SOARMMDZAEP|Agregamos un tramo abierto en clase M entre MDZ y AEP.|
+|SOARMI10NOVMDZAEP|Agregamos un tramo abierto en clase M entre MDZ y AEP. para que podamos emitir en una tarifa que tiene máximo y mínimo para el regreso|
 
 
-## Refinamiento de la búsqueda.  (conexiones, cias, alianzas, clases, etc)
+### Otros Comandos importantes
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|DOAR1214|Despliegue del vuelo AR1214 mas cercano al día de hoy|
+|DOG32003/20JUN|Idem pero para una fecha puntual|
+|DO3|Dentro del PNR podemos solicitar información de un vuelo puntual|
+|VFFAD AR|Ver los acuerdos interlineales de AR|
+|SBB/S3|Cambiar a clase B el segmento 3|
+|SB20JUN/S2,3|Cambiar por los mismos vuelos y clases los segmentos 2 y 3|
+|SBW|Cambiar todos los segmentos a clase W|
+
+### Refinamiento de la búsqueda.  (conexiones, cias, alianzas, clases, etc)
 
 Las búsquedas globales de disponibilidad, tablas o de horarios, pueden refinarse para hacer búsquedas mucho mas específicas. 
 
@@ -191,13 +246,13 @@ Las búsquedas globales de disponibilidad, tablas o de horarios, pueden refinars
 
 ---
 
-### URL Amadeus Connect
+URL Amadeus Connect
 https://www.sellingplatformconnect.amadeus.com/
 
-### DESCARGA material de apoyo:
+DESCARGA material de apoyo:
 https://thconsultora.com.ar/ - Sección "Contáctenos" 
 
-### Redes Sociales
+Redes Sociales
 Github: github.com/marcocenturion
 
 Twitter: https://twitter.com/@aulavirtuaturis
@@ -206,7 +261,7 @@ LinkedIn: https://www.linkedin.com/marco-adrian-centurion
 
 Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
 
-### Contáctenos:
+## Contáctenos:
 
 ```json
 {

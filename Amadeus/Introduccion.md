@@ -1,9 +1,24 @@
-## Introducción a Amadeus
+### Introducción a Amadeus
+
+[[toc]]
 
 En este breve curso veremos los conceptos básicos para que desde cero, el usuario pueda familiarizarse con el GDS Amadeus en formato críptico.  Recomendamos la lectura detallada de los manuales y utilizar el sistema en modo Training para evitar generar reservas fantasma, que son penalizadas por las Cías. Aéreas.
 
+Recomiendo bajar el Manual de reservas que está en esta sección y seguir este plan de lectura.
+
+
+|Título|Contenido|
+|---|---|
+|Codificación y Decodificación|Pag. 19 a 25|
+|Conversiones|Pag. 29 y 30|
+|Help|Pag. 31 y 32|
+|Disponibilidad y tablas de horario|Pag. 37 a 55|
+|PNR|Pag. 56 a 99|
+|FQD|Pag. 102 a 117|
+|Colas|Pag. 119 a 126|
+
 ![Turismo y Hoteleria Consultora](index.png)
-## Contenido
+### Contenido
 
 |Título|Contenido|
 |---|---|
@@ -25,13 +40,44 @@ En este breve curso veremos los conceptos básicos para que desde cero, el usuar
 
 Aprenderemos los diferentes comandos, los parámetros de esos comandos, el sistema de ayuda que tiene incluido Amadeus en su modo críptico.
 
-### URL Amadeus Connect
+### Buenas Prácticas
+
+> No divida los PNRS de cías que no almacenan sus asientos en Amadeus.
+
+> No genere segmentos fantasma en el sistema, las cías lo penalizan.
+
+> No genere ocupación ficticia.
+
+> No use nombres ficticios en los PNRS.
+
+> Para práctica utilice el modo Training.
+
+> No genere duplicidades de segmentos o de PNRS.
+
+> Prestar atención al Tiempo mínimo de conexión.
+
+> Mantenga todo el itinerario en un mismo PNR.
+
+> Chequear colas todos los días.
+
+> No cambie los nombres en los PNRS.
+
+> Los segmentos LK y TK son garantizados por el GDS.
+
+> Agregue en un OSI el contacto del pasajero y de la agencia, para seguimiento y cancelaciones.  Le resuelve muchos problemas al pasajero en su viaje.
+
+> El campo RF es para que indique quien es la persona que le pidió a ud. la reserva, si indica PAX no da mucha información a los diez meses, al intentar buscar en la historia.
+
+---
+
+
+URL Amadeus Connect
 https://www.sellingplatformconnect.amadeus.com/
 
-### DESCARGA material de apoyo:
+DESCARGA material de apoyo:
 https://thconsultora.com.ar/ - Sección "Contáctenos" 
 
-### Redes Sociales
+Redes Sociales
 Github: github.com/marcocenturion
 
 Twitter: https://twitter.com/@aulavirtuaturis

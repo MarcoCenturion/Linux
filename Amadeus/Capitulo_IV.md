@@ -2,13 +2,13 @@
 
 [[toc]]
 
-## Capítulo IV
+### Capítulo IV
 
-Este cuarto módulo enfocado en mejorar la experiencia del usuario que busca vuelos, unificando las taréas de búsqueda de disponibilidad y tarifa en una sola acción.
+Este cuarto módulo enfocado en mejorar la experiencia del usuario que busca vuelos, unificando las taréas de búsqueda de disponibilidad y tarifa en una sola acción.  Un pasajero accede a miles de sitios on line con las mejores tarifas.  Comprará en una agencia minorista al público, incluso pagando unos pocos pesos mas, solo por la seguridad que le brinda tener un local físico, pero no podemos demorarle la respuesta a su pedido mas de un día.
 
 ![Turismo y Hoteleria Consultora](index.png)
 
-## Master Pricer
+### Master Pricer
 
 En esta sección veremos los conceptos mas importantes de la herramienta de pago Master Pricer.  No viene incluida en la configuración standard de Amadeus por defecto, sino que es necesario solicitarla al Ejecutivo de cuenta, ya que es con cargo.
 
@@ -32,18 +32,25 @@ En esta sección veremos los conceptos mas importantes de la herramienta de pago
 |FXD COR/D10AUGTRN/**DI-120K**/D20AUGCOR|Radio de 120 KM alrededor de un aeropuerto, en este caso TRN |
 |FXS1|Ver las recomendaciones dentro del primer grupo |
 |FXZ3|Seleccionar la recomendación 3 |
+
+## Offers
+
+|Comando Amadeus|Traducción humana|
+|---|---|
 |OFS/MK-100|Convertir la ruta en una Oferta (no tiene que haberse cerrado el  PNR) agregándole un markup de 100 en la moneda que se cotizó| 
 |OFN-EMLaulavirtualturismo@gmail.com|Enviar las ofertas por Email del cliente|
 |RTOF |Ver las ofertas dentro de un PNR de solo ofertas| 
 |OFK2|Confirmar la Oferta 2| 
 
-### URL Amadeus Connect
+---
+
+URL Amadeus Connect
 https://www.sellingplatformconnect.amadeus.com/
 
-### DESCARGA material de apoyo:
+DESCARGA material de apoyo:
 https://thconsultora.com.ar/ - Sección "Contáctenos" 
 
-### Redes Sociales
+Redes Sociales
 Github: github.com/marcocenturion
 
 Twitter: https://twitter.com/@aulavirtuaturis
@@ -52,7 +59,7 @@ LinkedIn: https://www.linkedin.com/marco-adrian-centurion
 
 Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
 
-### Contáctenos:
+## Contáctenos:
 
 ```json
 {
