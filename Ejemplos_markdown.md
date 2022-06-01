@@ -136,32 +136,49 @@ digraph G {
 
 
 # Chart
+### Pirámide de William Glesser
 
 ``` chart
 {
   "type": "pie",
   "data": {
     "labels": [
-      "Red",
-      "Blue",
-      "Yellow"
+      "Leer",
+      "Escuchar",
+      "Mirar",
+      "Ver, Oir",
+      "Hablar, Preguntar, Repetir",
+      "Hacer",
+      "Enseñar"
     ],
     "datasets": [
       {
         "data": [
-          300,
-          50,
-          100
+          1,
+          2,
+	  4,
+	  8,
+	  16,
+	  32,
+	  64          
         ],
         "backgroundColor": [
           "#FF6384",
           "#36A2EB",
-          "#FFCE56"
+          "#FFCE56",
+          "#F88C56",
+          "#2FCE56",
+          "#B9C5B6",
+          "#EF3CE6"
         ],
         "hoverBackgroundColor": [
           "#FF6384",
           "#36A2EB",
-          "#FFCE56"
+          "#FFCE56",
+          "#F88C56",
+          "#2FCE56",
+          "#B9CE56",
+          "#EFCE56"
         ]
       }
     ]
@@ -459,26 +476,26 @@ ActorFontSize 17
 ActorFontName Aapex
 }
 
-actor User
-participant "First Class" as A
-participant "Second Class" as B
-participant "Last Class" as C
+actor Usuario
+participant "Primera Clase" as A
+participant "Segunda Clase" as B
+participant "Ultima Clase" as C
 
-User -> A: DoWork
+Usuario -> A: HacerTrabajo
 activate A
 
-A -> B: Create Request
+A -> B: Crear Respuesta
 activate B
 
-B -> C: DoWork
+B -> C: HacerTrabajo
 activate C
-C --> B: WorkDone
+C --> B: TrabajoHecho
 destroy C
 
-B --> A: Request Created
+B --> A: RespuestaTerminada
 deactivate B
 
-A --> User: Done
+A --> Usuario: Hecho
 deactivate A
 
 @enduml
@@ -517,3 +534,30 @@ Agencia -->> Pasajero : 24hs.
   "Web": "https://thconsultora.com.ar"
 }
 ```
+
+---
+
+
+### Flujo Venta 
+
+@startuml
+
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+box "Entrevista aéreo Retail"
+participant Pasajeros
+Participant Agencia
+end box
+Participant Amadeus
+
+
+Pasajeros -> Agencia : Consulta\naéreo
+Agencia -> Amadeus : FXD
+Amadeus -> Agencia : Respuesta
+Agencia --> Pasajeros : Opciones\nOffers
+Agencia --> Amadeus : Guarda\nOfertas
+@enduml
+
+
+
+

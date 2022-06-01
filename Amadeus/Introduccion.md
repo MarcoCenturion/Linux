@@ -4,8 +4,66 @@
 
 En este breve curso veremos los conceptos básicos para que desde cero, el usuario pueda familiarizarse con el GDS Amadeus en formato críptico.  Recomendamos la lectura detallada de los manuales y utilizar el sistema en modo Training para evitar generar reservas fantasma, que son penalizadas por las Cías. Aéreas.
 
-Recomiendo bajar el Manual de reservas que está en esta sección y seguir este plan de lectura.
+El soporte va a estar disponible en el Foro que está disponible en el sitio.  Las respuestas estarán dentro de las 48hs.  La recomendación, es que dentro de los cursos programados, los alumnos respondan las inquietudes del foro, para cumplir la premisa de Glesser.
 
+![La Pirámide del Aprendizaje](piramide-aprendizaje.png)
+
+------
+
+``` chart
+{
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Leer",
+      "Escuchar",
+      "Mirar",
+      "Ver, Oir",
+      "Hablar, Preguntar, Repetir",
+      "Hacer",
+      "Enseñar"
+    ],
+    "datasets": [
+      {
+        "data": [
+          1,
+          2,
+	  4,
+	  8,
+	  16,
+	  32,
+	  64          
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56",
+          "#F88C56",
+          "#2FCE56",
+          "#B9C5B6",
+          "#EF3CE6"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56",
+          "#F88C56",
+          "#2FCE56",
+          "#B9CE56",
+          "#EFCE56"
+        ]
+      }
+    ]
+  },
+  "options": {}
+}
+```
+
+---
+
+### Manual de Reservas
+
+Recomiendo bajar el Manual de reservas que está en esta sección y seguir este plan de lectura.  Practicar los comandos en modo Training.  Lo importante no es memorizarlos a todos, sino saber que existen refinamientos a cada comando, cada búsqueda tiene parámetros que hacen que la respuesta sera mucho mas adecuada a nuestras necesidades, aliviándonos de leer páginas y páginas, en la consola de Amadeus.
 
 |Título|Contenido|
 |---|---|
