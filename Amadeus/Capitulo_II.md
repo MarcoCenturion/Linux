@@ -4,7 +4,7 @@
 
 ### Capítulo II
 
-Este segundo módulo 
+En este segundo módulo vamos a crear un PNR, la forma en que "sentamos" pasajeros en los aviones.  Una especial mención merece la prohibición a cambiar nombres.  Pedir imágenes de los pasaportes para no cometer errores de nombres, suele ser una práctica muy aconsejable. 
 
 ![Turismo y Hoteleria Consultora](index.png)
 

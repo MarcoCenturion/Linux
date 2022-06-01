@@ -42,7 +42,9 @@ Aprenderemos los diferentes comandos, los parámetros de esos comandos, el siste
 
 ### Buenas Prácticas
 
-> No divida los PNRS de cías que no almacenan sus asientos en Amadeus.
+> Solicitar toda la documentación al pasajero ANTES de hacer el PNR.  Esto nos permite hacer la reserva con los nombres correctos.  Toda corrección posterior tiene costos, que por lo general paga la agencia.
+
+> No divida los PNRS de cías que no almacenan sus asientos en Amadeus.  Dividir los PNRS solo en casos extremos.
 
 > No genere segmentos fantasma en el sistema, las cías lo penalizan.
 
