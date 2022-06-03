@@ -2,14 +2,14 @@
 
 [[toc]]
 
-### Capítulo III 
+## Capítulo III 
 
-Este tercer módulo vamos a ver todas las funciones de post venta, el seguimiento que debemos hacer de las reservas que tenemos en nuestro OID.  
+En este tercer módulo vamos a ver todas las funciones de post venta, el seguimiento que debemos hacer de las reservas que tenemos en nuestro OID.  
 
 
 ![Turismo y Hoteleria Consultora](index.png)
 
-### Colas.
+## Colas.
 
 En el Manual de Reservas, el tratamiento de las colas está entre las páginas 119 a 126.  
 
@@ -31,9 +31,9 @@ A las colas de la oficina llegarán.
 - QTQ  Muestra todas las colas, tengan o no tengan mensajes
 
 
-### Numeros de colas:
+### Números de colas:
 
-|QUEUE|E-D|IDENTIFIC|CAT|EXPLICACION
+|QUEUE|E-D|IDENTIFICION|CAT|EXPLICACION
 |---|---|---|---|---|
 |94 |E|MSG-CP|0-4|Mensaje – Customer Profile
 |96 |E|MSG-PDR|0-3|Mensaje – PNRs de fecha pasadas
@@ -80,6 +80,81 @@ Listado de los Códigos de Aviso que son enviados por los proveedores de servici
 |ETK|Confirma todos los cambios en el PNR, cierra y continúa con el siguiente.  Si no quedan mas PNRs en la cola, sale del modo COLAS
 |ERK|Confirma todos los cambios y recupera nuevamente el PNR
 
+## Tarifas
+
+El objetivo de este módulo es familiarizarse con el sistema de tarifas de Amadeus.
+
+- Desplegar las tarifas publicadas para un par de ciudades
+- Consultar las reglas y condiciones de una tarifa
+- Consultar la ruta de una tarifa
+- Consultar tasas de cambio y efectuar conversiones de monedas
+- Calcular cargos por exceso de equipaje
+- Cotizar un itinerario sin PNR (Cotización Informativa)
+- Tarifar el itinerario reservado en un PNR
+- Buscar la tarifa más baja disponible para el itinerario reservado en un PNR
+- Buscar la tarifa más baja posible para el itinerario reservado en un PNR
+
+Por regla es útil recordar 
+
+> FQ despliegues fuera del PNR
+
+> FX despliegues dentro de un PNR armado
+
+### FQD Despliegue de tarifas públicas 
+
+Fare Quote Display, es la forma en que vemos las tarifas publicadas en un par de ciudades dado.  Interpretar correctamente la respuesta de Amadeus nos va a servir para entender la lógica y tener una visión mas exacta.
+
+|Comando|Descripción
+|---|---|
+|FQD|Despliegue de tarifas en un par de ciudades.  Comando Principal.
+|Despues del FQD.
+|FQN|Notas de las tarifas.  Seguido a un FQD.
+|FQR|Ruta obligatoria de la tarifas.  Seguido a un FQD.
+|FQS|Booking.  Seguido a un FQD.
+
+```FQD BUELON/13APR22/A-AR```
+
+|Comando|Descripción
+|---|---|
+|FQD BUELON/S|Ver tarifas publicadas de menor a mayor (s) entre un par de ciudades
+|FQD BUELON/A-IB|Idem pero no quiero ver IB, hasta 3 separadas por coma ','
+|FQD MDZRIO/AG3/D10JUL*22JUL|Para una cía puntual con fecha de ida y regreso puntuales
+|FQD ROSSSA/AAR/D20AUG**01SEP|Con un rango de fechas para el viaje
+|FQD CORCTG/AAR/IX|Mostrar tarifas para este par de ciudades, pero de menor a mayor
+|FQD CORCTG/AAR/IO|Mostrar tarifas para este par de ciudades, solo one way
+|FQD CORCTG/AAR/IR|Mostrar tarifas para este par de ciudades, solo roud trip
+|FQD BUEMIA/ALA/R,-CD|Mostrar tarifas para este par de ciudades, con descuento para menores.  En ciertas rutas y mercados, hay tarifas especiales para acompañantes, menores, militares, clérigos, estudiantes, etc.  Para ver el listado de códigos FQL\*
+|FQD CORCTG/AAR/R,-NAP|Mostrar tarifas que no tenga tiempo anticipado de emisión AP, con el signo menos '-'.  Pueden ser que no exijan mínimo NMN o máximo NMX, que no tengan penalidad o permitan devolución[^1].
+
+[^1]: Con el signo Menos obligamos a que la búsqueda excluya ese filtro, si lo agregamos sin el signo menos vamos a forzar al sistema a solo traer respuestas que incluyan el filtro.
+
+### Respuesta del FQD
+
+Para entender la respuesta del sistema a un FQD, recomendamos la lectura detenida de las páginas 104 a 106.  
+
+### FQN Despliegue de notas de tarifas
+
+Luego de ver las tarifas publicadas entre un par de ciudades con el comando FXD podemos ver las notas asociadas a esas tarifas, el routing obligatorio, el booking obligatorio, etc.
+
+Para ver una regla, solo tenemos que pedir con FQN seguido del número de línea de la regla.
+
+```FQN1*LIST``` Con este comando vemos el listado completo de los índices de la regla. Para ingresar a ver el título **Venta anticipada** de la tarifa del renglón 1, solo tenemos que indicar ```FQN1*AP```, para ver el mínimo ```FQN1*MN```, para ver el descuento para menores ```FQN1\*CD```.
+
+### FQR
+
+Para tarifas que tienen un routing obligatorio debemos ingresar, si es para el segmento 1 ```FQR1``` posiblemente tenemos una tarifa publicada con LA para la ruta CORMIA::
+
+
+### FQP Cotizar una ruta sin PNR
+
+### FXP Cotizar un PNR Armado
+
+
+### Otros comandos útiles
+
+|Comando|Descripción
+|---|---|
+|FQC|Cambio de Monedas
 
 ---
 
