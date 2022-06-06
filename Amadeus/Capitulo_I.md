@@ -2,7 +2,7 @@
 
 [[toc]]
 
-### Capítulo I 
+## Capítulo I 
 
 Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma que maneja el GDS, la forma en que el sistema entiende nuestras preguntas y lo que espera de nosotros.  Si bien existe el modo gráfico, es conveniente que el usuario se familiarice con el idioma que habla todo el mundo en la industria.  
 
@@ -215,8 +215,7 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
 |SOARMMDZAEP|Agregamos un tramo abierto en clase M entre MDZ y AEP.|
 |SOARMI10NOVMDZAEP|Agregamos un tramo abierto en clase M entre MDZ y AEP. para que podamos emitir en una tarifa que tiene máximo y mínimo para el regreso|
 
-
-### Otros Comandos importantes
+## Otros Comandos importantes
 
 |Comando Amadeus|Traducción humana|
 |---|---|
@@ -263,18 +262,8 @@ Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
 
 ## Contáctenos:
 
-```json
-{
-  "firstName": "Marco Adrián",
-  "lastName": "Centurión",
-  "Email": "aulavirtualturismo@gmail.com",
-  "Tel/Whats": "+543513070654",
-  "Web": "https://thconsultora.com.ar"
-}
-```
 
 Para mayor información sobre cursos, noticias y más
-http://thconsultora.com.ar 
 http://thconsultora.com.ar/blog
 
 ![Turismo y Hoteleria Consultora](logo_th.png)

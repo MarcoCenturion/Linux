@@ -80,27 +80,26 @@ Recomiendo bajar el Manual de reservas que está en esta sección y seguir este 
 
 |Título|Contenido|
 |---|---|
-|Codificiación y Decodificacion (ciudades, aeropuertos, cías aéreas, etc)|Este es el *[Capítulo I](https://www.markdownguide.org)*|
-|Coversiones|Este es el *[Capítulo I](https://www.markdownguide.org)*|Este es el *[Capítulo I](https://www.markdownguide.org)|*
-|Frecuencias de vuelos entre ciudades.  **(TA, TD, TN)**|Este es el *[Capítulo I](https://www.markdownguide.org)*|
-|Disponibilidad por pares de ciudades.  **(AA, AD, AN)**|Este es el *[Capítulo I](https://www.markdownguide.org)*|
-|Refinamiento de la búsqueda.  (conexiones, cias, alianzas, clases, etc)|Este es el *[Capítulo I](https://www.markdownguide.org)*|
-|Vuelos, tarifas y armado de una reserva|Este es el *[Capítulo I](https://www.markdownguide.org)*|
-|PNR |Este es el *[Capítulo II](https://www.markdownguide.org)*|
-|Campos Obligatorios **(NM, AP, TK, RF, itinerario)**|Este es el *[Capítulo I](https://www.markdownguide.org)*|
-|Campos opcionales **(SR, OS)**|Este es el *[Capítulo II](https://www.markdownguide.org)*|
-|Breve introducción a tarifas|Este es el *[Capítulo III](https://www.markdownguide.org)*|
-|Colas|Este es el *[Capítulo V](https://www.markdownguide.org)*|
-|MasterPricer **(FXD)**|Este es el *[Capítulo IV](https://www.markdownguide.org)*|
-|Offers **(OFS)**|Este es el *[Capítulo IV](https://www.markdownguide.org)*|
-|Help|Este es el *[Capítulo V](https://www.markdownguide.org)*|
-|Glosario de términos|Este es el *[Capítulo VI](https://www.markdownguide.org)*|
+|Codificiación y Decodificacion (ciudades, aeropuertos, cías aéreas, etc)|Este es el *[Capítulo I](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_I.md)*|
+|Coversiones|Este es el *[Capítulo I](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_I.md)*|
+|Frecuencias de vuelos entre ciudades.  **(TA, TD, TN)**|Este es el *[Capítulo I](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_I.md)*|
+|Disponibilidad por pares de ciudades.  **(AA, AD, AN)**|Este es el *[Capítulo I](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_I.md)*|
+|Refinamiento de la búsqueda.  (conexiones, cias, alianzas, clases, etc)|Este es el *[Capítulo I](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_I.md)*|
+|Vuelos, tarifas y armado de una reserva|Este es el *[Capítulo I](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_I.md)*|
+|PNR |Este es el *[Capítulo II](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_II.md)*|
+|Campos obligatorios **(NM, AP, TK, RF, itinerario)**|Este es el *[Capítulo II](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_II.md)*|
+|Campos opcionales **(SR, OS)**|Este es el *[Capítulo II](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_II.md)*|
+|Breve introducción a tarifas|Este es el *[Capítulo III](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_III.md)*|
+|Colas|Este es el *[Capítulo III](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_III.md)*|
+|MasterPricer **(FXD)**|Este es el *[Capítulo IV](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_IV.md)*|
+|Offers **(OFS)**|Este es el *[Capítulo IV](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_IV.md)*|
+|Help - Glosario de términos|Este es el *[Capítulo V](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_V.md)*|
 
 Aprenderemos los diferentes comandos, los parámetros de esos comandos, el sistema de ayuda que tiene incluido Amadeus en su modo críptico.
 
 ### Buenas Prácticas
 
-> Solicitar toda la documentación al pasajero ANTES de hacer el PNR.  Esto nos permite hacer la reserva con los nombres correctos.  Toda corrección posterior tiene costos, que por lo general paga la agencia.
+> Solicitar toda la documentación al pasajero ANTES de hacer el PNR.  Validarla.  Esto nos permite hacer la reserva con los nombres correctos.  Toda corrección posterior tiene costos, que por lo general paga la agencia.
 
 > No divida los PNRS de cías que no almacenan sus asientos en Amadeus.  Dividir los PNRS solo en casos extremos.
 
@@ -108,7 +107,7 @@ Aprenderemos los diferentes comandos, los parámetros de esos comandos, el siste
 
 > No genere ocupación ficticia.
 
-> No use nombres ficticios en los PNRS.
+> No use nombres ficticios en los PNRS, las cías aéreas lo penalizan.
 
 > Para práctica utilice el modo Training.
 
@@ -148,17 +147,7 @@ Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
 
 ### Contáctenos:
 
-```json
-{
-  "firstName": "Marco Adrián",
-  "lastName": "Centurión",
-  "Email": "aulavirtualturismo@gmail.com",
-  "Tel/Whats": "+543513070654",
-  "Web": "https://thconsultora.com.ar"
-}
-```
 Para mayor información sobre cursos, noticias y más
-http://thconsultora.com.ar 
 http://thconsultora.com.ar/blog
 
 ![Turismo y Hoteleria Consultora](logo_th.png)
