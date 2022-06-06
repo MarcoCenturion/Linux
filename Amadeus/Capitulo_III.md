@@ -112,7 +112,7 @@ Fare Quote Display, es la forma en que vemos las tarifas publicadas en un par de
 |FQR|Ruta obligatoria de la tarifas.  Seguido a un FQD.
 |FQS|Booking.  Seguido a un FQD.
 
-```FQD BUELON/13APR22/A-AR```
+Ejemplo de una búsqueda de tarifa publicada entre BUE y LON para el 13SEP con todas las Cías. excepto AR ```FQD BUELON/13APR22/A-AR```
 
 |Comando|Descripción
 |---|---|
@@ -125,8 +125,11 @@ Fare Quote Display, es la forma en que vemos las tarifas publicadas en un par de
 |FQD CORCTG/AAR/IR|Mostrar tarifas para este par de ciudades, solo roud trip
 |FQD BUEMIA/ALA/R,-CD|Mostrar tarifas para este par de ciudades, con descuento para menores.  En ciertas rutas y mercados, hay tarifas especiales para acompañantes, menores, militares, clérigos, estudiantes, etc.  Para ver el listado de códigos FQL\*
 |FQD CORCTG/AAR/R,-NAP|Mostrar tarifas que no tenga tiempo anticipado de emisión AP, con el signo menos '-'.  Pueden ser que no exijan mínimo NMN o máximo NMX, que no tengan penalidad o permitan devolución[^1].
+|FQD BUEROM/AAR/FF|Familia de tarifas
 
 [^1]: Con el signo Menos obligamos a que la búsqueda excluya ese filtro, si lo agregamos sin el signo menos vamos a forzar al sistema a solo traer respuestas que incluyan el filtro.
+
+Para ver la descripción de la familia de tarifa **FQF22** donde 2 es el renglón de la tarifa.
 
 ### Respuesta del FQD
 
@@ -138,25 +141,93 @@ Luego de ver las tarifas publicadas entre un par de ciudades con el comando FXD 
 
 Para ver una regla, solo tenemos que pedir con FQN seguido del número de línea de la regla.
 
-```FQN1*LIST``` Con este comando vemos el listado completo de los índices de la regla. Para ingresar a ver el título **Venta anticipada** de la tarifa del renglón 1, solo tenemos que indicar ```FQN1*AP```, para ver el mínimo ```FQN1*MN```, para ver el descuento para menores ```FQN1\*CD```.
+```FQN1*LIST``` Con este comando vemos el listado completo de los índices de la regla. Para ingresar a ver el título **Venta anticipada** de la tarifa del renglón 1, solo tenemos que indicar ```FQN1*AP```, para ver el mínimo ```FQN1*MN```, para ver el descuento para menores ```FQN1\*CD```
+
+También podemos agrupar hasta 3 títulos separados por comas "," ```FQN2\*RU,CD,MN```.
 
 ### FQR
 
-Para tarifas que tienen un routing obligatorio debemos ingresar, si es para el segmento 1 ```FQR1``` posiblemente tenemos una tarifa publicada con LA para la ruta CORMIA::
-
+Para tarifas que tienen un routing obligatorio debemos ingresar, si es para el segmento 1 ```FQR1``` posiblemente tenemos una tarifa publicada con LA para la ruta CORMIA.
 
 ### FQP Cotizar una ruta sin PNR
 
+También podemos "dibujar" una ruta fuera del PNR, para poder cotizarla y poder buscar -por ejemplo- vuelos que satisfagan una tarifa, o entender porqué no cotiza una ruta.
+
+#### Armado de una ruta 1
+
+```FQP BUE/D13JAN/ALAMIA/AAA/CMNYC-/M/L```
+
+#### Explicación de los campos que componen la consulta
+
+- **BUE** Ciudad de salida, sin indicar aeropuerto, puede ser importante destacar el aeropuerto porque hay tarifas que operan a LGA y no a JFK -por ejemplo-
+- **D13JAN** indicamos el día de salida con la D
+- **ALA** La cía aérea con la que inicia la ruta
+- **MIA** pegado la otra cia
+- **AAA** Indicamos que continúa con otra cía
+- **CM** Clase M
+- **NYC** El destino final
+- **\-** El guión después de NYC indica parada
+- **/M** Mirror, hacer un espejo de la ida para el regreso
+- **/L** De todas las tarifas, desplegar la mas barata
+
+#### Armado de una ruta 2
+
+```FQP MDZ/D20APR/AARBUERIO-/D25APR/AG3SSA-/D29APRRIO/AARBUEMDZ-```
+
+En este caso, la ruta se inicia con AR, hasta RIO, donde hace una parada, luego sigue con G3 hasta SSA, regresa a RIO y sin detenerse cambia de CIA a AR, sigue BUE MDZ y ahí hace la última parada.
+
 ### FXP Cotizar un PNR Armado
 
+Sobre un PNR abierto, hay dos comandos para cotizarlo
+
+- **FXP** Cotizar el PNR abierto completo, sin grabar la máscara
+
+- **FXX** Cotizar todo el PNR dejando la máscara grabada.
+
+- **FXT1** Selecciona la primera opción de un listado luego de FXP o FXX
+
+#### Opciones para un FXP o FXX
+
+Podemos indicarle a Amadeus que solo debemos cotizar algunos tramos o algunos pasajeros
+
+- **FXP/P1,2/S4** Solo cotizar el segmento 4 para los pasajeros 1 y 2 y guardar la máscara
+
+- **FXP/P1/S2-5** Cotizar los segmentos del 2 al 5 para el pajajero 1 y guardar la máscara
+
+### Buscar una tarifa mas barata en el PNR
+
+**FXR** Busca la tarifa mas baja disponible y las cambia dentro del PNR
+
+**FXL** Muestra la tarifa mas baja para esta ruta, sin importar si existe disponibilidad.  No cambia las clases en los segmentos del PNR.
+
+### Familias de Tarfias
+
+Para ver las familias de tarifas que aplican a un PNR el comando es **FXY**, muestra las diferentes familias disponibles, las condiciones de cada una y el valor por el "Upsell", con **FQF1** Vemos los detalles de que incluye la familia de tarifa 1 y finalmente elegimos la familia con **FXU2** suponiendo que elijamos la segunda tarifa de esa familia.
+
+Para solicitar un despliegue homogéneo de todo el PNR **FXY/FFH** significa que le pedimos que nos muestre el mismo criterio para ida y vuelta, si incluye equipaje de ida, que también lo haga al regreso.  
+
+**FXY/FF-NOBAG** Muestra solo familias de tarifas que no incluyan equipaje a bordo.
 
 ### Otros comandos útiles
 
 |Comando|Descripción
 |---|---|
 |FQC|Cambio de Monedas
+|FQNTAX/AR|Mostrar la descripción de los impuestos de un país, si van incluidos en el TST.
 
----
+
+### Equipaje
+
+Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre el equipaje permitido.
+
+|Comando|Descripción
+|---|---|
+|FBA|Free Baggage Allowance, equipaje despachado en bodeba permitido.
+|FBD|Detalle del equipaje permitido
+|EBC|Equipaje Extra permitido
+|COA|Carry On Allowance, equipaje en cabina permitido
+|COD|Detalles del carryon permitido en cabina
+|COC|Costo de equipaje de mano adicional
 
 URL Amadeus Connect
 https://www.sellingplatformconnect.amadeus.com/
