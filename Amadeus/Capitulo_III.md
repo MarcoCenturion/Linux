@@ -174,47 +174,54 @@ También podemos "dibujar" una ruta fuera del PNR, para poder cotizarla y poder 
 
 ```FQP MDZ/D20APR/AARBUERIO-/D25APR/AG3SSA-/D29APRRIO/AARBUEMDZ-```
 
-En este caso, la ruta se inicia con AR, hasta RIO, donde hace una parada, luego sigue con G3 hasta SSA, regresa a RIO y sin detenerse cambia de CIA a AR, sigue BUE MDZ y ahí hace la última parada.
+En este caso, la ruta se inicia con AR, hasta RIO, donde hace una parada, luego sigue con G3 hasta SSA, regresa a RIO y sin detenerse cambia de CIA a AR, sigue BUE MDZ y ahí hace la última parada.  Al no indicarle **/L** -de lowest- va a desplegar una lista de tarifas.
+
+#### Armardo de una ruta 3
+
+```FQP BUE/D11APR/AAAMIA-/D19APRNYC--LAX/D25APRSCL/ALABUE-```
+
+Esta ruta se inicia con AA en BUE hasta MIA donde hace un stop.  Sale luego de MIA a NYC, por otro medio que no está contamplado en el ticket, el/los pasajeros se trasladan a LAX, desde donde se inicia luego la ruta a SCL, y finalmente cambia con LA a BUE.
+
 
 ### FXP Cotizar un PNR Armado
 
 Sobre un PNR abierto, hay dos comandos para cotizarlo
 
-- **FXP** Cotizar el PNR abierto completo, sin grabar la máscara
+```FXP``` Cotizar el PNR abierto completo, sin grabar la máscara
 
-- **FXX** Cotizar todo el PNR dejando la máscara grabada.
+```FXX``` Cotizar todo el PNR dejando la máscara grabada.
 
-- **FXT1** Selecciona la primera opción de un listado luego de FXP o FXX
+```FXT1``` Selecciona la primera opción de un listado luego de FXP o FXX
 
 #### Opciones para un FXP o FXX
 
 Podemos indicarle a Amadeus que solo debemos cotizar algunos tramos o algunos pasajeros
 
-- **FXP/P1,2/S4** Solo cotizar el segmento 4 para los pasajeros 1 y 2 y guardar la máscara
+```FXP/P1,2/S4``` Solo cotizar el segmento 4 para los pasajeros 1 y 2 y guardar la máscara
 
-- **FXP/P1/S2-5** Cotizar los segmentos del 2 al 5 para el pajajero 1 y guardar la máscara
+```FXP/P1/S2-5``` Cotizar los segmentos del 2 al 5 para el pajajero 1 y guardar la máscara
 
 ### Buscar una tarifa mas barata en el PNR
 
-**FXR** Busca la tarifa mas baja disponible y las cambia dentro del PNR
+```FXR``` Busca la tarifa mas baja disponible y las cambia dentro del PNR
 
-**FXL** Muestra la tarifa mas baja para esta ruta, sin importar si existe disponibilidad.  No cambia las clases en los segmentos del PNR.
+```FXL``` Muestra la tarifa mas baja para esta ruta, sin importar si existe disponibilidad.  No cambia las clases en los segmentos del PNR.
 
 ### Familias de Tarfias
 
-Para ver las familias de tarifas que aplican a un PNR el comando es **FXY**, muestra las diferentes familias disponibles, las condiciones de cada una y el valor por el "Upsell", con **FQF1** Vemos los detalles de que incluye la familia de tarifa 1 y finalmente elegimos la familia con **FXU2** suponiendo que elijamos la segunda tarifa de esa familia.
+Para ver las familias de tarifas que aplican a un PNR el comando es ```FXY```, muestra las diferentes familias disponibles, las condiciones de cada una y el valor por el "Upsell", con ```FQF1``` Vemos los detalles de que incluye la familia de tarifa 1 y finalmente elegimos la familia con ```FXU2``` suponiendo que elijamos la segunda tarifa de esa familia.
 
-Para solicitar un despliegue homogéneo de todo el PNR **FXY/FFH** significa que le pedimos que nos muestre el mismo criterio para ida y vuelta, si incluye equipaje de ida, que también lo haga al regreso.  
+Para solicitar un despliegue homogéneo de todo el PNR ```FXY/FFH``` significa que le pedimos que nos muestre el mismo criterio para ida y vuelta, si incluye equipaje de ida, que también lo haga al regreso.  
 
-**FXY/FF-NOBAG** Muestra solo familias de tarifas que no incluyan equipaje a bordo.
+```FXY/FF-NOBAG``` Muestra solo familias de tarifas que no incluyan equipaje a bordo.
 
 ### Otros comandos útiles
 
 |Comando|Descripción
 |---|---|
-|FQC|Cambio de Monedas
+|FQC100USD/ARS|Cambio de Monedas de USD100 a pesos argentinos
+|FQC100EUR/ARS/01JUL19|Para ver el tipo de cambio oficial para una fecha puntual
 |FQNTAX/AR|Mostrar la descripción de los impuestos de un país, si van incluidos en el TST.
-
 
 ### Equipaje
 
@@ -228,6 +235,8 @@ Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre el equip
 |COA|Carry On Allowance, equipaje en cabina permitido
 |COD|Detalles del carryon permitido en cabina
 |COC|Costo de equipaje de mano adicional
+
+---
 
 URL Amadeus Connect
 https://www.sellingplatformconnect.amadeus.com/
