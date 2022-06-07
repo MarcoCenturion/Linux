@@ -69,3 +69,15 @@ http://thconsultora.com.ar/blog
 ![Turismo y Hoteleria Consultora](fondo_aereos2.png)
 ![Turismo y Hoteleria Consultora](fondo_aereos1.png)
 
+
+@startuml
+!theme amiga
+component comp1 [
+T H Consultora
+==
+www.thconsultora.com.ar
+Tel/Whats: +543513070654
+Email: marco@thconsultora.com.ar 
+--
+]
+@enduml

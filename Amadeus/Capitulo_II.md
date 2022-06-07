@@ -48,6 +48,10 @@ En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no
 |HE MEAL CODES|Ver el listado de Códigos de comidas|
 |SR PSPT BA HK1-123456-BR-05MAR57-DASILVA/PAULO-M-H/P1|Iformación del pasaporte completa|
 
+Podemos ingresar casi todos los campos separándolos con punto y coma ```";"``` en una sola entrada, por ejemplo
+
+```NM1CHURCHILL/WINSTON 1JOHANSEN/SCARLET;AP LON 230001;TKXL10JUL;RFJOSEFINE``` 
+
 ### Historia del PNR
 
 |Comando Amadeus|Traducción humana|
@@ -105,8 +109,10 @@ Cuando queremos hacer una reserva con los mismos tramos utilizamos el comando RR
 |ESBUEG12100-B|Compartir con la OID BUEG2100 un pnr para lectura y escritura -B|
 |ESBUEG12100,TUCG12100-B|Compartir con dos oficinas un pnr para lectura y escritura -B|
 |ESBUEG12100-B,TUCG12100-R|Compartir con dos oficinas un pnr para escritura y lectura -B en el primero y lectura solamente en el segundo -R|
+|RP/LONG12111/QTK|Pasar completamente el control del pnr a otra oficina|
 
 ### ITINERARIO
+
 
 ---
 
@@ -135,3 +141,15 @@ http://thconsultora.com.ar/blog
 ![Turismo y Hoteleria Consultora](fondo_aereos2.png)
 ![Turismo y Hoteleria Consultora](fondo_aereos1.png)
 
+
+@startuml
+!theme amiga
+component comp1 [
+T H Consultora
+==
+www.thconsultora.com.ar
+Tel/Whats: +543513070654
+Email: marco@thconsultora.com.ar 
+--
+]
+@enduml

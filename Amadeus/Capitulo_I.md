@@ -36,6 +36,7 @@ En esta sección veremos como comunicarnos en el idioma que el sistema nos entie
 |DANLON|Buscar la codificiación de ciudades que empiecen con LON|
 |DCP|Listado de paises que empiezan con P|
 |DNS US|Codificar estados y provincias, en este caso Estados Unidos|
+|HE DAN|Manual de ayuda de Amadeus del comando DAN|
 
 ### Interpretación de la codificación y decodificación de Ciudades
 
@@ -60,6 +61,27 @@ En esta sección veremos como comunicarnos en el idioma que el sistema nos entie
 |DNCZI|Codificar o Decodificar rentadora ZI|
 |DNHSI|Codificar o Decodificar Cadena hotelera|
 
+### Validar el tiempo mínimo de conexión
+
+```RP/MIA1A0000/MIA1A0000            6X/SU  16JANXX/2020Z   ABC123
+MIA1A0000/1234AB/16JANXX
+1.PARKER/PETER
+  2  6X 239 Y 17OCT 5 MIAEWR HK1            730A1024A   *1A/E*
+  3  6X 099 Y 17OCT 5 EWRHKG HK1        C  1210P 355P+1 *1A/E*
+  4  6X 098 Y 29OCT 3 HKGEWR HK1           1215P 245P   *1A/E*
+  5  6X 045 Y 29OCT 3 EWRMIA HK1        C   345P 644P   *1A/E*
+  6 TK TL16JAN/MIA1A0000
+```
+Para visualizar el TMC entre EWR (Newark) y HKG (Hong Kong), segmento 2, introduce: ```DM2```
+
+```EWR-EWR      FROM      -             TO                                        
+CC FLTN-FLTR ORGN EQPTM-CC FLTN-FLTR DEST EQPTM     HMM                        
+6X                    C-6X                   C D/I:040                        
+ACTUAL CONNECTING TIME IS 146
+```
+
+El mínimo permitido entre el vuelo 2 y 3 es de 40 minutos, ```D/I``` indica que llega en un vuelo doméstico y sale en un vuelo internacional.  Debajo aclara que el tiempo para los vuelos reservados es de 146 minutos.
+
 ### Coversiones
 
 En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de utilidades a las que tenemos que prestar mucha atención.
@@ -68,10 +90,16 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 |---|---|
 |DDMIA|Diferencia Horaria desde la ciudad del OID local, desde donde se hace la consulta a Miami|
 |DDMIA/LON|Diferencia horaria entre dos ciudades.|
-|DM|Tiempo mínimo de conexión[^1] entre dos vuelos.|
+|DM|MCT Minimun conecting time, Tiempo mínimo de conexión[^1] entre dos vuelos.|
+|DM2|Dentro de un PNR podemos indicar sobre que segmento revisar el tiempo mínimo de conexión|
+|DMAF/MAD/AR|En un mismo aeropuerto, diferentes cías aéreas|
+|DMCM/PTY/CM|Misma Cía aérea en el Hub de esa cía|
+|DMMAD4S-4S|Mismo aeropuerto misma terminal|
+|DMJFK-LGA|Distintos aeropuertos de la misma ciudad|
 |DMORY/CDG|Tiempo mínimo de conexión entre vuelos que llega y salen de dos aeropuertos distintos en la misma ciudad.|
 |DKMK100|Convertir 100 Millas a Kilómetros|
 |DKKM100|Convertir 100 Kilómetros a Millas|
+|HE DM|Manual de ayuda de Amadeus para el comando DM|
 
 [^1]:  Si bien el sistema lanza un alerta al intentar cerrar por primera vez el PNR, avisando que no se cumple este `Tiempo mínimo de conexión` lo muestra una sola vez.
 
@@ -87,6 +115,7 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 |TDMADLON/ABA,SK|idem pero solo para las cías BA y SK|
 |TN10JUNROMMOW|Frecuencia de vuelos para un par de ciudades en una fecha específica|
 |TNROMLIM/MO|Frecuencia para ver solo los vuelos de los lunes|
+|HE TN|Manual de ayuda de Amadeus para el comando TN|
 
 En la pantalla de Tablas de horario (de Timetable en inglés) vemos la programación semanal de los vuelos regulares.  Se muestra un rango alrededor de la fecha buscada.  Con los días de la semana de operación.  Se detallan vuelos sin paradas, vuelos directos y vuelos en conexión.
 
@@ -123,6 +152,7 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
 |AN02OCTMIANYC\*|Disponibilidad ida y vuelta en el día|
 |AN12OCTMIALGA\*BOSFLL|Visualiza la disponibilidad entre dos pares de ciudades diferentes para la misma fecha|
 |AN12OCTMIALGA\*+4BOSFLL |Visualiza la disponibilidad entre dos pares de ciudades diferentes con fecha de salida 4 días después|
+|HE AD|Manual de ayuda de Amadeus para el comando AD, o AN, o AA|
 
 [^2]:  Amadeus almacena 11 meses de vuelos en adelante de la fecha actual.
 
@@ -139,6 +169,9 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
 |ACMDZ|Cambia la ciudad de Salida|
 |AC//ROM|Cambia la ciduad de Destino|
 |AC/XSAO|Cambia el punto de Conexión|
+|AC/AAA,LA|Filtrar los resultados para solo ver vuelos de AA y LA|
+|AC/A-AA,LA|Filtrar los resultados para excluir los vuelos de AA y LA|
+|AC/AAR/CR|Filtrar los resultados para ver solo vuelos de AR en clase R||Filtrar los resultados para ver solo vuelos de AR en clase R|
 |AC/X-SAO|Cambia para que no muestre las conexiones vía SAO|
 |AC/X-JFK|Cambia para que las conexiones no sean vía un aeropuerto puntual, seguirán mostrandose conexiones por otros aeropuertos de New York|
 
@@ -272,4 +305,15 @@ http://thconsultora.com.ar/blog
 ![Turismo y Hoteleria Consultora](fondo_aereos1.png)
 
 
+@startuml
+!theme amiga
+component comp1 [
+T H Consultora
+==
+www.thconsultora.com.ar
+Tel/Whats: +543513070654
+Email: marco@thconsultora.com.ar 
+--
+]
+@enduml
 
