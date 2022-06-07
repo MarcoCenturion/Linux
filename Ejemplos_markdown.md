@@ -52,7 +52,7 @@ gantt
 
     title Example
     section example section
-    activity :active, 01-02-2021, 03-05-2022
+    activity :active, 01-04g-2021, 03-05-2022
 ```
 
 
@@ -77,7 +77,7 @@ Pasajero->Agencia: Respuesta
 ## Nueva etiqueta
 ``` sequence-diagrams
 Pasajeros-->Agencia: Consulta
-Aencia-->Pasajeros: Respuesta 
+Agencia-->Pasajeros: Respuesta 
 
 ```
 
@@ -296,6 +296,7 @@ NewYork --> CapitalCity::USA
 
 ---
 
+```plantuml
 @startmindmap
 * root node
 	* some first level node
@@ -303,10 +304,8 @@ NewYork --> CapitalCity::USA
 		* another second level node
 	* another first level node
 @endmindmap
-
+```
 ---
-
-
 
 @startuml
 package foo {
@@ -327,20 +326,18 @@ A::c --> foo
 
 https://plantuml.com/es/salt
 
-
 ---
 
 @startuml
 [Prototype design] lasts 15 days
 [Test prototype] lasts 10 days
 
-Project starts 2020-07-01
-[Prototype design] starts 2020-07-01
-[Test prototype] starts 2020-07-16
+Project starts 2022-07-01
+[Prototype design] starts 2022-07-01
+[Test prototype] starts 2022-07-16
 @enduml
 
 ---
-
 
 @startuml PERT
 left to right direction
@@ -374,8 +371,9 @@ task.3 --> task.4
 task.4 --> task.5 : Label 4
 @enduml
 
-
 ---
+
+#### Agregar una nota a la izquierda
 
 @startuml
 
@@ -392,8 +390,9 @@ end note
 
 @enduml
 
-
 ---
+
+#### Participantes
 
 @startuml
 participant Participant [
@@ -409,6 +408,7 @@ Participant -> Bob
 
 ---
 
+#### Autenticacion de servicio
 
 @startuml
 Alice -> Bob: Authentication Request
@@ -453,7 +453,7 @@ Alice -> Other : hello
 
 
 ----
-
+#### Colores
 @startuml
 skinparam backgroundColor #EEEBDC
 skinparam handwritten true
@@ -519,11 +519,10 @@ Amadeus -> Agencia : Respuesta
 Agencia --> Pasajero : Opciones\nOffers
 Agencia --> Amadeus : Guarda\nOfertas
 Agencia -->> Pasajero : 24hs.
- 
-
-
 @enduml
 
+---
+#### Estilo Json
 
 ```json
 {
@@ -552,12 +551,86 @@ Participant Amadeus
 
 
 Pasajeros -> Agencia : Consulta\naéreo
+note right of Amadeus : Servicio externo a \nLa agencia
 Agencia -> Amadeus : FXD
 Amadeus -> Agencia : Respuesta
 Agencia --> Pasajeros : Opciones\nOffers
 Agencia --> Amadeus : Guarda\nOfertas
+Agencia -->> Pasajeros : 24hs.
+Agencia -> Agencia : CRM recuerde llamar al PAX
+Agencia -> Pasajeros : Se venció la tarifa \nTengo otra
+
 @enduml
 
+*******---
+#### Ejemplo Salt
+
+```plantuml
+@startsalt
+{
+  Just plain text
+  [This is my button]
+  ()  Unchecked radio
+  (X) Checked radio
+  []  Unchecked box
+  [X] Checked box
+  "Enter text here   "
+  ^This is a droplist^
+}
+@endsalt
+```
+---
+#### Prototipo
+
+```plantuml
+@startgantt
+[Prototype design] lasts 15 days
+[Test prototype] lasts 10 days
+-- All example --
+[Task 1 (1 day)] lasts 1 day
+[T2 (5 days)] lasts 5 days
+[T3 (1 week)] lasts 1 week
+[T4 (1 week and 4 days)] lasts 1 week and 4 days
+[T5 (2 weeks)] lasts 2 weeks
+@endgantt
 
 
+---
 
+```plantuml
+@startmindmap
+* count
+** 100
+*** 101
+*** 102
+** 200
+
+left side
+
+** A
+*** AA
+*** AB
+** B
+@endmindmap
+```
+---
+
+```plantuml
+
+@startmindmap
+* Canarias
+** provincias
+*** Las Palmas
+**** Gran Canaria
+**** Lanzarote
+**** Fuerteventura
+**** La Granciosa
+*** Santa Cruz de Tenerife
+**** Tenerife
+**** La Gomera
+**** La Palma
+**** El Hierro
+@endmindmap
+
+```
+---
