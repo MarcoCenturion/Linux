@@ -3,26 +3,28 @@
 ### Primer Despliegue
 
 ```plantuml
-
 @startmindmap
 !theme amiga
- * Tierra
-  * America
-   * Mexico
-    * Guanajuato
-   * Argentina
-    * Alta Gracia
-     * Villa Camiares
-   * USA 
-    * Salt Lake City
-  * Europe
-   * Italy
-    * Sorrento
-   * Spain 
-    * Barcelona
+ * FQD
+  * BUEMIA
+   * /D10JUL22
+    * /R,
+     * A 
+      * AR
+      * AR,DL,UA
+      * -AR
+      * -AR,DL
+     * C
+      * V,R,W
+      * -R
+     * -NPE
+     * NPE
+     * CD
+     * FC-USD
+     * MIA.MIA
 @endmindmap
-
 ```
+
 ---
 
 closeMarker - optional, defaults to @enduml. String to use as closing delimiter.
@@ -51,4 +53,47 @@ Email: marco@thconsultora.com.ar
 
 ---
 
+### Postit
 
+@startuml
+note as n
+Es muy importante destacar\nque sin embargo
+------- 
+No podríamos hacer mas enfático
+====
+que si no lo quisieramos
+____
+Buenas pácticas
+..Recordatorio Importante..
+//and title... //
+==No generar duplicidades==
+--Ni nombres ficticios--
+A drisfrutar
+end note
+@enduml
+
+
+---
+
+### Nota monocromo reverso handwritting
+
+@startuml
+skinparam monochrome reverse
+skinparam handwritten true
+actor User
+participant "First Class" as A
+participant "Second Class" as B
+participant "Last Class" as C
+User -> A: DoWork
+activate A
+A -> B: Create Request
+activate B
+B -> C: DoWork
+activate C
+C --> B: WorkDone
+destroy C
+B --> A: Request Created
+deactivate B
+A --> User: Done
+deactivate A
+@enduml 

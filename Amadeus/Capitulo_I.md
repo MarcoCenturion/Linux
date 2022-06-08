@@ -149,12 +149,35 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
 |AN10SEPBUELON\*23SEP|Disponibilidad para una Ida y vuelta BUE LON sin especificar filtros|
 |AN/20JULBUEMIA/AAA/CW|Buscar a partir del 20JUL lugares en AA clase W durante una semana, muestra la primera ocurrencia.|
 |AD10NOVBUEMIA/AAA/CW\*R18NOV|Disponibilidad con AA clase W ida y vuelta|
+|AN/20APRBUEMAD/AUX/CR|Primer lugar con disponibilidad en los siguientes 7 días a partir del 20 APR con UX en clase R|
 |AN02OCTMIANYC\*|Disponibilidad ida y vuelta en el día|
+|AN02OCTMIANYC\*30OCT|Disponibilidad ida y vuelta con regreso una fecha puntual|
 |AN12OCTMIALGA\*BOSFLL|Visualiza la disponibilidad entre dos pares de ciudades diferentes para la misma fecha|
 |AN12OCTMIALGA\*+4BOSFLL |Visualiza la disponibilidad entre dos pares de ciudades diferentes con fecha de salida 4 días después|
 |HE AD|Manual de ayuda de Amadeus para el comando AD, o AN, o AA|
 
 [^2]:  Amadeus almacena 11 meses de vuelos en adelante de la fecha actual.
+
+### Despliegue de disponibilidad
+
+Este es el mapa conceptual de un pedido de disponibilidad.
+
+```plantuml
+@startmindmap
+title Disponibilidad
+!theme amiga
+ * AD 
+  * 10JUL
+   * BUEROM
+    * /A
+     * AR
+     * -AR
+     * \*A
+    * /C
+     * A
+     * W,R,V
+     * -W
+@endmindmap```
 
 ### Cambiar la disponibilidad que tenemos en pantalla
 

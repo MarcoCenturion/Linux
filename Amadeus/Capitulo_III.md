@@ -126,10 +126,37 @@ Ejemplo de una búsqueda de tarifa publicada entre BUE y LON para el 13SEP con t
 |FQD BUEMIA/ALA/R,-CD|Mostrar tarifas para este par de ciudades, con descuento para menores.  En ciertas rutas y mercados, hay tarifas especiales para acompañantes, menores, militares, clérigos, estudiantes, etc.  Para ver el listado de códigos FQL\*
 |FQD CORCTG/AAR/R,-NAP|Mostrar tarifas que no tenga tiempo anticipado de emisión AP, con el signo menos '-'.  Pueden ser que no exijan mínimo NMN o máximo NMX, que no tengan penalidad o permitan devolución[^1].
 |FQD BUEROM/AAR/FF|Familia de tarifas
+|HE FQD|Sistema de ayuda de FQD
 
 [^1]: Con el signo Menos obligamos a que la búsqueda excluya ese filtro, si lo agregamos sin el signo menos vamos a forzar al sistema a solo traer respuestas que incluyan el filtro.
 
 Para ver la descripción de la familia de tarifa **FQF22** donde 2 es el renglón de la tarifa.
+
+### Como funciona el sistema de Filtros FQD
+
+Mostraremos solo algunos Filtros para agregar a FQD y darle mas precisión.
+
+```plantuml
+@startmindmap
+!theme amiga
+ * FQD
+  * BUEMIA
+   * /D10JUL22
+    * /R,
+     * A 
+      * AR
+      * AR,DL,UA
+      * -AR
+      * -AR,DL
+     * C
+      * V,R,W
+      * -R
+     * -NPE
+     * NPE
+     * CD
+     * FC-USD
+     * MIA.MIA
+@endmindmap ```
 
 ### Respuesta del FQD
 

@@ -23,6 +23,9 @@ En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no
 |RFJUAN|Firma.  Es quien solicita la reserva.|
 |TKXL10FEB/1800|Tiempo Límite para emitir con cancelación automática del PNR el 10FEB a las 1800 hs.[^1]|
 |8/NUEVO DATO|Para cambiar los datos del segmento 8|
+|HE NAME|Manual de ayuda para el sector Nombre|
+|HE AP|Manual de campo contacto|
+|HE TK|Manual de campo TKT|
 
 [^1]: Si bien es lícito utilizar TKOK o TKTL para cerrar un PNR, es una práctica aconsejada TKXL para que de manera automática, llegada esa hora y esa fecha, se cancele todo el PNR.  De esta manera evitamos cargos de la cía aérea por segmentos XX.  
 
@@ -47,6 +50,8 @@ En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no
 |SRDOCS BA HK1-P-GBR-012345678-GBR-30JUN73-, M-14APR09-JOHNSON SIMON-JEAN PAUL/P1/S3|SECURE FLIGHT INFORMATION (SR DOCS)| 
 |HE MEAL CODES|Ver el listado de Códigos de comidas|
 |SR PSPT BA HK1-123456-BR-05MAR57-DASILVA/PAULO-M-H/P1|Iformación del pasaporte completa|
+|HE SR|Manual de servicios en el PNR|
+|HE OS|Manual para otros servicios de Información|
 
 Podemos ingresar casi todos los campos separándolos con punto y coma ```";"``` en una sola entrada, por ejemplo
 
@@ -62,6 +67,7 @@ Podemos ingresar casi todos los campos separándolos con punto y coma ```";"``` 
 |RHA|Ver la historia de los tramos aéreos solamente|
 |RHK|Solo los elementos del/los tkts|
 |RHF|Solo la sección tarifaria|
+|HE HISTORY|Manual de ayuda para leer la historia del PNR|
 
 Con este comando ingresamos a todo el trazado histórico de todas las transacciones de una reserva, con el detalle de quien y en que momento realizó cada acción.
 
@@ -73,10 +79,11 @@ Con este comando ingresamos a todo el trazado histórico de todas las transaccio
 |RT/FER|Trae un listado de Apellidos que empiecen con FER|
 |RTCM101/20JUNCOR-FER|Recupera pasajeros de un vuelo puntual, en un aeropuerto de salida puntual cuyo apellido comience con FER.|
 |RT1|Recupera el primer PNR de la lista|
+|ET|Luego de tomar acción sobre el PNR, cierra -End of Transaction-|
 |IG|Ignora todas las transacciones hechas en una reserva desde su recuperación.|
 |IR|Ignora la reserva y vuelve a recuperarla para que no tengan validez las últimas acciones.|
 |ER|Cierra la reserva para que apliquen los últimos cambios y la recupera nuevamente.|
-
+|HE ET|Ayuda sobre el comando de cierre del PNR|
 
 ### Cambios
 
@@ -87,7 +94,9 @@ Con este comando ingresamos a todo el trazado histórico de todas las transaccio
 |XE2-9|Cancela todo lo que exista entre 2 y 9|
 |9/18JUN|Cambia la fecha que tenía -por ejemplo- el campo TL por 18JUN.|
 |XI|Cancela todo el itinerario|
-
+|SBE|Cambia todo el PNR a clase E|
+|SBL2|Cambia a clase L el segmento 2|
+|SB15JUL4,5|Cambia por el mismo vuelo y clases el segmento 4|
 
 ### Replicar un PNR
 
@@ -101,6 +110,31 @@ Cuando queremos hacer una reserva con los mismos tramos utilizamos el comando RR
 |RRN/S2-5,9|Copiar sólo segmentos 3,4,5 y 9|
 |RRN/SX5|Copiar todos los segmentos excepto el 5.|
 |RRA|Copiar los segmentos y generar un AXR|
+|HE RRN|Comando de Ayuda para replicar pnrs|
+
+### Separar un PNR
+
+En muy contadas y excepcionales ocasiones vamos a separar un PNR, porque los pasajeros separan sus viajes, al menos uno de los tramos, no van a hacerlo juntos.
+
+El proceso consta de los siguientes pasos.
+
+> Recuperar el PNR.
+
+> Separar a los pasajeros que no requieren cambios con SP y los nros de los pasajeros.
+
+> Firma con RF + EF para cerrar este primer PNR.
+
+> Aparece el segundo PNR, a este lo firmamos y cerramos con ER y recuperamos para tomar acción del cambio.
+
+```plantuml
+@startmindmap
+title Separar un PNR
+!theme amiga
+ * RECUPERAR PNR
+  * SP1
+   * RF + EF
+  * ER
+@endmindmap```
 
 ### Compartir un PNR
 
@@ -111,8 +145,14 @@ Cuando queremos hacer una reserva con los mismos tramos utilizamos el comando RR
 |ESBUEG12100-B,TUCG12100-R|Compartir con dos oficinas un pnr para escritura y lectura -B en el primero y lectura solamente en el segundo -R|
 |RP/LONG12111/QTK|Pasar completamente el control del pnr a otra oficina|
 
-### ITINERARIO
+### Itinerario
 
+Podemos enviar un itinerario por Email al correo que pusimos en el campo ```APEcorreo@gmail.com```
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|IPEJ|Imprime el itinerario para todos los pasajeros|
+|IEPJ/P2|Solo imprime el itinerario del pasajero 2|
 
 ---
 
