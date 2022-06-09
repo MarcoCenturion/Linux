@@ -1,4 +1,5 @@
-[Turismo y Hoteleria Consultora](logo_th.png)
+![Turismo y Hoteleria Consultora](index.png)
+![Turismo y Hoteleria Consultora](logo_th.png)
 
 [[toc]]
 
@@ -7,8 +8,6 @@
 Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma que maneja el GDS, la forma en que el sistema entiende nuestras preguntas y lo que espera de nosotros.  Si bien existe el modo gráfico, es conveniente que el usuario se familiarice con el idioma que habla todo el mundo en la industria.  
 
 Como codificar ciudades, paises, prestando especial atención a la similitud de muchos puntos, que genera siempre errores de interpretación.  Veremos las tablas de horarios entre ciudades.  La disponibilidad de vuelos, como refinar esa disponibilidad y hacer las búsquedas mas precisas.
-
-![Turismo y Hoteleria Consultora](index.png)
 
 ### Scrolling
 

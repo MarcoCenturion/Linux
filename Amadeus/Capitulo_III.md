@@ -1,13 +1,10 @@
-[Turismo y Hoteleria Consultora](logo_th.png)
-
+![Turismo y Hoteleria Consultora](index.png)
+![Turismo y Hoteleria Consultora](logo_th.png)
 [[toc]]
 
 ## Capítulo III 
 
 En este tercer módulo vamos a ver todas las funciones de post venta, el seguimiento que debemos hacer de las reservas que tenemos en nuestro OID.  
-
-
-![Turismo y Hoteleria Consultora](index.png)
 
 ## Colas.
 
@@ -119,7 +116,7 @@ Fare Quote Display, es la forma en que vemos las tarifas publicadas en un par de
 |Comando|Descripción
 |---|---|
 |FQD|Despliegue de tarifas en un par de ciudades.  Comando Principal.
-|Despues del FQD.
+|--|Despues del FQD, comandos auxiliares del FQD.
 |FQN|Notas de las tarifas.  Seguido a un FQD.
 |FQR|Ruta obligatoria de la tarifas.  Seguido a un FQD.
 |FQS|Booking.  Seguido a un FQD.
@@ -129,6 +126,7 @@ Ejemplo de una búsqueda de tarifa publicada entre BUE y LON para el 13SEP con t
 |Comando|Descripción
 |---|---|
 |FQD BUELON/S|Ver tarifas publicadas de menor a mayor (s) entre un par de ciudades
+|FQD BUERIO/AAR,G3|Forzar que la búsqueda sea por 1, 2 o 3 cías. por coma ','
 |FQD BUELON/A-IB|Idem pero no quiero ver IB, hasta 3 separadas por coma ','
 |FQD MDZRIO/AG3/D10JUL*22JUL|Para una cía puntual con fecha de ida y regreso puntuales
 |FQD ROSSSA/AAR/D20AUG**01SEP|Con un rango de fechas para el viaje
@@ -185,7 +183,6 @@ LN FARE BASIS    OW   USD  RT   PEN  DATES  DAYS AP MIN MAX ALFR
 04 SQR5ECON                 322  +     -      - +  +SU+ 12M+FI R
 ```
 
-
 |Comando|Descripción
 |---|---|
 |AA AC AR AV A4....|Si una línea aérea aparece sólo antes de /YY* significa que tiene sus propias tarifas y acepta las tarifas IATA.
@@ -238,6 +235,8 @@ También podemos agrupar hasta 3 títulos separados por comas "," ```FQN2\*RU,CD
 
 Para tarifas que tienen un routing obligatorio debemos ingresar, si es para el segmento 1 ```FQR1``` posiblemente tenemos una tarifa publicada con LA para la ruta CORMIA.
 
+---
+
 ### FQP Cotizar una ruta sin PNR
 
 También podemos "dibujar" una ruta fuera del PNR, para poder cotizarla y poder buscar -por ejemplo- vuelos que satisfagan una tarifa, o entender porqué no cotiza una ruta.
@@ -271,12 +270,15 @@ En este caso, la ruta se inicia con AR, hasta RIO, donde hace una parada, luego 
 
 Esta ruta se inicia con AA en BUE hasta MIA donde hace un stop.  Sale luego de MIA a NYC, por otro medio que no está contamplado en el ticket, el/los pasajeros se trasladan a LAX, desde donde se inicia luego la ruta a SCL, y finalmente cambia con LA a BUE.
 
+---
 
 ### FXP Cotizar un PNR Armado
 
 Sobre un PNR abierto, hay dos comandos para cotizarlo
 
 ```FXP``` Cotizar el PNR abierto completo, sin grabar la máscara
+
+```FXP/SBF-1``` o ```FXB/SFB-1``` Para forzar al sistema a cotizar con equipaje incluido.
 
 ```FXX``` Cotizar todo el PNR dejando la máscara grabada.
 
@@ -292,9 +294,15 @@ Podemos indicarle a Amadeus que solo debemos cotizar algunos tramos o algunos pa
 
 ### Buscar una tarifa mas barata en el PNR
 
-```FXR``` Busca la tarifa mas baja disponible y las cambia dentro del PNR
+```FXR``` Busca la tarifa mas baja disponible y las cambia dentro del PNR, pero no graba la máscara.
+
+```FXB``` Busca la tarifa mas baja disponible y las cambia dentro del PNR y graba la máscara (TST).
 
 ```FXL``` Muestra la tarifa mas baja para esta ruta, sin importar si existe disponibilidad.  No cambia las clases en los segmentos del PNR.
+
+```FXA/LO``` Muestra la tarifa mas económica posible y disponible, pero no toma acción.
+
+---
 
 ### Familias de Tarfias
 
@@ -314,7 +322,7 @@ Para solicitar un despliegue homogéneo de todo el PNR ```FXY/FFH``` significa q
 
 ### Equipaje
 
-Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre el equipaje permitido.
+Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre los servicios ofrecidos por la cía. aérea, con el comando ```FXK``` Para saber solamente sobre el equipaje permitido ```FXK/I-BGI```. Luego ```FXK1``` para reservar y cotizar el servicio auxiliar.
 
 |Comando|Descripción
 |---|---|

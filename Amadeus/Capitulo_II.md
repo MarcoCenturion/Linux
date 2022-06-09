@@ -1,3 +1,4 @@
+![Turismo y Hoteleria Consultora](index.png)
 ![Turismo y Hoteleria Consultora](logo_th.png)
 
 [[toc]]
@@ -5,8 +6,6 @@
 ### Capítulo II
 
 En este segundo módulo vamos a crear un PNR, la forma en que "sentamos" pasajeros en los aviones.  Una especial mención merece la prohibición a cambiar nombres.  Pedir imágenes de los pasaportes para no cometer errores de nombres, suele ser una práctica muy aconsejable. 
-
-![Turismo y Hoteleria Consultora](index.png)
 
 ### PNR - Campos obligatorios
 
@@ -138,6 +137,7 @@ title Separar un PNR
   * ER
 @endmindmap
 ```
+
 ---
 
 ### Compartir un PNR
