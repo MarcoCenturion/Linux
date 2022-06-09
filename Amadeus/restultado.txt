@@ -1,0 +1,1156 @@
+![Turismo y Hoteleria Consultora](index.png)
+![Turismo y Hoteleria Consultora](logo_th.png)
+
+[[toc]]
+
+## Capítulo I 
+
+Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma que maneja el GDS, la forma en que el sistema entiende nuestras preguntas y lo que espera de nosotros.  Si bien existe el modo gráfico, es conveniente que el usuario se familiarice con el idioma que habla todo el mundo en la industria.  
+
+Como codificar ciudades, paises, prestando especial atención a la similitud de muchos puntos, que genera siempre errores de interpretación.  Veremos las tablas de horarios entre ciudades.  La disponibilidad de vuelos, como refinar esa disponibilidad y hacer las búsquedas mas precisas.
+
+### Scrolling
+
+Nos movemos dentro de las páginas de Amadeus indicandole al prompt > los siguientes comandos.
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|MD o M|Moverse hacia abajo, avanza una página a lo que vemos en pantalla|
+|MU|Moverse hacia arriba, volvemos una página|
+|MB|Moverse hacia el final, a la última página|
+|MT|Volvemos a la primera página|
+|MY|Próximo Día -para búsquedas relacionadas con vechas por ejemplo disponibilidades-
+|MN|Un día antes|
+
+### Codificiación y Decodificacion
+
+En esta sección veremos como comunicarnos en el idioma que el sistema nos entienda.  Para poder hacer una búsqueda necesitamos indicarle a Amadeus correctamente que estamos buscando y al revés interpretar que nos está diciendo.
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|DANMADRID |Codificar un destino (puede ser ciudad, aeropuerto, estación de trenes, etc. en este caso **Madrid**|
+|DACAEP |Decodificar un código en este caso **Aeroparque** |
+|DANBONN/S|Buscar el aeropuerto asociado a una ciudad sin aeropuerto|
+|DANNEW/GB|Buscar ciudades que empiecen con NEW solo en Reino Unido GB|
+|DANLON|Buscar la codificiación de ciudades que empiecen con LON|
+|DCP|Listado de paises que empiezan con P|
+|DNS US|Codificar estados y provincias, en este caso Estados Unidos|
+|HE DAN|Manual de ayuda de Amadeus del comando DAN|
+
+### Interpretación de la codificación y decodificación de Ciudades
+
+Después de una codificación de ua ciudad/aeropuerto, el despliegue muestra una respuesta como la siguiente:
+
+``` 
+DAN PARIS                                                                       
+A:APT B:BUS C:CITY G:GRD H:HELI O:OFF-PT R:RAIL S:ASSOC TOWN                    
+PAR C  PARIS                                            /FR                     
+    A  BVA - BEAUVAIS TILLE          - 67K              /FR                     
+    A  XCR - CHALONS VATRY           -138K              /FR                     
+    A  CDG - CHARLES DE GAULLE       - 22K              /FR                     
+    A  LBG - LE BOURGET              - 14K              /FR                     
+    A  ORY - ORLY                    - 16K              /FR                     
+    A  POX - PONTOISE CORMEILLES     - 33K              /FR                     
+    A  TNF - TOUSSUS LE NOBLE        - 20K              /FR                     
+    A  VIY - VILLACOUBLAY VELIZY     - 14K              /FR                     
+    H  JDP - ISSY LES MOULINEAUX HP  -  6K              /FR                     
+    H  JPU - LA DEFENSE HELIPORT     -  0K              /FR                     
+    B  XEX - AEROGARE DES INV BUS    -  0K              /FR                     
+    B  XTT - ARC DE TRIOMPHE BUS ST  -  0K              /FR                     
+    B  XGB - MONTPARNASSE BUS STN    -  0K              /FR                     
+    R  XHP - GARE DE L'EST RAIL STN  -  1K              /FR                     
+    R  XPG - GARE DU NORD RAIL STN   -  1K              /FR                     
+    R  XJY - MASSY TGV RAIL STATION  - 17K              /FR                     
+YP2 G  PARIS                                            /FR                     
+PHT C  PARIS                                            /USTN                   
+    A  PHT - HENRY COUNTY            -  0K              /USTN                   
+PRX C  PARIS                                            /USTX                   
+)>                                                               
+```
+La descripción de esa respuesta está aqui:
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|A:APT 	|Aeropuerto.|
+|B:BUS 	|Estación de autobuses o autocares.|
+|C:CITY 	|Ciudad.|
+|G:GRD 	|Transporte terrestre.|
+|H:HELI 	|Helipuerto.|
+|O:OFF-PT 	|Punto fuera de línea, una ciudad con un código IATA pero sin ninguna sublocalización, como un aeropuerto, una estación de autobuses,  un helipuerto, un transporte terrestre o una estación de tren.  |
+|R:RAIL 	|Estación de ferrocarril.|
+|S:ASSOC TOWN 	|Una ubicación con o sin su propio código IATA, pero vinculada.|
+
+### Codificaciones de aeronaves, estados, rentadoras de autos, cadenas hoteleras .
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|DAE732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
+|DNA220 |Codificar o decodificar cías. aéreas.  En este Caso **Lufthansa** podemos indicarle el nombre de la Cía, el número o el código, en este caso **220**, **LH** o **Lufthansa** |
+|DNSBR|Listar los estados en Brasil|
+|DNCZI|Codificar o Decodificar rentadora ZI|
+|DNHSI|Codificar o Decodificar Cadena hotelera|
+
+### Validar el tiempo mínimo de conexión
+
+```RP/MIA1A0000/MIA1A0000            6X/SU  16JANXX/2020Z   ABC123
+MIA1A0000/1234AB/16JANXX
+1.PARKER/PETER
+  2  6X 239 Y 17OCT 5 MIAEWR HK1            730A1024A   *1A/E*
+  3  6X 099 Y 17OCT 5 EWRHKG HK1        C  1210P 355P+1 *1A/E*
+  4  6X 098 Y 29OCT 3 HKGEWR HK1           1215P 245P   *1A/E*
+  5  6X 045 Y 29OCT 3 EWRMIA HK1        C   345P 644P   *1A/E*
+  6 TK TL16JAN/MIA1A0000
+```
+Para visualizar el TMC entre EWR (Newark) y HKG (Hong Kong), segmento 2, introduce: ```DM2```
+
+```EWR-EWR      FROM      -             TO                                        
+CC FLTN-FLTR ORGN EQPTM-CC FLTN-FLTR DEST EQPTM     HMM                        
+6X                    C-6X                   C D/I:040                        
+ACTUAL CONNECTING TIME IS 146
+```
+
+El mínimo permitido entre el vuelo 2 y 3 es de 40 minutos, ```D/I``` indica que llega en un vuelo doméstico y sale en un vuelo internacional.  Debajo aclara que el tiempo para los vuelos reservados es de 146 minutos.
+
+### Coversiones
+
+En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de utilidades a las que tenemos que prestar mucha atención.
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|DDMIA|Diferencia Horaria desde la ciudad del OID local, desde donde se hace la consulta a Miami|
+|DDMIA/LON|Diferencia horaria entre dos ciudades.|
+|DM|MCT Minimun conecting time, Tiempo mínimo de conexión[^1] entre dos vuelos.|
+|DM2|Dentro de un PNR podemos indicar sobre que segmento revisar el tiempo mínimo de conexión|
+|DMAF/MAD/AR|En un mismo aeropuerto, diferentes cías aéreas|
+|DMCM/PTY/CM|Misma Cía aérea en el Hub de esa cía|
+|DMMAD4S-4S|Mismo aeropuerto misma terminal|
+|DMJFK-LGA|Distintos aeropuertos de la misma ciudad|
+|DMORY/CDG|Tiempo mínimo de conexión entre vuelos que llega y salen de dos aeropuertos distintos en la misma ciudad.|
+|DKMK100|Convertir 100 Millas a Kilómetros|
+|DKKM100|Convertir 100 Kilómetros a Millas|
+|HE DM|Manual de ayuda de Amadeus para el comando DM|
+
+[^1]:  Si bien el sistema lanza un alerta al intentar cerrar por primera vez el PNR, avisando que no se cumple este `Tiempo mínimo de conexión` lo muestra una sola vez.
+
+### Frecuencias de vuelos entre ciudades.  (TA, TD, TN)
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|TA10NOVBUEMIA|Ordenados de hora de llegada|
+|TD20DECSYDSCL|Ordenados por hora de salida|
+|TELONROM|Ordenados por horas transcurridas|
+|TNBUESCL|Por orden neutro|
+|TNMADLON|Vuelos entre London y Madrid para la fecha en curso|
+|TDMADLON/ABA,SK|idem pero solo para las cías BA y SK|
+|TN10JUNROMMOW|Frecuencia de vuelos para un par de ciudades en una fecha específica|
+|TNROMLIM/MO|Frecuencia para ver solo los vuelos de los lunes|
+|HE TN|Manual de ayuda de Amadeus para el comando TN|
+
+En la pantalla de Tablas de horario (de Timetable en inglés) vemos la programación semanal de los vuelos regulares.  Se muestra un rango alrededor de la fecha buscada.  Con los días de la semana de operación.  Se detallan vuelos sin paradas, vuelos directos y vuelos en conexión.
+
+### Interpretación de los renglones en las Tablas de horarios.
+
+|Descripción|
+|---|
+|D = Operación Diaria.|
+|X1 = Operación todos los días de la semana excepto Lunes.|
+|347 = Operación Miércoles, jueves y Domingos.|
+
+Fechas de inicio y fin de vigencia para cada número de vuelo.   
+
+---
+
+### Disponibilidad por pares de ciudades.  (AA, AD, AN)
+
+Los despliegues de disponibilidad, pueden pedirse:  **AD** Disponibilidad por despegue, **AA** Por arribo o **AN** Neutral.  La diferencia la notamos en la respuesta.  
+
+La disponibilidad standard, muestra la cantidad de lugares que quedan en un vuelo, con un mínimo de 7 -o más- para los vuelos almacenados en las bases de datos de Amadeus, o 4 -o más- para vuelos almacenados en otros GDS's.  Es importante destacar que las búsquedas son para 11 meses en adelante del mes en curso.  En algunas Low Cost, este tiempo es menor.  importante
+
+Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicios. En una pantalla de disponibilidad, para que el vuelo aparezca en la pantalla, debe haber al menos una clase disponible para reservar o poner en lista de espera.  Al lado de cada clase de servicio hay un código de estado. Estos códigos de estado pueden indicar la cantidad de asientos disponibles o si puede poner un vuelo en lista de espera. A continuación se ofrece una lista de los posibles códigos de estado para cada clase de servicio y su explicación, ejemplo:
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|AD02OCTBUEROM|Solicitud de disponibilidad para vuelos BUE ROM para el 02 de Octubre del año en curso[^2] |
+|AD10JUNMADLON|Búsqueda de lugares para el 10 de Junio del año en curso.  **AD** es filtrado por Despegue.  Búsqueda global sin indicarle horario, asume que es a las 1000 hs.|
+|AD10JUNMADLON1900|Idem anterior pero forzando la búsqueda a vuelos a partir de las 1900 hs.|
+|AA10JUNBUELON/X-SAO|La misma búsqueda indicándole al sistema que no tenga en cuenta conexiones vía SAO pero en lugar de filtrado por despegue, sea por Arribo|
+|AA10JUNBUELON/XSCL|La misma búsqueda indicándole al sistema que **FUERCE** la búsqueda a conexiones vía **SCL**|
+|AN10SEPBUELON|Disponibilidad para una Ida BUE LON sin especificar filtros|
+|AN10SEPBUELON\*23SEP|Disponibilidad para una Ida y vuelta BUE LON sin especificar filtros|
+|AN/20JULBUEMIA/AAA/CW|Buscar a partir del 20JUL lugares en AA clase W durante una semana, muestra la primera ocurrencia.|
+|AD10NOVBUEMIA/AAA/CW\*R18NOV|Disponibilidad con AA clase W ida y vuelta|
+|AN/20APRBUEMAD/AUX/CR|Primer lugar con disponibilidad en los siguientes 7 días a partir del 20 APR con UX en clase R|
+|AN02OCTMIANYC\*|Disponibilidad ida y vuelta en el día|
+|AN02OCTMIANYC\*30OCT|Disponibilidad ida y vuelta con regreso una fecha puntual|
+|AN12OCTMIALGA\*BOSFLL|Visualiza la disponibilidad entre dos pares de ciudades diferentes para la misma fecha|
+|AN12OCTMIALGA\*+4BOSFLL |Visualiza la disponibilidad entre dos pares de ciudades diferentes con fecha de salida 4 días después|
+|HE AD|Manual de ayuda de Amadeus para el comando AD, o AN, o AA|
+
+[^2]:  Amadeus almacena 11 meses de vuelos en adelante de la fecha actual.
+
+---
+
+### Despliegue de disponibilidad
+
+Este es el mapa conceptual de un pedido de disponibilidad.
+
+```plantuml
+@startmindmap
+title Disponibilidad
+!theme amiga
+ * AD 
+  * 10JUL
+   * BUEROM
+    * /A
+     * AR
+     * -AR
+     * \*A
+    * /C
+     * A
+     * W,R,V
+     * -W
+legend right: A > Airlines\nC > Class
+@endmindmap
+```
+
+
+### Cambiar la disponibilidad que tenemos en pantalla
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|AC2200|Por defecto los vuelos mostrados son en la mañana, con este comando pedimos que nos muestre los de las 2200, siguiendo la lógica anterior, si el comando anterior fue AD, seguirá siendo la hora de salida|
+|AC7|Cambiar la disponibilidad por 7 días mas adelante|
+|AC-7|Cambiar por 7 días menos|
+|ACSD|Cambiar la disponibilidad por una vista de horarios -cuando no vemos contenido de un vuelo puede estar cerrado-|
+|ACR|Cambiar por el regreso el mismo día|
+|ACR10|Cambiar la disponibilidad, con todos sus filtros, por un regreso|
+|ACMDZ|Cambia la ciudad de Salida|
+|AC//ROM|Cambia la ciduad de Destino|
+|AC/XSAO|Cambia el punto de Conexión|
+|AC/AAA,LA|Filtrar los resultados para solo ver vuelos de AA y LA|
+|AC/A-AA,LA|Filtrar los resultados para excluir los vuelos de AA y LA|
+|AC/AAR/CR|Filtrar los resultados para ver solo vuelos de AR en clase R||Filtrar los resultados para ver solo vuelos de AR en clase R|
+|AC/X-SAO|Cambia para que no muestre las conexiones vía SAO|
+|AC/X-JFK|Cambia para que las conexiones no sean vía un aeropuerto puntual, seguirán mostrandose conexiones por otros aeropuertos de New York|
+
+### Ejemplo de respuesta a un pedido de disponibilidad
+
+~~~
+14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
+~~~
+
+|Respuesta|Significado|
+|---|---|
+|14: |El renglón 14 muestra un vuelo no operado por la Cía. GF| 
+|LHR 3 |Aeropuerto y terminal desde donde sale|
+|MIA |Idem llegada|
+|1050A|Hora de salida en formato AM PM, depende de la configuración del idioma|
+|305P|Hora de llegada|
+|0|Cantidad de escalas|
+|777 |Equipo que opera el vuelo|
+|9:15 |Tiempo total de vuelo|
+|1-8 |Disponibilidad real|
+|9 |Nueve o mas asientos|
+|0 o L |No hay disponibilidad, se puede agregar a lista de espera|
+|R |La cía aérea responderá cuando tenga lugares para el vuelo|
+
+----
+
+### Disponibilidad Ida y Vuelta
+
+En la tabla anterior vimos que podemos solicitar una disponibilidad ida y vuelta, lo interesante es que podemos agregar todos los filtros y tener en un vistazo la respuesta exacta, para buscar disponibilidad exclusivamente con vuelos de UX para el 29JUL en clase R, y regreso el 12AUG en un solo comando buscamos todo  ```AD29JULBUEROM/AUX/CR*12AUG```  Podemos agregar mas filtros como por ejemplo, para vuelos de LA desde COR pero que no pasen por BUE ```AN10JULCORMIA/X-BUE/ALA/CV*22JUL``` de esta manera eliminamos las conexiones vía BUE.
+
+---
+
+### Respuesta del sistema a un pedido Ida y Vuelta
+
+~~~ AN19OCTMIALON*25OCT
+** AMADEUS AVAILABILITY - AN **           36 TH 19OCT 0000
+ 1   BA2294  F9 A9 J9 D9 Y9 B9 H9 /MIA   LGW N  440P    610A+1E0/777       8:30
+             K9 M9 L9 W9 V9 O9 Q9
+ 2   VS 006  J4 D4 W4 Y7 B7 L7 M7  MIA   LGW S  545P    655A+1 0.747       8:10
+             Q7 X7
+ 3:  CO4406  J9 D8 Z6 Y9 H9 K9 B9 /MIA   LGW S  545P    655A+1 0/747       8:10
+             V9 Q9 T9
+ 4   AA 056  F7 J7 Y7 B7 H7 Q0 K6 /MIA   LHR 3  730P    900A+1E0.777       8:30
+             N3 M2 V0 L0
+** AMADEUS AVAILABILITY - AN **           42 WE 25OCT 0000
+11   BA2295  F9 J9 D9 Y9 B9 H9 K9 /LGW N MIA   1015A    240P  E0/777       9:25
+             M9 L9 W9 V9 N7 O9 Q9
+12:  CO4405  J8 D7 Z5 Y9 H9 K9 B9 /LGW S MIA   1045A    315P   0/747       9:30
+             V9 Q9 T9
+13   VS 005  J4 D0 W4 Y7 B7 L7 M7  LGW S MIA   1045A    315P   0.747       9:30
+             Q7 X7
+14 SU:GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
+             L0 Q0 D0
+~~~
+
+Para vender 2 lugares en el vuelo de BA de ida y de regreso, clase Q ingresamos ```SS2Q1Q11``` 
+
+---
+
+### Explicación a la respuesta del sistema
+
+|Respuesta del sistema|Significado|
+|--|--|
+|AMADEUS AVAILABILITY|Disponibilidad de salida|
+|36 	|Número de días entre la fecha actual y la fecha de salida|
+|TH 	|Día de la semana redundante|
+|19OCT 	|Fecha de salida|
+|0000 	|Hora por defecto de disponibilidad|
+|** AMADEUS AVAILABILITY **|Disponibilidad de regreso|
+|42 	|Número de días entre la fecha actual y la fecha de salida|
+|WE 	|Día de la semana|
+|25OCT 	|Fecha de regreso|
+|0000 	|Hora por defecto de disponibilidad|
+|SU:GF5157|Vuelo código compartido|
+|SU\*GF5157|Vuelo Joint Venture.  Cías que funcionan una dentro de la otra.|
+
+### Vender un segmento
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|SS2B1|Solicitar 2 asientos del renglón 1 en clase B.!
+|SSCM101B20JUNCORPTY2|Vender dos asientos en CM101 Clase B para una fecha puntual.|
+|SS2MK2|Vender dos asientos en vuelos en conexión, el primero en clase M y el segundo en clase K.|
+|SS1Y1\*M11|Vender un asiento en clase Y en el primer tramo y en clase M en el segundo, para casos en que pedimos ida y vuelta.|
+|SIARNK|Agregar un tramo arribo desconocido|
+|SOARMMDZAEP|Agregamos un tramo abierto en clase M entre MDZ y AEP.|
+|SOARMI10NOVMDZAEP|Agregamos un tramo abierto en clase M entre MDZ y AEP. para que podamos emitir en una tarifa que tiene máximo y mínimo para el regreso|
+
+## Otros Comandos importantes
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|DOAR1214|Despliegue del vuelo AR1214 mas cercano al día de hoy|
+|DOG32003/20JUN|Idem pero para una fecha puntual|
+|DO3|Dentro del PNR podemos solicitar información de un vuelo puntual|
+|VFFAD AR|Ver los acuerdos interlineales de AR|
+|SBB/S3|Cambiar a clase B el segmento 3|
+|SB20JUN/S2,3|Cambiar por los mismos vuelos y clases los segmentos 2 y 3|
+|SBW|Cambiar todos los segmentos a clase W|
+
+### Refinamiento de la búsqueda.  (conexiones, cias, alianzas, clases, etc)
+
+Las búsquedas globales de disponibilidad, tablas o de horarios, pueden refinarse para hacer búsquedas mucho mas específicas. 
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|/AAA,AR,LA|Tanto TD, AD, o SD pueden refinarse para solo buscar vuelos de estas cías|
+|/AA*A|Muestra solo vuelos de Star Alliance.  (A\*O One World o A\*S Sky Team)|
+|\/A-KL|Excluir una cía. aérea|
+|/CK|Solo ver disponibilidad de cabina Ejecutiva (CW para economy premium)|
+|\/XMIA|Forzar las búsquedas a hacer conexión en Miami|
+|\/X-MIA|Forzar que no haya conexiones en MIA|
+|AD10NOVBUEMIA1900/X-SAO/ALA,AA/KC|Disponibilidad para salidas desde BUE a Mia a partir de las 1900 hs, sin conexión en SAO, para solo Lan y American, cabina Ejecutiva|
+|FD|Solo vuelos Directos|
+|FN|Solo vuelos sin escalas|
+
+---
+
+URL Amadeus Connect
+https://www.sellingplatformconnect.amadeus.com/
+
+DESCARGA material de apoyo:
+https://thconsultora.com.ar/ - Sección "Contáctenos" 
+
+Redes Sociales
+Github: github.com/marcocenturion
+
+Twitter: https://twitter.com/@aulavirtuaturis
+
+LinkedIn: https://www.linkedin.com/marco-adrian-centurion
+
+Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
+
+## Contáctenos:
+
+
+Para mayor información sobre cursos, noticias y más
+http://thconsultora.com.ar/blog
+
+![Turismo y Hoteleria Consultora](logo_th.png)
+
+![Turismo y Hoteleria Consultora](fondo_aereos2.png)
+![Turismo y Hoteleria Consultora](fondo_aereos1.png)
+
+
+@startuml
+!theme amiga
+component comp1 [
+T H Consultora
+==
+www.thconsultora.com.ar
+Tel/Whats: +543513070654
+Email: marco@thconsultora.com.ar 
+--
+]
+@enduml
+
+![Turismo y Hoteleria Consultora](index.png)
+![Turismo y Hoteleria Consultora](logo_th.png)
+
+[[toc]]
+
+### Capítulo II
+
+En este segundo módulo vamos a crear un PNR, la forma en que "sentamos" pasajeros en los aviones.  Una especial mención merece la prohibición a cambiar nombres.  Pedir imágenes de los pasaportes para no cometer errores de nombres, suele ser una práctica muy aconsejable. 
+
+### PNR - Campos obligatorios
+
+En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no podemos cerrar el PNR (Passanger name record).  
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|NM1WATSON/JOHN|Nombre para un solo pasajero Adulto|
+|NM1FERNANDEZ/JUAN(CHD)|Nombre de un pasajero CHD|
+|NM2FERNANDEZ/JUAN/MARIA(INFWATSON/ANA)|Pasajero adulto con un INF con apellido distinto|
+|NM2FERNANDEZ/JOSE/ROCIO 1LOPEZ/JULIO|Dos Apellidos iguales y uno distinto|
+|AP BUE +5411224422|Contacto del pasajero|
+|APE-JUANPEREZ//GMAIL.COM|Contacto email del pasajero|
+|RFJUAN|Firma.  Es quien solicita la reserva.|
+|TKXL10FEB/1800|Tiempo Límite para emitir con cancelación automática del PNR el 10FEB a las 1800 hs.[^1]|
+|8/NUEVO DATO|Para cambiar los datos del segmento 8|
+|HE NAME|Manual de ayuda para el sector Nombre|
+|HE AP|Manual de campo contacto|
+|HE TK|Manual de campo TKT|
+
+[^1]: Si bien es lícito utilizar TKOK o TKTL para cerrar un PNR, es una práctica aconsejada TKXL para que de manera automática, llegada esa hora y esa fecha, se cancele todo el PNR.  De esta manera evitamos cargos de la cía aérea por segmentos XX.  
+
+### Campos auxiliares del PNR
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|OP10JUN|El 10 de JUN aparecerá en Cola 3 este PNR como un recordatorio.|
+|OP/RECORDATORIO DE ALGO IMPORTANTE|Texto libre despuśe de la Barra hasta 256 caracteres|
+|RM|Campo comentario.  Aquí podemos escribir hasta 256 caracteres por renglón y se guardan en la historia.|
+|RC|Campo comentario solo la la oficina que lo crea.  No es visible en otras agencias ni cías aéreas.|
+|OSLACTCE JUANPEREZ//GMAIL.COM |Osi Other Service Information, en este caso informamos el contacto del pasajero a LA la @ se escribe como //|
+|OSCMCTCT +5411512222|Contacto telefónico del pasajero.|
+|OSARVIP/P1|Asociamos la información a AR de uno solo de los pasajeros del PNR.|
+|SRFOIDLAHK1-NI23111311|Foid, agregamos el DNI muchas Cías. aéreas solicitan el nro de docuemnto para la emisión.|
+|SRFOIDLAHK1-PP23111311|Foid, agregamos el Pasaporte.|
+|FHE 001-1234567890/P2|Nro de Tkt a la cía aérea.|
+|SRVGML/P1-2/S6|Solicitud de Comida vegerariana para los pasajeros 1 y 2, en el segmento 6.|
+|SRWCHR/P1/S3|Solicitud de Silla de ruedas para el pasajero 1 en el segmento 3.|
+|SRFQTVAR-AR80434321|Pasajero frecuente de AR.|
+|FFNAA-0WV3178,IB|Cargar datos del pasajero frecuente de AA en vuelos de IB|
+|SRDOCS BA HK1-P-GBR-012345678-GBR-30JUN73-, M-14APR09-JOHNSON SIMON-JEAN PAUL/P1/S3|SECURE FLIGHT INFORMATION (SR DOCS)| 
+|HE MEAL CODES|Ver el listado de Códigos de comidas|
+|SR PSPT BA HK1-123456-BR-05MAR57-DASILVA/PAULO-M-H/P1|Iformación del pasaporte completa|
+|HE SR|Manual de servicios en el PNR|
+|HE OS|Manual para otros servicios de Información|
+
+Podemos ingresar casi todos los campos separándolos con punto y coma ```";"``` en una sola entrada, por ejemplo
+
+```NM1CHURCHILL/WINSTON 1JOHANSEN/SCARLET;AP LON 230001;TKXL10JUL;RFJOSEFINE``` 
+
+### Historia del PNR
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|RH|Abrir la histora del PNR|
+|RH-ALL|Ver la historia del PNR y su historia de colas|
+|RHQ|Colas soalmente|
+|RHA|Ver la historia de los tramos aéreos solamente|
+|RHK|Solo los elementos del/los tkts|
+|RHF|Solo la sección tarifaria|
+|HE HISTORY|Manual de ayuda para leer la historia del PNR|
+
+Con este comando ingresamos a todo el trazado histórico de todas las transacciones de una reserva, con el detalle de quien y en que momento realizó cada acción.
+
+### Recuperar PNR
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|RTCODIGO|Recupera un Código de reserva puntual|
+|RT/FER|Trae un listado de Apellidos que empiecen con FER|
+|RTCM101/20JUNCOR-FER|Recupera pasajeros de un vuelo puntual, en un aeropuerto de salida puntual cuyo apellido comience con FER.|
+|RT1|Recupera el primer PNR de la lista|
+|ET|Luego de tomar acción sobre el PNR, cierra -End of Transaction-|
+|IG|Ignora todas las transacciones hechas en una reserva desde su recuperación.|
+|IR|Ignora la reserva y vuelve a recuperarla para que no tengan validez las últimas acciones.|
+|ER|Cierra la reserva para que apliquen los últimos cambios y la recupera nuevamente.|
+|HE ET|Ayuda sobre el comando de cierre del PNR|
+
+### Cambios
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|XE2|Cancela el renglón 2, puede ser cualquier segmento del pnr, nombre, vuelo, ap, etc|
+|XE4,5|Cancela estos dos sementos solamente|
+|XE2-9|Cancela todo lo que exista entre 2 y 9|
+|9/18JUN|Cambia la fecha que tenía -por ejemplo- el campo TL por 18JUN.|
+|XI|Cancela todo el itinerario|
+|SBE|Cambia todo el PNR a clase E|
+|SBL2|Cambia a clase L el segmento 2|
+|SB15JUL4,5|Cambia por el mismo vuelo y clases el segmento 4|
+
+### Replicar un PNR
+
+Cuando queremos hacer una reserva con los mismos tramos utilizamos el comando RRN y replica -de haber lugares- los mismos vuelos y clases.
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|RRN|Copia todos los tramos de todos los pasajeros|
+|RRN/6|Copiar ITINERARIO y cambiar número de pax a 6|
+|RRN/P1,3-5|Copiar PNR de pax 1,3,4 y 5|
+|RRN/S2-5,9|Copiar sólo segmentos 3,4,5 y 9|
+|RRN/SX5|Copiar todos los segmentos excepto el 5.|
+|RRA|Copiar los segmentos y generar un AXR|
+|HE RRN|Comando de Ayuda para replicar pnrs|
+
+---
+
+## Separar un PNR
+
+En muy contadas y excepcionales ocasiones vamos a separar un PNR, porque los pasajeros separan sus viajes, al menos uno de los tramos, no van a hacerlo juntos.
+
+El proceso consta de los siguientes pasos.
+
+> Recuperar el PNR.
+
+> Separar a los pasajeros que no requieren cambios con SP y los nros de los pasajeros.
+
+> Firma con RF + EF para cerrar este primer PNR.
+
+> Aparece el segundo PNR, a este lo firmamos y cerramos con ER y recuperamos para tomar acción del cambio.
+
+```plantuml
+@startmindmap
+title Separar un PNR
+!theme amiga
+ * RECUPERAR PNR
+  * SP1
+   * RF + EF
+  * ER
+@endmindmap
+```
+
+---
+
+### Compartir un PNR
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|ESBUEG12100-B|Compartir con la OID BUEG2100 un pnr para lectura y escritura -B|
+|ESBUEG12100,TUCG12100-B|Compartir con dos oficinas un pnr para lectura y escritura -B|
+|ESBUEG12100-B,TUCG12100-R|Compartir con dos oficinas un pnr para escritura y lectura -B en el primero y lectura solamente en el segundo -R|
+|RP/LONG12111/QTK|Pasar completamente el control del pnr a otra oficina|
+
+---
+
+## Itinerario
+
+Podemos enviar un itinerario por Email al correo que pusimos en el campo ```APEcorreo@gmail.com```
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|IPEJ|Imprime el itinerario para todos los pasajeros|
+|IEPJ/P2|Solo imprime el itinerario del pasajero 2|
+
+---
+
+URL Amadeus Connect
+https://www.sellingplatformconnect.amadeus.com/
+
+DESCARGA material de apoyo:
+https://thconsultora.com.ar/ - Sección "Contáctenos" 
+
+Redes Sociales
+Github: github.com/marcocenturion
+
+Twitter: https://twitter.com/@aulavirtuaturis
+
+LinkedIn: https://www.linkedin.com/marco-adrian-centurion
+
+Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
+
+## Contáctenos:
+
+Para mayor información sobre cursos, noticias y más
+http://thconsultora.com.ar/blog
+
+![Turismo y Hoteleria Consultora](logo_th.png)
+
+![Turismo y Hoteleria Consultora](fondo_aereos2.png)
+![Turismo y Hoteleria Consultora](fondo_aereos1.png)
+
+
+@startuml
+!theme amiga
+component comp1 [
+T H Consultora
+==
+www.thconsultora.com.ar
+Tel/Whats: +543513070654
+Email: marco@thconsultora.com.ar 
+--
+]
+@enduml
+![Turismo y Hoteleria Consultora](index.png)
+![Turismo y Hoteleria Consultora](logo_th.png)
+[[toc]]
+
+## Capítulo III 
+
+En este tercer módulo vamos a ver todas las funciones de post venta, el seguimiento que debemos hacer de las reservas que tenemos en nuestro OID.  
+
+## Colas.
+
+En el Manual de Reservas, el tratamiento de las colas está entre las páginas 119 a 126.  
+
+Las colas de mensajes son el formato en que todos los involucrados en la gestión de los PNR's se comunican.  Las cías. aéreas hacen un cambio de horario, y automaticamente se generan mensajes por el sistema de colas a todos los "Dueños" de esas reservas.  Los dueños son los OIDS, la oficina de Amadeus que generó ese PNR o que tiene el control de las colas.
+
+Es absoluta responsabilidad de esta oficina -el responsable de colas- el tomar acción sobre cada uno de los mensajes que le llegan a la Agencia.  Toda reprogramación, cancelación, cambio viene por esta vía.
+
+A las colas de la oficina llegarán.
+
+- Cambios de horario, itinerario, cancelación de vuelos
+
+- Expiración de tiempo límite de emisión de tkts de una reserva.
+
+- Cambios en los servicios especiales SSR.
+
+### Mostrar Mensajes en colas:
+
+- QT  Muestra solo las colas que tienen mensajes 
+- QTQ  Muestra todas las colas, tengan o no tengan mensajes
+
+
+### Números de colas:
+
+|QUEUE|E-D|IDENTIFICION|CAT|EXPLICACION
+|---|---|---|---|---|
+|94 |E|MSG-CP|0-4|Mensaje – Customer Profile
+|96 |E|MSG-PDR|0-3|Mensaje – PNRs de fecha pasadas
+|97 |D|MESSAGE|0-3|Mensajes recibidos por la agencia de viajes
+|0 |E|GENERAL|0|PNR enviado manualmente a un número de queue inexistente,el sistema lo reubica en la queue 0
+|1 |D|CONFO|0-6|PNRs que recibieron un código de aviso para alguno de los segmentos o servicios especiales, excepto confirmación de lista de espera y/o cambio de horario.
+|2 |D|KL|0|PNRs con segmentos aéreos confirmados de lista de espera KL
+|3 |E|OPTION|0-1|PNRs que tienen un elemento de Opción OP
+|4 |E|RPCHNG|0-1|PNRs cuya oficina de responsabilidad RP fue cambiada, el PNR es enviado a la Queue 4 de la oficina receptora
+|7 |D|SKEDCHG|0-140-120|PNRs que recibieron un aviso de cambio de horario o fecha
+|8 |D|TKTG|0|PNRs con fecha límite para emisión de tickets TKTL
+|9 |D|OA|0|PNRs cuya oficina de queue ha sido cambiada 
+|12 |E|XTL|0-2|PNRs cuya fecha límite para la emisión de tickets TKTL expiró aéreos u otros servicios especiales 24 horas después del pedido inicial, el sistema envía un mensaje al proveedor, si 48 horas después el segmento NO tiene el status HN solicitado, el sistema pone el PNR en queue
+|23 |E|RQR|0-2|PNRs que no han recibido respuesta para los segmentos
+|80|E|PTA|0-2|PNRs que tienen información de PTA
+|87|D|GRPS|0-14|PNRs de grupos
+
+### Códigos de mensajes
+
+Listado de los Códigos de Aviso que son enviados por los proveedores de servicios y los Códigos de Status en que se convierten después de la transacción ETK o ERK:
+
+|CODIGOS DE AVISO|CODIGOS DE STATUS
+|---|---|
+|KK Confirmado| HK Confirmado
+|UU Lista de espera|HL Lista de espera
+|KL Confirmado de lista de espera|HK Confirmado
+|US Venta rechazada, en lista de espera|HL Lista de espera
+|NO No se tomó acción|Pasa a la historia 
+|UC Imposible confirmar|Pasa a la historia
+|UN El vuelo o la clase no opera|Pasa a la historia
+|TK Cambio de horario | HK Confirmado
+|TL Cambio de horario| HL Lista de espera
+|TN Cambio de horario |HN Solicitado
+
+### Comandos para trabajar colas
+
+|Comando|Traducción Humana|
+|---|---|
+|QS0 |Ingresar a la cola 0
+|QS7C1D3 |Ingresar a cola 7 categoría 1 rango 3
+|QN|Eliminar de cola el PNR y continúa con el siguente
+|QD|Difiere el tratamiento del PNR y lo pasa al final de la fila
+|QI|Ignora el PNR y lo deja al comienzo de la fila
+|ETK|Confirma todos los cambios en el PNR, cierra y continúa con el siguiente.  Si no quedan mas PNRs en la cola, sale del modo COLAS
+|ERK|Confirma todos los cambios y recupera nuevamente el PNR
+
+## Tarifas
+
+El objetivo de este módulo es familiarizarse con el sistema de tarifas de Amadeus.
+
+- Desplegar las tarifas publicadas para un par de ciudades
+- Consultar las reglas y condiciones de una tarifa
+- Consultar la ruta de una tarifa
+- Consultar tasas de cambio y efectuar conversiones de monedas
+- Calcular cargos por exceso de equipaje
+- Cotizar un itinerario sin PNR (Cotización Informativa)
+- Tarifar el itinerario reservado en un PNR
+- Buscar la tarifa más baja disponible para el itinerario reservado en un PNR
+- Buscar la tarifa más baja posible para el itinerario reservado en un PNR
+
+Por regla es útil recordar 
+
+```plantuml
+@startmindmap
+!theme amiga
+title despliegues con y sin PNR 
+ * F
+  * Q -> Fuera del PNR
+  * X -> Dentro del PNR 
+@endmindmap
+```
+---
+> FQ despliegues fuera del PNR
+
+> FX despliegues dentro de un PNR armado
+
+---
+
+### FQD Despliegue de tarifas públicas 
+
+Fare Quote Display, es la forma en que vemos las tarifas publicadas en un par de ciudades dado.  Interpretar correctamente la respuesta de Amadeus nos va a servir para entender la lógica y tener una visión mas exacta.
+
+|Comando|Descripción
+|---|---|
+|FQD|Despliegue de tarifas en un par de ciudades.  Comando Principal.
+|--|Despues del FQD, comandos auxiliares del FQD.
+|FQN|Notas de las tarifas.  Seguido a un FQD.
+|FQR|Ruta obligatoria de la tarifas.  Seguido a un FQD.
+|FQS|Booking.  Seguido a un FQD.
+
+Ejemplo de una búsqueda de tarifa publicada entre BUE y LON para el 13SEP con todas las Cías. excepto AR ```FQD BUELON/13APR22/A-AR```
+
+|Comando|Descripción
+|---|---|
+|FQD BUELON/S|Ver tarifas publicadas de menor a mayor (s) entre un par de ciudades
+|FQD BUERIO/AAR,G3|Forzar que la búsqueda sea por 1, 2 o 3 cías. por coma ','
+|FQD BUELON/A-IB|Idem pero no quiero ver IB, hasta 3 separadas por coma ','
+|FQD MDZRIO/AG3/D10JUL*22JUL|Para una cía puntual con fecha de ida y regreso puntuales
+|FQD ROSSSA/AAR/D20AUG**01SEP|Con un rango de fechas para el viaje
+|FQD CORCTG/AAR/IX|Mostrar tarifas para este par de ciudades, pero de menor a mayor
+|FQD CORCTG/AAR/IO|Mostrar tarifas para este par de ciudades, solo one way
+|FQD CORCTG/AAR/IR|Mostrar tarifas para este par de ciudades, solo roud trip
+|FQD BUEMIA/ALA/R,-CD|Mostrar tarifas para este par de ciudades, con descuento para menores.  En ciertas rutas y mercados, hay tarifas especiales para acompañantes, menores, militares, clérigos, estudiantes, etc.  Para ver el listado de códigos FQL\*
+|FQD CORCTG/AAR/R,-NAP|Mostrar tarifas que no tenga tiempo anticipado de emisión AP, con el signo menos '-'.  Pueden ser que no exijan mínimo NMN o máximo NMX, que no tengan penalidad o permitan devolución[^1].
+|FQD BUEROM/AAR/FF|Familia de tarifas
+|HE FQD|Sistema de ayuda de FQD
+
+[^1]: Con el signo Menos obligamos a que la búsqueda excluya ese filtro, si lo agregamos sin el signo menos vamos a forzar al sistema a solo traer respuestas que incluyan el filtro.
+
+Para ver la descripción de la familia de tarifa **FQF22** donde 2 es el renglón de la tarifa.
+
+### Como funciona el sistema de Filtros FQD
+
+Mostraremos solo algunos Filtros para agregar a FQD y darle mas precisión.
+
+```plantuml
+@startmindmap
+!theme amiga
+ * FQD
+  * BUEMIA
+   * /D10JUL22
+    * /R,
+     * A 
+      * AR
+      * AR,DL,UA
+      * -AR
+      * -AR,DL
+     * C
+      * V,R,W
+      * -R
+     * -NPE
+     * NPE
+     * CD
+     * FC-USD
+     * MIA.MIA
+@endmindmap 
+```
+
+### Respuesta del FQD
+
+Para entender la respuesta del sistema a un FQD, recomendamos la lectura detenida de las páginas 104 a 106. 
+
+```FQDNYCLON/R,UP
+ROE 1.00 NEAREST 1.00 USD
+30JUN21**30JUN21/NYCLON/NSP;AT/TPM  3458/MPM  4149
+LN FARE BASIS    OW   USD  RT   PEN  DATES  DAYS AP MIN MAX ALFR
+01 EICSWIUS                 257 NRF    -      -    +SU   1M LXVR
+02 PICSWIUS                 297 NRF    -      -    +SU   1M LXNR
+03 SQO5ECON       161            +     -      - +25+ -   -  FIAR
+04 SQR5ECON                 322  +     -      - +  +SU+ 12M+FI R
+```
+
+|Comando|Descripción
+|---|---|
+|AA AC AR AV A4....|Si una línea aérea aparece sólo antes de /YY* significa que tiene sus propias tarifas y acepta las tarifas IATA.
+|/YY*AA AC AR AX...|Si aparece sólo después de /YY* significa que no tiene sus propias tarifas ni acepta las IATA.  Si aparece antes y después de /YY* significa que tiene sus propias tarifas y no acepta las IATA.
+|30JUN21**30JUN21|Período de validez del despliegue.
+|NYCLON|Par de Ciudades.
+|AT|Ruta Atlántico.
+|TPM|Millas reales de la ruta.
+|MPM|Millas máximas para esta ruta.
+|FARE BASIS|Base de Tarifa.
+|OW|Tarifas One Way
+|USD|Moneda en la que están expresadas las tarifas.
+|RT|Tarifas Rount Trip
+|B|Booking designator, la clase en que debe tomarse la reserva, puede figurar un signo +, en este caso debemos dirigirnos a la nota.
+|PEN|Penalidades, si hay un - no hay información, si dice NRF, tkt no reembolsable y si figura un importe, es el monto de la penalización.  Ver la nota.
+|DATES DAYS|Dias. 
+||+ Indica que se aplican más restricciones: Verifique la regla de la tarifa FQN 
+||) Se aplica restricción de temporada al viaje de ida ( Se aplica restricción de temporada al viaje de retorno 
+||S Temporada 
+||L Ticket sólo en esta fecha 
+||A Ticket en o después de esta fecha 
+||B Ticket en o antes de esta fecha 
+||E Inicio del viaje en o después de esta fecha 
+||O Origen del viaje en o antes de esta fecha 
+||F  El viaje final debe comenzar como máximo en esta fecha 
+||C Completar todo el viaje como máximo en esta fecha 
+||X Tarifa cancelada en esta fecha (en la columna Dates) Excepción de días de viajes (en la columna Days) 
+||M Tarifa modificada 
+||T Cambio de fecha de inicio de vigencia del ticket / viaje
+|AP|Requisito de venta anticipada
+|MIN|Mínimo, si en lugar de un número aparece + ver la nota
+|MAX|Máximo, si en lugar de un número aparece + ver la nota
+|R|Routing
+||R Routing ver FQR
+||M Millage máximo
+
+---
+
+### FQN Despliegue de notas de tarifas
+
+Luego de ver las tarifas publicadas entre un par de ciudades con el comando FXD podemos ver las notas asociadas a esas tarifas, el routing obligatorio, el booking obligatorio, etc.
+
+Para ver una regla, solo tenemos que pedir con FQN seguido del número de línea de la regla.
+
+```FQN1*LIST``` Con este comando vemos el listado completo de los índices de la regla. Para ingresar a ver el título **Venta anticipada** de la tarifa del renglón 1, solo tenemos que indicar ```FQN1*AP```, para ver el mínimo ```FQN1*MN```, para ver el descuento para menores ```FQN1\*CD```
+
+También podemos agrupar hasta 3 títulos separados por comas "," ```FQN2\*RU,CD,MN```.
+
+### FQR
+
+Para tarifas que tienen un routing obligatorio debemos ingresar, si es para el segmento 1 ```FQR1``` posiblemente tenemos una tarifa publicada con LA para la ruta CORMIA.
+
+---
+
+### FQP Cotizar una ruta sin PNR
+
+También podemos "dibujar" una ruta fuera del PNR, para poder cotizarla y poder buscar -por ejemplo- vuelos que satisfagan una tarifa, o entender porqué no cotiza una ruta.
+
+#### Armado de una ruta 1
+
+```FQP BUE/D13JAN/ALAMIA/AAA/CMNYC-/M/L```
+
+#### Explicación de los campos que componen la consulta
+
+- **BUE** Ciudad de salida, sin indicar aeropuerto, puede ser importante destacar el aeropuerto porque hay tarifas que operan a LGA y no a JFK -por ejemplo-
+- **D13JAN** indicamos el día de salida con la D
+- **ALA** La cía aérea con la que inicia la ruta
+- **MIA** pegado la otra cia
+- **AAA** Indicamos que continúa con otra cía
+- **CM** Clase M
+- **NYC** El destino final
+- **\-** El guión después de NYC indica parada
+- **/M** Mirror, hacer un espejo de la ida para el regreso
+- **/L** De todas las tarifas, desplegar la mas barata
+
+#### Armado de una ruta 2
+
+```FQP MDZ/D20APR/AARBUERIO-/D25APR/AG3SSA-/D29APRRIO/AARBUEMDZ-```
+
+En este caso, la ruta se inicia con AR, hasta RIO, donde hace una parada, luego sigue con G3 hasta SSA, regresa a RIO y sin detenerse cambia de CIA a AR, sigue BUE MDZ y ahí hace la última parada.  Al no indicarle **/L** -de lowest- va a desplegar una lista de tarifas.
+
+#### Armardo de una ruta 3
+
+```FQP BUE/D11APR/AAAMIA-/D19APRNYC--LAX/D25APRSCL/ALABUE-```
+
+Esta ruta se inicia con AA en BUE hasta MIA donde hace un stop.  Sale luego de MIA a NYC, por otro medio que no está contamplado en el ticket, el/los pasajeros se trasladan a LAX, desde donde se inicia luego la ruta a SCL, y finalmente cambia con LA a BUE.
+
+---
+
+### FXP Cotizar un PNR Armado
+
+Sobre un PNR abierto, hay dos comandos para cotizarlo
+
+```FXP``` Cotizar el PNR abierto completo, sin grabar la máscara
+
+```FXP/SBF-1``` o ```FXB/SFB-1``` Para forzar al sistema a cotizar con equipaje incluido.
+
+```FXX``` Cotizar todo el PNR dejando la máscara grabada.
+
+```FXT1``` Selecciona la primera opción de un listado luego de FXP o FXX
+
+#### Opciones para un FXP o FXX
+
+Podemos indicarle a Amadeus que solo debemos cotizar algunos tramos o algunos pasajeros
+
+```FXP/P1,2/S4``` Solo cotizar el segmento 4 para los pasajeros 1 y 2 y guardar la máscara
+
+```FXP/P1/S2-5``` Cotizar los segmentos del 2 al 5 para el pajajero 1 y guardar la máscara
+
+### Buscar una tarifa mas barata en el PNR
+
+```FXR``` Busca la tarifa mas baja disponible y las cambia dentro del PNR, pero no graba la máscara.
+
+```FXB``` Busca la tarifa mas baja disponible y las cambia dentro del PNR y graba la máscara (TST).
+
+```FXL``` Muestra la tarifa mas baja para esta ruta, sin importar si existe disponibilidad.  No cambia las clases en los segmentos del PNR.
+
+```FXA/LO``` Muestra la tarifa mas económica posible y disponible, pero no toma acción.
+
+---
+
+### Familias de Tarfias
+
+Para ver las familias de tarifas que aplican a un PNR el comando es ```FXY```, muestra las diferentes familias disponibles, las condiciones de cada una y el valor por el "Upsell", con ```FQF1``` Vemos los detalles de que incluye la familia de tarifa 1 y finalmente elegimos la familia con ```FXU2``` suponiendo que elijamos la segunda tarifa de esa familia.
+
+Para solicitar un despliegue homogéneo de todo el PNR ```FXY/FFH``` significa que le pedimos que nos muestre el mismo criterio para ida y vuelta, si incluye equipaje de ida, que también lo haga al regreso.  
+
+```FXY/FF-NOBAG``` Muestra solo familias de tarifas que no incluyan equipaje a bordo.
+
+### Otros comandos útiles
+
+|Comando|Descripción
+|---|---|
+|FQC100USD/ARS|Cambio de Monedas de USD100 a pesos argentinos
+|FQC100EUR/ARS/01JUL19|Para ver el tipo de cambio oficial para una fecha puntual
+|FQNTAX/AR|Mostrar la descripción de los impuestos de un país, si van incluidos en el TST.
+
+### Equipaje
+
+Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre los servicios ofrecidos por la cía. aérea, con el comando ```FXK``` Para saber solamente sobre el equipaje permitido ```FXK/I-BGI```. Luego ```FXK1``` para reservar y cotizar el servicio auxiliar.
+
+|Comando|Descripción
+|---|---|
+|FBA|Free Baggage Allowance, equipaje despachado en bodeba permitido.
+|FBD|Detalle del equipaje permitido
+|EBC|Equipaje Extra permitido
+|COA|Carry On Allowance, equipaje en cabina permitido
+|COD|Detalles del carryon permitido en cabina
+|COC|Costo de equipaje de mano adicional
+
+---
+
+URL Amadeus Connect
+https://www.sellingplatformconnect.amadeus.com/
+
+DESCARGA material de apoyo:
+https://thconsultora.com.ar/ - Sección "Contáctenos" 
+
+Redes Sociales
+Github: github.com/marcocenturion
+
+Twitter: https://twitter.com/@aulavirtuaturis
+
+LinkedIn: https://www.linkedin.com/marco-adrian-centurion
+
+Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
+
+## Contáctenos:
+
+Para mayor información sobre cursos, noticias y más
+http://thconsultora.com.ar/blog
+
+![Turismo y Hoteleria Consultora](logo_th.png)
+
+![Turismo y Hoteleria Consultora](fondo_aereos2.png)
+![Turismo y Hoteleria Consultora](fondo_aereos1.png)
+
+@startuml
+!theme amiga
+component comp1 [
+T H Consultora
+==
+www.thconsultora.com.ar
+Tel/Whats: +543513070654
+Email: marco@thconsultora.com.ar 
+--
+]
+@enduml
+
+![Turismo y Hoteleria Consultora](index.png)
+![Turismo y Hoteleria Consultora](logo_th.png)
+[[toc]]
+
+### Capítulo IV
+
+Este cuarto módulo enfocado en mejorar la experiencia del usuario que busca vuelos, unificando las taréas de búsqueda de disponibilidad y tarifa en una sola acción.  Un pasajero accede a miles de sitios on line con las mejores tarifas.  Comprará en una agencia minorista al público, incluso pagando unos pocos pesos mas, solo por la seguridad que le brinda tener un local físico, pero no podemos demorarle la respuesta a su pedido mas de un día.
+
+> La eficacia difiere de la eficiencia en el sentido que la **eficiencia** hace referencia a la **mejor utilización de los recursos**, en tanto, la eficacia hace referencia en la capacidad para alcanzar un objetivo sin importar si se le ha dado el mejor uso a los recursos
+
+Podemos buscar una tarifa y disponibilidad por separado, recorrer varios puntos de origen y destino, con distintas cías. aéreas y clases.  Pero podemos hacer un mejor uso de los recursos y utilizar MasterPricer.  En pocos segundos obtenemos respuestas que podrían habernos llevado horas.  Una segunda herramienta es Offers, donde dejamos muchas rutas guardadas sin reservar y enviamos al cliente información muy detallada para que sea el quien lo elija.
+
+### Master Pricer
+
+En esta sección veremos los conceptos mas importantes de la herramienta de pago Master Pricer.  No viene incluida en la configuración standard de Amadeus por defecto, sino que es necesario solicitarla al Ejecutivo de cuenta, ya que es con cargo.
+
+Master Pricer unifica la búsqueda de tarifa y disponibilidad a un solo comando.
+
+De esta manera podemos agregar filtros para que el resultado sea lo mas parecido a la necesidad del pasajero.  Por otra parte, podemos ampliar la búsqueda para agregar mas de un punto de salida o mas de un punto de llegada.
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|FXD **2** ROM/D10AUGMIA/D20AUGROM|Búsqueda simple, 2 pasajeros ROM MIA ROM sin filtros|
+|FXD BUE/D10AUG/**FD**MIA/D20AUGBUE|**FD** Solo vuelos directos de BUE a MIA, en caso de no indicar la cantidad de pasajeros, asume uno.  A exepción de tener un PNR iniciado con Nombres|
+|FXD SCL/D10AUG**FD,N**MIA/D20AUGSCL|Solo vuelos directos y sin escalas entre SCL y MIA|
+|FXD COR/D10AUG/FD0900MIA/D20AUG/FA1200COR|Salida a las 0900 de COR y Arribo a las 1200 a COR|
+|FXD COR/D10AUGMIA--NYC/D20AUGCOR|Un tramo de superficie se indica con doble guion - - entre MIA y NYC|
+|FXD COR/D10AUGMIA/D20AUGCOR/**R,NPE**|Solamente que muestre Tarifas Sin PENALIDAD RF=Reembolsables NAP=sin AP|
+|FXD COR/D10AUGMIA/D20AUGCOR/**KC**|Solo ofertas en cabina Ejecutiva|
+|FXD COR/D10AUGMIA/D20AUGCOR//KC,F|Dos cabinas distintas Ejecutiva y First, por defecto asume que las  busquedas deben ser en Economy KW = Economy premium|
+|FXD COR,BUE,MDZ/D10AUGMIA/D20AUGCOR,MDZ,BUE|Saliendo de 3 posibles aeropuertos de origen (Comando ideal para agencias con pasajeros (por EJ) de LA  PAMPA)|
+|FXD COR/D10AUG CUN,PUJ,SDQ/D20AUGCOR|idem + Aeropuertos de destino (Vacacional que busca CUN, pero  que podemos ganar la venta por ofrecerle un destino de playa similar):|
+|FXD COR/D10AUGCUN,PUJ,SDQ/D20AUGCOR/A-AR|La misma ruta anterior, pero esta vez excluyendo AR, para excluir  la CIA A-AR Se pueden incluir hasta 3 cías AAR,UX,IB|
+|FXD COR/D10AUGMIA,FLL,TPA/D20AUGCOR//A*A|La ruta mas barata a cualquiera de estos 3 destinos, con A*A =StarAlliance, A*O=OneWorld, A*S =SkyTeam|
+|FXD COR/D10AUGBPS,SSA,NAT/D20AUGCOR/R,UP,UARBR00,UAZUL,U*OPERINT|La mejor tarifa a cualquiera de estos 3 destinos, NAT BPS ó SSA  incluyendo netas, publicas, nego G3, nego JJ y nego AD|
+|FXD COR,BUE,ROS/D10AUGBPS,SSA,NAT/ D20AUGCOR,ROS,BUE/R,UP,UARBR00,U\*AZUL,U\*OPERINT5|IMPRESIONANTE: La mejor tarifa a cualquiera de estos 3  destinos, NAT BPS ó SSA incluyendo 1) netas, 2) publicas, 3) nego  G3, 4) nego JJ y 5) nego AD, saliendo de BUE ROS o COR|
+|FXD COR/D10AUGPUJ,SDQ,HAV/ D20AUGCOR/RPFA,U*ARVPU,UP|La mas barata a PUJ SDQ o HAV publicas, netas y nego CM |
+|FXD COR/D10AUGTRN/**DI-120K**/D20AUGCOR|Radio de 120 KM alrededor de un aeropuerto, en este caso TRN |
+
+#### Respuesta de Master Pricer
+
+```21 GROUPS AND 50 RECOMMENDATIONS RETURNED FROM EUR 69.85 TO 3253.54                                                                                        
+
+---------- RECOMMENDATION 1 OF 4 IN GROUP 1 (EUR 69.85)----------               
+  PTC       CUR                 TAX           FARE BASIS                        
+1 ADT     1 EUR     69.85     48.85           ZFLY5L                            
+  TOTAL   1 EUR     69.85     48.85                                                                                                                        
+1   UX1029  Z  15JAN  MAD 2 ORY 3  1420  1620   E0/73H  0200                    
+2   UX1028  Z  20JAN  ORY 3 MAD 2  1015  1215   E0/73H  0200                    
+>> FXS1 TO SELECT  >> FXZ1 TO BOOK  >> FXU1 TO BOOK AND CREATE TST              
+>> FXY1 TO HAVE UPSELL RECOMMENDATION                                           
+1 TICKETS ARE NON-REFUNDABLE                                                    
+1 LAST TKT DTE23SEP20 - SEE ADV PURCHASE                                        
+FARE FAMILIES:    (FOR MORE DETAILS: FQFn)                                      
+FARE FAMILY:FC1:1:LITE                                                          
+FARE FAMILY:FC2:2:LITE                                                                                                                                
+
+---------- RECOMMENDATION 1 OF 1 IN GROUP 2 (EUR 87.80)----------               
+  PTC       CUR                 TAX           FARE BASIS                        
+1 ADT     1 EUR     87.80      0.00           ABATO                             
+  TOTAL   1 EUR     87.80                                                      
+1   TO3187  A  15JAN  MAD 2 ORY 3  1740  1945   L0-73H  0205                    
+2   TO3186  A  20JAN  ORY 3 MAD 2  1450  1655   T0-73H  0205                    
+>> FXS2 TO SELECT  >> FXZ2 TO BOOK  >> FXU2 TO BOOK AND CREATE TST              
+>> FXY2 TO HAVE UPSELL RECOMMENDATION                                           
+FARE FAMILIES:    (FOR MORE DETAILS: FQFn)                                      
+FARE FAMILY:FC1:1:BASIC                                                         
+FARE FAMILY:FC2:2:BASIC                                                                                                                                     
+
+---------- RECOMMENDATION 1 OF 4 IN GROUP 3 (EUR 89.85)----------               
+  PTC       CUR                 TAX           FARE BASIS                        
+1 ADT     1 EUR     89.85     48.85           AFLY5L+ZFLY5L                     
+  TOTAL   1 EUR     89.85     48.85                                                                                                        
+1   UX1027  A  15JAN  MAD 2 ORY 3  0715  0915   E0/73H  0200                    
+2   UX1028  Z  20JAN  ORY 3 MAD 2  1015  1215   E0/73H  0200                    
+>> FXS3 TO SELECT  >> FXZ3 TO BOOK  >> FXU3 TO BOOK AND CREATE TST              
+>> FXY3 TO HAVE UPSELL RECOMMENDATION                                           
+1 TICKETS ARE NON-REFUNDABLE                                                    
+1 LAST TKT DTE23SEP20 - SEE ADV PURCHASE                                        
+FARE FAMILIES:    (FOR MORE DETAILS: FQFn)                                      
+FARE FAMILY:FC1:1:LITE                                                                                                                              
+FARE FAMILY:FC2:2:LITE                                                                                                                            
+
+---------- RECOMMENDATION 1 OF 3 IN GROUP 4 (EUR 95.85)----------               
+  PTC       CUR                 TAX           FARE BASIS                        
+1 ADT     1 EUR     95.85     48.85           AON3ANB4                          
+  TOTAL   1 EUR     95.85     48.85                                             
+1   IB3406  A  15JAN  MAD 4 ORY 4  1130  1335   E0/320  0205                    
+2   IB3417  A  20JAN  ORY 4 MAD 4  0730  0935   E0/321  0205                    
+>> FXS4 TO SELECT  >> FXZ4 TO BOOK  >> FXU4 TO BOOK AND CREATE TST              
+>> FXY4 TO HAVE UPSELL RECOMMENDATION                                           
+1 TICKETS ARE NON-REFUNDABLE                                                    
+1 LAST TKT DTE23SEP20 - SEE ADV PURCHASE                                        
+1 FARE VALID FOR E TICKET ONLY                                                  
+FARE FAMILIES:    (FOR MORE DETAILS: FQFn)                                      
+FARE FAMILY:FC1:1:NOBAG                                                         
+FARE FAMILY:FC2:2:NOBAG
+```
+----
+
+### Ejemplos de búsquedas y su explicación
+
+Cuatro pasajeros, pueden salir desde BUE o MVD a algún destino de Playa en el Caribe, con LA. ```FXD4BUE,MVD/D20JULPUJ,CUN,HAV/D29JULBUE,MVD/ALA```
+
+La misma búsqueda pero ahora que muestre cualquier ruta que no sea con CM ```FXD4BUE,MVD/D20JULPUJ,CUN,HAV/D29JULBUE,MVD/A-CM```
+
+Dos pasajeros quieren viajar a TRN desde BUE ```FXD2BUE/D22AUGTRN/DI-120K/D20SEPBUE``` Buscamos aeropuertos alrededor de 120 km. de TRN, incluso este.
+
+### Acciones posteriores a FXD
+
+Para entrar a ver cada una de las recomendaciones del grupo 4, porque supongamos que solo queremos ver las tarifas y disponibilidades de IB, debemos hacer ```FXS4``` de ese listado vamos a seleccionar la segunda opción con ```FXZ4```.   
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|FXS1|Ver las recomendaciones dentro del primer grupo |
+|FXZ3|Seleccionar la recomendación 3 |
+
+## Offers
+
+Para crear una oferta, debemos seleccionar el itinerario y NO CERRARLO, no confirmar los lugares.  Una vez que tenemos todo el itinerario completo, cotizamos la ruta con ```FXX``` para que quede la máscara.  Con la máscara creada podemos pasar esa ruta a una Oferta con ```OFS```.  Podemos agregar el fee de nuestra venta agregando MK- y el importe total para toda la venta de nuestro fee, **en la misma moneda** que fue creado el TST. 
+
+Enviamos por email la oferta, donde constará un precio total por toda la operación, una nota aclaratoria al pasajero que no se trata de una reserva, la franquicia de equipaje en cada una de las propuestas -si hay mas de una- y el detalle completo del itinerario en un formato amigable al pasajero.
+
+Al no estar confirmados los lugares, no hay lugar a malas prácticas y podemos enviarles tantas propuestas de viaje como imaginemos.  Ida un día antes y uno despues, varias cías aéreas distintas, con o sin equipaje, etc.
+
+Cuando el pasajero decide cual de las propuestas le satisface, convertimos la oferta en una reserva con ```OFK2``` si los lugares están disponibles queda el itinerario armado, para agregar los campos NM, AP, TK, RF y cerrarlo.  Si no hay lugares, aparece un mensaje con la opción mas parecida en precio.
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|OFS/MK-100|Convertir la ruta en una Oferta (no tiene que haberse cerrado el  PNR) agregándole un markup de 100 en la moneda que se cotizó| 
+|OFN-EMLaulavirtualturismo@gmail.com|Enviar las ofertas por Email del cliente|
+|RTOF |Ver las ofertas dentro de un PNR de solo ofertas| 
+|OFK2|Confirmar la Oferta 2| 
+
+## Flujo Ideal
+
+```plantuml
+@startmindmap
+title Flujo Master Pricer - Offers
+!theme amiga
+* NM3SIMPSONS/HOMER(INFMAGUIE)\n/BART(CHD)/LISA(CHD)\n1DUBOIS/MARGARET 
+ * FXD
+  * BUE,COR,ROS
+   * SSA,MCZ,FOR
+    * AAR,G3
+    * CR,V
+    * FD,N 
+  * FXS1 
+   * FXZ2
+    * OFX/MK-200
+@endmindmap
+```
+
+---
+
+URL Amadeus Connect
+https://www.sellingplatformconnect.amadeus.com/
+
+DESCARGA material de apoyo:
+https://thconsultora.com.ar/ - Sección "Contáctenos" 
+
+Redes Sociales
+Github: github.com/marcocenturion
+
+Twitter: https://twitter.com/@aulavirtuaturis
+
+LinkedIn: https://www.linkedin.com/marco-adrian-centurion
+
+Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
+
+## Contáctenos:
+
+Para mayor información sobre cursos, noticias y más
+http://thconsultora.com.ar/blog
+
+![Turismo y Hoteleria Consultora](logo_th.png)
+
+![Turismo y Hoteleria Consultora](fondo_aereos2.png)
+![Turismo y Hoteleria Consultora](fondo_aereos1.png)
+
+
+@startuml
+!theme amiga
+component comp1 [
+T H Consultora
+==
+www.thconsultora.com.ar
+Tel/Whats: +543513070654
+Email: marco@thconsultora.com.ar 
+--
+]
+@enduml
