@@ -112,7 +112,9 @@ Cuando queremos hacer una reserva con los mismos tramos utilizamos el comando RR
 |RRA|Copiar los segmentos y generar un AXR|
 |HE RRN|Comando de Ayuda para replicar pnrs|
 
-### Separar un PNR
+---
+
+## Separar un PNR
 
 En muy contadas y excepcionales ocasiones vamos a separar un PNR, porque los pasajeros separan sus viajes, al menos uno de los tramos, no van a hacerlo juntos.
 
@@ -134,7 +136,9 @@ title Separar un PNR
   * SP1
    * RF + EF
   * ER
-@endmindmap```
+@endmindmap
+```
+---
 
 ### Compartir un PNR
 
@@ -145,7 +149,9 @@ title Separar un PNR
 |ESBUEG12100-B,TUCG12100-R|Compartir con dos oficinas un pnr para escritura y lectura -B en el primero y lectura solamente en el segundo -R|
 |RP/LONG12111/QTK|Pasar completamente el control del pnr a otra oficina|
 
-### Itinerario
+---
+
+## Itinerario
 
 Podemos enviar un itinerario por Email al correo que pusimos en el campo ```APEcorreo@gmail.com```
 

@@ -40,6 +40,36 @@ En esta sección veremos como comunicarnos en el idioma que el sistema nos entie
 
 ### Interpretación de la codificación y decodificación de Ciudades
 
+Después de una codificación de ua ciudad/aeropuerto, el despliegue muestra una respuesta como la siguiente:
+
+``` 
+DAN PARIS                                                                       
+A:APT B:BUS C:CITY G:GRD H:HELI O:OFF-PT R:RAIL S:ASSOC TOWN                    
+PAR C  PARIS                                            /FR                     
+    A  BVA - BEAUVAIS TILLE          - 67K              /FR                     
+    A  XCR - CHALONS VATRY           -138K              /FR                     
+    A  CDG - CHARLES DE GAULLE       - 22K              /FR                     
+    A  LBG - LE BOURGET              - 14K              /FR                     
+    A  ORY - ORLY                    - 16K              /FR                     
+    A  POX - PONTOISE CORMEILLES     - 33K              /FR                     
+    A  TNF - TOUSSUS LE NOBLE        - 20K              /FR                     
+    A  VIY - VILLACOUBLAY VELIZY     - 14K              /FR                     
+    H  JDP - ISSY LES MOULINEAUX HP  -  6K              /FR                     
+    H  JPU - LA DEFENSE HELIPORT     -  0K              /FR                     
+    B  XEX - AEROGARE DES INV BUS    -  0K              /FR                     
+    B  XTT - ARC DE TRIOMPHE BUS ST  -  0K              /FR                     
+    B  XGB - MONTPARNASSE BUS STN    -  0K              /FR                     
+    R  XHP - GARE DE L'EST RAIL STN  -  1K              /FR                     
+    R  XPG - GARE DU NORD RAIL STN   -  1K              /FR                     
+    R  XJY - MASSY TGV RAIL STATION  - 17K              /FR                     
+YP2 G  PARIS                                            /FR                     
+PHT C  PARIS                                            /USTN                   
+    A  PHT - HENRY COUNTY            -  0K              /USTN                   
+PRX C  PARIS                                            /USTX                   
+)>                                                               
+```
+La descripción de esa respuesta está aqui:
+
 |Comando Amadeus|Traducción humana|
 |---|---|
 |A:APT 	|Aeropuerto.|
@@ -127,8 +157,9 @@ En la pantalla de Tablas de horario (de Timetable en inglés) vemos la programac
 |X1 = Operación todos los días de la semana excepto Lunes.|
 |347 = Operación Miércoles, jueves y Domingos.|
 
-
 Fechas de inicio y fin de vigencia para cada número de vuelo.   
+
+---
 
 ### Disponibilidad por pares de ciudades.  (AA, AD, AN)
 
@@ -158,6 +189,8 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
 
 [^2]:  Amadeus almacena 11 meses de vuelos en adelante de la fecha actual.
 
+---
+
 ### Despliegue de disponibilidad
 
 Este es el mapa conceptual de un pedido de disponibilidad.
@@ -177,7 +210,10 @@ title Disponibilidad
      * A
      * W,R,V
      * -W
-@endmindmap```
+legend right: A > Airlines\nC > Class
+@endmindmap
+```
+
 
 ### Cambiar la disponibilidad que tenemos en pantalla
 
@@ -219,6 +255,14 @@ title Disponibilidad
 |0 o L |No hay disponibilidad, se puede agregar a lista de espera|
 |R |La cía aérea responderá cuando tenga lugares para el vuelo|
 
+----
+
+### Disponibilidad Ida y Vuelta
+
+En la tabla anterior vimos que podemos solicitar una disponibilidad ida y vuelta, lo interesante es que podemos agregar todos los filtros y tener en un vistazo la respuesta exacta, para buscar disponibilidad exclusivamente con vuelos de UX para el 29JUL en clase R, y regreso el 12AUG en un solo comando buscamos todo  ```AD29JULBUEROM/AUX/CR*12AUG```  Podemos agregar mas filtros como por ejemplo, para vuelos de LA desde COR pero que no pasen por BUE ```AN10JULCORMIA/X-BUE/ALA/CV*22JUL``` de esta manera eliminamos las conexiones vía BUE.
+
+---
+
 ### Respuesta del sistema a un pedido Ida y Vuelta
 
 ~~~ AN19OCTMIALON*25OCT
@@ -241,6 +285,10 @@ title Disponibilidad
 14 SU:GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
              L0 Q0 D0
 ~~~
+
+Para vender 2 lugares en el vuelo de BA de ida y de regreso, clase Q ingresamos ```SS2Q1Q11``` 
+
+---
 
 ### Explicación a la respuesta del sistema
 
@@ -266,7 +314,7 @@ title Disponibilidad
 |SS2B1|Solicitar 2 asientos del renglón 1 en clase B.!
 |SSCM101B20JUNCORPTY2|Vender dos asientos en CM101 Clase B para una fecha puntual.|
 |SS2MK2|Vender dos asientos en vuelos en conexión, el primero en clase M y el segundo en clase K.|
-|SS1Y1\*M11\Vender un asiento en clase Y en el primer tramo y en clase M en el segundo, para casos en que pedimos ida y vuelta.|
+|SS1Y1\*M11|Vender un asiento en clase Y en el primer tramo y en clase M en el segundo, para casos en que pedimos ida y vuelta.|
 |SIARNK|Agregar un tramo arribo desconocido|
 |SOARMMDZAEP|Agregamos un tramo abierto en clase M entre MDZ y AEP.|
 |SOARMI10NOVMDZAEP|Agregamos un tramo abierto en clase M entre MDZ y AEP. para que podamos emitir en una tarifa que tiene máximo y mínimo para el regreso|

@@ -96,9 +96,21 @@ El objetivo de este módulo es familiarizarse con el sistema de tarifas de Amade
 
 Por regla es útil recordar 
 
+```plantuml
+@startmindmap
+!theme amiga
+title despliegues con y sin PNR 
+ * F
+  * Q -> Fuera del PNR
+  * X -> Dentro del PNR 
+@endmindmap
+```
+---
 > FQ despliegues fuera del PNR
 
 > FX despliegues dentro de un PNR armado
+
+---
 
 ### FQD Despliegue de tarifas públicas 
 
@@ -156,11 +168,61 @@ Mostraremos solo algunos Filtros para agregar a FQD y darle mas precisión.
      * CD
      * FC-USD
      * MIA.MIA
-@endmindmap ```
+@endmindmap 
+```
 
 ### Respuesta del FQD
 
-Para entender la respuesta del sistema a un FQD, recomendamos la lectura detenida de las páginas 104 a 106.  
+Para entender la respuesta del sistema a un FQD, recomendamos la lectura detenida de las páginas 104 a 106. 
+
+```FQDNYCLON/R,UP
+ROE 1.00 NEAREST 1.00 USD
+30JUN21**30JUN21/NYCLON/NSP;AT/TPM  3458/MPM  4149
+LN FARE BASIS    OW   USD  RT   PEN  DATES  DAYS AP MIN MAX ALFR
+01 EICSWIUS                 257 NRF    -      -    +SU   1M LXVR
+02 PICSWIUS                 297 NRF    -      -    +SU   1M LXNR
+03 SQO5ECON       161            +     -      - +25+ -   -  FIAR
+04 SQR5ECON                 322  +     -      - +  +SU+ 12M+FI R
+```
+
+
+|Comando|Descripción
+|---|---|
+|AA AC AR AV A4....|Si una línea aérea aparece sólo antes de /YY* significa que tiene sus propias tarifas y acepta las tarifas IATA.
+|/YY*AA AC AR AX...|Si aparece sólo después de /YY* significa que no tiene sus propias tarifas ni acepta las IATA.  Si aparece antes y después de /YY* significa que tiene sus propias tarifas y no acepta las IATA.
+|30JUN21**30JUN21|Período de validez del despliegue.
+|NYCLON|Par de Ciudades.
+|AT|Ruta Atlántico.
+|TPM|Millas reales de la ruta.
+|MPM|Millas máximas para esta ruta.
+|FARE BASIS|Base de Tarifa.
+|OW|Tarifas One Way
+|USD|Moneda en la que están expresadas las tarifas.
+|RT|Tarifas Rount Trip
+|B|Booking designator, la clase en que debe tomarse la reserva, puede figurar un signo +, en este caso debemos dirigirnos a la nota.
+|PEN|Penalidades, si hay un - no hay información, si dice NRF, tkt no reembolsable y si figura un importe, es el monto de la penalización.  Ver la nota.
+|DATES DAYS|Dias. 
+||+ Indica que se aplican más restricciones: Verifique la regla de la tarifa FQN 
+||) Se aplica restricción de temporada al viaje de ida ( Se aplica restricción de temporada al viaje de retorno 
+||S Temporada 
+||L Ticket sólo en esta fecha 
+||A Ticket en o después de esta fecha 
+||B Ticket en o antes de esta fecha 
+||E Inicio del viaje en o después de esta fecha 
+||O Origen del viaje en o antes de esta fecha 
+||F  El viaje final debe comenzar como máximo en esta fecha 
+||C Completar todo el viaje como máximo en esta fecha 
+||X Tarifa cancelada en esta fecha (en la columna Dates) Excepción de días de viajes (en la columna Days) 
+||M Tarifa modificada 
+||T Cambio de fecha de inicio de vigencia del ticket / viaje
+|AP|Requisito de venta anticipada
+|MIN|Mínimo, si en lugar de un número aparece + ver la nota
+|MAX|Máximo, si en lugar de un número aparece + ver la nota
+|R|Routing
+||R Routing ver FQR
+||M Millage máximo
+
+---
 
 ### FQN Despliegue de notas de tarifas
 
