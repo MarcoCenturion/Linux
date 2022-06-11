@@ -6,9 +6,11 @@
 
 Este cuarto módulo enfocado en mejorar la experiencia del usuario que busca vuelos, unificando las taréas de búsqueda de disponibilidad y tarifa en una sola acción.  Un pasajero accede a miles de sitios on line con las mejores tarifas.  Comprará en una agencia minorista al público, incluso pagando unos pocos pesos mas, solo por la seguridad que le brinda tener un local físico, pero no podemos demorarle la respuesta a su pedido mas de un día.
 
-> La eficacia difiere de la eficiencia en el sentido que la **eficiencia** hace referencia a la **mejor utilización de los recursos**, en tanto, la eficacia hace referencia en la capacidad para alcanzar un objetivo sin importar si se le ha dado el mejor uso a los recursos
+> La eficacia difiere de la eficiencia en el sentido que la **eficiencia** hace referencia a la **mejor utilización de los recursos**, en tanto, la eficacia hace referencia en la capacidad para alcanzar un objetivo sin importar si se le ha dado el mejor uso a los recursos.
 
-Podemos buscar una tarifa y disponibilidad por separado, recorrer varios puntos de origen y destino, con distintas cías. aéreas y clases.  Pero podemos hacer un mejor uso de los recursos y utilizar MasterPricer.  En pocos segundos obtenemos respuestas que podrían habernos llevado horas.  Una segunda herramienta es Offers, donde dejamos muchas rutas guardadas sin reservar y enviamos al cliente información muy detallada para que sea el quien lo elija.
+Podemos buscar una tarifa y disponibilidad por separado, recorrer varios puntos de origen y destino, con distintas cías. aéreas y clases.  Pero podemos hacer un mejor uso de los recursos y utilizar MasterPricer.  En pocos segundos obtenemos respuestas que podrían habernos llevado horas.  Una segunda herramienta es Offers, donde dejamos muchas rutas guardadas sin reservar y enviamos al cliente información muy detallada para que sea el quien lo elija.  
+
+Nuestro recurso mas preciado es el tiempo.  Una vez que el pasajero nos pregunta una ruta, empiezan a contar minutos muy valiosos.  Debemos dar una respuesta Rápida, Competitiva y de ser posible, competitiva con la multitud de oferta OnLine con la que cuenta, de manera instantanea.
 
 ### Master Pricer
 
@@ -98,7 +100,7 @@ FARE FAMILY:FC2:2:NOBAG
 ```
 ----
 
-### Ejemplos de búsquedas y su explicación
+#### Ejemplos de búsquedas y su explicación
 
 Cuatro pasajeros, pueden salir desde BUE o MVD a algún destino de Playa en el Caribe, con LA. ```FXD4BUE,MVD/D20JULPUJ,CUN,HAV/D29JULBUE,MVD/ALA```
 
@@ -106,7 +108,7 @@ La misma búsqueda pero ahora que muestre cualquier ruta que no sea con CM ```FX
 
 Dos pasajeros quieren viajar a TRN desde BUE ```FXD2BUE/D22AUGTRN/DI-120K/D20SEPBUE``` Buscamos aeropuertos alrededor de 120 km. de TRN, incluso este.
 
-### Acciones posteriores a FXD
+#### Acciones posteriores a FXD
 
 Para entrar a ver cada una de las recomendaciones del grupo 4, porque supongamos que solo queremos ver las tarifas y disponibilidades de IB, debemos hacer ```FXS4``` de ese listado vamos a seleccionar la segunda opción con ```FXZ4```.   
 
@@ -133,6 +135,9 @@ Cuando el pasajero decide cual de las propuestas le satisface, convertimos la of
 |OFK2|Confirmar la Oferta 2| 
 
 ## Flujo Ideal
+
+Este gráfico pretende delinear el flujo de una venta aérea valiéndonos de las dos herramientas, MasterPricers y Offers.
+
 
 ```plantuml
 @startmindmap

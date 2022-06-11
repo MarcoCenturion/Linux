@@ -1,16 +1,31 @@
-### Introducción a Amadeus
+![Turismo y Hoteleria Consultora](index.png)
+![Turismo y Hoteleria Consultora](logo_th.png)
 
 [[toc]]
 
-En este breve curso veremos los conceptos básicos para que desde cero, el usuario pueda familiarizarse con el GDS Amadeus en formato críptico.  Recomendamos la lectura detallada de los manuales y utilizar el sistema en modo Training para evitar generar reservas fantasma, que son penalizadas por las Cías. Aéreas.
+### Introducción a Amadeus
 
-El soporte va a estar disponible en el Foro que está disponible en el sitio.  Las respuestas estarán dentro de las 48hs.  La recomendación, es que dentro de los cursos programados, los alumnos respondan las inquietudes del foro, para cumplir la premisa de Glesser.
+Felicitaciones por inscribirte a nuestro curso de **Introducción a Amadeus**.  Bienvenido/a.  Vamos a respetar un tiempo de aprendizaje de los conceptos que son muchas veces repetitivos y tediosos.  A lo largo del curso vamos a ir construyendo el conocimiento.  
+
+Va a ser muy bueno repasarlos, por simples y sabidos que suenen, ya que verlos nuevamente, revisarlos, puede ayudarnos a acortar procesos repetitivos, o encontrar nuevas funcionalidades.
+
+En este breve curso veremos los conceptos básicos para que desde cero, el usuario pueda familiarizarse con el GDS Amadeus en formato críptico.  Recomendamos la lectura detallada de los manuales y utilizar el sistema en modo **Training** para evitar generar reservas fantasma, que son penalizadas por las Cías. Aéreas.
+
+El primer canal de soporte va a ser el **Foro**, que estará disponible en el menú del sitio.  Las respuestas estarán dentro de las 48hs.  La recomendación, es que dentro de los cursos programados, los pares respondan las inquietudes del foro, para cumplir la premisa de Glesser.  El mejor aprendizaje, se da entre pares.
+
+Unas mínimas y simples reglas de conducta, que parecen obvias pero que es bueno aclararlas al principio.
+
+> No escribir en Mayúsculas.  PARECE QUE ESTAS GRITANDO.
+
+> Se cortes y agradecido con tus compañeros.
+
+> No agregues demasiados signos o leeeeeetras repetidaaaaaaaas!!!! Ni sígnos raros que parecen palabrotas ==$&&""!
 
 ![La Pirámide del Aprendizaje](piramide-aprendizaje.png)
 
 ------
 
-``` chart
+```chart
 {
   "type": "pie",
   "data": {
@@ -60,6 +75,20 @@ El soporte va a estar disponible en el Foro que está disponible en el sitio.  L
 ```
 
 ---
+
+### Metodología del curso.
+
+- Mirar los videos, leer los manuales y practicar en Amadeus **SIN CERRAR** los pnrs.
+
+- Si alguien tiene una consulta, revisar en el foro, porque muchas veces está respondida.  En caso de no encontrar respuesta en el foro, dejarla escrita lo mas detallado posible.  
+
+- Responder en el foro es una de las maneras en que mas aprendemos.  No solo es bueno para compartir la Info, además de mejorar los conceptos, nunca se aprende mas que cuando enseñamos a otros.  
+
+- Dentro de las 48 hs. de hecha la consulta, vamos a responderla de todas formas.
+
+- No temas preguntar, no existen preguntas inútiles.  
+
+> "Todos somos ignorantes, solo que ignoramos cosas distintas"  -- Albert Einstein. 
 
 ### Manual de Reservas
 
