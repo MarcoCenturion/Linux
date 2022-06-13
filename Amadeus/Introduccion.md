@@ -5,7 +5,7 @@
 
 ### Introducción a Amadeus
 
-Felicitaciones por inscribirte a nuestro curso de **Introducción a Amadeus**.  Bienvenido/a.  Vamos a respetar un tiempo de aprendizaje de los conceptos que son muchas veces repetitivos y tediosos.  A lo largo del curso vamos a ir construyendo el conocimiento.  
+Felicitaciones por inscribirte a nuestro curso de **Introducción a Amadeus**.  Bienvenido/a.  Vamos a respetar un tiempo de aprendizaje de los conceptos que son muchas veces repetitivos y tediosos.  A lo largo del curso vamos a ir construyendo este conocimiento, viendo el máximo beneficio que podemos obtener del sistema, utilizando todo su potencial.  
 
 Va a ser muy bueno repasarlos, por simples y sabidos que suenen, ya que verlos nuevamente, revisarlos, puede ayudarnos a acortar procesos repetitivos, o encontrar nuevas funcionalidades.
 
@@ -17,9 +17,9 @@ Unas mínimas y simples reglas de conducta, que parecen obvias pero que es bueno
 
 > No escribir en Mayúsculas.  PARECE QUE ESTAS GRITANDO.
 
-> Se cortes y agradecido con tus compañeros.
+> Se cortes y agradecido con tus compañeros, como también generoso con tu conocimiento.
 
-> No agregues demasiados signos o leeeeeetras repetidaaaaaaaas!!!! Ni sígnos raros que parecen palabrotas ==$&&""!
+> No agregues demasiados signos o leeeeeetras repetidaaaaaaaas!!!! Ni sígnos raros que parecen palabrotas =·##??=$&&""!
 
 ![La Pirámide del Aprendizaje](piramide-aprendizaje.png)
 
@@ -78,11 +78,13 @@ Unas mínimas y simples reglas de conducta, que parecen obvias pero que es bueno
 
 ### Metodología del curso.
 
-- Mirar los videos, leer los manuales y practicar en Amadeus **SIN CERRAR** los pnrs.
+Necesitamos de un compromiso de parte de los asistentes. 
 
-- Si alguien tiene una consulta, revisar en el foro, porque muchas veces está respondida.  En caso de no encontrar respuesta en el foro, dejarla escrita lo mas detallado posible.  
+- Mirar los videos, incluso los que están en Inglés, leer los manuales y practicar en Amadeus **SIN CERRAR** los pnrs.
 
-- Responder en el foro es una de las maneras en que mas aprendemos.  No solo es bueno para compartir la Info, además de mejorar los conceptos, nunca se aprende mas que cuando enseñamos a otros.  
+- Si alguien tiene una consulta, revisar en el foro, porque muchas veces esa inquietud ya está respondida.  En caso de no encontrar respuesta en el foro, dejarla por escrito lo mas detallado posible.  El solo hecho de formular la pregunta, nos ayuda a armar nuestro **Mapa Mental**.  
+
+- Responder en el foro es una de las maneras en que mejor construimos el conocimiento.  No solo es gratificante compartir la Info, además de mejorar los conceptos, nunca aprendemos mas que en el momento de enseñar a otros.  
 
 - Dentro de las 48 hs. de hecha la consulta, vamos a responderla de todas formas.
 
@@ -92,7 +94,11 @@ Unas mínimas y simples reglas de conducta, que parecen obvias pero que es bueno
 
 ### Manual de Reservas
 
-Recomiendo bajar el Manual de reservas que está en esta sección y seguir este plan de lectura.  Practicar los comandos en modo Training.  Lo importante no es memorizarlos a todos, sino saber que existen refinamientos a cada comando, cada búsqueda tiene parámetros que hacen que la respuesta sera mucho mas adecuada a nuestras necesidades, aliviándonos de leer páginas y páginas, en la consola de Amadeus.
+Recomiendo bajar el Manual de reservas que está en esta sección y seguir este plan de lectura.  Practicar los comandos en modo Training ``TRN``.  Lo importante no es memorizar todos los comandos y filtros, algo que es imposible, sino saber que existen refinamientos a cada comando, cada búsqueda tiene parámetros que hacen que la respuesta sera mucho mas adecuada a nuestras necesidades, aliviándonos de leer páginas y páginas, en la consola de Amadeus.  Todos los comandos tienen una documentación muy complenta en el sistema, al que accedemos indicando Help y el comando o palabra clave.  ``HE comando`` 
+
+----
+
+#### Indice del Manual de Amadeus
 
 |Título|Contenido|
 |---|---|
@@ -105,7 +111,8 @@ Recomiendo bajar el Manual de reservas que está en esta sección y seguir este 
 |Colas|Pag. 119 a 126|
 
 ![Turismo y Hoteleria Consultora](index.png)
-### Contenido
+
+### Contenido del curso
 
 |Título|Contenido|
 |---|---|
@@ -125,17 +132,21 @@ Recomiendo bajar el Manual de reservas que está en esta sección y seguir este 
 
 Aprenderemos los diferentes comandos, los parámetros de esos comandos, el sistema de ayuda que tiene incluido Amadeus en su modo críptico.
 
+---
+
 ### Buenas Prácticas
 
-> Solicitar toda la documentación al pasajero ANTES de hacer el PNR.  Validarla.  Esto nos permite hacer la reserva con los nombres correctos.  Toda corrección posterior tiene costos, que por lo general paga la agencia.
+Nunca está de mas repetir ciertos usos y costumbres recomendados para el correcto uso del sistema, que nos evitarán dolores de cabeza en el uso cotidiano.
 
-> No divida los PNRS de cías que no almacenan sus asientos en Amadeus.  Dividir los PNRS solo en casos extremos.
+> Solicitar toda la documentación al pasajero ANTES de hacer el PNR.  Validarla.  Esto nos permite hacer la reserva con los nombres correctos.  Toda corrección posterior tiene costos, que por regla general, termina pagando la agencia.
 
-> No genere segmentos fantasma en el sistema, las cías lo penalizan.
+> No dividas los PNRS de cías que no almacenan sus asientos en Amadeus.  COPA concretamente.  Dividir los PNRS solo en casos extremos.  Hecha la división, corroborar con la cía que vea la reserva en sus sistema.
 
-> No genere ocupación ficticia.
+> No generes segmentos fantasma en el sistema, las cías aéreas lo penalizan.
 
-> No use nombres ficticios en los PNRS, las cías aéreas lo penalizan.
+> No generes ocupación ficticia.
+
+> No uses nombres ficticios en los PNRS, las cías aéreas lo penalizan.
 
 > Para práctica utilice el modo Training.
 
@@ -143,11 +154,11 @@ Aprenderemos los diferentes comandos, los parámetros de esos comandos, el siste
 
 > Prestar atención al Tiempo mínimo de conexión.
 
-> Mantenga todo el itinerario en un mismo PNR.
+> Mantener todo el itinerario en un mismo PNR.
 
 > Chequear colas todos los días.
 
-> No cambie los nombres en los PNRS.
+> No cambies los nombres en los PNRS.
 
 > Los segmentos LK y TK son garantizados por el GDS.
 

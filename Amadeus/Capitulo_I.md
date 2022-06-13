@@ -9,9 +9,11 @@ Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma qu
 
 Como codificar ciudades, paises, prestando especial atención a la similitud de muchos puntos, que genera siempre errores de interpretación.  Veremos las tablas de horarios entre ciudades.  La disponibilidad de vuelos, como refinar esa disponibilidad y hacer las búsquedas mas precisas.
 
+---
+
 ### Scrolling
 
-Nos movemos dentro de las páginas de Amadeus indicandole al prompt > los siguientes comandos.
+Nos movemos dentro de las páginas de Amadeus indicandole al prompt ``>`` los siguientes comandos.  En la línea de comando vamos a movernos de esta manera no solo para desplegar mas información de vuelos, dentro del PNR, de la historia, etc.
 
 |Comando Amadeus|Traducción humana|
 |---|---|
@@ -21,10 +23,13 @@ Nos movemos dentro de las páginas de Amadeus indicandole al prompt > los siguie
 |MT|Volvemos a la primera página|
 |MY|Próximo Día -para búsquedas relacionadas con vechas por ejemplo disponibilidades-
 |MN|Un día antes|
+|HE SCROLL|Ayuda en línea|
 
 ### Codificiación y Decodificacion
 
-En esta sección veremos como comunicarnos en el idioma que el sistema nos entienda.  Para poder hacer una búsqueda necesitamos indicarle a Amadeus correctamente que estamos buscando y al revés interpretar que nos está diciendo.
+En esta sección veremos como comunicarnos en el idioma que el sistema nos entienda.  Para poder hacer una búsqueda necesitamos indicarle a Amadeus correctamente que estamos buscando y al revés interpretar que nos está diciendo[^3].
+
+[^3]:  Las ciudades, paises, estados, etc.  figuran en el sistema con su nombre estandarizado internacional, London (en lugar de Londres) o Rome (en lugar de Roma).
 
 |Comando Amadeus|Traducción humana|
 |---|---|
@@ -67,7 +72,11 @@ PHT C  PARIS                                            /USTN
 PRX C  PARIS                                            /USTX                   
 )>                                                               
 ```
-La descripción de esa respuesta está aqui:
+Es muy importante destacar la diferencia entre las ciudades de ``PAR`` y ``PRX`` si bien se llaman París ambas, una está en Francia y la otra en USA.
+
+Un sano ejercicio es decodificar ``DACGOA`` y luego ``DACGVA``, porque es un error recurrente.
+
+La explicación a la respuesta:
 
 |Comando Amadeus|Traducción humana|
 |---|---|
@@ -79,6 +88,8 @@ La descripción de esa respuesta está aqui:
 |O:OFF-PT 	|Punto fuera de línea, una ciudad con un código IATA pero sin ninguna sublocalización, como un aeropuerto, una estación de autobuses,  un helipuerto, un transporte terrestre o una estación de tren.  |
 |R:RAIL 	|Estación de ferrocarril.|
 |S:ASSOC TOWN 	|Una ubicación con o sin su propio código IATA, pero vinculada.|
+|67K|Distancia en Km. al centro de la ciudad.|
+|FR|País correspondiente a la ciudad|
 
 ### Codificaciones de aeronaves, estados, rentadoras de autos, cadenas hoteleras .
 
@@ -101,7 +112,7 @@ MIA1A0000/1234AB/16JANXX
   5  6X 045 Y 29OCT 3 EWRMIA HK1        C   345P 644P   *1A/E*
   6 TK TL16JAN/MIA1A0000
 ```
-Para visualizar el TMC entre EWR (Newark) y HKG (Hong Kong), segmento 2, introduce: ```DM2```
+Para visualizar el TMC entre EWR (Newark) y HKG (Hong Kong), segmento 2, introduce: ``DM2``
 
 ```EWR-EWR      FROM      -             TO                                        
 CC FLTN-FLTR ORGN EQPTM-CC FLTN-FLTR DEST EQPTM     HMM                        
@@ -109,7 +120,7 @@ CC FLTN-FLTR ORGN EQPTM-CC FLTN-FLTR DEST EQPTM     HMM
 ACTUAL CONNECTING TIME IS 146
 ```
 
-El mínimo permitido entre el vuelo 2 y 3 es de 40 minutos, ```D/I``` indica que llega en un vuelo doméstico y sale en un vuelo internacional.  Debajo aclara que el tiempo para los vuelos reservados es de 146 minutos.
+El mínimo permitido entre el vuelo 2 y 3 es de 40 minutos, ``D/I`` indica que llega en un vuelo doméstico y sale en un vuelo internacional.  Debajo aclara que el tiempo para los vuelos reservados es de 146 minutos.
 
 ### Coversiones
 
@@ -134,6 +145,8 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 
 ### Frecuencias de vuelos entre ciudades.  (TA, TD, TN)
 
+En la pantalla de Tablas de horario -Timetable en inglés- vemos la programación semanal de los vuelos regulares.  Se muestra un rango alrededor de la fecha buscada.  Con los días de la semana de operación.  Se detallan vuelos sin paradas, vuelos directos y vuelos en conexión.
+
 |Comando Amadeus|Traducción humana|
 |---|---|
 |TA10NOVBUEMIA|Ordenados de hora de llegada|
@@ -146,44 +159,68 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 |TNROMLIM/MO|Frecuencia para ver solo los vuelos de los lunes|
 |HE TN|Manual de ayuda de Amadeus para el comando TN|
 
-En la pantalla de Tablas de horario (de Timetable en inglés) vemos la programación semanal de los vuelos regulares.  Se muestra un rango alrededor de la fecha buscada.  Con los días de la semana de operación.  Se detallan vuelos sin paradas, vuelos directos y vuelos en conexión.
+### Respuesta del sistema
 
-### Interpretación de los renglones en las Tablas de horarios.
+```TNMADBIO/AJK
+** AMADEUS TIMETABLE - TN ** BIO BILBAO.ES                     01JUN11 08JUN11
+ 1   JK6114  23   MAD 2 BIO    0725    0825   0 07JUN11 08JUN11 320  1:00
+ 2   JK6114  34   MAD 2 BIO    0725    0825   0 01JUN11 02JUN11 M83  1:00
+ 3   JK6114  1    MAD 2 BIO    0725    0825   0 06JUN11 06JUN11 M87  1:00
+ 4   JK6116  4    MAD 2 BIO    0845    0945   0 02JUN11 02JUN11 M83  1:00
+ 5   JK6116  X47  MAD 2 BIO    0845    0945   0 31MAY11 08JUN11 320  1:00
+ 6   JK6118  2345 MAD 2 BIO    1545    1645   0 01JUN11 08JUN11 M87  1:00
+ 7   JK6120  7    MAD 2 BIO    1740    1840   0 29MAY11 05JUN11 320  1:00
+ 8   JK6120  X67  MAD 2 BIO    1745    1845   0 01JUN11 08JUN11 320  1:00
+ 9   JK6122  234  MAD 2 BIO    1855    1955   0 01JUN11 08JUN11 M87  1:00
+10   JK6104  X6   MAD 2 BIO    2105    2205   0 01JUN11 08JUN11 320  1:00
+11   JK6136  X56  MAD 2 BIO    2150    2250   0 31MAY11 08JUN11 320  1:00
+```
 
-|Descripción|
-|---|
-|D = Operación Diaria.|
-|X1 = Operación todos los días de la semana excepto Lunes.|
-|347 = Operación Miércoles, jueves y Domingos.|
+#### Interpretación de los renglones en las Tablas de horarios.
 
-Fechas de inicio y fin de vigencia para cada número de vuelo.   
+|Respuesta|Descripción|
+|---|---|
+|01JUN11 08JUN11|Semana a la que hicimos la consulta, al no indicar fecha en la búsqueda, asume que es la corriente.|
+|D | Operación Diaria.|
+|X1 |Operación todos los días de la semana excepto Lunes.|
+|347 |Operación Miércoles, jueves y Domingos.|
+|31MAY11 08JUN11 |Fechas de vigencia del vuelo cargado en sistema.  Este puntualmente opera hasta el 8 de Junio.|   
 
 ---
 
 ### Disponibilidad por pares de ciudades.  (AA, AD, AN)
 
-Los despliegues de disponibilidad, pueden pedirse:  **AD** Disponibilidad por despegue, **AA** Por arribo o **AN** Neutral.  La diferencia la notamos en la respuesta.  
+Los despliegues de disponibilidad, pueden pedirse:  
 
-La disponibilidad standard, muestra la cantidad de lugares que quedan en un vuelo, con un mínimo de 7 -o más- para los vuelos almacenados en las bases de datos de Amadeus, o 4 -o más- para vuelos almacenados en otros GDS's.  Es importante destacar que las búsquedas son para 11 meses en adelante del mes en curso.  En algunas Low Cost, este tiempo es menor.  importante
+**AD** Disponibilidad por despegue 
+**
+AA** Por arribo  
+
+**AN** Neutral.  
+
+La diferencia la encontramos en la respuesta.  
+
+La disponibilidad standard, muestra la cantidad de lugares que quedan en un vuelo, con un mínimo de 7 -o más- para los vuelos almacenados en las bases de datos de Amadeus, o 4 -o más- para vuelos almacenados en otros GDS's.  Es importante destacar que podemos realizar búsquedas para un máximo de once meses en adelante del mes en curso.  En algunas Low Cost, este tiempo es menor.  
 
 Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicios. En una pantalla de disponibilidad, para que el vuelo aparezca en la pantalla, debe haber al menos una clase disponible para reservar o poner en lista de espera.  Al lado de cada clase de servicio hay un código de estado. Estos códigos de estado pueden indicar la cantidad de asientos disponibles o si puede poner un vuelo en lista de espera. A continuación se ofrece una lista de los posibles códigos de estado para cada clase de servicio y su explicación, ejemplo:
 
+> TIP: ocurre que muchas veces no vemos un vuelo, al solicitar una disponibilidad, es sencillamente porque no tiene ningún asiento en ninguna clase.  En ese caso podemos cambiar el comando de disponibilidad por horario y validar si el vuelo opera con ``ACSD``
+
 |Comando Amadeus|Traducción humana|
 |---|---|
-|AD02OCTBUEROM|Solicitud de disponibilidad para vuelos BUE ROM para el 02 de Octubre del año en curso[^2] |
+|AD02OCTBUEROM|Solicitud de disponibilidad para vuelos BUE ROM para el 02 de Octubre del año en curso[^2].|
 |AD10JUNMADLON|Búsqueda de lugares para el 10 de Junio del año en curso.  **AD** es filtrado por Despegue.  Búsqueda global sin indicarle horario, asume que es a las 1000 hs.|
 |AD10JUNMADLON1900|Idem anterior pero forzando la búsqueda a vuelos a partir de las 1900 hs.|
 |AA10JUNBUELON/X-SAO|La misma búsqueda indicándole al sistema que no tenga en cuenta conexiones vía SAO pero en lugar de filtrado por despegue, sea por Arribo|
 |AA10JUNBUELON/XSCL|La misma búsqueda indicándole al sistema que **FUERCE** la búsqueda a conexiones vía **SCL**|
-|AN10SEPBUELON|Disponibilidad para una Ida BUE LON sin especificar filtros|
-|AN10SEPBUELON\*23SEP|Disponibilidad para una Ida y vuelta BUE LON sin especificar filtros|
+|AN10SEPBUELON\*23SEP|Disponibilidad para una Ida y vuelta BUE LON sin especificar filtros, en estos días puntuales.|
 |AN/20JULBUEMIA/AAA/CW|Buscar a partir del 20JUL lugares en AA clase W durante una semana, muestra la primera ocurrencia.|
-|AD10NOVBUEMIA/AAA/CW\*R18NOV|Disponibilidad con AA clase W ida y vuelta|
-|AN/20APRBUEMAD/AUX/CR|Primer lugar con disponibilidad en los siguientes 7 días a partir del 20 APR con UX en clase R|
-|AN02OCTMIANYC\*|Disponibilidad ida y vuelta en el día|
-|AN02OCTMIANYC\*30OCT|Disponibilidad ida y vuelta con regreso una fecha puntual|
-|AN12OCTMIALGA\*BOSFLL|Visualiza la disponibilidad entre dos pares de ciudades diferentes para la misma fecha|
-|AN12OCTMIALGA\*+4BOSFLL |Visualiza la disponibilidad entre dos pares de ciudades diferentes con fecha de salida 4 días después|
+|AD10NOVBUEMIA/AAA/CW\*R18NOV|Disponibilidad con AA clase W ida y vuelta.|
+|AN/20APRBUEMAD/AUX/CR|Primer lugar con disponibilidad en los siguientes 7 días a partir del 20 APR con UX en clase R.|
+|AN02OCTMIANYC\*|Disponibilidad ida y vuelta en el día.|
+|AN02OCTMIANYC\*30OCT|Disponibilidad ida y vuelta con regreso una fecha puntual.|
+|AN12OCTMIALGA\*BOSFLL|Visualiza la disponibilidad entre dos pares de ciudades diferentes para la misma fecha.|
+|AN12OCTMIALGA\*+4BOSFLL |Visualiza la disponibilidad entre dos pares de ciudades diferentes con fecha de salida 4 días después.|
 |HE AD|Manual de ayuda de Amadeus para el comando AD, o AN, o AA|
 
 [^2]:  Amadeus almacena 11 meses de vuelos en adelante de la fecha actual.
@@ -204,12 +241,16 @@ title Disponibilidad
     * /A
      * AR
      * -AR
-     * \*A
+     * LA,AA,4M
     * /C
      * A
      * W,R,V
      * -W
-legend right: A > Airlines\nC > Class
+    * /K
+     * F 
+     * Y
+     * C,F
+legend:  A > Airlines\nC > Class\nK > Cabina
 @endmindmap
 ```
 
