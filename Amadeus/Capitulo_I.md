@@ -106,10 +106,10 @@ La explicación a la respuesta:
 ```RP/MIA1A0000/MIA1A0000            6X/SU  16JANXX/2020Z   ABC123
 MIA1A0000/1234AB/16JANXX
 1.PARKER/PETER
-  2  6X 239 Y 17OCT 5 MIAEWR HK1            730A1024A   *1A/E*
-  3  6X 099 Y 17OCT 5 EWRHKG HK1        C  1210P 355P+1 *1A/E*
-  4  6X 098 Y 29OCT 3 HKGEWR HK1           1215P 245P   *1A/E*
-  5  6X 045 Y 29OCT 3 EWRMIA HK1        C   345P 644P   *1A/E*
+  2  6X 239 Y 17OCT 5 MIAEWR HK1           0730 1024    *1A/E*
+  3  6X 099 Y 17OCT 5 EWRHKG HK1        C  1210 0355 +1 *1A/E*
+  4  6X 098 Y 29OCT 3 HKGEWR HK1           1215 1445    *1A/E*
+  5  6X 045 Y 29OCT 3 EWRMIA HK1        C  1545 1844    *1A/E*
   6 TK TL16JAN/MIA1A0000
 ```
 Para visualizar el TMC entre EWR (Newark) y HKG (Hong Kong), segmento 2, introduce: ``DM2``
@@ -192,13 +192,21 @@ En la pantalla de Tablas de horario -Timetable en inglés- vemos la programació
 
 Los despliegues de disponibilidad, pueden pedirse:  
 
-**AD** Disponibilidad por despegue 
-**
-AA** Por arribo  
+**AD** Disponibilidad por despegue
+
+**AA** Por arribo  
 
 **AN** Neutral.  
 
-La diferencia la encontramos en la respuesta.  
+La diferencia la encontramos en la respuesta.  En ``AD``, el requerimiento está centrado en el Despegue, mientras que ``AA`` apuntamos al arribo.  Esto no pareciera a simple vista ser muy importante, pero cuando la diferencia los vuelos son largos, o hay mucha diferencia horaria, o ambos, como en el caso de estas búsquedas, la respuesta es totalmente diferente.
+
+``AD20JUNBUESYD``
+
+Mientras que 
+
+``AA20JUNBUESYD``
+
+En el primer caso el **Despegue**, debe ser el 20JUN, mientras que en el segundo caso, el **Arribo** debe ser el 20JUN.
 
 La disponibilidad standard, muestra la cantidad de lugares que quedan en un vuelo, con un mínimo de 7 -o más- para los vuelos almacenados en las bases de datos de Amadeus, o 4 -o más- para vuelos almacenados en otros GDS's.  Es importante destacar que podemos realizar búsquedas para un máximo de once meses en adelante del mes en curso.  En algunas Low Cost, este tiempo es menor.  
 
@@ -227,7 +235,7 @@ Una pantalla de disponibilidad o de horarios muestra hasta 26 clases de servicio
 
 ---
 
-### Despliegue de disponibilidad
+### Filtros de una disponibilidad
 
 Este es el mapa conceptual de un pedido de disponibilidad.
 
@@ -277,7 +285,7 @@ legend:  A > Airlines\nC > Class\nK > Cabina
 ### Ejemplo de respuesta a un pedido de disponibilidad
 
 ~~~
-14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
+14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050     1505    0* 777       9:15
 ~~~
 
 |Respuesta|Significado|
@@ -285,8 +293,8 @@ legend:  A > Airlines\nC > Class\nK > Cabina
 |14: |El renglón 14 muestra un vuelo no operado por la Cía. GF| 
 |LHR 3 |Aeropuerto y terminal desde donde sale|
 |MIA |Idem llegada|
-|1050A|Hora de salida en formato AM PM, depende de la configuración del idioma|
-|305P|Hora de llegada|
+|1050|Hora de salida en formato AM PM, depende de la configuración del idioma|
+|1505|Hora de llegada|
 |0|Cantidad de escalas|
 |777 |Equipo que opera el vuelo|
 |9:15 |Tiempo total de vuelo|
@@ -299,13 +307,13 @@ legend:  A > Airlines\nC > Class\nK > Cabina
 
 ### Disponibilidad Ida y Vuelta
 
-En la tabla anterior vimos que podemos solicitar una disponibilidad ida y vuelta, lo interesante es que podemos agregar todos los filtros y tener en un vistazo la respuesta exacta, para buscar disponibilidad exclusivamente con vuelos de UX para el 29JUL en clase R, y regreso el 12AUG en un solo comando buscamos todo  ```AD29JULBUEROM/AUX/CR*12AUG```  Podemos agregar mas filtros como por ejemplo, para vuelos de LA desde COR pero que no pasen por BUE ```AN10JULCORMIA/X-BUE/ALA/CV*22JUL``` de esta manera eliminamos las conexiones vía BUE.
+En la tabla anterior vimos que podemos solicitar una disponibilidad ida y vuelta, lo interesante es que podemos agregar todos los filtros y tener en un vistazo la respuesta exacta, para buscar disponibilidad exclusivamente con vuelos de UX para el 29JUL en clase R, y regreso el 12AUG en un solo comando buscamos todo  ``AD29JULBUEROM/AUX/CR*12AUG``  Podemos agregar mas filtros como por ejemplo, para vuelos de LA desde COR pero que no pasen por BUE ``AN10JULCORMIA/X-BUE/ALA/CV*22JUL`` de esta manera eliminamos las conexiones vía BUE.
 
 ---
 
 ### Respuesta del sistema a un pedido Ida y Vuelta
 
-~~~ AN19OCTMIALON*25OCT
+```AN19OCTMIALON*25OCT
 ** AMADEUS AVAILABILITY - AN **           36 TH 19OCT 0000
  1   BA2294  F9 A9 J9 D9 Y9 B9 H9 /MIA   LGW N  440P    610A+1E0/777       8:30
              K9 M9 L9 W9 V9 O9 Q9
@@ -324,9 +332,9 @@ En la tabla anterior vimos que podemos solicitar una disponibilidad ida y vuelta
              Q7 X7
 14 SU:GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
              L0 Q0 D0
-~~~
+```
 
-Para vender 2 lugares en el vuelo de BA de ida y de regreso, clase Q ingresamos ```SS2Q1Q11``` 
+Para vender 2 lugares en el vuelo de BA de ida y de regreso, clase Q ingresamos ``SS2Q1Q11`` 
 
 ---
 

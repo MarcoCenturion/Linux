@@ -52,9 +52,9 @@ En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no
 |HE SR|Manual de servicios en el PNR|
 |HE OS|Manual para otros servicios de Información|
 
-Podemos ingresar casi todos los campos separándolos con punto y coma ```";"``` en una sola entrada, por ejemplo
+Podemos ingresar casi todos los campos separándolos con punto y coma ``";"`` en una sola entrada, por ejemplo
 
-```NM1CHURCHILL/WINSTON 1JOHANSEN/SCARLET;AP LON 230001;TKXL10JUL;RFJOSEFINE``` 
+``NM1CHURCHILL/WINSTON 1JOHANSEN/SCARLET;AP LON 230001;TKXL10JUL;RFJOSEFINE`` 
 
 ### Historia del PNR
 
@@ -153,7 +153,7 @@ title Separar un PNR
 
 ## Itinerario
 
-Podemos enviar un itinerario por Email al correo que pusimos en el campo ```APEcorreo@gmail.com```
+Podemos enviar un itinerario por Email al correo que pusimos en el campo ``APEcorreo@gmail.com``
 
 |Comando Amadeus|Traducción humana|
 |---|---|

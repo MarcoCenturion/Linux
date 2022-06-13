@@ -102,15 +102,15 @@ FARE FAMILY:FC2:2:NOBAG
 
 #### Ejemplos de búsquedas y su explicación
 
-Cuatro pasajeros, pueden salir desde BUE o MVD a algún destino de Playa en el Caribe, con LA. ```FXD4BUE,MVD/D20JULPUJ,CUN,HAV/D29JULBUE,MVD/ALA```
+Cuatro pasajeros, pueden salir desde BUE o MVD a algún destino de Playa en el Caribe, con LA. ``FXD4BUE,MVD/D20JULPUJ,CUN,HAV/D29JULBUE,MVD/ALA``
 
-La misma búsqueda pero ahora que muestre cualquier ruta que no sea con CM ```FXD4BUE,MVD/D20JULPUJ,CUN,HAV/D29JULBUE,MVD/A-CM```
+La misma búsqueda pero ahora que muestre cualquier ruta que no sea con CM ``FXD4BUE,MVD/D20JULPUJ,CUN,HAV/D29JULBUE,MVD/A-CM``
 
-Dos pasajeros quieren viajar a TRN desde BUE ```FXD2BUE/D22AUGTRN/DI-120K/D20SEPBUE``` Buscamos aeropuertos alrededor de 120 km. de TRN, incluso este.
+Dos pasajeros quieren viajar a TRN desde BUE ``FXD2BUE/D22AUGTRN/DI-120K/D20SEPBUE`` Buscamos aeropuertos alrededor de 120 km. de TRN, incluso este.
 
 #### Acciones posteriores a FXD
 
-Para entrar a ver cada una de las recomendaciones del grupo 4, porque supongamos que solo queremos ver las tarifas y disponibilidades de IB, debemos hacer ```FXS4``` de ese listado vamos a seleccionar la segunda opción con ```FXZ4```.   
+Para entrar a ver cada una de las recomendaciones del grupo 4, porque supongamos que solo queremos ver las tarifas y disponibilidades de IB, debemos hacer ``FXS4`` de ese listado vamos a seleccionar la segunda opción con ``FXZ4``.   
 
 |Comando Amadeus|Traducción humana|
 |---|---|
@@ -119,13 +119,13 @@ Para entrar a ver cada una de las recomendaciones del grupo 4, porque supongamos
 
 ## Offers
 
-Para crear una oferta, debemos seleccionar el itinerario y NO CERRARLO, no confirmar los lugares.  Una vez que tenemos todo el itinerario completo, cotizamos la ruta con ```FXX``` para que quede la máscara.  Con la máscara creada podemos pasar esa ruta a una Oferta con ```OFS```.  Podemos agregar el fee de nuestra venta agregando MK- y el importe total para toda la venta de nuestro fee, **en la misma moneda** que fue creado el TST. 
+Para crear una oferta, debemos seleccionar el itinerario y NO CERRARLO, no confirmar los lugares.  Una vez que tenemos todo el itinerario completo, cotizamos la ruta con ``FXX`` para que quede la máscara.  Con la máscara creada podemos pasar esa ruta a una Oferta con ``OFS``.  Podemos agregar el fee de nuestra venta agregando MK- y el importe total para toda la venta de nuestro fee, **en la misma moneda** que fue creado el TST. 
 
 Enviamos por email la oferta, donde constará un precio total por toda la operación, una nota aclaratoria al pasajero que no se trata de una reserva, la franquicia de equipaje en cada una de las propuestas -si hay mas de una- y el detalle completo del itinerario en un formato amigable al pasajero.
 
 Al no estar confirmados los lugares, no hay lugar a malas prácticas y podemos enviarles tantas propuestas de viaje como imaginemos.  Ida un día antes y uno despues, varias cías aéreas distintas, con o sin equipaje, etc.
 
-Cuando el pasajero decide cual de las propuestas le satisface, convertimos la oferta en una reserva con ```OFK2``` si los lugares están disponibles queda el itinerario armado, para agregar los campos NM, AP, TK, RF y cerrarlo.  Si no hay lugares, aparece un mensaje con la opción mas parecida en precio.
+Cuando el pasajero decide cual de las propuestas le satisface, convertimos la oferta en una reserva con ``OFK2`` si los lugares están disponibles queda el itinerario armado, para agregar los campos NM, AP, TK, RF y cerrarlo.  Si no hay lugares, aparece un mensaje con la opción mas parecida en precio.
 
 |Comando Amadeus|Traducción humana|
 |---|---|
@@ -134,10 +134,13 @@ Cuando el pasajero decide cual de las propuestas le satisface, convertimos la of
 |RTOF |Ver las ofertas dentro de un PNR de solo ofertas| 
 |OFK2|Confirmar la Oferta 2| 
 
-## Flujo Ideal
+### Flujo Ideal
 
-Este gráfico pretende delinear el flujo de una venta aérea valiéndonos de las dos herramientas, MasterPricers y Offers.
+Este gráfico pretende mostrar los pasos del flujo de una venta aérea valiéndonos de las dos herramientas, MasterPricers y Offers.
 
+- Iniciar cargando el campo NM con los nombres de los pasajeros y sus características (CHD, INF).
+- Hacer la búsqueda de Master Pricer con los filtros correspondientes.
+- Grabar ofertas.
 
 ```plantuml
 @startmindmap
@@ -155,6 +158,43 @@ title Flujo Master Pricer - Offers
     * OFX/MK-200
 @endmindmap
 ```
+---
+
+### Entrevista Aéreos y la oportunidad de mejorar rentabilidad con Offers.
+
+Este gráfico intenta mostrar el flujo de trabajo de una entrevista de aéreos, del segmento de venta al público off line.  Existe un momento de hartazgo del cliente en su búsqueda de vuelos baratos.  Existe una brecha de tiempo que el agente debe darle para que este sienta seguridad, alimente el ego y revise todas las agencias on line.  Volverá a la agencia porque sabe que es la mejor opción.
+
+Este es un flujo normal de las taréas de un cliente consultando aéreos en una agencia de viajes.
+
+
+
+@startuml
+
+!theme amiga 
+skinparam handwritten true
+box "Entrevista aéreo Retail"
+Participant Pasajeros
+Participant Agencia
+end box
+box "Servicios externos\na la agencia"
+Participant Amadeus
+end box
+
+Pasajeros -> Agencia : Consulta\naéreo
+Agencia -> Amadeus : Master Pricer FXD
+Amadeus -> Agencia : Respuesta(S)
+Agencia --> Pasajeros : Opciones\nOffers OFS
+Agencia -> Amadeus : Guardar\nOfertas
+====
+note right of Amadeus : Dejar "leudar" el trabajo\nel pasajero ama autogestionarse
+Pasajeros --> Agencia : 24hs. después\nllamada del pax
+====
+Agencia --> Agencia : Llamar al PAX
+note right of Amadeus : Implementar un CRM para\nhacer seguimiento de todos los leads
+Agencia -> Amadeus : Recuperar Oferta FXR 
+Amadeus -> Agencia : Exito - Fracaso (mejorar markup)
+Agencia -> Pasajeros : Cambió la tarifa \nTengo una mejor opción.
+@enduml
 
 ---
 

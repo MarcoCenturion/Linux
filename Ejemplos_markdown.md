@@ -162,7 +162,7 @@ digraph G {
 	  32,
 	  64          
         ],
-        "backgroundColor": [
+"backgroundColor": [
           "#FF6384",
           "#36A2EB",
           "#FFCE56",
@@ -541,28 +541,33 @@ Agencia -->> Pasajero : 24hs.
 
 @startuml
 
-skinparam backgroundColor #EEEBDC
+!theme amiga 
 skinparam handwritten true
 box "Entrevista aéreo Retail"
-participant Pasajeros
+Participant Pasajeros
 Participant Agencia
 end box
+box "Servicios externos\na la agencia"
 Participant Amadeus
-
+end box
 
 Pasajeros -> Agencia : Consulta\naéreo
-note right of Amadeus : Servicio externo a \nLa agencia
-Agencia -> Amadeus : FXD
-Amadeus -> Agencia : Respuesta
-Agencia --> Pasajeros : Opciones\nOffers
-Agencia --> Amadeus : Guarda\nOfertas
-Agencia -->> Pasajeros : 24hs.
-Agencia -> Agencia : CRM recuerde llamar al PAX
+Agencia -> Amadeus : Master Pricer FXD
+Amadeus -> Agencia : Respuesta(S)
+Agencia --> Pasajeros : Opciones\nOffers OFS
+Agencia -> Amadeus : Guardar\nOfertas
+note right of Amadeus : Dejar "leudar" el trabajo\nel pasajero ama autogestionarse
+Pasajeros --> Agencia : 24hs. después\nllamada del pax
+Agencia --> Agencia : Llamar al PAX
+note right of Amadeus : Implementar un CRM para\nhacer seguimiento de todos los leads
+Agencia -> Amadeus : Recuperar Oferta FXR 
+Amadeus -> Agencia : Exito - Fracaso (mejorar markup)
 Agencia -> Pasajeros : Se venció la tarifa \nTengo otra
 
 @enduml
 
 *******---
+
 #### Ejemplo Salt
 
 ```plantuml
