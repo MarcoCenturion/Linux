@@ -52,7 +52,7 @@ gantt
 
     title Example
     section example section
-    activity :active, 01-04g-2021, 03-05-2022
+    activity :active, 01-04-2021, 03-05-2022
 ```
 
 
@@ -639,3 +639,19 @@ left side
 
 ```
 ---
+
+```plantuml
+@startsalt
+{^"Iniciar Sesión"
+  Usuario:          | "HOMEROSIMP"
+  ID de oficina:    | "BUEG12...."
+  Contraseña:       | "******    "
+  ¿Ha olvidado su contraseña?
+
+[x]Recuerdame
+
+[Inicio de sesión] | [   Borrar    ]
+}
+@endsalt```
+
+

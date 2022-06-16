@@ -129,6 +129,7 @@ Recomiendo bajar el Manual de reservas que está en esta sección y seguir este 
 |Colas|Este es el *[Capítulo III](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_III.md)*|
 |MasterPricer **(FXD)**|Este es el *[Capítulo IV](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_IV.md)*|
 |Offers **(OFS)**|Este es el *[Capítulo IV](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_IV.md)*|
+|Glosario de Términos**|Este es el *[Capítulo V](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_V.md)*|
 
 Aprenderemos los diferentes comandos, los parámetros de esos comandos, el sistema de ayuda que tiene incluido Amadeus en su modo críptico.
 
@@ -166,6 +167,43 @@ Nunca está de mas repetir ciertos usos y costumbres recomendados para el correc
 
 > El campo RF es para que indique quien es la persona que le pidió a ud. la reserva, si indica PAX no da mucha información a los diez meses, al intentar buscar en la historia.
 
+### Ingreso al Sistema
+
+Amadeus Selling Platform es una app que corre exclusivamente en la nube, el agente no debe instalar ningún software.  Para ingresar se necesita.
+
+```plantuml
+@startsalt
+!theme amiga
+{^"Iniciar Sesión"
+  Usuario:          | "HOMEROSIM"
+  ID de oficina:    | "BUEG1222A"
+  Contraseña:       | "******    "
+  ¿Ha olvidado su contraseña?
+[x]Recuerdame
+[Inicio de sesión] | [   Borrar    ]
+}
+@endsalt
+```
+---
+
+Para ingresar por primera vez desde un dispositivo nuevo o desde un navegador nuevo (Firefox, Chrome, Safari, Edge, Etc.) El sistema requiere un doble factor de autenticación.  Esto significa que una ves que el usuario ingresa a https://www.sellingplatformconnect.amadeus.com/ el sistema va a enviarle un email con un token de seis dígitos, muy parecido a un código de reservas.  Ese Token lo va a soliciatar solamente una vez, siempre y cuando sigamos ingresando a través del mismo navegador y la misma PC.  Cada vez que cambiemos de lugar de ingreso, la primera vez que entremos, nos va a solicitar ese token. 
+
+La vista de ingreso al sistema va a agregar un renglón mas con la leyenda ``Contraseña de uso único`` ese es el token que va a llegar por email, de seis dígitos.
+
+```plantuml
+@startsalt
+!theme amiga
+{^"Iniciar Sesión"
+  Contraseña de uso único | "         "
+  Usuario:                | "HOMEROSIM"
+  ID de oficina:          | "BUEG1222A"
+  Contraseña:             | "******   "
+  ¿Ha olvidado su contraseña?
+[x]Recuerdame
+[Inicio de sesión] | [   Borrar    ]
+}
+@endsalt
+```
 ---
 
 URL Amadeus Connect

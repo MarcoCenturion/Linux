@@ -97,3 +97,31 @@ deactivate B
 A --> User: Done
 deactivate A
 @enduml 
+
+---
+
+
+```plantuml
+@startmindmap
+!theme amiga
+title Cloud PBX
++ Centralita
+++ Numeración
++++ 0800 Argentina
++++ 800 USA
++++ 314 España (y toda Europa)
+++ API al CRM
+++ Gateway a Chat
+++ Canal Voz Google
+-- Ventas
+--- Int 100
+--- Int 101
+-- Administracion
+--- Int 201
+--- Int 202
+--- Int N
+-- Call Center
+--- Operador 101
+--- Operador 102
+--- Operador N
+@endmindmap```
