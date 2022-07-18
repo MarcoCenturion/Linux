@@ -11,7 +11,9 @@ Como codificar ciudades, paises, prestando especial atención a la similitud de 
 
 ---
 
-### Scrolling
+### Modalidad Scrolling -Paginación-
+
+La línea de comando conserva un formato poco amigable a los *Nativos digitales* quienes nunca interactuaron con la consola.  Tiene algo de Telnet o de los BBS.  Resabio de formatos de comunicaciones del siglo pasado, literalmente.   
 
 Nos movemos dentro de las páginas de Amadeus indicandole al prompt ``>`` los siguientes comandos.  En la línea de comando vamos a movernos de esta manera no solo para desplegar mas información de vuelos, dentro del PNR, de la historia, etc.
 
@@ -82,12 +84,12 @@ La explicación a la respuesta:
 |---|---|
 |A:APT 	|Aeropuerto.|
 |B:BUS 	|Estación de autobuses o autocares.|
-|C:CITY 	|Ciudad.|
+|C:CITY	|Ciudad.|
 |G:GRD 	|Transporte terrestre.|
-|H:HELI 	|Helipuerto.|
-|O:OFF-PT 	|Punto fuera de línea, una ciudad con un código IATA pero sin ninguna sublocalización, como un aeropuerto, una estación de autobuses,  un helipuerto, un transporte terrestre o una estación de tren.  |
-|R:RAIL 	|Estación de ferrocarril.|
-|S:ASSOC TOWN 	|Una ubicación con o sin su propio código IATA, pero vinculada.|
+|H:HELI	|Helipuerto.|
+|O:OFF-PT|Punto fuera de línea, una ciudad con un código IATA pero sin ninguna sublocalización, como un aeropuerto, una estación de autobuses,  un helipuerto, un transporte terrestre o una estación de tren.  |
+|R:RAIL |Estación de ferrocarril.|
+|S:ASSOC TOWN |Una ubicación con o sin su propio código IATA, pero vinculada.|
 |67K|Distancia en Km. al centro de la ciudad.|
 |FR|País correspondiente a la ciudad|
 

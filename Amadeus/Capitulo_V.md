@@ -13,11 +13,11 @@
 |VIP|Very importan person|
 |ARNK|Arribo desconocido|
 |SURFACE|Tramo de superficie|
-|
+|TST|Máscara del TKT.  Transicional Store Ticket
 
 #### Diccionario Aeronáutico Internacional
 
-|SÍMBOLO|GRAFÍA|
+|SIMBOLO|GRAFIA|
 |---|---|
 |A|Alpha
 |B|Bravo
@@ -46,7 +46,26 @@
 |Y|Yankee
 |Z|Zulu
 
+### Sistemas de Ayuda
 
+Dentro del mismo sistema, Amadeus cuenta con un vasto sistema interactivo de ayuda.  Ultimamente ha incorporado un chatbot que se alimenta de las consultas y las deja ordenadas en un sitio de acceso a Agencias y operadores.
+
+|Sigla|Descripción|
+|---|---|
+|HE AD|Help de disponibilidad 
+|Sitio On Line de Ayuda|https://servicehub.amadeus.com
+
+
+### Abreviaturas 
+
+Estas abreviaturas te ayudarán a reconocer términos, ayudas nemotécnicas.
+
+|Sigla|Descripción|
+|---|---|
+
+### Perfil de la Argencia
+
+Para averiguar los datos que tiene Amadeus grabados en el perfil de nuestra agencia basta con ejecutar `PV` si en cambio queremos averiguar el perfil de otra oficina, debemos hacer `PV/BUEAF0100`
 
 ---
 

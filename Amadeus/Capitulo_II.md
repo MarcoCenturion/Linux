@@ -62,15 +62,19 @@ Podemos ingresar casi todos los campos separándolos con punto y coma ``";"`` en
 |---|---|
 |RH|Abrir la histora del PNR|
 |RH-ALL|Ver la historia del PNR y su historia de colas|
-|RHQ|Colas soalmente|
+|RHQ|Ver solamente el historial de colas del PNR|
+|RHI|Ver solo los tramos del pnr|
 |RHA|Ver la historia de los tramos aéreos solamente|
 |RHK|Solo los elementos del/los tkts|
 |RHF|Solo la sección tarifaria|
+|RH/ALL|Todo el historial del pnr y su historial de colas|
 |HE HISTORY|Manual de ayuda para leer la historia del PNR|
 
 Con este comando ingresamos a todo el trazado histórico de todas las transacciones de una reserva, con el detalle de quien y en que momento realizó cada acción.
 
 ### Recuperar PNR
+
+Ciclo de vida de un PNR.  Los PNR´s permanecen activos en Amadeus durante los cuatro (4) días posteriores a la fecha del ultimo segmento activo, luego de esto el PNR será purgado.
 
 |Comando Amadeus|Traducción humana|
 |---|---|
@@ -78,6 +82,7 @@ Con este comando ingresamos a todo el trazado histórico de todas las transaccio
 |RT/FER|Trae un listado de Apellidos que empiecen con FER|
 |RTCM101/20JUNCOR-FER|Recupera pasajeros de un vuelo puntual, en un aeropuerto de salida puntual cuyo apellido comience con FER.|
 |RT1|Recupera el primer PNR de la lista|
+|RTI|
 |ET|Luego de tomar acción sobre el PNR, cierra -End of Transaction-|
 |IG|Ignora todas las transacciones hechas en una reserva desde su recuperación.|
 |IR|Ignora la reserva y vuelve a recuperarla para que no tengan validez las últimas acciones.|
