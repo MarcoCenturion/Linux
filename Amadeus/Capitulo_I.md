@@ -5,9 +5,9 @@
 
 ## Capítulo I 
 
-Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma que maneja el GDS, la forma en que el sistema entiende nuestras preguntas y lo que espera de nosotros.  Si bien existe el modo gráfico, es conveniente que el usuario se familiarice con el idioma que habla todo el mundo en la industria.  
+Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma que maneja el **GDS**, la forma en que el sistema entiende nuestras preguntas y lo que espera de nosotros.  Si bien existe el modo gráfico, es conveniente que el usuario, el ejecutivo de la agencia, se familiarice con el idioma que habla todo el mundo en la industria.  
 
-Como codificar ciudades, paises, prestando especial atención a la similitud de muchos puntos, que genera siempre errores de interpretación.  Veremos las tablas de horarios entre ciudades.  La disponibilidad de vuelos, como refinar esa disponibilidad y hacer las búsquedas mas precisas.
+Aprenderemos en este primer capítulo, como codificar ciudades, paises, prestando especial atención a la similitud de muchos puntos, que genera siempre errores de interpretación.  Veremos las tablas de horarios entre ciudades.  La disponibilidad de vuelos, como refinar esa disponibilidad y hacer las búsquedas mas precisas.
 
 ---
 
@@ -15,7 +15,15 @@ Como codificar ciudades, paises, prestando especial atención a la similitud de 
 
 La línea de comando conserva un formato poco amigable a los *Nativos digitales* quienes nunca interactuaron con la consola.  Tiene algo de Telnet o de los BBS.  Resabio de formatos de comunicaciones del siglo pasado, literalmente.   
 
-Nos movemos dentro de las páginas de Amadeus indicandole al prompt ``>`` los siguientes comandos.  En la línea de comando vamos a movernos de esta manera no solo para desplegar mas información de vuelos, dentro del PNR, de la historia, etc.
+Nos movemos dentro de las páginas de Amadeus indicandole al prompt ``>`` los comandos que veremos a lo largo del curso.  En la línea de comando vamos a movernos de esta manera no solo para desplegar mas información de vuelos, dentro del PNR, de la historia, etc.
+
+
+@startuml
+!theme amiga
+  rectangle > 
+@enduml  
+
+---
 
 |Comando Amadeus|Traducción humana|
 |---|---|
