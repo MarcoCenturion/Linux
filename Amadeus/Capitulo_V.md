@@ -48,7 +48,7 @@
 
 ### Sistemas de Ayuda
 
-Dentro del mismo sistema, Amadeus cuenta con un vasto sistema interactivo de ayuda.  Ultimamente ha incorporado un chatbot que se alimenta de las consultas y las deja ordenadas en un sitio de acceso a Agencias y operadores.
+Dentro del mismo sistema, Amadeus cuenta con un vasto sistema interactivo de ayuda.  Ultimamente ha incorporado un chatbot que se alimenta de las consultas y las deja ordenadas en un sitio de acceso a Agencias y operadores.  Amanda, al que se puede acceder consultándole directamente en el botón al pié del sitio de Amadeus Selling Connect.  Cuando la consulta es frecuente, Amanda deriva a un blog mantenido por Amadeus, donde se encuentran las preguntas mas frecuentes, o **FAQ** por **Frecuently Asked Questions**.
 
 |Sigla|Descripción|
 |---|---|

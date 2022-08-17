@@ -173,7 +173,7 @@ Mostraremos solo algunos Filtros para agregar a FQD y darle mas precisión.
 
 Para entender la respuesta del sistema a un FQD, recomendamos la lectura detenida de las páginas 104 a 106. 
 
-```FQDNYCLON/R,UP
+``FQDNYCLON/R,UP
 ROE 1.00 NEAREST 1.00 USD
 30JUN21**30JUN21/NYCLON/NSP;AT/TPM  3458/MPM  4149
 LN FARE BASIS    OW   USD  RT   PEN  DATES  DAYS AP MIN MAX ALFR
@@ -181,7 +181,7 @@ LN FARE BASIS    OW   USD  RT   PEN  DATES  DAYS AP MIN MAX ALFR
 02 PICSWIUS                 297 NRF    -      -    +SU   1M LXNR
 03 SQO5ECON       161            +     -      - +25+ -   -  FIAR
 04 SQR5ECON                 322  +     -      - +  +SU+ 12M+FI R
-```
+``
 
 |Comando|Descripción
 |---|---|
@@ -232,7 +232,7 @@ También podemos agrupar hasta 3 títulos separados por comas "," ``FQN2\*RU,CD,
 
 ### FQR
 
-Para tarifas que tienen un routing obligatorio debemos ingresar, si es para el segmento 1 ``FQR1`` posiblemente tenemos una tarifa publicada con LA para la ruta CORMIA.
+Para tarifas que tienen un routing obligatorio -cuando aparece la **R** al final del renglón de la tarifa- debemos ingresar, si es para el segmento 1 ``FQR1`` posiblemente tenemos una tarifa publicada con LA para la ruta CORMIA.
 
 ---
 
@@ -303,7 +303,7 @@ Podemos indicarle a Amadeus que solo debemos cotizar algunos tramos o algunos pa
 
 ---
 
-### Familias de Tarfias
+### Familias de Tarifas
 
 Para ver las familias de tarifas que aplican a un PNR el comando es ``FXY``, muestra las diferentes familias disponibles, las condiciones de cada una y el valor por el "Upsell", con ``FQF1`` Vemos los detalles de que incluye la familia de tarifa 1 y finalmente elegimos la familia con ``FXU2`` suponiendo que elijamos la segunda tarifa de esa familia.
 
