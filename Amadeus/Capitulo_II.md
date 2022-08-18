@@ -54,7 +54,11 @@ En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no
 
 Podemos ingresar casi todos los campos separándolos con punto y coma ``";"`` en una sola entrada, por ejemplo
 
-``NM1CHURCHILL/WINSTON 1JOHANSEN/SCARLET;AP LON 230001;TKXL10JUL;RFJOSEFINE`` 
+``NM1CHURCHILL/WINSTON 1JOHANSEN/SCARLET;AP LON 230001;TKXL10JUL;RFJOSEFINE``
+
+### SR DOCS
+
+Muchas Compañías Aéreas solicitan información de los pasajeros en formato **SR** (servicios auxiliares).  Nos indica al intentar cerrar el PNR con ``ET`` que falta información de email o un teléfono móvil.  El teléfono de contacto del pasajero se agrega de esta manera, suponiendo que la Cía Aérea sea ITA ``SSCTCMAZHK1-543513070654`` y el correo electrónico así ``SSCTCEAZHK1-AULAVIRTUALTURISMO@GMAIL.COM``  Si el PNR tiene varios pasajeros y queremos asignar el email individualmente, solo tenemos que agregar la asociaicón al final del renglón indicando el pasajero ``P3``.  
 
 ### Historia del PNR
 
