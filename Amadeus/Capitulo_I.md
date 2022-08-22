@@ -55,7 +55,8 @@ Nos movemos dentro de las páginas de Amadeus indicandole al prompt ``>`` los co
 |MD o M|Moverse hacia abajo, avanza una página a lo que vemos en pantalla|
 |MU|Moverse hacia arriba, volvemos una página|
 |MB|Moverse hacia el final, a la última página|
-|MT|Volvemos a la primera página|
+|MT|Volver al primencipio|
+|MO|Ir al Origen|
 |MY|Próximo Día -para búsquedas relacionadas con vechas por ejemplo disponibilidades-
 |MN|Un día antes|
 |HE SCROLL|Ayuda en línea|
