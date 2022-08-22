@@ -13,7 +13,17 @@ Aprenderemos en este primer capítulo, como codificar ciudades, paises, prestand
 
 Para prácticar y no cometer errores, Amadeus cuenta con un entorno de pruebas totalmente diferente al de producción, en este se pueden cometer todos los errores posibles, pero es importante poder distinguirlo del entorno de producción y saber en todo momento en cual de los dos se está trabajando.  El ingreso es exactamente igual al sitio de producción, con usuario y password, con los mismos pasos.
 
-En el entorno de pruebas, debajo de todas las respuestas de Amadeus tendremos un aviso que estamos en **Training** con esta leyenda.  \* **TY**  \*
+En el entorno de pruebas, debajo de todas las respuestas de Amadeus en que tomemos lugares y comencemos un PNR, tendremos un aviso que estamos en **Training** con esta leyenda.  \* **TRN**  \*
+
+``` 
+> ss1r1
+RP/BUEG1A101/
+1  AR1140 R 10JUN 6 EZEFCO DK1  2244 1600  11JUN  E  0 330 DB
+  REQ PCTC INFO AND RCFM
+  AVISO - VERIFIQUE LOS HORARIOS
+  SEE RTSVC
+*TRN*
+```
 
 #### Training
 
@@ -29,10 +39,9 @@ https://www.sellingplatformconnect.amadeus.com/
 
 ### Modalidad Scrolling -Paginación-
 
-La línea de comando conserva un formato poco amigable a los *Nativos digitales* quienes nunca interactuaron con la consola.  Tiene algo de Telnet o de los BBS.  Resabio de formatos de comunicaciones del siglo pasado, literalmente.   
+La línea de comando conserva un formato poco amigable a los *Nativos digitales* quienes nunca interactuaron con la consola.  Tiene algo de **Telnet** o de los **BBS** de principios de los ochentas.  Resabio de formatos de comunicaciones del siglo pasado, literalmente.   
 
 Nos movemos dentro de las páginas de Amadeus indicandole al prompt ``>`` los comandos que veremos a lo largo del curso.  En la línea de comando vamos a movernos de esta manera no solo para desplegar mas información de vuelos, dentro del PNR, de la historia, etc.
-
 
 @startuml
 !theme amiga
