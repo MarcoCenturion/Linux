@@ -9,6 +9,22 @@ Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma qu
 
 Aprenderemos en este primer capítulo, como codificar ciudades, paises, prestando especial atención a la similitud de muchos puntos, que genera siempre errores de interpretación.  Veremos las tablas de horarios entre ciudades.  La disponibilidad de vuelos, como refinar esa disponibilidad y hacer las búsquedas mas precisas.
 
+### Entorno de Training y Producción
+
+Para prácticar y no cometer errores, Amadeus cuenta con un entorno de pruebas totalmente diferente al de producción, en este se pueden cometer todos los errores posibles, pero es importante poder distinguirlo del entorno de producción y saber en todo momento en cual de los dos se está trabajando.  El ingreso es exactamente igual al sitio de producción, con usuario y password, con los mismos pasos.
+
+En el entorno de pruebas, debajo de todas las respuestas de Amadeus tendremos un aviso que estamos en **Training** con esta leyenda.  \* **TY**  \*
+
+#### Training
+
+URL Amadeus Connect Training
+https://www.training.sellingplatformconnect.amadeus.com
+
+#### Producción
+
+URL Amadeus Connect Producción
+https://www.sellingplatformconnect.amadeus.com/
+
 ---
 
 ### Modalidad Scrolling -Paginación-
