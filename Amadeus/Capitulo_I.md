@@ -69,11 +69,11 @@ En esta sección veremos como comunicarnos en el idioma que el sistema nos entie
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|DANMADRID |Codificar un destino (puede ser ciudad, aeropuerto, estación de trenes, etc. en este caso **Madrid**|
-|DACAEP |Decodificar un código en este caso **Aeroparque** |
-|DANBONN/S|Buscar el aeropuerto asociado a una ciudad sin aeropuerto|
-|DANNEW/GB|Buscar ciudades que empiecen con NEW solo en Reino Unido GB|
-|DANLON|Buscar la codificiación de ciudades que empiecen con LON|
+|DAN MADRID |Codificar un destino (puede ser ciudad, aeropuerto, estación de trenes, etc. en este caso **Madrid**|
+|DAC AEP |Decodificar un código en este caso **Aeroparque** |
+|DAN BONN/S|Buscar el aeropuerto asociado a una ciudad sin aeropuerto|
+|DAN NEW/GB|Buscar ciudades que empiecen con NEW solo en Reino Unido GB|
+|DAN LON|Buscar la codificiación de ciudades que empiecen con LON|
 |DCP|Listado de paises que empiezan con P|
 |DNS US|Codificar estados y provincias, en este caso Estados Unidos|
 |HE DAN|Manual de ayuda de Amadeus del comando DAN|
@@ -131,11 +131,11 @@ La explicación a la respuesta:
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|DAE732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
-|DNA220 |Codificar o decodificar cías. aéreas.  En este Caso **Lufthansa** podemos indicarle el nombre de la Cía, el número o el código, en este caso **220**, **LH** o **Lufthansa** |
-|DNSBR|Listar los estados en Brasil|
-|DNCZI|Codificar o Decodificar rentadora ZI|
-|DNHSI|Codificar o Decodificar Cadena hotelera|
+|DAE 732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
+|DNA 220 |Codificar o decodificar cías. aéreas.  En este Caso **Lufthansa** podemos indicarle el nombre de la Cía, el número o el código, en este caso **220**, **LH** o **Lufthansa** |
+|DNS BR|Listar los estados en Brasil|
+|DNC ZI|Codificar o Decodificar rentadora ZI|
+|DNH SI|Codificar o Decodificar Cadena hotelera|
 
 ### Validar el tiempo mínimo de conexión
 
@@ -165,15 +165,15 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|DDMIA|Diferencia Horaria desde la ciudad del OID local, desde donde se hace la consulta a Miami|
-|DDMIA/LON|Diferencia horaria entre dos ciudades.|
+|DD MIA|Diferencia Horaria desde la ciudad del OID local, desde donde se hace la consulta a Miami|
+|DD MIA/LON|Diferencia horaria entre dos ciudades.|
 |DM|MCT Minimun conecting time, Tiempo mínimo de conexión[^1] entre dos vuelos.|
-|DM2|Dentro de un PNR podemos indicar sobre que segmento revisar el tiempo mínimo de conexión|
-|DMAF/MAD/AR|En un mismo aeropuerto, diferentes cías aéreas|
-|DMCM/PTY/CM|Misma Cía aérea en el Hub de esa cía|
-|DMMAD4S-4S|Mismo aeropuerto misma terminal|
-|DMJFK-LGA|Distintos aeropuertos de la misma ciudad|
-|DMORY/CDG|Tiempo mínimo de conexión entre vuelos que llega y salen de dos aeropuertos distintos en la misma ciudad.|
+|DM 2|Dentro de un PNR podemos indicar sobre que segmento revisar el tiempo mínimo de conexión|
+|DM AF/MAD/AR|En un mismo aeropuerto, diferentes cías aéreas|
+|DM CM/PTY/CM|Misma Cía aérea en el Hub de esa cía|
+|DM MAD4S-4S|Mismo aeropuerto misma terminal|
+|DM JFK-LGA|Distintos aeropuertos de la misma ciudad|
+|DM ORY/CDG|Tiempo mínimo de conexión entre vuelos que llega y salen de dos aeropuertos distintos en la misma ciudad.|
 |DKMK100|Convertir 100 Millas a Kilómetros|
 |DKKM100|Convertir 100 Kilómetros a Millas|
 |HE DM|Manual de ayuda de Amadeus para el comando DM|
@@ -186,14 +186,14 @@ En la pantalla de Tablas de horario -Timetable en inglés- vemos la programació
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|TA10NOVBUEMIA|Ordenados de hora de llegada|
-|TD20DECSYDSCL|Ordenados por hora de salida|
+|TA 10NOVBUEMIA|Ordenados de hora de llegada|
+|TD 20DECSYDSCL|Ordenados por hora de salida|
 |TELONROM|Ordenados por horas transcurridas|
-|TNBUESCL|Por orden neutro|
-|TNMADLON|Vuelos entre London y Madrid para la fecha en curso|
-|TDMADLON/ABA,SK|idem pero solo para las cías BA y SK|
-|TN10JUNROMMOW|Frecuencia de vuelos para un par de ciudades en una fecha específica|
-|TNROMLIM/MO|Frecuencia para ver solo los vuelos de los lunes|
+|TN BUESCL|Por orden neutro|
+|TN MADLON|Vuelos entre London y Madrid para la fecha en curso|
+|TD MADLON/ABA,SK|idem pero solo para las cías BA y SK|
+|TN 10JUNROMMOW|Frecuencia de vuelos para un par de ciudades en una fecha específica|
+|TN ROMLIM/MO|Frecuencia para ver solo los vuelos de los lunes|
 |HE TN|Manual de ayuda de Amadeus para el comando TN|
 
 ### Respuesta del sistema
