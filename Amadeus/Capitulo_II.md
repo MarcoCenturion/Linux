@@ -3,7 +3,7 @@
 
 [[toc]]
 
-### Capítulo II
+# Capítulo II
 
 En este segundo módulo vamos a crear un PNR, la forma en que "sentamos" pasajeros en los aviones.  Una especial mención merece la prohibición a cambiar nombres.  Pedir imágenes de los pasaportes para no cometer errores de nombres, suele ser una práctica muy aconsejable. 
 
@@ -27,6 +27,14 @@ En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no
 |HE TK|Manual de campo TKT|
 
 [^1]: Si bien es lícito utilizar TKOK o TKTL para cerrar un PNR, es una práctica aconsejada TKXL para que de manera automática, llegada esa hora y esa fecha, se cancele todo el PNR.  De esta manera evitamos cargos de la cía aérea por segmentos XX.  
+
+#### Cambios Campo Nombre
+
+La norma indica no cambiar nunca el cambpo nombre.  Son tantas las restricciones que es preferible no cambiar los nombres.  No tiene que estar emitido el TKT, no puede haber vuelos code share, la lista es casi infinita, por lo que conviene consultar siempre a la cía. aérea.  El comando para hacerlo es:
+
+> NU2/1SIMPSONS/HOMER 
+
+El 2 es el número de orden del pasajero en el PNR.  Para mas información ``HE NU``.
 
 ### Campos auxiliares del PNR
 
