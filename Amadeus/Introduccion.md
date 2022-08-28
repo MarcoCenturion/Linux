@@ -129,7 +129,7 @@ Recomiendo bajar el Manual de reservas que está en esta sección y seguir este 
 |Colas|Este es el *[Capítulo III](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_III.md)*|
 |MasterPricer **(FXD)**|Este es el *[Capítulo IV](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_IV.md)*|
 |Offers **(OFS)**|Este es el *[Capítulo IV](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_IV.md)*|
-|Glosario de Términos**|Este es el *[Capítulo V](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_V.md)*|
+|Glosario de Términos|Este es el *[Capítulo V](https://github.com/MarcoCenturion/Linux/blob/main/Amadeus/Capitulo_V.md)*|
 
 Aprenderemos los diferentes comandos, los parámetros de esos comandos, el sistema de ayuda que tiene incluido Amadeus en su modo críptico.
 
@@ -139,17 +139,17 @@ Aprenderemos los diferentes comandos, los parámetros de esos comandos, el siste
 
 Nunca está de mas repetir ciertos usos y costumbres recomendados para el correcto uso del sistema, que nos evitarán dolores de cabeza en el uso cotidiano.
 
-> Solicitar toda la documentación al pasajero ANTES de hacer el PNR.  Validarla.  Esto nos permite hacer la reserva con los nombres correctos.  Toda corrección posterior tiene costos, que por regla general, termina pagando la agencia.
+> Solicitar toda la documentación al pasajero **antes** de hacer el **PNR**.  Validarla.  Esto nos permite hacer la reserva con los nombres correctos.  Toda corrección posterior tiene costos, que por regla general, termina pagando la agencia.
 
-> No dividas los PNRS de cías que no almacenan sus asientos en Amadeus.  COPA concretamente.  Dividir los PNRS solo en casos extremos.  Hecha la división, corroborar con la cía que vea la reserva en sus sistema.
+> No dividas los **PNRS** de cías que no almacenan sus asientos en Amadeus.  COPA concretamente.  Dividir los PNRS solo en casos extremos.  Hecha la división, corroborar con la cía que vea la reserva en sus sistema.
 
 > No generes segmentos fantasma en el sistema, las cías aéreas lo penalizan.
 
 > No generes ocupación ficticia.
 
-> No uses nombres ficticios en los PNRS, las cías aéreas lo penalizan.
+> No uses nombres ficticios en los PNRS, las cías aéreas lo penalizan.  Nunca, por mucho que después los canceles.  Los PNRS generados en producción con nombres ficticios siempre son penalizados por las cías. aéreas.
 
-> Para práctica utilice el modo Training.
+> Para práctica utilizá el modo Training, accediendo al link de [Amadeus Selling Platform Training](https://www.training.sellingplatformconnect.amadeus.com)
 
 > No genere duplicidades de segmentos o de PNRS.
 
@@ -206,25 +206,13 @@ La vista de ingreso al sistema va a agregar un renglón mas con la leyenda ``Con
 ```
 ---
 
-URL Amadeus Connect
-https://www.sellingplatformconnect.amadeus.com/
+[Amadeus Selling Connect Producción](https://www.sellingplatformconnect.amadeus.com/) | [DESCARGA material de apoyo](https://thconsultora.com.ar/contactus) | [Amadeus Selling Platform Training](https://www.training.sellingplatformconnect.amadeus.com)
 
-DESCARGA material de apoyo:
-https://thconsultora.com.ar/ - Sección "Contáctenos" 
+#### Redes Sociales
 
-Redes Sociales
-Github: github.com/marcocenturion
+[Github](github.com/marcocenturion) | [Twitter](https://twitter.com/@aulavirtuaturis) | [LinkedIn](https://www.linkedin.com/marco-adrian-centurion) | [Youtube](https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ)
 
-Twitter: https://twitter.com/@aulavirtuaturis
-
-LinkedIn: https://www.linkedin.com/marco-adrian-centurion
-
-Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
-
-### Contáctenos:
-
-Para mayor información sobre cursos, noticias y más
-http://thconsultora.com.ar/blog
+---
 
 ![Turismo y Hoteleria Consultora](logo_th.png)
 

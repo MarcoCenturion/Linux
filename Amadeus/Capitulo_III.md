@@ -103,9 +103,12 @@ title despliegues con y sin PNR
 @endmindmap
 ```
 ---
-> FQ despliegues fuera del PNR
 
-> FX despliegues dentro de un PNR armado
+Como regla nemotécnica debemos recordar que:
+
+> **FQ** despliegues fuera del PNR
+
+> **FX** despliegues dentro de un PNR armado
 
 ---
 
@@ -173,7 +176,7 @@ Mostraremos solo algunos Filtros para agregar a FQD y darle mas precisión.
 
 Para entender la respuesta del sistema a un FQD, recomendamos la lectura detenida de las páginas 104 a 106. 
 
-``FQDNYCLON/R,UP
+```FQDNYCLON/R,UP
 ROE 1.00 NEAREST 1.00 USD
 30JUN21**30JUN21/NYCLON/NSP;AT/TPM  3458/MPM  4149
 LN FARE BASIS    OW   USD  RT   PEN  DATES  DAYS AP MIN MAX ALFR
@@ -181,7 +184,8 @@ LN FARE BASIS    OW   USD  RT   PEN  DATES  DAYS AP MIN MAX ALFR
 02 PICSWIUS                 297 NRF    -      -    +SU   1M LXNR
 03 SQO5ECON       161            +     -      - +25+ -   -  FIAR
 04 SQR5ECON                 322  +     -      - +  +SU+ 12M+FI R
-``
+```
+
 
 |Comando|Descripción
 |---|---|
@@ -334,25 +338,13 @@ Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre los serv
 
 ---
 
-URL Amadeus Connect
-https://www.sellingplatformconnect.amadeus.com/
+[Amadeus Selling Connect Producción](https://www.sellingplatformconnect.amadeus.com/) | [DESCARGA material de apoyo](https://thconsultora.com.ar/contactus) | [Amadeus Selling Platform Training](https://www.training.sellingplatformconnect.amadeus.com)
 
-DESCARGA material de apoyo:
-https://thconsultora.com.ar/ - Sección "Contáctenos" 
+#### Redes Sociales
 
-Redes Sociales
-Github: github.com/marcocenturion
+[Github](github.com/marcocenturion) | [Twitter](https://twitter.com/@aulavirtuaturis) | [LinkedIn](https://www.linkedin.com/marco-adrian-centurion) | [Youtube](https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ)
 
-Twitter: https://twitter.com/@aulavirtuaturis
-
-LinkedIn: https://www.linkedin.com/marco-adrian-centurion
-
-Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
-
-## Contáctenos:
-
-Para mayor información sobre cursos, noticias y más
-http://thconsultora.com.ar/blog
+---
 
 ![Turismo y Hoteleria Consultora](logo_th.png)
 
@@ -370,4 +362,3 @@ Email: marco@thconsultora.com.ar
 --
 ]
 @enduml
-

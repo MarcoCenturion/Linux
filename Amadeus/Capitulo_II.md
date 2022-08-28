@@ -176,34 +176,25 @@ Podemos enviar un itinerario por Email al correo que pusimos en el campo ``APEco
 |---|---|
 |IPEJ|Imprime el itinerario para todos los pasajeros|
 |IEPJ/P2|Solo imprime el itinerario del pasajero 2|
+|IEP-EML-homerosimpsons@gmail.com | Envía el itinerario al email del pasajero|
+|IEP-EML|Envía el itinerario por email al correo que está detallado en el campo APE|
+|RMZ/CONF\*FORMAT:PDF|Al enviar por email el itinerario solo sale en formato PDF|
+|HE IEPJ|Help para Itinerario|
 
 ---
 
-URL Amadeus Connect
-https://www.sellingplatformconnect.amadeus.com/
+[Amadeus Selling Connect Producción](https://www.sellingplatformconnect.amadeus.com/) | [DESCARGA material de apoyo](https://thconsultora.com.ar/contactus) | [Amadeus Selling Platform Training](https://www.training.sellingplatformconnect.amadeus.com)
 
-DESCARGA material de apoyo:
-https://thconsultora.com.ar/ - Sección "Contáctenos" 
+#### Redes Sociales
 
-Redes Sociales
-Github: github.com/marcocenturion
+[Github](github.com/marcocenturion) | [Twitter](https://twitter.com/@aulavirtuaturis) | [LinkedIn](https://www.linkedin.com/marco-adrian-centurion) | [Youtube](https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ)
 
-Twitter: https://twitter.com/@aulavirtuaturis
-
-LinkedIn: https://www.linkedin.com/marco-adrian-centurion
-
-Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
-
-## Contáctenos:
-
-Para mayor información sobre cursos, noticias y más
-http://thconsultora.com.ar/blog
+---
 
 ![Turismo y Hoteleria Consultora](logo_th.png)
 
 ![Turismo y Hoteleria Consultora](fondo_aereos2.png)
 ![Turismo y Hoteleria Consultora](fondo_aereos1.png)
-
 
 @startuml
 !theme amiga
@@ -216,3 +207,5 @@ Email: marco@thconsultora.com.ar
 --
 ]
 @enduml
+
+

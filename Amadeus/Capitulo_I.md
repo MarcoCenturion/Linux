@@ -139,7 +139,7 @@ La explicación a la respuesta:
 
 ### Validar el tiempo mínimo de conexión
 
-``RP/MIA1A0000/MIA1A0000            6X/SU  16JANXX/2020Z   ABC123
+```RP/MIA1A0000/MIA1A0000            6X/SU  16JANXX/2020Z   ABC123
 MIA1A0000/1234AB/16JANXX
 1.PARKER/PETER
   2  6X 239 Y 17OCT 5 MIAEWR HK1           0730 1024    *1A/E*
@@ -147,15 +147,15 @@ MIA1A0000/1234AB/16JANXX
   4  6X 098 Y 29OCT 3 HKGEWR HK1           1215 1445    *1A/E*
   5  6X 045 Y 29OCT 3 EWRMIA HK1        C  1545 1844    *1A/E*
   6 TK TL16JAN/MIA1A0000
-``
+```
 
 Para visualizar el TMC entre EWR (Newark) y HKG (Hong Kong), segmento 2, introduce: ``DM2``
 
-``EWR-EWR      FROM      -             TO                                        
+```EWR-EWR      FROM      -             TO                                        
 CC FLTN-FLTR ORGN EQPTM-CC FLTN-FLTR DEST EQPTM     HMM                        
 6X                    C-6X                   C D/I:040                        
 ACTUAL CONNECTING TIME IS 146
-``
+```
 
 El mínimo permitido entre el vuelo 2 y 3 es de 40 minutos, ``D/I`` indica que llega en un vuelo doméstico y sale en un vuelo internacional.  Debajo aclara que el tiempo para los vuelos reservados es de 146 minutos.
 
@@ -298,8 +298,7 @@ title Disponibilidad
 legend:  A > Airlines\nC > Class\nK > Cabina
 @endmindmap
 ```
-
-
+---
 ### Cambiar la disponibilidad que tenemos en pantalla
 
 |Comando Amadeus|Traducción humana|
@@ -321,8 +320,9 @@ legend:  A > Airlines\nC > Class\nK > Cabina
 
 ### Ejemplo de respuesta a un pedido de disponibilidad
 
-``14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050     1505    0* 777       9:15
-``
+Solicitamos una disponibilidad para el Tramo LON MIA y esta es la respuesta de Amadeus.
+
+```14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050     1505    0* 777       9:15```
 
 |Respuesta|Significado|
 |---|---|
@@ -349,7 +349,7 @@ En la tabla anterior vimos que podemos solicitar una disponibilidad ida y vuelta
 
 ### Respuesta del sistema a un pedido Ida y Vuelta
 
-``AN19OCTMIALON*25OCT
+```AN19OCTMIALON*25OCT
 ** AMADEUS AVAILABILITY - AN **           36 TH 19OCT 0000
  1   BA2294  F9 A9 J9 D9 Y9 B9 H9 /MIA   LGW N  440P    610A+1E0/777       8:30
              K9 M9 L9 W9 V9 O9 Q9
@@ -368,7 +368,7 @@ En la tabla anterior vimos que podemos solicitar una disponibilidad ida y vuelta
              Q7 X7
 14 SU:GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
              L0 Q0 D0
-``
+```
 
 Para vender 2 lugares en el vuelo de BA de ida y de regreso, clase Q ingresamos ``SS2Q1Q11`` 
 
@@ -434,32 +434,18 @@ Las búsquedas globales de disponibilidad, tablas o de horarios, pueden refinars
 
 ---
 
-URL Amadeus Connect
-https://www.sellingplatformconnect.amadeus.com/
+[Amadeus Selling Connect Producción](https://www.sellingplatformconnect.amadeus.com/) | [DESCARGA material de apoyo](https://thconsultora.com.ar/contactus) | [Amadeus Selling Platform Training](https://www.training.sellingplatformconnect.amadeus.com)
 
-DESCARGA material de apoyo:
-https://thconsultora.com.ar/ - Sección "Contáctenos" 
+#### Redes Sociales
 
-Redes Sociales
-Github: github.com/marcocenturion
+[Github](github.com/marcocenturion) | [Twitter](https://twitter.com/@aulavirtuaturis) | [LinkedIn](https://www.linkedin.com/marco-adrian-centurion) | [Youtube](https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ)
 
-Twitter: https://twitter.com/@aulavirtuaturis
-
-LinkedIn: https://www.linkedin.com/marco-adrian-centurion
-
-Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
-
-## Contáctenos:
-
-
-Para mayor información sobre cursos, noticias y más
-http://thconsultora.com.ar/blog
+---
 
 ![Turismo y Hoteleria Consultora](logo_th.png)
 
 ![Turismo y Hoteleria Consultora](fondo_aereos2.png)
 ![Turismo y Hoteleria Consultora](fondo_aereos1.png)
-
 
 @startuml
 !theme amiga
@@ -472,4 +458,3 @@ Email: marco@thconsultora.com.ar
 --
 ]
 @enduml
-
