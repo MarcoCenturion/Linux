@@ -45,7 +45,7 @@ El 2 es el número de orden del pasajero en el PNR.  Para mas información ``HE 
 |RM|Campo comentario.  Aquí podemos escribir hasta 256 caracteres por renglón y se guardan en la historia.|
 |RC|Campo comentario solo la la oficina que lo crea.  No es visible en otras agencias ni cías aéreas.|
 |OSLACTCE JUANPEREZ//GMAIL.COM |Osi Other Service Information, en este caso informamos el contacto del pasajero a LA la @ se escribe como //|
-|OSCMCTCT +5411512222|Contacto telefónico del pasajero.|
+|SRCTCMIBHK1-5411512222/P1|Contacto telefónico del pasajero 1 para IB.|
 |OSARVIP/P1|Asociamos la información a AR de uno solo de los pasajeros del PNR.|
 |SRFOIDLAHK1-NI23111311|Foid, agregamos el DNI muchas Cías. aéreas solicitan el nro de docuemnto para la emisión.|
 |SRFOIDLAHK1-PP23111311|Foid, agregamos el Pasaporte.|
