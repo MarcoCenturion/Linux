@@ -68,6 +68,13 @@ Podemos ingresar casi todos los campos separándolos con punto y coma ``";"`` en
 
 Muchas Compañías Aéreas solicitan información de los pasajeros en formato **SR** (servicios auxiliares).  Nos indica al intentar cerrar el PNR con ``ET`` que falta información de email o un teléfono móvil.  El teléfono de contacto del pasajero se agrega de esta manera, suponiendo que la Cía Aérea sea ITA ``SSCTCMAZHK1-543513070654`` y el correo electrónico así ``SSCTCEAZHK1-AULAVIRTUALTURISMO@GMAIL.COM``  Si el PNR tiene varios pasajeros y queremos asignar el email individualmente, solo tenemos que agregar la asociaicón al final del renglón indicando el pasajero ``P3``.  
 
+### Campos obligatorios para las emisiones internacionales
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|FSR/CUIT2016949505/p1|CUIT O CUIL del pagador, que va a reclamar a AFIP la retención del 45% (acá puse el mío, pongan el del pax
+|SRDOCS AAHK1-F-AR-AAD323332-AR-13DEC64-M-27JUL27-CENTURION/MARCOADRIAN/P1|Datos del pasajero, también puse mis datos, cámbienlos por los del pasajero
+
 ### Historia del PNR
 
 |Comando Amadeus|Traducción humana|
