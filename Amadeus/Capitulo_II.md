@@ -3,7 +3,7 @@
 
 [[toc]]
 
-### Capítulo II
+# Capítulo II
 
 En este segundo módulo vamos a crear un PNR, la forma en que "sentamos" pasajeros en los aviones.  Una especial mención merece la prohibición a cambiar nombres.  Pedir imágenes de los pasaportes para no cometer errores de nombres, suele ser una práctica muy aconsejable. 
 
@@ -28,6 +28,14 @@ En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no
 
 [^1]: Si bien es lícito utilizar TKOK o TKTL para cerrar un PNR, es una práctica aconsejada TKXL para que de manera automática, llegada esa hora y esa fecha, se cancele todo el PNR.  De esta manera evitamos cargos de la cía aérea por segmentos XX.  
 
+#### Cambios Campo Nombre
+
+La norma indica no cambiar nunca el cambpo nombre.  Son tantas las restricciones que es preferible no cambiar los nombres.  No tiene que estar emitido el TKT, no puede haber vuelos code share, la lista es casi infinita, por lo que conviene consultar siempre a la cía. aérea.  El comando para hacerlo es:
+
+> NU2/1SIMPSONS/HOMER 
+
+El 2 es el número de orden del pasajero en el PNR.  Para mas información ``HE NU``.
+
 ### Campos auxiliares del PNR
 
 |Comando Amadeus|Traducción humana|
@@ -37,7 +45,7 @@ En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no
 |RM|Campo comentario.  Aquí podemos escribir hasta 256 caracteres por renglón y se guardan en la historia.|
 |RC|Campo comentario solo la la oficina que lo crea.  No es visible en otras agencias ni cías aéreas.|
 |OSLACTCE JUANPEREZ//GMAIL.COM |Osi Other Service Information, en este caso informamos el contacto del pasajero a LA la @ se escribe como //|
-|OSCMCTCT +5411512222|Contacto telefónico del pasajero.|
+|SRCTCMIBHK1-5411512222/P1|Contacto telefónico del pasajero 1 para IB.|
 |OSARVIP/P1|Asociamos la información a AR de uno solo de los pasajeros del PNR.|
 |SRFOIDLAHK1-NI23111311|Foid, agregamos el DNI muchas Cías. aéreas solicitan el nro de docuemnto para la emisión.|
 |SRFOIDLAHK1-PP23111311|Foid, agregamos el Pasaporte.|
@@ -54,7 +62,18 @@ En esta sección armaremos el PNR con sus campos obligatorios, sin los cuales no
 
 Podemos ingresar casi todos los campos separándolos con punto y coma ``";"`` en una sola entrada, por ejemplo
 
-``NM1CHURCHILL/WINSTON 1JOHANSEN/SCARLET;AP LON 230001;TKXL10JUL;RFJOSEFINE`` 
+``NM1CHURCHILL/WINSTON 1JOHANSEN/SCARLET;AP LON 230001;TKXL10JUL;RFJOSEFINE``
+
+### SR DOCS
+
+Muchas Compañías Aéreas solicitan información de los pasajeros en formato **SR** (servicios auxiliares).  Nos indica al intentar cerrar el PNR con ``ET`` que falta información de email o un teléfono móvil.  El teléfono de contacto del pasajero se agrega de esta manera, suponiendo que la Cía Aérea sea ITA ``SSCTCMAZHK1-543513070654`` y el correo electrónico así ``SSCTCEAZHK1-AULAVIRTUALTURISMO@GMAIL.COM``  Si el PNR tiene varios pasajeros y queremos asignar el email individualmente, solo tenemos que agregar la asociaicón al final del renglón indicando el pasajero ``P3``.  
+
+### Campos obligatorios para las emisiones internacionales
+
+|Comando Amadeus|Traducción humana|
+|---|---|
+|FSR/CUIT2016949505/p1|CUIT O CUIL del pagador, que va a reclamar a AFIP la retención del 45% (acá puse el mío, pongan el del pax
+|SRDOCS AAHK1-F-AR-AAD323332-AR-13DEC64-M-27JUL27-CENTURION/MARCOADRIAN/P1|Datos del pasajero, también puse mis datos, cámbienlos por los del pasajero
 
 ### Historia del PNR
 
@@ -164,34 +183,25 @@ Podemos enviar un itinerario por Email al correo que pusimos en el campo ``APEco
 |---|---|
 |IPEJ|Imprime el itinerario para todos los pasajeros|
 |IEPJ/P2|Solo imprime el itinerario del pasajero 2|
+|IEP-EML-homerosimpsons@gmail.com | Envía el itinerario al email del pasajero|
+|IEP-EML|Envía el itinerario por email al correo que está detallado en el campo APE|
+|RMZ/CONF\*FORMAT:PDF|Al enviar por email el itinerario solo sale en formato PDF|
+|HE IEPJ|Help para Itinerario|
 
 ---
 
-URL Amadeus Connect
-https://www.sellingplatformconnect.amadeus.com/
+[Amadeus Selling Connect Producción](https://www.sellingplatformconnect.amadeus.com/) | [DESCARGA material de apoyo](https://thconsultora.com.ar/contactus) | [Amadeus Selling Platform Training](https://www.training.sellingplatformconnect.amadeus.com)
 
-DESCARGA material de apoyo:
-https://thconsultora.com.ar/ - Sección "Contáctenos" 
+#### Redes Sociales
 
-Redes Sociales
-Github: github.com/marcocenturion
+[Github](github.com/marcocenturion) | [Twitter](https://twitter.com/@aulavirtuaturis) | [LinkedIn](https://www.linkedin.com/marco-adrian-centurion) | [Youtube](https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ)
 
-Twitter: https://twitter.com/@aulavirtuaturis
-
-LinkedIn: https://www.linkedin.com/marco-adrian-centurion
-
-Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
-
-## Contáctenos:
-
-Para mayor información sobre cursos, noticias y más
-http://thconsultora.com.ar/blog
+---
 
 ![Turismo y Hoteleria Consultora](logo_th.png)
 
 ![Turismo y Hoteleria Consultora](fondo_aereos2.png)
 ![Turismo y Hoteleria Consultora](fondo_aereos1.png)
-
 
 @startuml
 !theme amiga
@@ -204,3 +214,5 @@ Email: marco@thconsultora.com.ar
 --
 ]
 @enduml
+
+

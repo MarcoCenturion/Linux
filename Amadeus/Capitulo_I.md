@@ -9,14 +9,39 @@ Este primer módulo sirve para familiarizarnos con la nomenclatura, el idioma qu
 
 Aprenderemos en este primer capítulo, como codificar ciudades, paises, prestando especial atención a la similitud de muchos puntos, que genera siempre errores de interpretación.  Veremos las tablas de horarios entre ciudades.  La disponibilidad de vuelos, como refinar esa disponibilidad y hacer las búsquedas mas precisas.
 
+### Entorno de Training y Producción
+
+Para prácticar y no cometer errores, Amadeus cuenta con un entorno de pruebas totalmente diferente al de producción, en este se pueden cometer todos los errores posibles, pero es importante poder distinguirlo del entorno de producción y saber en todo momento en cual de los dos se está trabajando.  El ingreso es exactamente igual al sitio de producción, con usuario y password, con los mismos pasos.
+
+En el entorno de pruebas, debajo de todas las respuestas de Amadeus en que tomemos lugares y comencemos un PNR, tendremos un aviso que estamos en **Training** con esta leyenda.  \* **TRN**  \*
+
+``` 
+> ss1r1
+RP/BUEG1A101/
+1  AR1140 R 10JUN 6 EZEFCO DK1  2244 1600  11JUN  E  0 330 DB
+  REQ PCTC INFO AND RCFM
+  AVISO - VERIFIQUE LOS HORARIOS
+  SEE RTSVC
+*TRN*
+```
+
+#### Training
+
+URL Amadeus Connect Training
+https://www.training.sellingplatformconnect.amadeus.com
+
+#### Producción
+
+URL Amadeus Connect Producción
+https://www.sellingplatformconnect.amadeus.com/
+
 ---
 
 ### Modalidad Scrolling -Paginación-
 
-La línea de comando conserva un formato poco amigable a los *Nativos digitales* quienes nunca interactuaron con la consola.  Tiene algo de Telnet o de los BBS.  Resabio de formatos de comunicaciones del siglo pasado, literalmente.   
+La línea de comando conserva un formato poco amigable a los *Nativos digitales* quienes nunca interactuaron con la consola.  Tiene algo de **Telnet** o de los **BBS** de principios de los ochentas.  Resabio de formatos de comunicaciones del siglo pasado, literalmente.   
 
 Nos movemos dentro de las páginas de Amadeus indicandole al prompt ``>`` los comandos que veremos a lo largo del curso.  En la línea de comando vamos a movernos de esta manera no solo para desplegar mas información de vuelos, dentro del PNR, de la historia, etc.
-
 
 @startuml
 !theme amiga
@@ -30,7 +55,8 @@ Nos movemos dentro de las páginas de Amadeus indicandole al prompt ``>`` los co
 |MD o M|Moverse hacia abajo, avanza una página a lo que vemos en pantalla|
 |MU|Moverse hacia arriba, volvemos una página|
 |MB|Moverse hacia el final, a la última página|
-|MT|Volvemos a la primera página|
+|MT|Volver al primencipio|
+|MO|Ir al Origen|
 |MY|Próximo Día -para búsquedas relacionadas con vechas por ejemplo disponibilidades-
 |MN|Un día antes|
 |HE SCROLL|Ayuda en línea|
@@ -43,11 +69,11 @@ En esta sección veremos como comunicarnos en el idioma que el sistema nos entie
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|DANMADRID |Codificar un destino (puede ser ciudad, aeropuerto, estación de trenes, etc. en este caso **Madrid**|
-|DACAEP |Decodificar un código en este caso **Aeroparque** |
-|DANBONN/S|Buscar el aeropuerto asociado a una ciudad sin aeropuerto|
-|DANNEW/GB|Buscar ciudades que empiecen con NEW solo en Reino Unido GB|
-|DANLON|Buscar la codificiación de ciudades que empiecen con LON|
+|DAN MADRID |Codificar un destino (puede ser ciudad, aeropuerto, estación de trenes, etc. en este caso **Madrid**|
+|DAC AEP |Decodificar un código en este caso **Aeroparque** |
+|DAN BONN/S|Buscar el aeropuerto asociado a una ciudad sin aeropuerto|
+|DAN NEW/GB|Buscar ciudades que empiecen con NEW solo en Reino Unido GB|
+|DAN LON|Buscar la codificiación de ciudades que empiecen con LON|
 |DCP|Listado de paises que empiezan con P|
 |DNS US|Codificar estados y provincias, en este caso Estados Unidos|
 |HE DAN|Manual de ayuda de Amadeus del comando DAN|
@@ -105,15 +131,15 @@ La explicación a la respuesta:
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|DAE732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
-|DNA220 |Codificar o decodificar cías. aéreas.  En este Caso **Lufthansa** podemos indicarle el nombre de la Cía, el número o el código, en este caso **220**, **LH** o **Lufthansa** |
-|DNSBR|Listar los estados en Brasil|
-|DNCZI|Codificar o Decodificar rentadora ZI|
-|DNHSI|Codificar o Decodificar Cadena hotelera|
+|DAE 732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
+|DNA 220 |Codificar o decodificar cías. aéreas.  En este Caso **Lufthansa** podemos indicarle el nombre de la Cía, el número o el código, en este caso **220**, **LH** o **Lufthansa** |
+|DNS BR|Listar los estados en Brasil|
+|DNC ZI|Codificar o Decodificar rentadora ZI|
+|DNH SI|Codificar o Decodificar Cadena hotelera|
 
 ### Validar el tiempo mínimo de conexión
 
-``RP/MIA1A0000/MIA1A0000            6X/SU  16JANXX/2020Z   ABC123
+```RP/MIA1A0000/MIA1A0000            6X/SU  16JANXX/2020Z   ABC123
 MIA1A0000/1234AB/16JANXX
 1.PARKER/PETER
   2  6X 239 Y 17OCT 5 MIAEWR HK1           0730 1024    *1A/E*
@@ -121,15 +147,15 @@ MIA1A0000/1234AB/16JANXX
   4  6X 098 Y 29OCT 3 HKGEWR HK1           1215 1445    *1A/E*
   5  6X 045 Y 29OCT 3 EWRMIA HK1        C  1545 1844    *1A/E*
   6 TK TL16JAN/MIA1A0000
-``
+```
 
 Para visualizar el TMC entre EWR (Newark) y HKG (Hong Kong), segmento 2, introduce: ``DM2``
 
-``EWR-EWR      FROM      -             TO                                        
+```EWR-EWR      FROM      -             TO                                        
 CC FLTN-FLTR ORGN EQPTM-CC FLTN-FLTR DEST EQPTM     HMM                        
 6X                    C-6X                   C D/I:040                        
 ACTUAL CONNECTING TIME IS 146
-``
+```
 
 El mínimo permitido entre el vuelo 2 y 3 es de 40 minutos, ``D/I`` indica que llega en un vuelo doméstico y sale en un vuelo internacional.  Debajo aclara que el tiempo para los vuelos reservados es de 146 minutos.
 
@@ -139,15 +165,15 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|DDMIA|Diferencia Horaria desde la ciudad del OID local, desde donde se hace la consulta a Miami|
-|DDMIA/LON|Diferencia horaria entre dos ciudades.|
+|DD MIA|Diferencia Horaria desde la ciudad del OID local, desde donde se hace la consulta a Miami|
+|DD MIA/LON|Diferencia horaria entre dos ciudades.|
 |DM|MCT Minimun conecting time, Tiempo mínimo de conexión[^1] entre dos vuelos.|
-|DM2|Dentro de un PNR podemos indicar sobre que segmento revisar el tiempo mínimo de conexión|
-|DMAF/MAD/AR|En un mismo aeropuerto, diferentes cías aéreas|
-|DMCM/PTY/CM|Misma Cía aérea en el Hub de esa cía|
-|DMMAD4S-4S|Mismo aeropuerto misma terminal|
-|DMJFK-LGA|Distintos aeropuertos de la misma ciudad|
-|DMORY/CDG|Tiempo mínimo de conexión entre vuelos que llega y salen de dos aeropuertos distintos en la misma ciudad.|
+|DM 2|Dentro de un PNR podemos indicar sobre que segmento revisar el tiempo mínimo de conexión|
+|DM AF/MAD/AR|En un mismo aeropuerto, diferentes cías aéreas|
+|DM CM/PTY/CM|Misma Cía aérea en el Hub de esa cía|
+|DM MAD4S-4S|Mismo aeropuerto misma terminal|
+|DM JFK-LGA|Distintos aeropuertos de la misma ciudad|
+|DM ORY/CDG|Tiempo mínimo de conexión entre vuelos que llega y salen de dos aeropuertos distintos en la misma ciudad.|
 |DKMK100|Convertir 100 Millas a Kilómetros|
 |DKKM100|Convertir 100 Kilómetros a Millas|
 |HE DM|Manual de ayuda de Amadeus para el comando DM|
@@ -160,14 +186,14 @@ En la pantalla de Tablas de horario -Timetable en inglés- vemos la programació
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|TA10NOVBUEMIA|Ordenados de hora de llegada|
-|TD20DECSYDSCL|Ordenados por hora de salida|
+|TA 10NOVBUEMIA|Ordenados de hora de llegada|
+|TD 20DECSYDSCL|Ordenados por hora de salida|
 |TELONROM|Ordenados por horas transcurridas|
-|TNBUESCL|Por orden neutro|
-|TNMADLON|Vuelos entre London y Madrid para la fecha en curso|
-|TDMADLON/ABA,SK|idem pero solo para las cías BA y SK|
-|TN10JUNROMMOW|Frecuencia de vuelos para un par de ciudades en una fecha específica|
-|TNROMLIM/MO|Frecuencia para ver solo los vuelos de los lunes|
+|TN BUESCL|Por orden neutro|
+|TN MADLON|Vuelos entre London y Madrid para la fecha en curso|
+|TD MADLON/ABA,SK|idem pero solo para las cías BA y SK|
+|TN 10JUNROMMOW|Frecuencia de vuelos para un par de ciudades en una fecha específica|
+|TN ROMLIM/MO|Frecuencia para ver solo los vuelos de los lunes|
 |HE TN|Manual de ayuda de Amadeus para el comando TN|
 
 ### Respuesta del sistema
@@ -272,8 +298,7 @@ title Disponibilidad
 legend:  A > Airlines\nC > Class\nK > Cabina
 @endmindmap
 ```
-
-
+---
 ### Cambiar la disponibilidad que tenemos en pantalla
 
 |Comando Amadeus|Traducción humana|
@@ -295,8 +320,9 @@ legend:  A > Airlines\nC > Class\nK > Cabina
 
 ### Ejemplo de respuesta a un pedido de disponibilidad
 
-``14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050     1505    0* 777       9:15
-``
+Solicitamos una disponibilidad para el Tramo LON MIA y esta es la respuesta de Amadeus.
+
+```14:  GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050     1505    0* 777       9:15```
 
 |Respuesta|Significado|
 |---|---|
@@ -323,7 +349,7 @@ En la tabla anterior vimos que podemos solicitar una disponibilidad ida y vuelta
 
 ### Respuesta del sistema a un pedido Ida y Vuelta
 
-``AN19OCTMIALON*25OCT
+```AN19OCTMIALON*25OCT
 ** AMADEUS AVAILABILITY - AN **           36 TH 19OCT 0000
  1   BA2294  F9 A9 J9 D9 Y9 B9 H9 /MIA   LGW N  440P    610A+1E0/777       8:30
              K9 M9 L9 W9 V9 O9 Q9
@@ -342,7 +368,7 @@ En la tabla anterior vimos que podemos solicitar una disponibilidad ida y vuelta
              Q7 X7
 14 SU:GF5157  F7 A4 J7 C0 Y7 H0 M0  LHR 3 MIA   1050A    305P   0*777       9:15
              L0 Q0 D0
-``
+```
 
 Para vender 2 lugares en el vuelo de BA de ida y de regreso, clase Q ingresamos ``SS2Q1Q11`` 
 
@@ -408,32 +434,18 @@ Las búsquedas globales de disponibilidad, tablas o de horarios, pueden refinars
 
 ---
 
-URL Amadeus Connect
-https://www.sellingplatformconnect.amadeus.com/
+[Amadeus Selling Connect Producción](https://www.sellingplatformconnect.amadeus.com/) | [DESCARGA material de apoyo](https://thconsultora.com.ar/contactus) | [Amadeus Selling Platform Training](https://www.training.sellingplatformconnect.amadeus.com)
 
-DESCARGA material de apoyo:
-https://thconsultora.com.ar/ - Sección "Contáctenos" 
+#### Redes Sociales
 
-Redes Sociales
-Github: github.com/marcocenturion
+[Github](github.com/marcocenturion) | [Twitter](https://twitter.com/@aulavirtuaturis) | [LinkedIn](https://www.linkedin.com/marco-adrian-centurion) | [Youtube](https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ)
 
-Twitter: https://twitter.com/@aulavirtuaturis
-
-LinkedIn: https://www.linkedin.com/marco-adrian-centurion
-
-Youtube: https://www.youtube.com/channel/UCsJpj4sGM4oMU0vkbDVdHFQ
-
-## Contáctenos:
-
-
-Para mayor información sobre cursos, noticias y más
-http://thconsultora.com.ar/blog
+---
 
 ![Turismo y Hoteleria Consultora](logo_th.png)
 
 ![Turismo y Hoteleria Consultora](fondo_aereos2.png)
 ![Turismo y Hoteleria Consultora](fondo_aereos1.png)
-
 
 @startuml
 !theme amiga
@@ -446,4 +458,3 @@ Email: marco@thconsultora.com.ar
 --
 ]
 @enduml
-
