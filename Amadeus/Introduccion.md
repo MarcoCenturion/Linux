@@ -80,9 +80,16 @@ Unas mínimas y simples reglas de conducta, que parecen obvias pero que es bueno
 
 Necesitamos de un compromiso de parte de los asistentes. 
 
-- Mirar los videos, incluso los que están en Inglés, leer los manuales y practicar en Amadeus **SIN CERRAR** los pnrs.
+- Mirar los videos, incluso los que están en Inglés, leer los manuales y practicar en Amadeus **SIN CERRAR** los PNR en el entorno de producción, en entorno de Training pueden completar todo el proceso.
 
 - Si alguien tiene una consulta, revisar en el foro, porque muchas veces esa inquietud ya está respondida.  En caso de no encontrar respuesta en el foro, dejarla por escrito lo mas detallado posible.  El solo hecho de formular la pregunta, nos ayuda a armar nuestro **Mapa Mental**.  
+
+- Si alguien no conoce la respuesta, puede averiguar en el sitio de consultas de Amadeus
+
+ 
+
+
+
 
 - Responder en el foro es una de las maneras en que mejor construimos el conocimiento.  No solo es gratificante compartir la Info, además de mejorar los conceptos, nunca aprendemos mas que en el momento de enseñar a otros.  
 
