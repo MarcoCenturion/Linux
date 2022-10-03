@@ -131,7 +131,7 @@ La explicación a la respuesta:
 
 |Comando Amadeus|Traducción humana|
 |---|---|
-|DAE 732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
+|DE 732 |Decodificar un equipo con el que opera un vuelo, en este caso un 737 200 |
 |DNA 220 |Codificar o decodificar cías. aéreas.  En este Caso **Lufthansa** podemos indicarle el nombre de la Cía, el número o el código, en este caso **220**, **LH** o **Lufthansa** |
 |DNS BR|Listar los estados en Brasil|
 |DNC ZI|Codificar o Decodificar rentadora ZI|
@@ -149,7 +149,7 @@ MIA1A0000/1234AB/16JANXX
   6 TK TL16JAN/MIA1A0000
 ```
 
-Para visualizar el TMC entre EWR (Newark) y HKG (Hong Kong), segmento 2, introduce: ``DM2``
+Para visualizar el TMC entre el vuelo que llega a EWR (Newark) y el que sale desde allí a HKG (Hong Kong), segmento 2, introduce: ``DM2``
 
 ```EWR-EWR      FROM      -             TO                                        
 CC FLTN-FLTR ORGN EQPTM-CC FLTN-FLTR DEST EQPTM     HMM                        
@@ -167,11 +167,13 @@ En Amadeus tenemos comandos para convertir no solo monedas, sino una serie de ut
 |---|---|
 |DD MIA|Diferencia Horaria desde la ciudad del OID local, desde donde se hace la consulta a Miami|
 |DD MIA/LON|Diferencia horaria entre dos ciudades.|
+|DD 10OCT/30|Calcular 30 días después del 10 de octubre|
+|DD 10OCT/-60|Calcular 60 días antes del 10 de Octubre|
 |DM|MCT Minimun conecting time, Tiempo mínimo de conexión[^1] entre dos vuelos.|
 |DM 2|Dentro de un PNR podemos indicar sobre que segmento revisar el tiempo mínimo de conexión|
-|DM AF/MAD/AR|En un mismo aeropuerto, diferentes cías aéreas|
+|DM AF/MAD/AR|En un mismo aeropuerto, diferentes cías aéreas, en este caso llega a Madrid con Air France y sale con Aerolíneas Argentinas|
 |DM CM/PTY/CM|Misma Cía aérea en el Hub de esa cía|
-|DM MAD4S-4S|Mismo aeropuerto misma terminal|
+|DM MAD1-4S|Mismo aeropuerto misma terminal, desde terminal 1 a la 4S|
 |DM JFK-LGA|Distintos aeropuertos de la misma ciudad|
 |DM ORY/CDG|Tiempo mínimo de conexión entre vuelos que llega y salen de dos aeropuertos distintos en la misma ciudad.|
 |DKMK100|Convertir 100 Millas a Kilómetros|
@@ -225,7 +227,11 @@ En la pantalla de Tablas de horario -Timetable en inglés- vemos la programació
 
 ---
 
-### Disponibilidad por pares de ciudades.  (AA, AD, AN)
+### Disponibilidad y Despliegue por pares de ciudades.  (AA, AD, AN vs. SD, SA, SN)
+
+Disponibilidad muestra vuelos con lugares disponibles, por ahí esta aclaración parece ociosa, pero cuando no queda ningún asiento en nunguna clase, Amadeus no muestra mas ese vuelo.  Son dos cosas muy distintas que no exista el vuelo y que no tenga mas lugares.  Un vuelo puede estar cerrado a la venta, no verse en las disponibilidades y al cancelarse un grupo aparece a la venta.  Para validar si un vuelo existe podemos pasar de una disponibilidad a un despliegue de forma muy simple, cambiar la disponibilidad por un despliegues  ``ADSD``
+
+### Disponibilidad propiamente dicha
 
 Los despliegues de disponibilidad, pueden pedirse:  
 
