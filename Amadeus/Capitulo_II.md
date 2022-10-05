@@ -139,17 +139,19 @@ Cuando queremos hacer una reserva con los mismos tramos utilizamos el comando RR
 
 ## Separar un PNR
 
-En muy contadas y excepcionales ocasiones vamos a separar un PNR, porque los pasajeros separan sus viajes, al menos uno de los tramos, no van a hacerlo juntos.
+En muy contadas y excepcionales ocasiones vamos a separar un PNR, porque los pasajeros separan sus viajes, al menos uno de los tramos, no van a hacerlo juntos.  
+
+**Importante**: Muchas Cías Aéreas, almacenan sus asientos en sistemas externos a amadeus y este comando para separar PNR's garantiza la integridad de los datos, SOLO para aquellas cías. que almacenan sus datos en Amadeus (Ej. LH, AF, etc.)  Nunca dividir (separar) PNRS de CM.  
 
 El proceso consta de los siguientes pasos.
 
-> Recuperar el PNR.
+> Recuperar el **PNR**.
 
-> Separar a los pasajeros que no requieren cambios con SP y los nros de los pasajeros.
+> Separar a los pasajeros que no requieren cambios con **SP** y los nros de los pasajeros.
 
-> Firma con RF + EF para cerrar este primer PNR.
+> Firma con **RF** + **EF** para cerrar este primer PNR.
 
-> Aparece el segundo PNR, a este lo firmamos y cerramos con ER y recuperamos para tomar acción del cambio.
+> Aparece el segundo PNR, a este lo **firmamos** y cerramos con **ER** y recuperamos para tomar acción del cambio.
 
 ```plantuml
 @startmindmap
