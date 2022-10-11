@@ -16,9 +16,13 @@ call plug#begin('~/.vim/plugged')
 
 " tema
 Plug 'sainnhe/gruvbox-material'
-Plug 'nvim-lua/completion-nvim'
+" Plug 'nvim-lua/completion-nvim'
+
 " LSP
 Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'williamboman/nvim-lsp-installer'
+
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'mattn/emmet-vim'
 
