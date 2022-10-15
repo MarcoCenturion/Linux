@@ -16,7 +16,7 @@ call plug#begin('~/.vim/plugged')
 
 " tema
 Plug 'sainnhe/gruvbox-material'
-" Plug 'nvim-lua/completion-nvim'
+"Plug 'nvim-lua/completion-nvim'
 
 " LSP
 Plug 'neovim/nvim-lspconfig'
@@ -25,7 +25,6 @@ Plug 'williamboman/nvim-lsp-installer'
 
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'mattn/emmet-vim'
-
 
 " Airline
 Plug 'vim-airline/vim-airline'
@@ -42,8 +41,11 @@ Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-commentary'
 Plug 'Yggdroot/indentLine'
 
-call plug#end()
+# Taglist
+Plug 'vim-scripts/taglist.vim'
 
+
+call plug#end()
 
 " Configuracion plugin
 set background=dark
@@ -58,9 +60,7 @@ require'lspconfig'.html.setup{on_attach=require'completion'.on_attach}
 require'lspconfig'.bashls.setup{on_attach=require'completion'.on_attach}
 require'lspconfig'.jsonls.setup{on_attach=require'completion'.on_attach}
 
-
 EOF
-
 " Configuracion airline
 let g:airline#extensions#tabline#enabled = 1
 
