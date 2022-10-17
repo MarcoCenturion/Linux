@@ -1,4 +1,3 @@
-
 from random import randint
 seriesUsuario = 0
 seriesComputadora = 0
