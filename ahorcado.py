@@ -6,7 +6,7 @@
 def Sprite1():
     print(
      '''
-        |----------|
+        |--------|
         | 
         |
         |
@@ -17,9 +17,19 @@ def Sprite1():
     ''')
 
 def Incognita():
-    for i in palabra:
-        largo=len(palabra)
-        print(palabra[0], largo*'_ ',palabra[-1])
+    largo=len(palabra)
+    print(palabra[0], (largo-2)*'_ ',palabra[-1])
+
+def avance():
+    global intentos
+    intentos = int(len(palabra)) - 2 
+    global letrausuario 
+    deletrea = []
+    deletrea = palabra.upper().split() # Convertimos el str en una lista
+    print(deletrea)
+    # if tiros > 0:
+
+
 
 while True:
     print(
@@ -36,13 +46,16 @@ while True:
     opcion = int(input("Ingresar 1, 2 o 3 ? :"))
     if opcion == 1:
         palabra = input("Indicar la palabra a adivinar: ")
+        palabra = palabra.upper()
         Sprite1()
         continue
     elif opcion == 2:
         Sprite1()
         Incognita()
+        letra = input("Que letra crees que falta :? ")
+        avance()
         continue
-    else:
+    elif opcion == 3:
         print(
         '''
         -------------------------------
@@ -50,4 +63,14 @@ while True:
         -------------------------------
         ''')
         break
+    else:
+        print(
+        '''
+        --------------------------------
+        ::: Indicar una oción válida :::
+        --------------------------------
+        ''')
+        continue
+
+
 
