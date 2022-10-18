@@ -1,0 +1,152 @@
+```plantuml
+@startmindmap
+skinparam backgroundColor #EEEBDC
+ * Turismo Mundial \nAño 2018
+ ** 2.5k millones de turistas
+ ** Puestos de trabajo directos
+ *** 300 mil millones 
+ **  1 de cada 11 
+ * del PBI mundial
+ ** 10.5 %
+ ** 8.8 K millones de dólares.
+@endmindmap 
+```
+---
+```plantuml
+@startmindmap
+skinparam backgroundColor #EEEBDC
+ * Turismo Argentina \nAño 2019
+   * Exportaciones
+   * USD 5.4 mil millones 
+   * Cuarto item en exportaciones
+   * 1.2 millones de empleos directos
+   * 4 % del PBI
+@endmindmap 
+```
+
+```plantuml
+@startmindmap
+skinparam backgroundColor #EEEBDC
+ * Turismo Córdoba \nAño 2018
+   * 7 % del PBI
+   * Segundo destino turístico de Argentina
+   * 13,3 % de los establecimientos del pais
+   * Sexto item en ingresos
+   * 19 k puestos de trabajo directos
+   * 4 %  de empleos directos
+   * 300 k empleos directos e indirectos
+@endmindmap 
+```
+---
+
+
+
+
+@startuml
+skinparam backgroundColor #EEEBDC
+component comp1 [
+Total de Visitantes Turistas * Valor Promedio del Gasto Turístico
+---
+Total del Gasto Turístico del Visitante Turista
+]
+@enduml
+
+
+---
+
+@startuml
+skinparam backgroundColor #EEEBDC
+component comp1 [
+Total visitantes excursionistas
+*
+Promedio gasto excursionistas
+-----------------------------
+Total gasto excusionistas
+]
+@enduml
+
+
+
+@startuml
+skinparam backgroundColor #EEEBDC
+
+component comp1 [
+Cantidad de plazas por tipo de establecimiento de hospedaje
+*
+Porcentaje de ocupación según tipo de establecimiento. 
+---
+Cantidad de personas que pernoctaron en la ciudad.
+]
+
+@enduml
+
+
+
+@startuml
+skinparam backgroundColor #EEEBDC
+component comp1 [
+Número Visitantes Museo "Casa del Che"
+-
+Número Visitantes Turistas
+-----------------------------
+Total Visitantes Excursionistas
+]
+@enduml
+
+@startuml
+skinparam backgroundColor #EEEBDC
+component comp1 [
+Total Visitantes Excursionistas
+*
+Valor promedio del gasto Excursionistas
+-----------------------------
+Total del gasto turístico Visitantes Excursionistas
+]
+@enduml
+
+
+@startuml
+skinparam backgroundColor #EEEBDC
+component comp1 [
+Total Gasto Turistas
+*
+Total Gasto Excursionistas
+-----------------------------
+Importe económico generado por el gasto de los Visitantes
+]
+@enduml
+
+
+---
+@startuml
+
+box "Entorno Habitual" #EEEBDC
+note over Turista : $1200 gasto diario
+participant Turista 
+note over Excursionista : $350 gasto 
+participant Excursionista
+end box
+participant DestinoTurístico
+
+Turista -> DestinoTurístico : Gasto superior
+Excursionista ->  DestinoTurístico : Gasto inferior
+
+note right
+Gasto de los visitantes $61.611.850
+endnote
+
+DestinoTurístico -> DestinoTurístico : Circulación del capital
+DestinoTurístico -> DestinoTurístico : Reinversión
+
+== Puestos de Trabajo ==
+
+DestinoTurístico -> DestinoTurístico : Gasto de usuarios locales en el destino
+note right
+Empleo Directo 538
+Puestos Temporales 43
+Sector Público 52 empleos
+endnote
+== Efecto Multiplicador del Turismo ==
+DestinoTurístico -> DestinoTurístico : Reinversión capital
+note over DestinoTurístico : Mejora contínua 
+@enduml
