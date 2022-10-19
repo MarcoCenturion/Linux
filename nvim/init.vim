@@ -11,20 +11,23 @@ set wrap
 set colorcolumn=80
 set guicursor=a:block
 set linebreak
+set noignorecase 
 
 call plug#begin('~/.vim/plugged')
 
 " tema
 Plug 'sainnhe/gruvbox-material'
-"Plug 'nvim-lua/completion-nvim'
-
-" LSP
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'williamboman/nvim-lsp-installer'
-
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'mattn/emmet-vim'
+Plug 'saadparwaiz1/cmp_luasnip'
 
 " Airline
 Plug 'vim-airline/vim-airline'
@@ -34,16 +37,14 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'mechatroner/rainbow_csv'
 
 " Plugin para markdown
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'Valloric/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'
-
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'tpope/vim-commentary'
 Plug 'Yggdroot/indentLine'
 
-# Taglist
+" Taglist
 Plug 'vim-scripts/taglist.vim'
-
 
 call plug#end()
 
@@ -57,10 +58,8 @@ colorscheme gruvbox-material
 lua << EOF
 require'lspconfig'.pylsp.setup{on_attach=require'completion'.on_attach}
 require'lspconfig'.html.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.bashls.setup{on_attach=require'completion'.on_attach}
-require'lspconfig'.jsonls.setup{on_attach=require'completion'.on_attach}
-
 EOF
+
 " Configuracion airline
 let g:airline#extensions#tabline#enabled = 1
 
@@ -145,6 +144,13 @@ nmap <silent> gr <Plug>(coc-references)
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+" Configturacion maps markddown
+nmap <silent> <C-s> <Plug>MarkdownPreview
+nmap <silent> <M-s> <Plug>MarkdownPreviewStop
+nmap <silent> <C-p> <Plug>MarkdownPreviewToggle
+
+
 
 function! s:show_documentation()
   elseif (coc#rpc#ready())
@@ -336,5 +342,85 @@ let g:mkdp_page_title = '「${name}」'
 " these filetypes will have MarkdownPreview... commands
 let g:mkdp_filetypes = ['markdown']
 
+" set default theme (dark or light)
+" By default the theme is define according to the preferences of the system
+" let g:mkdp_theme = 'dark'
+
+
 runtime mappings.vim
+
+call plug#end()
+
+set completeopt=menu,menuone,noselect
+
+lua <<EOF
+  -- Set up nvim-cmp.
+  local cmp = require'cmp'
+
+  cmp.setup({
+    snippet = {
+      -- REQUIRED - you must specify a snippet engine
+      expand = function(args)
+        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
+        -- require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
+        -- require('snippy').expand_snippet(args.body) -- For `snippy` users.
+        -- vim.fn["UltiSnips#Anon"](args.body) -- For `ultisnips` users.
+      end,
+    },
+    window = {
+      -- completion = cmp.config.window.bordered(),
+      -- documentation = cmp.config.window.bordered(),
+    },
+    mapping = cmp.mapping.preset.insert({
+      ['<C-b>'] = cmp.mapping.scroll_docs(-4),
+      ['<C-f>'] = cmp.mapping.scroll_docs(4),
+      ['<C-Space>'] = cmp.mapping.complete(),
+      ['<C-e>'] = cmp.mapping.abort(),
+      ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+    }),
+    sources = cmp.config.sources({
+      { name = 'nvim_lsp' },
+      { name = 'vsnip' }, -- For vsnip users.
+      -- { name = 'luasnip' }, -- For luasnip users.
+      -- { name = 'ultisnips' }, -- For ultisnips users.
+      -- { name = 'snippy' }, -- For snippy users.
+    }, {
+      { name = 'buffer' },
+    })
+  })
+
+  -- Set configuration for specific filetype.
+  cmp.setup.filetype('gitcommit', {
+    sources = cmp.config.sources({
+      { name = 'cmp_git' }, -- You can specify the `cmp_git` source if you were installed it.
+    }, {
+      { name = 'buffer' },
+    })
+  })
+
+  -- Use buffer source for `/` and `?` (if you enabled `native_menu`, this won't work anymore).
+  cmp.setup.cmdline({ '/', '?' }, {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = {
+      { name = 'buffer' }
+    }
+  })
+
+  -- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
+  cmp.setup.cmdline(':', {
+    mapping = cmp.mapping.preset.cmdline(),
+    sources = cmp.config.sources({
+      { name = 'path' }
+    }, {
+      { name = 'cmdline' }
+    })
+  })
+
+  -- Set up lspconfig.
+  local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+  -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
+  require('lspconfig')['<YOUR_LSP_SERVER>'].setup {
+    capabilities = capabilities
+  }
+EOF
 
