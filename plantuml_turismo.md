@@ -61,7 +61,23 @@ skinparam backgroundColor #EEEBDC
 ---
 
 
+@startuml
+skinparam backgroundColor #EEEBDC
+component comp1 [
+Plazas por tipo alojamiento * Porcentaje ocupación según tipo estab.:
+---
+Cantidad de personas que pernoctaron 
+]
+@enduml
 
+@startuml
+skinparam backgroundColor #EEEBDC
+component comp1 [
+Total de Visitantes Turistas * Valor Promedio del Gasto Turístico
+---
+Total del Gasto Turístico del Visitante Turista
+]
+@enduml
 
 @startuml
 skinparam backgroundColor #EEEBDC
@@ -80,9 +96,9 @@ skinparam backgroundColor #EEEBDC
 component comp1 [
 Total visitantes excursionistas
 *
-Promedio gasto excursionistas
+Promedio del gasto excursionistas
 -----------------------------
-Total gasto excusionistas
+Total del Visitante excusionistas
 ]
 @enduml
 
@@ -130,10 +146,13 @@ Total del gasto turístico Visitantes Excursionistas
 skinparam backgroundColor #EEEBDC
 component comp1 [
 Total Gasto Turistas
-*
++
 Total Gasto Excursionistas
 -----------------------------
-Importe económico generado por el gasto de los Visitantes
+Aporte económico generado por los visitantes al destino
+<code>
+Excursionistas y Turistas
+</code>
 ]
 @enduml
 
