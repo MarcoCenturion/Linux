@@ -1,0 +1,21 @@
+@startmindmap
+* Root 1
+** Foo
+** Bar
+* Root 2
+** Lorem
+** Ipsum
+@endmindmap
+
+plantuml
+@startmindmap
+skinparam backgroundColor #EEEBDC
+* Turismo Mundial \nAño 2018
+ ** 2.5k millones de turistas
+ ** Puestos de trabajo directos
+  *** 300 mil millones 
+ **  1 de cada 11 
+* del PBI mundial
+ ** 10.5 %
+ ** 8.8 K millones de dólares.
+@endmindmap 

@@ -1,5 +1,4 @@
-```
-@startmindmap
+```@startmindmap
 + OS
 ++ Ubuntu
 +++ Linux Mint
