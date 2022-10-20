@@ -145,11 +145,11 @@ Total del gasto turístico Visitantes Excursionistas
 @startuml
 skinparam backgroundColor #EEEBDC
 component comp1 [
-Total Gasto Turistas
+Total Gasto Turístico
 +
-Total Gasto Excursionistas
+Total del Gasto Excursionistas
 -----------------------------
-Aporte económico generado por los visitantes al destino
+Importe económico generado por gasto de los visitantes
 <code>
 Excursionistas y Turistas
 </code>
