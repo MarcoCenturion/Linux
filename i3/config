@@ -270,11 +270,11 @@ set_from_resource $term_color15    color15
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
 
-set $bg-color            #2f343f
-set $inactive-bg-color   #2f343f
+set $bg-color            #4D5E72
+set $inactive-bg-color   #3F6A8A
 set $text-color          #f3f4f5
-set $inactive-text-color #67575d
-set $urgent-bg-color     #f55393
+set $inactive-text-color #F0B7A4
+set $urgent-bg-color     #F18C8E
 set $indicator-color     #a6a0a0
 
 # set window colors

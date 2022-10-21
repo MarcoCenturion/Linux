@@ -68,6 +68,8 @@ let NERDTreeQuitOnOpen=1
 nnoremap <silent> <F2> :NERDTreeFind<CR>
 nnoremap <silent> <F3> :NERDTreeTogle<CR>
 nnoremap <silent> <F5> :!python %:p<CR>
+nnoremap <silent> <F12> :!r uptime<CR> 
+nnoremap <silent> <F10> :{!}sort<CR>}
 
 " EMMET
 let g:user_emmet_mode='n'
