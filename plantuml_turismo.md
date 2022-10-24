@@ -234,3 +234,35 @@ en el lugar visitado.
 </code>
 ;
 @endmindmap```
+
+```@startuml
+skinparam backgroundColor #EEEBDC
+start 
+
+repeat : Demanda Turística;
+
+  :read data;
+  :generate diagrams;
+backward:This is backward;
+repeat while (more data?)
+
+stop
+
+@enduml```
+
+
+@startuml
+skinparam backgroundColor #EEEBDC
+object Demanda Turística
+object Washington
+object Berlin
+object NewYork
+
+map CapitalCity {
+ UK *-> London
+ USA *--> Washington
+ Germany *---> Berlin
+}
+
+NewYork --> CapitalCity::USA
+@enduml
