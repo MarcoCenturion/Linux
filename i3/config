@@ -386,7 +386,7 @@ exec --no-startup-id feh --bg-scale --bg-fill /home/marco/Libros/RwRHNm6.png
 
 #LLAMAR APLICACIONESX
 bindsym $mod+F1 exec firefox
-bindsym $mod+F0 exec dolphin
+bindsym $mod+F2 exec dolphin
 bindsym $mod+F3 exec gimp
 bindsym $mod+F4 exec kate
 bindsym $mod+F5 exec chromium 
