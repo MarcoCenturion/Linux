@@ -1,4 +1,4 @@
-file = open('cias_areas.txt')
+file = open(r'')
 
 lista = []
 for line in file:
