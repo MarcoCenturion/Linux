@@ -1,8 +1,8 @@
-import sys
+archivo = open(r'/home/marco/Bash_data_analytics/amadeusporoficina.csv')
 
-archivo = open("/home/marco/ciclo_2020.txt")
+for i in archivo:
+    print(i)
 
-for renglon in archivo: 
-    print(renglon)
-    sys.stdin.readline()
+
+archivo.close()
 
