@@ -3,7 +3,7 @@ listanueva = ['jose','Luis','Marco',
               ['Maria','Susana',['josefina','esteban','luca']]]
 
 def recorrer(listado):
-    for listaint in listado():
+    for listaint in listado:
         if isinstance(listaint, list):
             recorrer(listaint)
         else:

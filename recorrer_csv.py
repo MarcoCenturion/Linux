@@ -1,8 +1,10 @@
-archivo = open(r'/home/marco/Bash_data_analytics/amadeusporoficina.csv')
+archivo = open(r'/home/marco/Linux/cias_areas.txt')
 
-for i in archivo:
-    print(i)
+def abrir(variable):
+    for cia in variable:
+        print(cia)
 
+abrir(archivo)
 
 archivo.close()
 
