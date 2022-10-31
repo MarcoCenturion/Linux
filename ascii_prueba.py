@@ -14,11 +14,11 @@ def pixel_to_ascii(image):
     pixels = image.getdata()
     ascii_str = ""
     for pixel in pixels:
-        ascii_str += ASCII_CHARS[pixel//25];
+        ascii_str += ASCII_CHARS[pixel//25]
     return ascii_str
 
 def main(): 
-    path = input(r"\home\marco\imagenes\cris11.jpg")
+    path = input("Indicar la Ruta a la Imagen: ")
     try:
         image = PIL.Image.open(path)
     except:
