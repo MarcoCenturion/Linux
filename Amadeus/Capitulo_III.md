@@ -336,6 +336,10 @@ Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre los serv
 |COD|Detalles del carryon permitido en cabina
 |COC|Costo de equipaje de mano adicional
 
+### Calcular una Reemisión
+
+El comando para calcular una reemisión es ``FXQ`` tal cual lo vemos en el video próximo.
+
 ---
 
 [Amadeus Selling Connect Producción](https://www.sellingplatformconnect.amadeus.com/) | [DESCARGA material de apoyo](https://thconsultora.com.ar/contactus) | [Amadeus Selling Platform Training](https://www.training.sellingplatformconnect.amadeus.com)
