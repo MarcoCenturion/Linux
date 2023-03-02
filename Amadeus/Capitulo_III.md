@@ -1,4 +1,4 @@
-![Turismo y Hoteleria Consultora](index.png)
+!Turismo y Hoteleria Consultora](index.png)
 ![Turismo y Hoteleria Consultora](logo_th.png)
 [[toc]]
 
@@ -189,9 +189,9 @@ LN FARE BASIS    OW   USD  RT   PEN  DATES  DAYS AP MIN MAX ALFR
 
 |Comando|Descripción
 |---|---|
-|AA AC AR AV A4....|Si una línea aérea aparece sólo antes de /YY* significa que tiene sus propias tarifas y acepta las tarifas IATA.
-|/YY*AA AC AR AX...|Si aparece sólo después de /YY* significa que no tiene sus propias tarifas ni acepta las IATA.  Si aparece antes y después de /YY* significa que tiene sus propias tarifas y no acepta las IATA.
-|30JUN21**30JUN21|Período de validez del despliegue.
+|AA AC AR AV A4....|Si una línea aérea aparece sólo antes de /YY\* significa que tiene sus propias tarifas y acepta las tarifas IATA.
+|/YY*AA AC AR AX...|Si aparece sólo después de /YY\* significa que no tiene sus propias tarifas ni acepta las IATA.  Si aparece antes y después de /YY\* significa que tiene sus propias tarifas y no acepta las IATA.
+|30JUN21\*\*30JUN21|Período de validez del despliegue.
 |NYCLON|Par de Ciudades.
 |AT|Ruta Atlántico.
 |TPM|Millas reales de la ruta.
@@ -230,7 +230,7 @@ Luego de ver las tarifas publicadas entre un par de ciudades con el comando FXD 
 
 Para ver una regla, solo tenemos que pedir con ``FQN`` seguido del número de línea de la regla.
 
-``FQN1*LIST`` Con este comando vemos el listado completo de los índices de la regla. Para ingresar a ver el título **Venta anticipada** de la tarifa del renglón 1, solo tenemos que indicar ``FQN1*AP``, para ver el mínimo ``FQN1*MN``, para ver el descuento para menores ``FQN1\*CD``
+``FQN1\*LIST`` Con este comando vemos el listado completo de los índices de la regla. Para ingresar a ver el título **Venta anticipada** de la tarifa del renglón 1, solo tenemos que indicar ``FQN1\*AP``, para ver el mínimo ``FQN1\*MN``, para ver el descuento para menores ``FQN1\*CD``
 
 También podemos agrupar hasta 3 títulos separados por comas "," ``FQN2\*RU,CD,MN``.
 
@@ -339,6 +339,12 @@ Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre los serv
 ### Calcular una Reemisión
 
 El comando para calcular una reemisión es ``FXQ`` tal cual lo vemos en el video próximo.
+
+|Comando|Descripción
+|---|---|
+|FQX|Calcula la reemisión una vez tomados los nuevos segmentos de vuelo.
+|TWD|Verificar que tenemos los tamos "O" de Open para reutilizar, además de ver Penalización y Diferencia de tarifa.
+
 
 ---
 
