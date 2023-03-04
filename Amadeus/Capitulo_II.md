@@ -70,6 +70,8 @@ Muchas Compañías Aéreas solicitan información de los pasajeros en formato **
 
 ### Campos obligatorios para las emisiones internacionales
 
+Si bien el PNR puede cerrarse sin los campos opcionales, para otros procesos, como por ejemplo la emisión, son muy importantes. Muchos destinos como USA, requieren agregar lo que se conoce comunmente como los ***docs***.
+
 |Comando Amadeus|Traducción humana|
 |---|---|
 |FSR/CUIT2016949505/p1|CUIT O CUIL del pagador, que va a reclamar a AFIP la retención del 45% (acá puse el mío, pongan el del pax
