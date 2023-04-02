@@ -194,6 +194,40 @@ Podemos enviar un itinerario por Email al correo que pusimos en el campo ``APEco
 
 ---
 
+## Modo Gráfico
+
+Existe en el entorno de Amadeus Selling Platform un entorno gráfico que cuenta con un par de ventajas y desventajas.
+
+En el margen superior izquierdo de la pantalla debajo del logo de Amadeus
+
+```plantuml
+@startsalt
+title Amadeus
+!theme amiga
+{
+  ^Nuevo Vuelo^ |
+  ^Air^^Pagina de Comando ^^Hotel^^Coche^^Pasajero^ |
+}
+@endsalt
+```
+Los despliegues son mas parecidos a como navegar en sitios gráficos, mas amigables.
+
+### Ventajas.
+
+- Visualizar una grilla 7 x 7 de vuelos. 
+- Facilidad de agregar y quitar filtros.
+- **Distinto contenido** del modo críptico.  Se pueden visualizar vuelos con mayor tiempo de viaje, que no se ven en modo críptico.
+- A menudo se consigue otras disponibilidad que en críptico no aparece.
+- Utiliza otro método de búsqueda, otros servicios web tanto con Amadeus, como con otros GDS.
+
+### Desventajas.
+
+- Formato mucho mas lento para armar un PNR.
+- Agregado de campos del PNR en ventanas sucesivas y con errores.
+- No siempre se logra cerrar la oferta mostrada en el sistema (Frustración).
+
+Se puede cerrar un PNR en gráfico y luego abrirlo en modo críptico y viceversa.
+
 [Amadeus Selling Connect Producción](https://www.sellingplatformconnect.amadeus.com/) | [DESCARGA material de apoyo](https://thconsultora.com.ar/contactus) | [Amadeus Selling Platform Training](https://www.training.sellingplatformconnect.amadeus.com)
 
 #### Redes Sociales
