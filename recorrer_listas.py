@@ -10,3 +10,4 @@ def recorrer(listado):
             print(listaint)
 
 recorrer(listanueva)
+
