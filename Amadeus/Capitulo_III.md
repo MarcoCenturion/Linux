@@ -230,14 +230,74 @@ Luego de ver las tarifas publicadas entre un par de ciudades con el comando FXD 
 
 Para ver una regla, solo tenemos que pedir con ``FQN`` seguido del número de línea de la regla.
 
-``FQN1\*LIST`` Con este comando vemos el listado completo de los índices de la regla. Para ingresar a ver el título **Venta anticipada** de la tarifa del renglón 1, solo tenemos que indicar ``FQN1\*AP``, para ver el mínimo ``FQN1\*MN``, para ver el descuento para menores ``FQN1\*CD``
+``FQN1*LIST`` Con este comando vemos el listado completo de los índices de la regla. Para ingresar a ver el título **Venta anticipada** de la tarifa del renglón 1, solo tenemos que indicar ``FQN1*AP``, para ver el mínimo ``FQN1*MN``, para ver el descuento para menores ``FQN1*CD``
 
-También podemos agrupar hasta 3 títulos separados por comas "," ``FQN2\*RU,CD,MN``.
+También podemos agrupar hasta 3 títulos separados por comas "," ``FQN2*RU,CD,MN`` en este caso en particular: Regla de la tarifa, descuento para menores, y tiempo mínimo.
+
+#### Títulos de una nota:
+
+```FQN1
+**  RULES DISPLAY  **                  SURCHG MAY APPLY-CK RULE
+18APR23**18APR23/AR CORMIA/NSP;WH/TPM  4087/MPM  4951
+LN FARE BASIS    OW   USD  RT   B PEN  DATES/DAYS   AP MIN MAX R
+01 AL00NEE                  570 A NRF S09APR  23NOV+  + -  12M R
+                                      B20APR   -
+FCL: AL00NEE   TRF:   5 RULE: 7442 BK:  A
+PTC: ADT-ADULT              FTC: XPY-INSTANT PURCHASE 5TH LVL
+FARE FAMILY            : EE
+FARE FAMILY DESCRIPTION: PROMO
+OPTION LIST
+   RU.RULE APPLICATION              MN.MIN STAY
+   MX.MAX STAY                      SE.SEASONS
+   SR.SALES RESTRICT                AP.ADVANCE RES/TKT
+   FL.FLT APPLICATION               CD.CHILD DISCOUNTS
+   TC.TOUR CONDUCTOR                AD.AGTS DISCOUNTS
+   OD.OTHER DISCOUNTS               SO.STOPOVERS
+   SU.SURCHARGES                    TE.TKT ENDORSEMENT
+   PE.PENALTIES                     CO.COMBINABILITY
+   HI.HIGHER INTERMEDIATE POINT     VC.VOLUNTARY CHANGES
+   VR.VOLUNTARY REFUNDS
+```
+
+Nótese como en todos los despliegues aparece un par de fechas separados por asteriscos ``18APR23**18APR32`` corresponde a las fechas desde cuando y hasta cuando se aplica esta tarifa.
+
 
 ### FQR
 
-Para tarifas que tienen un routing obligatorio -cuando aparece la **R** al final del renglón de la tarifa- debemos ingresar, si es para el segmento 1 ``FQR1`` posiblemente tenemos una tarifa publicada con LA para la ruta CORMIA.
+Existen 2 métodos en que las cías aéreas publican las tarifas, por **Millaje** y por **Routing**.  Al final de cada renglón, en los despliegues posteriores a FQD aparecen una **R** o una **M** como lo detallamos aqui
 
+#### Millage
+
+```
+18APR23**18APR23/LA CORMIA/NSP;WH/TPM  4087/MPM  4951
+*** ONEWORLD VISIT NORTH AMERICA  - SEE NOTE I085 ***
+LN FARE BASIS    OW   USD  RT   B PEN  DATES/DAYS   AP MIN MAX R
+01 NLXSLHWI                 950 N NRF    -     1234+  +  + 12M M
+```
+
+#### Routing
+
+```
+18APR23**18APR23/AR CORBPS/NSP;WH/TPM  1884/MPM  2317
+LN FARE BASIS    OW   USD  RT   B PEN  DATES/DAYS   AP MIN MAX R
+01 ALOWAEB        239       478 A NRF S05APR  11JUL+  + -  12M R
+02 VLOWAEB        256       512 V NRF S05APR  11JUL+  + -  12M R
+03 ALOWAEP        264       528 A  +  S05APR  11JUL+  + -  12M R
+```
+
+Para tarifas que tienen un routing obligatorio -cuando aparece la **R** al final del renglón de la tarifa- debemos ingresar, si es para el segmento 1 ``FQR1`` posiblemente tenemos una tarifa publicada con LA para la ruta CORMAD.
+
+En el caso de la tarifa anterior, si miramos la ruta obligatoria que debemos seguir para pode aplicar esa tarifa, tenemos que hacer ``FQR1`` y tenemos la respuesta del sistema:
+
+```
+18APR23**18APR23/AR CORBPS/NSP;WH/TPM  1884/MPM  2317
+LN FARE BASIS    OW   USD  RT   B PEN  DATES/DAYS   AP MIN MAX R
+04 NLOWAEB        275       550 N NRF S05APR  11JUL+  + -  12M R
+ADDON          SPECIFIED  AR0015  ADDON  AR0015  EFF22MAR23
+  1 * COR-BUE-BSB/SAO-AR/G3-BPS
+```
+
+Si existiera un vuelo COR RIO con AR y quisieramos volar RIO BPS con G3 no se podría porque no está permitido por el routing.
 ---
 
 ### FQP Cotizar una ruta sin PNR
@@ -325,7 +385,9 @@ Para solicitar un despliegue homogéneo de todo el PNR ``FXY/FFH`` significa que
 
 ### Equipaje
 
-Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre los servicios ofrecidos por la cía. aérea, con el comando ``FXK`` Para saber solamente sobre el equipaje permitido ``FXK/I-BGI``. Luego ``FXK1`` para reservar y cotizar el servicio auxiliar.
+Sobre un PNR con una máscara grabada, podemos averiguar detalles sobre los servicios ofrecidos por la cía. aérea, con el comando ``FXK`` Para saber solamente sobre el equipaje permitido ``FXK/I-BGI``. Luego ``FWK1`` para reservar y cotizar el servicio auxiliar.
+
+FXK solamente, despliega todos los servicios que pueden comprarse.  No funciona con todas las cías.
 
 |Comando|Descripción
 |---|---|
