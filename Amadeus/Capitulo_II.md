@@ -192,6 +192,10 @@ Podemos enviar un itinerario por Email al correo que pusimos en el campo ``APEco
 |RMZ/CONF\*FORMAT:PDF|Al enviar por email el itinerario solo sale en formato PDF|
 |HE IEPJ|Help para Itinerario|
 
+Para enviar itinerario en un idioma distinto al del perfil de la agencia (por ejemplo la agencia tiene el perfil en Español y queremos enviar itinerarios en Ingles)
+
+```IEP-EML-AULAVIRTUALTURISMO@GMAIL.COM/LPEN```
+
 ---
 
 ## Modo Gráfico
