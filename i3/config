@@ -17,6 +17,10 @@ bindsym $mod+n border normal
 
 font xft:URWGothic-Book 11
 
+# Cambiar distribución del teclado 
+bindsym $mod+F9 exec setxkbmap es 
+bindsym $mod+F10 exec setxkbmap us 
+
 floating_modifier $mod
 
 bindsym $mod+Return exec i3-sensible-terminal
