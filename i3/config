@@ -17,10 +17,6 @@ bindsym $mod+n border normal
 
 font xft:URWGothic-Book 11
 
-# Cambiar distribución del teclado 
-bindsym $mod+F9 exec setxkbmap es 
-bindsym $mod+F10 exec setxkbmap us 
-
 floating_modifier $mod
 
 bindsym $mod+Return exec i3-sensible-terminal
@@ -371,7 +367,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id compton -cCGb
 
 # Teclado numerico
-exec --no-startup-id numlockx on
+exec --no-startup-id numlockx off
 
 # Applet de volumen
 exec --no-startup-id volumeicon
@@ -386,7 +382,7 @@ exec --no-startup-id aarchup"
 exec --no-startup-id mpg123
 
 # Fondo de Pantalla 
-exec --no-startup-id feh --bg-scale --bg-fill /home/marco/Libros/RwRHNm6.png
+exec --no-startup-id feh --bg-scale --bg-fill /home/marco/burdisio4.jpg
 
 #LLAMAR APLICACIONESX
 bindsym $mod+F1 exec firefox
@@ -396,6 +392,7 @@ bindsym $mod+F4 exec kate
 bindsym $mod+F5 exec chromium 
 bindsym $mod+F6 exec calibre
 bindsym $mod+F7 exec terminal -e 'mocp'
+bindsym $mod+f8 exec ranger
 bindsym $mod+Shift+h exec okular /usr/share/doc/manjaro/i3_help_live.pdf
 
 # Screenshots
@@ -416,3 +413,5 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 # Ejecutar al abrir
 exec firefox
 exec chromium
+exec i3-sensible-terminal
+#exec chromium
