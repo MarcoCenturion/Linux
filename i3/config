@@ -414,4 +414,3 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 exec firefox
 exec chromium
 exec i3-sensible-terminal
-#exec chromium
