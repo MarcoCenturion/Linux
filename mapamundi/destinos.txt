@@ -1,0 +1,16 @@
+Luzern, Venecia, SanFrancisco, SanDiego, Mérida, Acapulco
+Zihuatanejo, Ixtapa, LosCabos, Toronto, Montreal, SanJose, SanJuan
+CayoCoco, CayoGuillermo, Varadero, Cienfuegos, PuertoLimón, PuertoVallarta
+IslaMujeres, Uxmal, PlayadelCarmen, Salvador, Bahía, Maceió, Florianópolis
+PortoAlegre, Manaos, Belen, Fortaleza, Recife, Buzios, Arraial, CaboFrío
+IGR, MDZ, MDQ, ROS, MIA, FLL, 
+SanAntonio, Nápoles, Berlín, Basilea, Cologne, NewJersey, Washington
+SantaMarta, Leticia, Quito, Guayaquil, Montevideo, PuntadelEste, MardelPlata, VillaGesell, Madryn, Ushuaia, Calafateº
+Roma, París, NYC, NYX, Miami, Zurich, Milano
+Roma, París, NYC, NYX, Miami, Zurich, Milano
+BUE, PAR, ROM, TYO, LAX, RIO, SAO, MAD, BCN, LON, CUN, RIO, CTG, LAS,   
+BUE, PAR, ROM, TYO, LAX, RIO, SAO, MAD, BCN, LON, CUN, RIO, CTG, LAS,   
+London, Frankfurt, Moscow, Singapur, KualaLumpur, TelAviv, Cairo, LaHabana, Cartagena, SanAndres, Cancun, PuntaCana
+Sydney, Melbourne, Canberra, Aukland, Papette, BoraBora, Lima, Cuzco, LaPaz,
+Rimini, Asis, Verona, Torino, 
+Lyon, Marselle, Barcelona, Alicante, Sevilla, Valencia, Andorra
