@@ -62,6 +62,10 @@ total 356
         rwx = Permisos de lectura (r) escritura (w) y ejecución (x) del grupo marco
             rwx = Permisos del resto de los usuarios
 
+`ls -lsa -S` Lista todos los archivos y los ordena por tamaño.
+
+`ls -lsa -t` Lista todos los archivos y los ordena por fecha de modificación. 
+
 `chmod o+wx README.md` va a permitir que otros puedan leer y "ejecutar" README.md si fuera ejecutable
 
 `chmod g+rx` Permite leer y escribir a este grupo
