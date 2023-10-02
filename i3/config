@@ -89,7 +89,6 @@ bindsym $mod+Shift+minus move scratchpad
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym $mod+minus scratchpad show
 
-
 # navigate workspaces next / previous
 bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
@@ -173,7 +172,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Realmente queres salir de la sesión' -b 'Si, Salir de i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Eh queres salir de la sesión, no te la bancas?' -b 'Si, salgo porque me la banco' 'i3-msg exit'"
 
 # Set shut down, restart and locking features
 bindsym $mod+0 mode "$mode_system"
@@ -364,7 +363,7 @@ mode "$mode_gaps_outer" {
 exec --no-startup-id nm-applet
 
 # Transparencia
-exec --no-startup-id compton -cCGb
+exec xcompmgr -c -f -n 
 
 # Teclado numerico
 exec --no-startup-id numlockx off
@@ -414,3 +413,4 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 exec firefox
 exec chromium
 exec i3-sensible-terminal
+#exec chromium

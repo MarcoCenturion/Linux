@@ -10,6 +10,9 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'williamboman/nvim-lsp-installer'
+Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'williamboman/mason.nvim'
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mattn/emmet-vim'
 Plug 'saadparwaiz1/cmp_luasnip'
@@ -42,5 +45,10 @@ Plug 'python-lsp/python-lsp-server'
 
 " Other themes
 Plug 'morhetz/gruvbox'
+Plug 'ironcamel/vim-script-runner', {'for': ['sh', 'python']}
+Plug 'akinsho/toggleterm.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'BurntSushi/ripgrep'
+" Plug 'nvim-telescope/telescope-nvim', { 'branch': '0.1.x'}
 
 call plug#end()

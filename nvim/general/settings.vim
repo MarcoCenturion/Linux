@@ -10,7 +10,7 @@ set clipboard=unnamed
 set wrap
 set colorcolumn=80
 set guicursor=a:block
-set linebreak
+" set linebreak
 set noignorecase 
 execute 'set undodir=' . g:nvim_data_root . '/undodir'
 
@@ -113,5 +113,22 @@ lua <<EOF
   require('lspconfig')['<YOUR_LSP_SERVER>'].setup {
     capabilities = capabilities
   }
-EOF
 
+-- agregado 10JUL23
+
+local lspconfig = require('lspconfig')
+local lsp_defaults = lspconfig.util.default_config
+
+lsp_defaults.capabilities = vim.tbl_deep_extend(
+  'force',
+  lsp_defaults.capabilities,
+  require('cmp_nvim_lsp').default_capabilities()
+)
+
+---
+-- Servidores LSP
+---
+
+lspconfig.lua_ls.setup({})
+
+EOF
