@@ -4,7 +4,7 @@ import sys
 # Teniendo en cuenta que el primer argumento argv[0] es el propio nombre del ejecutable Python
 argumentos = sys.argv
 numArg = len(argumentos)
-if (numArg > 0):
+if (numArg > 1):
     print(f"Has pasado {numArg} argumentos por la línea de comandos")
     print("Los argumentos que has pasado son:")
     i = 0

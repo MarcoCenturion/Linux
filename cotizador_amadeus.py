@@ -161,7 +161,7 @@ blue = int(input("\n-------------------------------------\nIndicar el tipo de ca
 ventausd = int(input("\n----------------------------------\nIndicar el precio en USD emitiendo en MIA: "))
 '''
 
-cabe = sys.argv[1]
+cabe = sys.argv[1].lower()
 fee = int(sys.argv[2])
 blue = int(sys.argv[3])
 ventausd = int(sys.argv[4])

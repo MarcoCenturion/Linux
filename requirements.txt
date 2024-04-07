@@ -1,0 +1,8 @@
+altgraph==0.17.4
+packaging==24.0
+pyasn1==0.6.0
+pyinstaller==6.5.0
+pyinstaller-hooks-contrib==2024.3
+pyperclip==1.8.2
+PySimpleGUI==5.0.4
+rsa==4.9
