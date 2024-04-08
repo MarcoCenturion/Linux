@@ -19,5 +19,5 @@ PyInstaller.__main__.run([
 ])
 
 # python instalador_python.py 
-
+# Seguimos las instrucciones de https://mrdt3c.es/python/ejecutable-en-python 
 
