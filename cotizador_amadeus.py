@@ -62,6 +62,23 @@ aeropuertos = {
     "MAD": "Madrid",
     "MCO": "Orlando, Florida, US",
     "MDZ": "Mendoza",
+clases="".join(clases)
+
+# Agregamos el Fee al total del PNR
+total=float(ttl)+float(fee)
+
+totalblue = float(total) / float(blue)
+totalmia = (float(fee) / float(blue)) + float(((ventausd)*.999)+5)
+
+# Escribimos el resultado
+texto =(f'{cabecera.get(cabe)}\n--------------------------------------------\nCotización Internacional iniciando vuelos en Argentina - NO ES RESERVA\n* Compañia \
+ Emisora: {str(lineas.get(cia))}\n* Origen: {str(aeropuertos.get(orig))}\n\n* Despliegue de vuelos en horarios\
+ locales\n{str(tramos)}\n\n* Ultimo día para emitir: {str(ltd)}\n* Equipaje \
+ incluido: {str(franquicia.get(bagage))}\n**Total con impuestos PAGANDO EN PESOS ARS: {str(total)} por pasajero*\n* Cambios y Devoluciones: {str(devoluciones.get(ref))}\n* Cash o\
+ tarjeta de crédito en 1 cuota solamente\n**Emitiendo en dólares físicos IMPECABLES cara \
+ grande USD {str(int(totalmia))}* / Ahorras USD{str(int(totalblue)-int(totalmia))} emitiendo en Dólares*\n* Tomamos reserva solo con foto de DNI o \
+ Pasaporte\n* Recomendamos llevar asistencia al viajero ver opciones aqui -> https://www.thconsultora.com.ar/shop \n {str(clases)}{str(int(fee/blue))}')
+
     "MDQ": "Mar del Plata",
     "MEC": "Manta, Ecuador",
     "MEL": "Melbourne, Australia",
