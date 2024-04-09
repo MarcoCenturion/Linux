@@ -2,9 +2,23 @@
 # -*- coding: utf-8 -*-
 # Diccionarios a utilizar
 import re
-import sys
 import pyperclip as clip
-import PySimpleGUI as sg
+
+import sys
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QPixmap
+from PyQt5.QtWidgets import (
+    QApplication,
+    QCheckBox,
+    QComboBox,
+    QDoubleSpinBox,
+    QLabel,
+    QLineEdit,
+    QListWidget,
+    QMainWindow,
+    QSlider,
+    QSpinBox,
+)
 
 aeropuertos = {
     "ADD": "Addis Ababa, Ethiopia",
@@ -155,13 +169,19 @@ cabecera = {
 
 
 # Dibujamos la pantalla para capturar los datos
-layout=[sg.Text("Copiar TST y tramos PNR")],
+'''layout=[sg.Text("Copiar TST y tramos PNR")],
 [sg.Text('Indicar Cabecera Cotizac. '), sg.InputText(key="cabe")], 
 [sg.Text('Indicar FEE por tkt en ARS. '), sg.InputText(key="fee")], 
 [sg.Text('Indicar USD vendedor '), sg.InputText(key="blue")], 
 [sg.Text('Indicar Total TKT en USD. '), sg.InputText(key="ventausd")] 
 
-window=sg.Window('Cotizador de PNRS Amadeus',layout,margins=(50, 60).read())
+window=sg.Window('Cotizador de PNRS Amadeus',layout,margins=(50, 60))
+
+while True:
+    event, values = window.read()
+    if event == "Salir" or event == sg.WIN_CLOSED:
+        break
+window.close()'''
 
 '''
 
@@ -220,4 +240,3 @@ texto =(f'{cabecera.get(cabe)}\n--------------------------------------------\nCo
 print(texto)
 clip.copy(texto)
 '''
-window.close()
