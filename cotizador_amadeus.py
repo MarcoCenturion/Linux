@@ -1,6 +1,14 @@
 #!~/pysimplegui/bin/python3.11.8
 # -*- coding: utf-8 -*-
 # Diccionarios a utilizar
+# parametros 
+#-------------------------------
+# 1- cabecera 
+# 2- fee 
+# 3- blue 
+# 4- tarifa en USS
+# Clipboard = PNR + itin
+
 import re
 import sys
 import pyperclip as clip
