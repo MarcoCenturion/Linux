@@ -155,7 +155,7 @@ cabecera = {
 # con print nos aseugramos de ver el contenido
 
 tst = clip.paste()
-print(tst)
+#print(tst)
 
 # Captura datos
 # Importamos la librería RE, definimos un fee por defecto
