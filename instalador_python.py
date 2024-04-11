@@ -14,7 +14,7 @@ PyInstaller.__main__.run([
     '--onefile',
     '--console', # or --windowed if you don´t need windows command line
     '--name',
-    'Cotizador_Amadeus',
+    'Cotizador_Amadeus.exe',
     '--clean'
 ])
 
