@@ -124,7 +124,7 @@
   ('pprint', '/usr/lib/python3.11/pprint.py', 'PYMODULE'),
   ('py_compile', '/usr/lib/python3.11/py_compile.py', 'PYMODULE'),
   ('pyperclip',
-   '/home/marco/pysimplegui/lib/python3.11/site-packages/pyperclip/__init__.py',
+   '/home/marco/amadeus_tkinter/lib/python3.11/site-packages/pyperclip/__init__.py',
    'PYMODULE'),
   ('quopri', '/usr/lib/python3.11/quopri.py', 'PYMODULE'),
   ('random', '/usr/lib/python3.11/random.py', 'PYMODULE'),
