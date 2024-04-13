@@ -11,6 +11,7 @@
 
 import re
 import sys
+# import PyPDF2
 import pyperclip as clip
 
 aeropuertos = {
@@ -62,12 +63,13 @@ aeropuertos = {
     "LAP": "La Paz, Mexico",
     "LAS": "Las Vegas",
     "LAX": "Los Angeles, California",
+    "LCA": "Larnaca, Cyprus",
     "LGA": "La Guardia New York",
-    "LGW": "London, Gran Bretaña",
+    "LGW": "London",
     "LHR": "Heathrow, London",
     "LIM": "Lima, Perú",
-    "LIS": "Lisboa, Portugal",
-    "MAD": "Madrid, España",
+    "LIS": "Lisboa",
+    "MAD": "Madrid",
     "MCO": "Orlando, Florida, US",
     "MDZ": "Mendoza",
     "MDQ": "Mar del Plata",
@@ -76,8 +78,11 @@ aeropuertos = {
     "MEX": "México DF",
     "MIA": "Miami, USA",
     "MIL": "Milano",
+    "MUC": "Munich",
     "MXP": "Malpensa, Milano",
+    "NAP": "Napoles, Italy",
     "NLU": "Felipe Angeles, Mexico DF",
+    "OPO": "Oporto, Portugal",
     "ORD": "Chicago, USA",
     "ORY": "Orly, París",
     "POA": "Porto Allegre",
@@ -94,9 +99,11 @@ aeropuertos = {
     "SLA": "Salta",
     "SMR": "Santa Marta, Colombia",
     "SSA": "Salvador, Bahia",
+    "STR": "Stutgart",
     "SVQ": "Sevilla",
     "SYD": "Sydney",
     "TIJ": "Tijuana, Mexico",
+    "TLV": "Tel Aviv, Israel",
     "UIO": "Quito, Ecuador",
     "USH": "Ushuaia",
     "VLC": "Valencia, España",
@@ -227,3 +234,8 @@ texto =(f'{cabecera.get(cabe)}\n--------------------------------------------\nCo
 
 print(texto)
 clip.copy(texto)
+'''
+pdf = PyPDF2.PdfMerger()
+pdf.append(texto)
+pdf.write("Cotzación_Amadeus.pdf")
+'''
