@@ -1,0 +1,32 @@
+Asistencia Médica por Accidente hasta,USD 85.000
+Asistencia Médica por Enfermedad hasta (incluido COVID-19),USD 85.000
+Asistencia Médica en caso de pre-existencia hasta,USD 6.000
+Medicamentos hasta,USD 600
+Odontología de Emergencia hasta,USD 750
+Traslado y Repatriación Sanitaria,INCLUIDO
+Repatriación Funeraria,INCLUIDO
+Gastos de Hotel por Convalecencia hasta,USD 600
+Gastos por Vuelo Demorado o Cancelado (Mínimo 6 horas) hasta,USD 500
+Cancelación de Viaje Multicausas hasta,USD 2.000
+Indemnización por Extravío de Equipaje hasta,USD 1.500
+Compensación por Demora de Equipaje (Mínimo 6 horas) hasta,USD 600
+Asistencia en caso de extravío de documentos y/o equipaje,INCLUIDO
+Traslado de un Familiar por Hospitalización del Beneficiario,TKT + HOTEL
+Regreso Anticipado por Fallecimiento de Familiar,TKT CLASE ECON.
+Regreso Anticipado por Siniestro Grave en Domicilio,TKT CLASE ECON.
+Regreso Anticipado por Enfermedad o Accidente Grave del Beneficiario,TKT CLASE ECON.
+Sustitución de Ejecutivo,TKT CLASE ECON.
+Acompañamiento de Menores,TKT CLASE ECON.
+Transmisión de Mensajes Urgentes,INCLUIDO
+Transferencia de Fondos hasta,USD 5.000
+Transferencia de Fondos para fianza legal hasta,USD 10.000
+Asistencia Legal por Accidente de Tránsito hasta,USD 3.000
+Práctica de Deportes Amateur hasta,USD 10.000
+Futura Mamá (hasta 28 semanas de embarazo y hasta 40 años) hasta,USD 10.000
+Línea de Consulta,INCLUIDO
+Cobertura Geográfica,MUNDIAL EXCEPTO PAÍS DE RESIDENCIA
+Límite de Edad,75 AÑOS - 76 A 85 + 50%
+Mínimo de días de venta,3 DÍAS
+Máximo de días de venta,120 DÍAS
+Telemedicina - Médico Virtual - Soporte Emocional,INCLUIDO
+Gastos de Hotel y Alimentación por Cuarentena (hasta por 15 días),N/A
