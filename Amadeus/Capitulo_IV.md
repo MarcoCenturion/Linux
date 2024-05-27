@@ -38,6 +38,7 @@ De esta manera podemos agregar filtros para que el resultado sea lo mas parecido
 |FXD COR,BUE,ROS/D10AUGBPS,SSA,NAT/ D20AUGCOR,ROS,BUE/R,UP,UARBR00,U\*AZUL,U\*OPERINT5|IMPRESIONANTE: La mejor tarifa a cualquiera de estos 3  destinos, NAT BPS ó SSA incluyendo 1) netas, 2) publicas, 3) nego  G3, 4) nego JJ y 5) nego AD, saliendo de BUE ROS o COR|
 |FXD COR/D10AUGPUJ,SDQ,HAV/ D20AUGCOR/RPFA,U*ARVPU,UP|La mas barata a PUJ SDQ o HAV publicas, netas y nego CM |
 |FXD COR/D10AUGTRN/**DI-120K**/D20AUGCOR|Radio de 120 KM alrededor de un aeropuerto, en este caso TRN |
+|//FBA |Agregar maleta a todo el itinerario|
 
 #### Respuesta de Master Pricer
 
