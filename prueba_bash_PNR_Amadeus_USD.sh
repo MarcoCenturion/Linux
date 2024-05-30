@@ -21,7 +21,7 @@ redColour="\e[0;31m\033[1m"
 now=$(date +"%d-%m-%y  %H:%M")
 
 function renglon(){
-        printf %100s |tr " " "="
+        printf %80s |tr " " "="
 }
 
 # Ingresamos el valor del dolar y el Markup

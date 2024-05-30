@@ -27,7 +27,7 @@ clear
 # Ingresamos el valor del dolar y el Markup
 #echo -ne "\n${greenColour}Ingresar el valor del dolarblue: ${endColour}" 
 #read dolarblue
-# renglon
+#renglon
 echo -ne "\n${greenColour}Esta cotización es del día: $now${endColour}"
 echo -ne "\n${greenColour}El Markup ingresado es: $2\n ${endColour}"
 # echo -ne "\n${greenColour}Indicar el Markup por tkt: ${endColour}" 
