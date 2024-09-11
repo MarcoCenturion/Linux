@@ -167,10 +167,7 @@ Este gráfico intenta mostrar el flujo de trabajo de una entrevista de aéreos, 
 
 Este es un flujo normal de las taréas de un cliente consultando aéreos en una agencia de viajes.
 
-
-
 @startuml
-
 !theme amiga 
 skinparam handwritten true
 box "Entrevista aéreo Retail"
