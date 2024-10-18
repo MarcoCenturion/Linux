@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Bookings>
+    <NextRequest>2024-09-24T20:47:40.664</NextRequest>
+    <Book>
+        <UpdateDate>2024-09-24T20:45:36.497</UpdateDate>
+        <TicketingDate>2024-09-24T20:45:36.497</TicketingDate>
+        <BookingDate>2024-09-24T20:45:03.713</BookingDate>
+        <BookingNumber>24TBUJ</BookingNumber>
+        <BookingID>2072403</BookingID>
+        <Provider>AMS</Provider>
+        <PCC>CORG128C6</PCC>
+        <ValidatingCarrier>WJ</ValidatingCarrier>
+        <AirlineLocator>C1DB2L</AirlineLocator>
+        <BookingStatus>Issued</BookingStatus>
+        <WingsUser>tecno@jazzoperador.com.ar</WingsUser>
+        <PassengerCount>2</PassengerCount>
+        <PurchaseCurrency>ARS</PurchaseCurrency>
+        <PurchaseTotal>253254.80000000</PurchaseTotal>
+        <CommissionPct>0.00</CommissionPct>
+        <OverPct>0.00</OverPct>
+        <OverPaxType>ALL</OverPaxType>
+        <TotalFee>0.00000000</TotalFee>
+        <Extras>0.00</Extras>
+        <Van Used="False" />
+        <Product Owner="JZZ" OwnProduct="True" IdWeb="10043" WebOwner="JZZ" OwnChannel="True" />
+        <Remark PaxNumber="1" Type="RMK-CC" Text="2265" />
+        <Remark PaxNumber="1" Type="RMK-ce" Text="2265" />
+        <Remark PaxNumber="1" Type="RMK-CFEE" Text="4199.20" />
+        <Remark PaxNumber="1" Type="RMK-ODISC" Text="0.00" />
+        <Remark PaxNumber="1" Type="RMK-rva" Text="tpir" />
+        <Payment Number="1" Type="FARE" FOPtype="CC" Currency="ARS" Amount="253254.80000000" Reference="ALL">
+            <CreditCard Type="VI" Number="433833XXXXXX2423" AuthCode="015687" Installments="9" />
+        </Payment>
+        <Ticket Type="ETK" Number="9745817133331" PaxRef="1">ETK:1/VELAZQUEZ MANUEL/974-5817133331</Ticket>
+        <Ticket Type="ETK" Number="9745817133332" PaxRef="3">ETK:3/CENTURION FLORENCIA AGUSTINA/974-5817133332</Ticket>
+        <Segment LegNumber="1" SegmentNumber="1" Airline="JA" Number="3181" DepartureAirport="AEP" DepartureDate="2024-12-15T09:50:00" ArrivalAirport="CPC" ArrivalDate="2024-12-15T12:05:00" BookingClass="R" />
+        <Segment LegNumber="2" SegmentNumber="1" Airline="JA" Number="3182" DepartureAirport="CPC" DepartureDate="2024-12-23T13:15:00" ArrivalAirport="AEP" ArrivalDate="2024-12-23T15:20:00" BookingClass="R" />
+        <Tax PaxNumber="1">
+            <TaxDetail TaxCode="DL-RE" Currency="USD" Amount="11.68838153" LocalCurrency="ARS" LocalAmount="11518.90000000" />
+            <TaxDetail TaxCode="QN-LO" Currency="USD" Amount="4.79360731" LocalCurrency="ARS" LocalAmount="4724.10000000" />
+            <TaxDetail TaxCode="S7-SE" Currency="USD" Amount="0.52765094" LocalCurrency="ARS" LocalAmount="520.00000000" />
+            <TaxDetail TaxCode="TQ-SE" Currency="USD" Amount="0.04058853" LocalCurrency="ARS" LocalAmount="40.00000000" />
+            <TaxDetail TaxCode="XR-AE" Currency="USD" Amount="4.91567732" LocalCurrency="ARS" LocalAmount="4844.40000000" />
+        </Tax>
+        <Tax PaxNumber="2">
+            <TaxDetail TaxCode="DL-RE" Currency="USD" Amount="11.68838153" LocalCurrency="ARS" LocalAmount="11518.90000000" />
+            <TaxDetail TaxCode="QN-LO" Currency="USD" Amount="4.79360731" LocalCurrency="ARS" LocalAmount="4724.10000000" />
+            <TaxDetail TaxCode="S7-SE" Currency="USD" Amount="0.52765094" LocalCurrency="ARS" LocalAmount="520.00000000" />
+            <TaxDetail TaxCode="TQ-SE" Currency="USD" Amount="0.04058853" LocalCurrency="ARS" LocalAmount="40.00000000" />
+            <TaxDetail TaxCode="XR-AE" Currency="USD" Amount="4.91567732" LocalCurrency="ARS" LocalAmount="4844.40000000" />
+        </Tax>
+        <Pax PaxNumber="1" PaxRef="3" First="FLORENCIA AGUSTINA" Last="CENTURION" Type="ADT">
+            <Fare Currency="ARS" Base="104980.00" Tax="21647.40" PurchaseBase="104980.00" PurchaseTax="21647.40" />
+        </Pax>
+        <Pax PaxNumber="2" PaxRef="1" First="MANUEL" Last="VELAZQUEZ" Type="ADT">
+            <Fare Currency="ARS" Base="104980.00" Tax="21647.40" PurchaseBase="104980.00" PurchaseTax="21647.40" />
+        </Pax>
+    </Book>
+    <Book>
+        <UpdateDate>2024-09-24T20:47:40.663</UpdateDate>
+        <TicketingDate>2024-09-24T20:47:40.663</TicketingDate>
+        <BookingDate>2024-09-24T20:47:07.297</BookingDate>
+        <BookingNumber>2LZJYE</BookingNumber>
+        <BookingID>2072405</BookingID>
+        <Provider>AMS</Provider>
+        <PCC>CORG128C6</PCC>
+        <ValidatingCarrier>WJ</ValidatingCarrier>
+        <AirlineLocator>IDKQ8U</AirlineLocator>
+        <BookingStatus>Issued</BookingStatus>
+        <WingsUser>tecno@jazzoperador.com.ar</WingsUser>
+        <PassengerCount>3</PassengerCount>
+        <PurchaseCurrency>ARS</PurchaseCurrency>
+        <PurchaseTotal>279490.50000000</PurchaseTotal>
+        <CommissionPct>0.00</CommissionPct>
+        <OverPct>0.00</OverPct>
+        <OverPaxType>ALL</OverPaxType>
+        <TotalFee>0.00000000</TotalFee>
+        <Extras>0.00</Extras>
+        <Van Used="False" />
+        <Product Owner="JZZ" OwnProduct="True" IdWeb="10043" WebOwner="JZZ" OwnChannel="True" />
+        <Remark PaxNumber="1" Type="RMK-CC" Text="2265" />
+        <Remark PaxNumber="1" Type="RMK-ce" Text="2265" />
+        <Remark PaxNumber="1" Type="RMK-CFEE" Text="4560.00" />
+        <Remark PaxNumber="1" Type="RMK-ODISC" Text="0.00" />
+        <Remark PaxNumber="1" Type="RMK-rva" Text="tpir" />
+        <Payment Number="1" Type="FARE" FOPtype="CC" Currency="ARS" Amount="279490.50000000" Reference="ALL">
+            <CreditCard Type="VI" Number="433833XXXXXX2423" AuthCode="015687" Installments="9" />
+        </Payment>
+        <Ticket Type="ETK" Number="9745817133333" PaxRef="2">ETK:2/CENTURION DIEGO RODRIGO/974-5817133333</Ticket>
+        <Ticket Type="ETK" Number="9745817133334" PaxRef="4">ETK:4/CENTURION ALFONSINA/974-5817133334</Ticket>
+        <Ticket Type="ETK" Number="9745817133335" PaxRef="5">ETK:5/CENTURION AMPARO/974-5817133335</Ticket>
+        <Segment LegNumber="1" SegmentNumber="1" Airline="JA" Number="3181" DepartureAirport="AEP" DepartureDate="2024-12-15T09:50:00" ArrivalAirport="CPC" ArrivalDate="2024-12-15T12:05:00" BookingClass="R" />
+        <Segment LegNumber="2" SegmentNumber="1" Airline="JA" Number="3182" DepartureAirport="CPC" DepartureDate="2024-12-23T13:15:00" ArrivalAirport="AEP" ArrivalDate="2024-12-23T15:20:00" BookingClass="R" />
+        <Tax PaxNumber="1">
+            <TaxDetail TaxCode="DL-RE" Currency="USD" Amount="8.46179604" LocalCurrency="ARS" LocalAmount="8339.10000000" />
+            <TaxDetail TaxCode="QN-LO" Currency="USD" Amount="3.47031963" LocalCurrency="ARS" LocalAmount="3420.00000000" />
+            <TaxDetail TaxCode="S7-SE" Currency="USD" Amount="0.52765094" LocalCurrency="ARS" LocalAmount="520.00000000" />
+            <TaxDetail TaxCode="TQ-SE" Currency="USD" Amount="0.04058853" LocalCurrency="ARS" LocalAmount="40.00000000" />
+            <TaxDetail TaxCode="XR-AE" Currency="USD" Amount="4.91567732" LocalCurrency="ARS" LocalAmount="4844.40000000" />
+        </Tax>
+        <Tax PaxNumber="2">
+            <TaxDetail TaxCode="DL-RE" Currency="USD" Amount="8.46179604" LocalCurrency="ARS" LocalAmount="8339.10000000" />
+            <TaxDetail TaxCode="QN-LO" Currency="USD" Amount="3.47031963" LocalCurrency="ARS" LocalAmount="3420.00000000" />
+            <TaxDetail TaxCode="S7-SE" Currency="USD" Amount="0.52765094" LocalCurrency="ARS" LocalAmount="520.00000000" />
+            <TaxDetail TaxCode="TQ-SE" Currency="USD" Amount="0.04058853" LocalCurrency="ARS" LocalAmount="40.00000000" />
+            <TaxDetail TaxCode="XR-AE" Currency="USD" Amount="4.91567732" LocalCurrency="ARS" LocalAmount="4844.40000000" />
+        </Tax>
+        <Tax PaxNumber="3">
+            <TaxDetail TaxCode="DL-RE" Currency="USD" Amount="8.46179604" LocalCurrency="ARS" LocalAmount="8339.10000000" />
+            <TaxDetail TaxCode="QN-LO" Currency="USD" Amount="3.47031963" LocalCurrency="ARS" LocalAmount="3420.00000000" />
+            <TaxDetail TaxCode="S7-SE" Currency="USD" Amount="0.52765094" LocalCurrency="ARS" LocalAmount="520.00000000" />
+            <TaxDetail TaxCode="TQ-SE" Currency="USD" Amount="0.04058853" LocalCurrency="ARS" LocalAmount="40.00000000" />
+            <TaxDetail TaxCode="XR-AE" Currency="USD" Amount="4.91567732" LocalCurrency="ARS" LocalAmount="4844.40000000" />
+        </Tax>
+        <Pax PaxNumber="1" PaxRef="4" First="ALFONSINA" Last="CENTURION" Type="ADT">
+            <Fare Currency="ARS" Base="76000.00" Tax="17163.50" PurchaseBase="76000.00" PurchaseTax="17163.50" />
+        </Pax>
+        <Pax PaxNumber="2" PaxRef="5" First="AMPARO" Last="CENTURION" Type="ADT">
+            <Fare Currency="ARS" Base="76000.00" Tax="17163.50" PurchaseBase="76000.00" PurchaseTax="17163.50" />
+        </Pax>
+        <Pax PaxNumber="3" PaxRef="2" First="DIEGO RODRIGO" Last="CENTURION" Type="ADT">
+            <Fare Currency="ARS" Base="76000.00" Tax="17163.50" PurchaseBase="76000.00" PurchaseTax="17163.50" />
+        </Pax>
+    </Book>
+    <Ratios Date="2024-09-24">
+        <Ratio BaseCurrency="USD" TargetCurrency="AED" Amount="3.6734"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="ARS" Amount="985.5000"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="AUD" Amount="1.4693"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="BOB" Amount="6.9600"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="BRL" Amount="5.5446"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="CAD" Amount="1.3572"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="CHF" Amount="0.8504"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="CLP" Amount="931.0000"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="COP" Amount="4155.3100"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="CRC" Amount="521.7500"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="CZK" Amount="22.4559"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="DKK" Amount="6.6827"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="DOP" Amount="60.0700"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="EUR" Amount="0.8959"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="GBP" Amount="0.7509"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="GTQ" Amount="7.7254"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="HUF" Amount="352.3296"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="IDR" Amount="15100.0000"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="MXN" Amount="19.3725"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="NIO" Amount="37.2245"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="PEN" Amount="3.7540"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="PLN" Amount="3.8269"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="PYG" Amount="7788.1700"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="SEK" Amount="10.1769"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="UYU" Amount="41.9019"/>
+        <Ratio BaseCurrency="USD" TargetCurrency="VEF" Amount="248832.0000"/>
+    </Ratios>
+</Bookings>
+

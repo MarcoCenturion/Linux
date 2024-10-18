@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BookingsBook>
+  <UpdateDate>2024-10-16T12:36:47.05</UpdateDate>
+  <TicketingDate>2024-10-16T12:36:47.05</TicketingDate>
+  <BookingDate>2024-10-15T12:49:00.767</BookingDate>
+  <BookingNumber>LAKBGWPU</BookingNumber>
+  <BookingID>2103958</BookingID>
+  <PCC>JZZARUSD3</PCC>
+  <ValidatingCarrier>LA</ValidatingCarrier>
+  <AirlineLocator>KBGWPU</AirlineLocator>
+  <BookingStatus>Issued</BookingStatus>
+  <PassengerCount>1</PassengerCount>
+  <BuyerDocument>27269637590</BuyerDocument>
+  <PurchaseCurrency>ARS</PurchaseCurrency>
+  <PurchaseTotal>1879419.82000000</PurchaseTotal>
+  <CommissionPct>0.00</CommissionPct>
+  <OverPct>0.00</OverPct>
+  <OverPaxType>ALL</OverPaxType>
+  <TotalFee>0.00000000</TotalFee>
+  <Extras>0.00</Extras>
+  <Cambio>1000.0000</Cambio>
+  <Van Used="False" />
+  <Product Owner="JZZ" OwnProduct="True" IdWeb="10043" WebOwner="JZZ" OwnChannel="True" />
+  <Remark PaxNumber="1" Type="RMK-AFEE" Text="199900.00" />
+  <Remark PaxNumber="1" Type="RMK-CC" Text="2262" />
+  <Remark PaxNumber="1" Type="RMK-ce" Text="2262" />
+  <Remark PaxNumber="1" Type="RMK-CFEE" Text="24987.50" />
+  <Remark PaxNumber="1" Type="RMK-ODISC" Text="0.00" />
+  <Remark PaxNumber="1" Type="RMK-rva" Text="tpir" />
+  <Payment Number="1" Type="FARE" FOPtype="CASH" Currency="ARS" Amount="1879419.82000000" Reference="ALL">
+    <CreditCard />
+  </Payment>
+  <Ticket Type="ETK" Number="0452203024315" PaxRef="ADT_1">ETK:ADT_1/PERELLO.IVANA LORENA/0452203024315</Ticket>
+  <Ticket Type="ETK" Number="0452203024316" PaxRef="ADT_1">ETK:ADT_1/PERELLO.IVANA LORENA/0452203024316</Ticket>
+  <Segment LegNumber="1" SegmentNumber="1" Airline="LA" Number="491" DepartureAirport="COR" DepartureDate="2025-04-05T12:06:00" ArrivalAirport="SCL" ArrivalDate="2025-04-05T13:38:00" BookingClass="Q" />
+  <Segment LegNumber="1" SegmentNumber="2" Airline="LA" Number="805" DepartureAirport="SCL" DepartureDate="2025-04-06T00:45:00" ArrivalAirport="MEL" ArrivalDate="2025-04-07T05:40:00" BookingClass="Q" />
+  <Segment LegNumber="1" SegmentNumber="3" Airline="LA" Number="4818" DepartureAirport="MEL" DepartureDate="2025-04-07T08:00:00" ArrivalAirport="SYD" ArrivalDate="2025-04-07T09:25:00" BookingClass="Q" />
+  <Segment LegNumber="2" SegmentNumber="1" Airline="LA" Number="810" DepartureAirport="SYD" DepartureDate="2025-04-25T12:10:00" ArrivalAirport="SCL" ArrivalDate="2025-04-25T11:00:00" BookingClass="Q" />
+  <Segment LegNumber="2" SegmentNumber="2" Airline="LA" Number="486" DepartureAirport="SCL" DepartureDate="2025-04-25T16:15:00" ArrivalAirport="COR" ArrivalDate="2025-04-25T18:45:00" BookingClass="Q" />
+  <Tax PaxNumber="1">
+    <TaxDetail TaxCode="AR" Currency="USD" Amount="111.00000000" />
+    <TaxDetail TaxCode="AU" Currency="USD" Amount="47.20000000" />
+    <TaxDetail TaxCode="QO" Currency="USD" Amount="10.00000000" />
+    <TaxDetail TaxCode="QR" Currency="USD" Amount="15.80000000" />
+    <TaxDetail TaxCode="S7" Currency="USD" Amount="1.40000000" />
+    <TaxDetail TaxCode="TQ" Currency="USD" Amount="8.00000000" />
+    <TaxDetail TaxCode="WG" Currency="USD" Amount="6.90000000" />
+    <TaxDetail TaxCode="WY" Currency="USD" Amount="38.10000000" />
+    <TaxDetail TaxCode="XR" Currency="USD" Amount="57.00000000" />
+  </Tax>
+  <Pax PaxNumber="1" PaxRef="ADT_1" First="ivana lorena" Last="perello" Type="ADT">
+    <Fare Currency="USD" Base="1585.00" Tax="295.40" />
+  </Pax>
+</BookingsBook>
