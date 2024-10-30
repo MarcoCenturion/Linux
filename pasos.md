@@ -20,7 +20,11 @@
   - Sti 
   - Aeromundo
   - Tucano
-- Dtpo Comercial aéreo
+- Dtpo Comercial Aéreo
+- Identificar agencias que solicitan Acceso a Nemo y Red Evt
+  - ¿Con quien emiten?  ¿Averguar condiciones? ¿GDS?  Mejorar. 
+- Ver quienes no son clientes de Seba / Viganego
+- Establecer objetivos y premios.
 
 # Pasos
 
