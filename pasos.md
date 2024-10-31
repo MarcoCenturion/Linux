@@ -15,7 +15,6 @@
   - Creación de Mesa de Ayuda detrás de Starlings
     - Detallar taréas, objetivos, incentivos, etc
 - Dibujar mapa de procesos, flujos y documentar (Cuando emitir cada caso)
-- Armar una regla Cash USD para que esta forma de pago  no se emita automaticamente.
   - Starlings
   - Tango 
   - Sti 
@@ -27,7 +26,6 @@
 - Ver quienes no son clientes de Seba / Viganego.
 - Establecer objetivos y premios.
 
-
 # Pasos
 
 - Capacitar las faltas
@@ -36,7 +34,4 @@
 - Reportería
 
 # Fechas
-
-- Limpieza de agencias registradas en el sitio.  Una semana
-- Contactarlas para averiguar como emiten.  Una semana
 
