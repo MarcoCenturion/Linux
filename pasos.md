@@ -13,6 +13,7 @@
   - Amadeus
   - Sabre
   - Creación de Mesa de Ayuda detrás de Starlings
+    - Capacitar esa Mesa de Ayuda en todas estas herramientas.  
     - Detallar taréas, objetivos, incentivos, etc
 - Dibujar mapa de procesos, flujos y documentar (Cuando emitir cada caso)
   - Starlings
@@ -25,6 +26,10 @@
   - ¿Con quien emiten?  ¿Averguar condiciones? ¿GDS?  Mejorar. 
 - Ver quienes no son clientes de Seba / Viganego.
 - Establecer objetivos y premios.
+- Colas, reprogramaciones.
+- Softur.
+  - ¿Copiar Files? ¿O continuar con ambos sistemas conviviendo?
+  - Puesta en producción.
 
 # Pasos
 
