@@ -9,7 +9,10 @@
     - LA
     - IB
     - CM
-    - LH:
+    - LH
+    - AV 
+    - AA 
+    - QR
   - Amadeus
   - Sabre
   - Creación de Mesa de Ayuda detrás de Starlings
@@ -18,7 +21,7 @@
 - Dibujar mapa de procesos, flujos y documentar (Cuando emitir cada caso)
   - Starlings
   - Tango 
-  - Sti 
+  - Sti (Condiciones) 
   - Aeromundo
   - Tucano
 - Dtpo Comercial Aéreo
