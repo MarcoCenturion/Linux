@@ -11,7 +11,6 @@
 | |\/| | |/ __/ _` | | |   / _ \/ __| __/ _` |
 | |  | | | (_| (_| | | |__| (_) \__ \ || (_| |
 |_|  |_|_|\___\__,_|  \____\___/|___/\__\__,_|
-                                              
 
 ```
 [[Toc]]
@@ -52,9 +51,9 @@ H- Apagar Sirenas
 # Elementos
 
 - Teclado numérico (existencia OK)
-- Módulo display (existencia OK)
-- 3 sensores PIR (existencia 1)
-- 2 cámaras (existencia 1)
+- Módulo display (existencia OK) SH1106 
+- 3 sensores PIR (existencia 1) SR501
+- 2 cámaras (existencia 1) OV7670
 - 4 Rele (existencia 2)
 - Módulo ESP32 (existencia ok)
 - Batería 12V 7A (existencia OK)
@@ -66,6 +65,8 @@ H- Apagar Sirenas
 - Bornera eléctrica 
 - 4 Portalámparas + dicroicas led
 - Caja DIY
+- Lectora escritora de tarjeta ssd, para guardar imágenes.  spi.
+- Snsor de humo para incendios.  Monoxido de carbono. MQ5
 
 # Circuito
 
@@ -122,3 +123,8 @@ while True:
         time.sleep(1)  # Evitar múltiples cambios por rebote
 
 ```
+
+## Sitios de referencia
+
+[Random Tutorials](https://randomnerdtutorials.com/esp32-microsd-card-arduino/)
+[Esploradores en Español](https://www.esploradores.com/)
