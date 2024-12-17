@@ -81,46 +81,6 @@ Un circuito de tensión domiciliaria alimenta una batería de 12 V, que a su vez
 Main program
 
 ```
-import machine
-import urequests
-import time
-
-# Pines de las zonas
-zona_1 = machine.Pin(25, machine.Pin.IN)
-zona_2 = machine.Pin(26, machine.Pin.IN)
-zona_3 = machine.Pin(27, machine.Pin.IN)
-
-# Botón para activar/desactivar
-boton = machine.Pin(0, machine.Pin.IN, machine.Pin.PULL_UP)
-
-# Estado del sistema
-sistema_activado = False
-
-# Configuración del bot de Telegram
-BOT_TOKEN = "TU_TOKEN_DEL_BOT"
-CHAT_ID = "TU_CHAT_ID"
-
-def enviar_mensaje(mensaje):
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    data = {"chat_id": CHAT_ID, "text": mensaje}
-    urequests.post(url, json=data)
-
-def alarma_triggered(zona):
-    if sistema_activado:
-        enviar_mensaje(f"Alarma activada en zona {zona}")
-
-# Interrupciones para las zonas
-zona_1.irq(trigger=machine.Pin.IRQ_RISING, handler=lambda p: alarma_triggered(1))
-zona_2.irq(trigger=machine.Pin.IRQ_RISING, handler=lambda p: alarma_triggered(2))
-zona_3.irq(trigger=machine.Pin.IRQ_RISING, handler=lambda p: alarma_triggered(3))
-
-# Bucle principal
-while True:
-    if not boton.value():  # Botón presionado
-        sistema_activado = not sistema_activado
-        estado = "activado" if sistema_activado else "desactivado"
-        enviar_mensaje(f"Sistema {estado}")
-        time.sleep(1)  # Evitar múltiples cambios por rebote
 
 ```
 
