@@ -1,0 +1,2 @@
+WIFI_SSID = "Fibertel WiFi m55 2.4GHz"
+WIFI_PASSWORD = "XHsUxXjxUU"

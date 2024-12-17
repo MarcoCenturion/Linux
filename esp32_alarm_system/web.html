@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Panel de Alarma</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .sensor { font-size: 1.2rem; margin: 10px 0; }
+        .activo { color: green; font-weight: bold; }
+        .inactivo { color: red; }
+    </style>
+</head>
+<body class="text-center">
+    <div class="container mt-5">
+        <h1 class="mb-4">Sistema de Alarma</h1>
+        <div class="sensor">Zona 1: <span id="zona1" class="inactivo">Inactiva</span></div>
+        <div class="sensor">Zona 2: <span id="zona2" class="inactivo">Inactiva</span></div>
+        <div class="sensor">Zona 3: <span id="zona3" class="inactivo">Inactiva</span></div>
+        <hr>
+        <p id="status" class="mt-3">Estado del sistema: <strong>Desactivado</strong></p>
+    </div>
+</body>
+</html>
+
