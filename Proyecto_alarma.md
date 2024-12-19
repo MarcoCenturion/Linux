@@ -101,9 +101,8 @@ WIFI_SSID = 'Fibertel WiFi m55 2.4GHz'
 WIFI_PASSWORD = 'XHsUxXjxUU'
 
 # Configuración de Telegram
-TOKEN = 'TU_TOKEN_DE_TELEGRAM'
-CHATID = 'TU_CHAT_ID'
-
+TOKEN = '8098764738:AAHJA9CswhpXDKmnpSiKmFctsyddYbk3vjk'
+CHATID = 'alares32bot'
 ```
 
 boot.py
@@ -168,112 +167,73 @@ web.html
 
 main.py
 ```
-from machine import Pin, Timer
-import urequests
+from machine import Pin
 import time
-import socket
+import urequests
 from settings import TOKEN, CHATID
 
 # Configuración de los sensores PIR
-pir_sensors = {
-    "Zona 1": Pin(25, Pin.IN),
-    "Zona 2": Pin(26, Pin.IN),
-    "Zona 3": Pin(27, Pin.IN),
-    "Zona 4": Pin(14, Pin.IN)
-}
+pir1 = Pin(25, Pin.IN)
+pir2 = Pin(26, Pin.IN)
+pir3 = Pin(27, Pin.IN)
+pir4 = Pin(14, Pin.IN)
 
-alarma_activada = False
+# Estados iniciales de los sensores
+estado_anterior = {"pir1": 0, "pir2": 0, "pir3": 0, "pir4": 0}
 
 # Función para enviar mensaje a Telegram
 def enviar_mensaje_telegram(mensaje):
     try:
         data = {'chat_id': CHATID, 'text': mensaje}
-        response = urequests.post("https://api.telegram.org/bot" + TOKEN + '/sendMessage', json=data)
+        response = urequests.post("https://api.telegram.org/bot" + TOKEN + "/sendMessage", json=data)
+        if response.status_code == 200:
+            print("Mensaje enviado a Telegram:", mensaje)
+        else:
+            print("Error al enviar mensaje a Telegram:", response.status_code)
         response.close()
     except Exception as e:
-        print("Error al enviar mensaje:", e)
+        print("Error al enviar mensaje a Telegram:", e)
 
-# Servidor web
-def web_page():
-    estados = {
-        zona: "Activo" if sensor.value() else "Inactivo"
-        for zona, sensor in pir_sensors.items()
+# Función para verificar el estado de los sensores PIR
+def verificar_sensores():
+    global estado_anterior
+
+    # Leer estados actuales de los sensores
+    estados_actuales = {
+        "pir1": pir1.value(),
+        "pir2": pir2.value(),
+        "pir3": pir3.value(),
+        "pir4": pir4.value(),
     }
 
-    with open("web.html", "r") as file:
-        html = file.read()
+    # Compara estados actuales con los anteriores
+    for sensor, estado_actual in estados_actuales.items():
+        if estado_actual == 1 and estado_anterior[sensor] == 0:
+            # Se detecta actividad en el sensor
+            mensaje = f"Movimiento detectado en {sensor.upper()}."
+            enviar_mensaje_telegram(mensaje)
+            print(mensaje)
 
-    for idx, (zona, estado) in enumerate(estados.items(), start=1):
-        estado_clase = "text-success" if estado == "Activo" else "text-danger"
-        html = html.replace(f'id="sensor{idx}"', f'id="sensor{idx}" class="{estado_clase}"')
+    # Actualiza los estados anteriores
+    estado_anterior = estados_actuales
 
-    return html
-
-# Configuración del servidor web
-def iniciar_servidor():
-    servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    servidor.bind(('', 80))
-    servidor.listen(5)
-    print("Servidor web iniciado. Esperando conexiones...")
-    
-    while True:
-        conn, addr = servidor.accept()
-        print("Conexión desde:", addr)
-        request = conn.recv(1024)
-        response = web_page()
-        conn.send("HTTP/1.1 200 OK\n")
-        conn.send("Content-Type: text/html\n")
-        conn.send("Connection: close\n\n")
-        conn.sendall(response.encode("utf-8"))
-        conn.close()
-
-# Verificar comandos de Telegram
-def verificar_comandos():
-    global alarma_activada
-    try:
-        response = urequests.get(f"https://api.telegram.org/bot{TOKEN}/getUpdates")
-        updates = response.json().get("result", [])
-        for update in updates:
-            if "message" in update and "text" in update["message"]:
-                mensaje = update["message"]["text"].strip().lower()
-                if mensaje == "/activar":
-                    alarma_activada = True
-                    enviar_mensaje_telegram("Alarma activada.")
-                elif mensaje == "/desactivar":
-                    alarma_activada = False
-                    enviar_mensaje_telegram("Alarma desactivada.")
-    except Exception as e:
-        print("Error al verificar comandos:", e)
-
-# Manejar detección de movimiento
-def manejar_deteccion():
-    if alarma_activada:
-        for zona, sensor in pir_sensors.items():
-            if sensor.value() == 1:
-                timestamp = time.localtime()
-                hora = "{:02d}:{:02d}:{:02d}".format(timestamp[3], timestamp[4], timestamp[5])
-                mensaje = f"Movimiento detectado en {zona} a las {hora}."
-                enviar_mensaje_telegram(mensaje)
-                time.sleep(20)  # Evitar spam
-
-# Inicializar timers
-timer_pir = Timer(-1)
-timer_pir.init(period=1000, mode=Timer.PERIODIC, callback=lambda t: manejar_deteccion())
-
-timer_comandos = Timer(-1)
-timer_comandos.init(period=5000, mode=Timer.PERIODIC, callback=lambda t: verificar_comandos())
-
-# Iniciar servidor web
-iniciar_servidor()
-
+# Loop principal
+while True:
+    verificar_sensores()
+    time.sleep(1)  # Verifica los sensores cada segundo
 ```
 
 # Sitios de referencia
 
 [Random Tutorials](https://randomnerdtutorials.com/esp32-microsd-card-arduino/)
 
+[Usando Relays](https://randomnerdtutorials.com/esp8266-relay-module-ac-web-server/)
+
 [Esploradores en Español](https://www.esploradores.com/)
 
+[Manejo Sensores DHT11 DHT22](https://microcontrollerslab.com/micropython-dht11-dht22-web-server-esp32-esp8266/)
+
+[Sensores DHT22](https://gndtovcc.home.blog/2020/04/16/micropython-esp32-esp8266-with-dht11-dht22-web-server/)
 
 # Funcionamiento
 
@@ -340,3 +300,19 @@ Durante esos 20 segundos:
 El usuario puede desarmar el sistema ingresando el código correcto.
 Si el temporizador expira sin desarmar:
 Se activa la sirena.
+
+# Manejo ESP32
+
+Borrar flash 
+
+```
+esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+```
+
+Copiar Firmware al modulo
+
+```
+esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x1000 ESP32_GENERIC-SPIRAM-20240602-v1.23.0.bin --force
+```
+
+
