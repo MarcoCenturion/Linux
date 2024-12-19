@@ -36,9 +36,9 @@ Elegir Opción
 
 A- Activar toda la casa
 B- Desactivar toda la casa
-C- Activar zona Garage y Comedor
-D- Ver Cámara Comedor
-E- Ver Cámara Garage
+C- Activar Zona 1
+D- Ver Zona 1
+E- Ver Zona 2
 F- Apagar cámaras
 G- Encender Sirenas
 H- Apagar Sirenas
@@ -96,30 +96,39 @@ Micropython para toda la lógica del booteo, comunicación vía wifi con, lectur
 
 settings.py
 ```
-# settings.py
+# Configuración WiFi
+WIFI_SSID = 'Fibertel WiFi m55 2.4GHz'
+WIFI_PASSWORD = 'XHsUxXjxUU'
 
-WIFI_SSID = "Fibertel WiFi m55 2.4GHz"
-WIFI_PASSWORD = "XHsUxXjxUU"
+# Configuración de Telegram
+TOKEN = 'TU_TOKEN_DE_TELEGRAM'
+CHATID = 'TU_CHAT_ID'
+
 ```
 
 boot.py
 ```
-import network
 from settings import WIFI_SSID, WIFI_PASSWORD
+import network
+import time
 
-def connect_wifi():
+def conectar_wifi():
     wlan = network.WLAN(network.STA_IF)
     wlan.active(True)
     wlan.connect(WIFI_SSID, WIFI_PASSWORD)
-
+    
     print("Conectando a WiFi...")
-    while not wlan.isconnected():
-        pass
+    for _ in range(20):  # Intentar conectar por 20 segundos
+        if wlan.isconnected():
+            print("Conexión WiFi establecida.")
+            print("Dirección IP:", wlan.ifconfig()[0])
+            return
+        time.sleep(1)
+    print("No se pudo conectar a WiFi.")
+    return wlan
 
-    print("Conexión establecida:")
-    print(wlan.ifconfig())
+wlan = conectar_wifi()
 
-connect_wifi()
 ```
 
 web.html
@@ -127,22 +136,30 @@ web.html
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Panel de Alarma</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .sensor { font-size: 1.2rem; margin: 10px 0; }
-        .activo { color: green; font-weight: bold; }
-        .inactivo { color: red; }
-    </style>
+    <title>Estado de Alarmas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="text-center">
-    <div class="container mt-5">
-        <h1 class="mb-4">Sistema de Alarma</h1>
-        <div class="sensor">Zona 1: <span id="zona1" class="inactivo">Inactiva</span></div>
-        <div class="sensor">Zona 2: <span id="zona2" class="inactivo">Inactiva</span></div>
-        <div class="sensor">Zona 3: <span id="zona3" class="inactivo">Inactiva</span></div>
-        <hr>
-        <p id="status" class="mt-3">Estado del sistema: <strong>Desactivado</strong></p>
+<body class="bg-light text-center">
+    <div class="container py-5">
+        <h1 class="mb-4">Estado de la Alarma</h1>
+        <div class="row">
+            <div class="col-md-3" id="sensor1">
+                <h2>Zona 1</h2>
+                <p class="status text-danger">Inactivo</p>
+            </div>
+            <div class="col-md-3" id="sensor2">
+                <h2>Zona 2</h2>
+                <p class="status text-danger">Inactivo</p>
+            </div>
+            <div class="col-md-3" id="sensor3">
+                <h2>Zona 3</h2>
+                <p class="status text-danger">Inactivo</p>
+            </div>
+            <div class="col-md-3" id="sensor4">
+                <h2>Zona 4</h2>
+                <p class="status text-danger">Inactivo</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
@@ -151,120 +168,103 @@ web.html
 
 main.py
 ```
-import machine
-from machine import Pin
+from machine import Pin, Timer
+import urequests
 import time
+import socket
+from settings import TOKEN, CHATID
 
-# Configuración del teclado 4x4
-ROWS = [Pin(18, Pin.OUT), Pin(19, Pin.OUT), Pin(21, Pin.OUT), Pin(22, Pin.OUT)]
-COLS = [Pin(23, Pin.IN, Pin.PULL_DOWN), Pin(5, Pin.IN, Pin.PULL_DOWN), Pin(17, Pin.IN, Pin.PULL_DOWN), Pin(16, Pin.IN, Pin.PULL_DOWN)]
-KEYS = [
-    ['1', '2', '3', 'A'],
-    ['4', '5', '6', 'B'],
-    ['7', '8', '9', 'C'],
-    ['*', '0', '#', 'D']
-]
+# Configuración de los sensores PIR
+pir_sensors = {
+    "Zona 1": Pin(25, Pin.IN),
+    "Zona 2": Pin(26, Pin.IN),
+    "Zona 3": Pin(27, Pin.IN),
+    "Zona 4": Pin(14, Pin.IN)
+}
 
-# Sensores PIR y relés
-zona1 = Pin(25, Pin.IN)  # PIR Zona 1
-zona2 = Pin(26, Pin.IN)  # PIR Zona 2
-zona3 = Pin(27, Pin.IN)  # PIR Zona 3
+alarma_activada = False
 
-relay_luz_zona = Pin(32, Pin.OUT)  # Relé para luz de alerta
-relay_sirena = Pin(33, Pin.OUT)    # Relé para la sirena
+# Función para enviar mensaje a Telegram
+def enviar_mensaje_telegram(mensaje):
+    try:
+        data = {'chat_id': CHATID, 'text': mensaje}
+        response = urequests.post("https://api.telegram.org/bot" + TOKEN + '/sendMessage', json=data)
+        response.close()
+    except Exception as e:
+        print("Error al enviar mensaje:", e)
 
-# LEDs de estado
-led_ready = Pin(2, Pin.OUT)  # LED Sistema Listo
+# Servidor web
+def web_page():
+    estados = {
+        zona: "Activo" if sensor.value() else "Inactivo"
+        for zona, sensor in pir_sensors.items()
+    }
 
-# Código de armado
-SYSTEM_CODE = "1234"
-input_code = ""
+    with open("web.html", "r") as file:
+        html = file.read()
 
-# Variables del sistema
-zones_active = {"zona1": False, "zona2": False, "zona3": False}
-system_armed = False
-alarm_triggered = False
+    for idx, (zona, estado) in enumerate(estados.items(), start=1):
+        estado_clase = "text-success" if estado == "Activo" else "text-danger"
+        html = html.replace(f'id="sensor{idx}"', f'id="sensor{idx}" class="{estado_clase}"')
 
-# Función para leer el teclado
-def read_keypad():
-    for i, row in enumerate(ROWS):
-        row.on()
-        for j, col in enumerate(COLS):
-            if col.value() == 1:
-                time.sleep(0.2)  # Debounce
-                row.off()
-                return KEYS[i][j]
-        row.off()
-    return None
+    return html
 
-# Función para validar código
-def validate_code():
-    global input_code, system_armed, zones_active, alarm_triggered
-    if input_code == SYSTEM_CODE:
-        print("Sistema desarmado correctamente.")
-        system_armed = False
-        zones_active = {"zona1": False, "zona2": False, "zona3": False}
-        relay_luz_zona.value(0)  # Apagar luz
-        relay_sirena.value(0)    # Apagar sirena
-        alarm_triggered = False
-        led_ready.value(0)       # Apagar LED de sistema listo
-    else:
-        print("Código incorrecto.")
-    input_code = ""
+# Configuración del servidor web
+def iniciar_servidor():
+    servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    servidor.bind(('', 80))
+    servidor.listen(5)
+    print("Servidor web iniciado. Esperando conexiones...")
+    
+    while True:
+        conn, addr = servidor.accept()
+        print("Conexión desde:", addr)
+        request = conn.recv(1024)
+        response = web_page()
+        conn.send("HTTP/1.1 200 OK\n")
+        conn.send("Content-Type: text/html\n")
+        conn.send("Connection: close\n\n")
+        conn.sendall(response.encode("utf-8"))
+        conn.close()
 
-# Temporizador para desarmado
-def countdown_to_alarm(zone_name):
-    global alarm_triggered
-    print(f"Movimiento detectado en {zone_name}. Tienes 20 segundos para desarmar el sistema.")
-    relay_luz_zona.value(1)  # Encender luz de alerta
-    start_time = time.time()
-    while time.time() - start_time < 20:  # Esperar 20 segundos
-        key = read_keypad()
-        if key:
-            if key.isdigit():
-                global input_code
-                input_code += key
-                print("*", end="")  # Mostrar asterisco
-                if len(input_code) == 4:
-                    validate_code()
-                    if not system_armed:
-                        return  # Salir si el sistema se desarma
-    # Si no se desarma, activar sirena
-    print("Tiempo agotado. Activando sirena.")
-    alarm_triggered = True
-    relay_sirena.value(1)  # Activar sirena
+# Verificar comandos de Telegram
+def verificar_comandos():
+    global alarma_activada
+    try:
+        response = urequests.get(f"https://api.telegram.org/bot{TOKEN}/getUpdates")
+        updates = response.json().get("result", [])
+        for update in updates:
+            if "message" in update and "text" in update["message"]:
+                mensaje = update["message"]["text"].strip().lower()
+                if mensaje == "/activar":
+                    alarma_activada = True
+                    enviar_mensaje_telegram("Alarma activada.")
+                elif mensaje == "/desactivar":
+                    alarma_activada = False
+                    enviar_mensaje_telegram("Alarma desactivada.")
+    except Exception as e:
+        print("Error al verificar comandos:", e)
 
-# Monitoreo de zonas
-def monitor_zones():
-    if system_armed:
-        if zones_active["zona1"] and zona1.value():
-            countdown_to_alarm("Zona 1")
-        if zones_active["zona2"] and zona2.value():
-            countdown_to_alarm("Zona 2")
-        if zones_active["zona3"] and zona3.value():
-            countdown_to_alarm("Zona 3")
+# Manejar detección de movimiento
+def manejar_deteccion():
+    if alarma_activada:
+        for zona, sensor in pir_sensors.items():
+            if sensor.value() == 1:
+                timestamp = time.localtime()
+                hora = "{:02d}:{:02d}:{:02d}".format(timestamp[3], timestamp[4], timestamp[5])
+                mensaje = f"Movimiento detectado en {zona} a las {hora}."
+                enviar_mensaje_telegram(mensaje)
+                time.sleep(20)  # Evitar spam
 
-# Bucle principal
-print("Sistema iniciado. Ingresa el código para armar:")
-while True:
-    key = read_keypad()
-    if key:
-        if key.isdigit():
-            input_code += key
-            print("*", end="")  # Mostrar asteriscos
-            if len(input_code) == 4:
-                if input_code == SYSTEM_CODE:
-                    system_armed = True
-                    zones_active.update({"zona1": True, "zona2": True, "zona3": True})
-                    led_ready.value(1)
-                    print("\nSistema armado. Zonas activas: 1, 2, 3.")
-                else:
-                    print("\nCódigo incorrecto.")
-                input_code = ""
-        elif key == "*":  # Desarmar sistema
-            validate_code()
-    if system_armed and not alarm_triggered:
-        monitor_zones()
+# Inicializar timers
+timer_pir = Timer(-1)
+timer_pir.init(period=1000, mode=Timer.PERIODIC, callback=lambda t: manejar_deteccion())
+
+timer_comandos = Timer(-1)
+timer_comandos.init(period=5000, mode=Timer.PERIODIC, callback=lambda t: verificar_comandos())
+
+# Iniciar servidor web
+iniciar_servidor()
 
 ```
 
