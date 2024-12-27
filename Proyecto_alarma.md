@@ -235,6 +235,8 @@ while True:
 
 [Sensores DHT22](https://gndtovcc.home.blog/2020/04/16/micropython-esp32-esp8266-with-dht11-dht22-web-server/)
 
+[Proyecto Reloj](https://www.instructables.com/ESP32-Based-Wireless-Smartwatch-LiDAR-Distance-Sen/)
+
 # Funcionamiento
 
 Sistema de Alarma: 
