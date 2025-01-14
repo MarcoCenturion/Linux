@@ -1,0 +1,1862 @@
+SALDOS POR PROVEEDOR POR FILE															
+JAZZ															
+															
+POR FECHA IN DESDE:	 1/01/2024	HASTA:	 1/04/2025												
+															
+															
+263	MYBEDS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+57097	F	CU	AGUERREVENGOA/MARTIN ANTONIO	2	17/2/2025	25/2/2025				USD	         489.30				         489.30
+62115	F	RJ	OCAÑO/ELIANA BELEN	5	10/3/2025	19/3/2025				USD	        1209.60				        1209.60
+			SUBTOTAL PROV.:	7						USD	        1698.90		           0.00		        1698.90
+															
+328	BRICKELL BAY BEACH CLUB & SPA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+65730	F	AU	FURBATTO ELSA BEATRIZ	2	10/3/2025	17/3/2025				USD	        2581.88				        2581.88
+			SUBTOTAL PROV.:	2						USD	        2581.88		           0.00		        2581.88
+															
+341	HYD REPRESENTACIONES TURISTICAS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+63619	F	BZ	LABORDE/FACUNDO MARCELO	3	16/12/2024	23/12/2024	20/12/2024	A0004-00058667		USD	         567.00		         525.00		          42.00
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       16183.96		      -16183.95
+63366	F	BR	GIANNA PAOLA SALVADOR	2	 3/01/25	 8/01/25	 8/01/25	A0004-00059234		USD	          25.00		          50.00		         -25.00
+65622	F	BR	FERNANDEZ VIRGINIA	2	17/1/2025	25/1/2025	 7/01/25	A0004-00059196		USD	         363.28				         363.28
+62884	F	BZ	URRUTIA MALDONADO/ BRIAN SALVADOR	3	24/1/2025	31/1/2025				USD	          82.00				          82.00
+60464	F	BR	GUALTIERI/NESTOR ENRIQUE	4	24/1/2025	 2/02/25				USD	         202.00				         202.00
+63303	F	RJ	TOLEDO, SILVIA RITA	2	31/1/2025	 7/02/25				USD	          50.00				          50.00
+64184	F	BR	MORO/SEBASTIAN IGNACIO	2	31/1/2025	 7/02/25				USD	          82.00				          82.00
+63562	F	BZ	MORICONI/ GUILLERMO DANIEL	4	31/1/2025	 7/02/25				USD	        1314.00				        1314.00
+54750	F	RJ	PIZARRO/MAXIMILIANO AUGUSTO	1	 3/02/25	10/2/2025				USD	          29.00				          29.00
+52031	F	BZ	CHAILE/JORGE JOSE FLIX	4	 4/02/25	12/2/2025				USD	         164.00				         164.00
+63796	F	BR	LUDUEÑA MARISA DE LOS ANGELES	3	 7/02/25	14/2/2025				USD	         781.80				         781.80
+62772	F	BZ	RODRIGUEZ/ALEXIS CARLOS	2	 7/02/25	14/2/2025				USD	          82.00				          82.00
+65287	F	BZ	PEREA OJEDA MATIAS DANIEL	3	 7/02/25	14/2/2025				USD	        1784.98				        1784.98
+63690	F	BR	FRISONE HEARNE/JEAN LUCA	2	 7/02/25	18/2/2025				USD	        1053.52				        1053.52
+65596	F	RJ	MORELLI MARIN/JUAN CRUZ	2	13/2/2025	20/2/2025	 7/01/25	A0004-00059194		USD	         646.21				         646.21
+64311	F	RJ	MADUSSI/VANINA ELIZABETH	2	14/2/2025	21/2/2025	 4/01/25	A0004-00059035		USD	         458.00				         458.00
+65275	F	BR	GARELLO/GASTON	2	14/2/2025	21/2/2025				USD	        1037.89				        1037.89
+62935	F	BZ	MONACO/ LUCIANO ADRIAN	2	15/2/2025	22/2/2025	 4/01/25	A0004-00059024		USD	          82.00				          82.00
+64121	F	BR	CARBO/MARCELA ELIZABETH	5	17/2/2025	24/2/2025				USD	        2359.31				        2359.31
+65306	F	BR	SAHARREA CESAR DANIEL	3	17/2/2025	24/2/2025				USD	         159.99				         159.99
+64313	F	BR	AGUILERA/JUAN PABLO	7	21/2/2025	 2/03/25				USD	        2129.83				        2129.83
+65153	F	RJ	QUEVEDO/ JOSE MATIAS	2	21/2/2025	28/2/2025				USD	          82.00				          82.00
+63564	F	BZ	PETERSEN/GERARDO HUGO	4	21/2/2025	28/2/2025				USD	        1298.99				        1298.99
+65012	F	BZ	MAGLIONE/ JUAN HECTOR	6	24/2/2025	 3/03/25				USD	         246.00				         246.00
+65136	F	BR	RUIZ/JOSE GUSTAVO JAVIER	2	24/2/2025	 3/03/25				USD	          57.00				          57.00
+60507	F	BZ	TANTUCCI / FEDERICO PASCUAL	4	28/2/2025	 7/03/25				USD	        1049.70				        1049.70
+58806	F	BR	AGOSTINA MOLA	2	 3/03/25	12/3/2025	 4/01/25	A0004-00059016		USD	         178.00				         178.00
+66016	F	BR	GALIZIA JOAQUIN NICOLAS	3	 4/03/25	14/3/2025				USD	         240.00				         240.00
+64769	F	BR	GANZER/NOELIA	2	 7/03/25	16/3/2025	 4/01/25	A0004-00059043		USD	          57.00				          57.00
+62115	F	RJ	OCAÑO/ELIANA BELEN	5	10/3/2025	19/3/2025				USD	         266.00				         266.00
+62013	F	BR	COCA/ANA LUZ	4	21/3/2025	26/3/2025				USD	         100.00				         100.00
+62551	F	BR	MARIA FLORENCIA DIAZ	2	21/3/2025	30/3/2025				USD	         106.98				         106.98
+			SUBTOTAL PROV.:	97						USD	       17135.49		       16758.96		         376.53
+															
+367	BAHIA PRINCIPE HOTELES - KIPPIN														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+65006	F	RD	GONZALEZ/MONICA - GRP BAHIA PRINCIPE PUJ	19	26/1/2025	 3/02/25				USD	       12712.08		        1271.21		       11440.87
+63356	F	RD	ARAMBURU/MARTIN	2	31/1/2025	10/2/2025				USD	        2078.60				        2078.60
+10678	F	AR	PAGO BAHIA PRINCIPE	1	 1/02/25	 1/02/25				USD	           0.01		      103171.81		     -103171.80
+55972	F	PU	POMILIO FERNANDO DAVID	3	 2/02/25	10/2/2025				USD	        2383.76				        2383.76
+65017	F	RD	CARLETTI/PAULA	2	 2/02/25	10/2/2025				USD	        1731.84				        1731.84
+65434	F	PU	WAQUIM DIEGO	6	 2/02/25	12/2/2025				USD	        9584.00				        9584.00
+63991	F	RD	BALNAGERO / CARINA ELIZABETH	2	15/2/2025	22/2/2025				USD	        1463.70				        1463.70
+58990	F	PU	VICTOR HUGO BOTTOS	2	19/2/2025	27/2/2025				USD	        1672.80				        1672.80
+64624	F	RD	LOPEZ/JUAN CARLOS	8	26/2/2025	 5/03/25				USD	        6094.08				        6094.08
+65041	F	PU	SANTARELLI AGUSTINA	5	26/2/2025	 6/03/25				USD	        4020.72				        4020.72
+			SUBTOTAL PROV.:	50						USD	       41741.59		      104443.02		      -62701.43
+															
+384	PALLADIUM  HOTELS & RESOTS (PUJ - SDQ)														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+58524	F	PU	DECOBERTI MARIA LAURA	8	 5/09/24	13/9/2024	 5/09/24	A0004-00053687		USD	        5154.16		        5692.00		        -537.84
+65104	F	PU	GODOY MARTINEZ PABLO JAVIER	8	 7/03/25	14/3/2025				USD	        7211.89				        7211.89
+60782	F	PU	 DIEGO GASPAR PAREJO	2	 8/03/25	17/3/2025				USD	        1714.14				        1714.14
+60427	F	PU	MATIAS EXEQUIEL OLOCCO	15	 8/03/25	17/3/2025	 8/01/25	A0004-00059232		USD	       10484.72				       10484.72
+63379	F	PU	EVELIO JOSE MORES	10	14/3/2025	24/3/2025				USD	        4780.20				        4780.20
+			SUBTOTAL PROV.:	43						USD	       29345.11		        5692.00		       23653.11
+															
+390	OCEAN BLUE & OCEAN SAND														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           6.00		         106.07		        -100.07
+			SUBTOTAL PROV.:	1						USD	           6.00		         106.07		        -100.07
+															
+401	CATALONIA HOTELES														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.41		       15025.21		      -15024.80
+58241	F	PU	BOHN VALENTINA	2	 1/02/25	 8/02/25				USD	        2969.12				        2969.12
+65155	F	PU	BABINI DANIEL EDUARDO	2	 4/02/25	14/2/2025				USD	        2490.00				        2490.00
+65550	F	PU	MILANESIO HUGO	2	11/2/2025	19/2/2025				USD	        2004.64				        2004.64
+			SUBTOTAL PROV.:	7						USD	        7464.17		       15025.21		       -7561.04
+															
+406	TURISMO MUNDIAL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+56526	F	CU	HEFLING MATIAS EZEQUIEL	3	 7/11/24	15/11/2024	19/11/2024	A0004-00057453		USD	         102.00				         102.00
+58952	F	MX	MONTENEGRO CATHERINE SOLANGE	1	22/12/2024	 1/01/25	20/12/2024	A0004-00058654		USD	          30.00				          30.00
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        5760.35		       -5760.34
+64589	F	MX	CORTELLA DIULIO	2	 9/01/25	21/1/2025	 4/01/25	A0004-00059108		USD	          84.00				          84.00
+63673	F	MX	GIGENA/DANA	2	11/1/2025	21/1/2025	 4/01/25	A0004-00059101		USD	          60.00				          60.00
+63056	F	MX	BARBERO/OSCAR FRANCISCO	4	12/1/2025	22/1/2025	 4/01/25	A0004-00059094		USD	         120.00				         120.00
+62653	F	MX	BALESTRINI/ FABIAN OMAR	3	15/1/2025	27/1/2025	 4/01/25	A0004-00059090		USD	          90.00				          90.00
+65605	F	MX	MARIN/MARIA VICTORIA	2	16/1/2025	26/1/2025				USD	          68.00				          68.00
+55816	F	MX	ROSA, MARIA CLAUDINA	5	19/1/2025	29/1/2025				USD	         320.00				         320.00
+55856	F	MX	CATTANI/MERCEDES	4	19/1/2025	29/1/2025	 4/01/25	A0004-00059061		USD	         255.00				         255.00
+56044	F	PL	FERREYRA/ESTEBAN ANTONIO	2	21/1/2025	31/1/2025	 6/01/25	A0004-00059141		USD	          75.14				          75.14
+54535	F	MX	OMODEI/HERNAN	4	21/1/2025	31/1/2025	 4/01/25	A0004-00059057		USD	         100.00				         100.00
+65252	F	CU	LINARES ZANI GASTON JOAQUIN	2	25/1/2025	 2/02/25	 4/01/25	A0004-00059118		USD	          20.00				          20.00
+60935	F	CU	GARCIA/LUCAS LUIS	4	26/1/2025	 2/02/25	 4/01/25	A0004-00059081		USD	         120.00				         120.00
+62779	F	MX	MAURO/ JUAN IGNACIO	4	27/1/2025	 2/02/25	 4/01/25	A0004-00059091		USD	         128.00				         128.00
+62946	F	MX	LERDA/JUAN DANTE	9	30/1/2025	 8/02/25				USD	         272.00				         272.00
+59775	F	MX	CUPELLINO/DANIELA	10	31/1/2025	13/2/2025	 4/01/25	A0004-00059075		USD	         350.00				         350.00
+62596	F	MX	GUSMAR HUGO HORACIO	7	 2/02/25	10/2/2025				USD	         150.00				         150.00
+57368	F	CU	CIGANOTTO  CARLOS ALBERTO	3	 2/02/25	 9/02/25				USD	          48.00				          48.00
+65021	F	MX	AYUP / ALEJANDRA SUSANA	2	 3/02/25	11/2/2025				USD	          36.00				          36.00
+65935	F	MX	DANILO ORECCHIA	5	 7/02/25	17/2/2025				USD	         285.00				         285.00
+60416	F	PL	FERNANDO DANIEL LOMBARDI	5	 8/02/25	18/2/2025	 9/10/24	A0004-00055900		USD	         174.90				         174.90
+62493	F	MX	CORVALAN,/SILVIA MABEL	2	12/2/2025	21/2/2025	 4/01/25	A0004-00059020		USD	          36.00				          36.00
+64986	F	MX	ANGIORAMA / JUAN CRUZ	2	13/2/2025	28/2/2025				USD	          90.00				          90.00
+63998	F	MX	ARIAS / DIEGO JULIO	6	14/2/2025	22/2/2025				USD	         392.00				         392.00
+65164	F	MX	RIOS/RUBEN OSCAR	6	15/2/2025	25/2/2025				USD	         204.00				         204.00
+57097	F	CU	AGUERREVENGOA/MARTIN ANTONIO	2	17/2/2025	25/2/2025				USD	          84.00				          84.00
+65086	F	PL	PAVESA/ ALEJANDRO  JOSUE	2	18/2/2025	26/2/2025				USD	          82.28				          82.28
+64381	F	MX	RODRIGUEZ / ADRIANA MARIELA	25	23/2/2025	 7/03/25				USD	        1950.00				        1950.00
+60134	F	CU	MINERVINO AGUSTIN	4	27/2/2025	 6/03/25				USD	         120.00				         120.00
+64003	F	MX	QUINTERO/DIEGO LUIS ROBERTO	2	 1/03/25	 8/03/25				USD	          72.00				          72.00
+58245	F	PL	Antoniazzi Axel Gabriel	4	 7/03/25	16/3/2025				USD	         136.00				         136.00
+62159	F	PL	JOSE DOMINGO CARDETTI	2	 9/03/25	21/3/2025				USD	          60.00				          60.00
+63520	F	MX	RODRIGUEZ/ZULEMA ZELINDA	2	 9/03/25	18/3/2025				USD	          80.00				          80.00
+64695	F	MX	FRATTIN / EZEQUIEL ONÉSIMO	3	11/3/2025	21/3/2025				USD	         108.00				         108.00
+54339	F	CU	MAZZONI/NATHALIE	3	16/3/2025	26/3/2025	 4/01/25	A0004-00059010		USD	         520.00				         520.00
+64836	F	MX	MAURINO/ GRACIELA DOMINGA	3	31/3/2025	10/4/2025				USD	         237.00				         237.00
+			SUBTOTAL PROV.:	152						USD	        7059.33		        5760.35		        1298.98
+															
+413	MELIA CAYO COCO														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1920.00		       -1919.99
+			SUBTOTAL PROV.:	1						USD	           0.01		        1920.00		       -1919.99
+															
+414	MELIA JARDINES DEL REY														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         654.66		        -654.65
+			SUBTOTAL PROV.:	1						USD	           0.01		         654.66		        -654.65
+															
+415	IBEROSTAR CAYO ENSENACHOS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+55038	F	UB	AGUERREVENGOA, CAMILA	4	30/1/2025	10/2/2025				USD	         861.25				         861.25
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         740.23		        -740.22
+			SUBTOTAL PROV.:	5						USD	         861.26		         740.23		         121.03
+															
+426	MELIA HABANA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1655.44		       -1655.43
+			SUBTOTAL PROV.:	1						USD	           0.01		        1655.44		       -1655.43
+															
+427	MELIA TRYP HABANA LIBRE														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	          17.17		        1573.46		       -1556.29
+			SUBTOTAL PROV.:	1						USD	          17.17		        1573.46		       -1556.29
+															
+428	SOLWAYS - CUBA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+55038	F	UB	AGUERREVENGOA, CAMILA	4	30/1/2025	10/2/2025				USD	         300.00				         300.00
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         659.00		        -658.99
+63952	F	UB	MUCHUT/MARIO	3	10/2/2025	19/2/2025				USD	         165.00				         165.00
+			SUBTOTAL PROV.:	8						USD	         465.01		         659.00		        -193.99
+															
+429	GAVIOTA TOURS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+61695	F		GRUPO MARCELO GELARDINO CUBA 13 NOV	18	13/11/2024	22/11/2024				USD	        1802.00		        2278.95		        -476.95
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2195.35		       -2195.34
+63952	F	UB	MUCHUT/MARIO	3	10/2/2025	19/2/2025				USD	         453.15				         453.15
+			SUBTOTAL PROV.:	22						USD	        2255.16		        4474.30		       -2219.14
+															
+431	IBEROSTAR PARQUE CENTRAL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         534.40		        -534.39
+			SUBTOTAL PROV.:	1						USD	           0.01		         534.40		        -534.39
+															
+432	MELIA COHIBA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1441.80		       -1441.79
+			SUBTOTAL PROV.:	1						USD	           0.01		        1441.80		       -1441.79
+															
+436	MELIA VARADERO														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2719.46		       -2719.45
+			SUBTOTAL PROV.:	1						USD	           0.01		        2719.46		       -2719.45
+															
+438	MELIA LAS ANTILLAS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1557.50		       -1557.49
+			SUBTOTAL PROV.:	1						USD	           0.01		        1557.50		       -1557.49
+															
+440	PARADISUS PRINCESA DEL MAR														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1494.00		       -1493.99
+			SUBTOTAL PROV.:	1						USD	           0.01		        1494.00		       -1493.99
+															
+443	PARADISUS VARADERO														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1836.68		       -1836.67
+			SUBTOTAL PROV.:	1						USD	           0.01		        1836.68		       -1836.67
+															
+445	MELIA PENINSULA VARADERO														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         269.02		        -269.01
+			SUBTOTAL PROV.:	1						USD	           0.01		         269.02		        -269.01
+															
+446	MELIA  BUENAVISTA / CAYO SANTA MARIA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         961.12		        -961.11
+			SUBTOTAL PROV.:	1						USD	           0.01		         961.12		        -961.11
+															
+447	SOL CAYO SANTA MARIA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1011.15		       -1011.14
+			SUBTOTAL PROV.:	1						USD	           0.01		        1011.15		       -1011.14
+															
+449	MELIA LAS DUNAS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+40777	F	UB	DUTRUEL/ DAVID ESTEBAN	7	 9/07/24	18/7/2024	 4/10/24	A0004-00055548		USD	           0.01		         687.61		        -687.60
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         705.74		        -705.73
+			SUBTOTAL PROV.:	8						USD	           0.02		        1393.35		       -1393.33
+															
+463	ARCO IRIS PANAMA - BLUE MOON														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         994.00		        -993.99
+65450	F	RD	BALDARENA/ NICOLAS ARIEL	8	27/1/2025	 6/02/25				USD	         352.00				         352.00
+62383	F	CT	BENVENUTO, MARCELO FABIAN	2	22/2/2025	 6/03/25				USD	         160.00				         160.00
+54339	F	CU	MAZZONI/NATHALIE	3	16/3/2025	26/3/2025	 4/01/25	A0004-00059010		USD	         246.00				         246.00
+64836	F	MX	MAURINO/ GRACIELA DOMINGA	3	31/3/2025	10/4/2025				USD	         116.16				         116.16
+			SUBTOTAL PROV.:	17						USD	         874.17		         994.00		        -119.83
+															
+470	PALLADIUM HOTEL GROUP-COSTA MUJERES-														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+35444	F	MX	96CL5743970M PALLADIUM -SINGETIL 53284 USD	1	31/12/2024	31/12/2024				USD	           0.01		        6633.06		       -6633.05
+65935	F	MX	DANILO ORECCHIA	5	 7/02/25	17/2/2025				USD	        4375.80				        4375.80
+			SUBTOTAL PROV.:	6						USD	        4375.81		        6633.06		       -2257.25
+															
+689	THE REEF PLAYACAR														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+64381	F	MX	RODRIGUEZ / ADRIANA MARIELA	25	23/2/2025	 7/03/25				USD	       14080.00				       14080.00
+			SUBTOTAL PROV.:	25						USD	       14080.00		           0.00		       14080.00
+															
+736	INFINITAS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       13696.01		      -13696.00
+64455	F	BR	YACOMUSI/JOSE	7	19/1/2025	28/1/2025	 7/01/25	A0004-00059189		USD	         286.00		         260.00		          26.00
+65557	F	RJ	ROSSI/ ALEJANDRO ALFREDO	6	22/1/2025	 2/02/25				USD	         180.00				         180.00
+65490	F	BR	BERTOZZI ERIKA	2	28/1/2025	 5/02/25				USD	         108.00				         108.00
+65753	F	SB	MARTINEZ SILVINA	2	29/1/2025	 6/02/25				USD	          46.00				          46.00
+65868	F	BR	MORANDINI GUSTAVO DANIEL	6	 2/02/25	 9/02/25				USD	        6880.00				        6880.00
+64907	F	BR	VILLALBA/GUSTAVO FERNANDO	2	 5/02/25	13/2/2025				USD	          62.00				          62.00
+59178	F	PG	GIUSIANO/FEDERICO JOSE	4	 5/02/25	13/2/2025				USD	         116.00				         116.00
+66007	F	BR	DE LA RUA / IGNACIO	3	 6/02/25	14/2/2025				USD	        2723.00				        2723.00
+64135	F	BR	LUCERO MARTIN ANDRES	4	11/2/2025	20/2/2025				USD	         114.00		         106.00		           8.00
+57694	F	BR	BORGIATTINO/LUCAS	6	20/2/2025	28/2/2025	 4/01/25	A0004-00059012		USD	         117.00				         117.00
+64851	F	BR	REFI BIASI / BIANCA	3	25/2/2025	 8/03/25				USD	         114.00				         114.00
+65619	F	BR	VIGLIANCO LUCIANO	7	 2/03/25	11/3/2025				USD	         182.00				         182.00
+64394	F	BR	ALANIZ/SOFIA RUTH	2	15/3/2025	22/3/2025				USD	          82.00				          82.00
+63543	F	BR	DARIO DAVID YACOB	3	15/3/2025	22/3/2025				USD	          82.00				          82.00
+64262	F	BR	TORRES/CINTIA ROCIO	2	15/3/2025	22/3/2025				USD	          82.00				          82.00
+			SUBTOTAL PROV.:	60						USD	       11174.01		       14062.01		       -2888.00
+															
+745	PENDIENTE														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+62935	F	BZ	MONACO/ LUCIANO ADRIAN	2	15/2/2025	22/2/2025	 4/01/25	A0004-00059024		USD	         593.48				         593.48
+66016	F	BR	GALIZIA JOAQUIN NICOLAS	3	 4/03/25	14/3/2025				USD	         829.73				         829.73
+			SUBTOTAL PROV.:	5						USD	        1423.21		           0.00		        1423.21
+															
+774	RED TURISTICA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+66016	F	BR	GALIZIA JOAQUIN NICOLAS	3	 4/03/25	14/3/2025				USD	         758.54				         758.54
+			SUBTOTAL PROV.:	3						USD	         758.54		           0.00		         758.54
+															
+786	RESTEL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.02		        3570.08		       -3570.06
+64907	F	BR	VILLALBA/GUSTAVO FERNANDO	2	 5/02/25	13/2/2025				USD	         665.52				         665.52
+65306	F	BR	SAHARREA CESAR DANIEL	3	17/2/2025	24/2/2025				USD	        1401.85				        1401.85
+64313	F	BR	AGUILERA/JUAN PABLO	7	21/2/2025	 2/03/25				USD	        1073.31				        1073.31
+			SUBTOTAL PROV.:	13						USD	        3140.70		        3570.08		        -429.38
+															
+825	TRAVEL ACE - UNIVERSAL ASS.														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+50223	F	RD	GRUPO SAMANA 64952	46	29/8/2024	 7/09/24	26/8/2024	A0004-00053304		USD	        2870.47		        2505.03		         365.44
+59221	F	RJ	FLORES/LOURDES	2	16/9/2024	23/9/2024	16/9/2024	A0004-00054722		USD	          68.99		          60.00		           8.99
+50404	F	EU	GRUPO ESPAñA	40	22/9/2024	20/10/2024				USD	        4545.20		        4282.41		         262.79
+60158	F	BR	RAMB/ VANESA	1	27/9/2024	 4/10/24	25/9/2024	A0004-00055060		USD	          28.71		          24.00		           4.71
+57926	F	BZ	CALDERON/NELSO ALEJANDRO	2	 4/10/24	11/10/2024	 8/10/24	A0004-00055668		USD	          60.00		          48.00		          12.00
+64606	F	MA	ZULUETA/JOAQUIN	1	 4/12/24	 4/03/25	11/12/2024	B0004-00003550		USD	         456.00		         463.21		          -7.21
+61907	F	EU	AYELEN LOANA TOMAS CHAIG	1	 9/12/24	28/12/2024	 9/10/24	A0004-00055916		USD	         100.02				         100.02
+63709	F	RJ	JUAN CARLOS MORALES	1	13/12/2024	20/12/2024	20/12/2024	A0004-00058668		USD	          24.00				          24.00
+63619	F	BZ	LABORDE/FACUNDO MARCELO	3	16/12/2024	23/12/2024	20/12/2024	A0004-00058667		USD	          72.45				          72.45
+61811	F	BR	FONCECA/VIVIANA	3	16/12/2024	23/12/2024	20/12/2024	A0004-00058660		USD	          72.00				          72.00
+64846	F	SA	ROBERT DANIEL	3	17/12/2024	26/12/2024				USD	          90.03				          90.03
+64547	F	BR	TOLEDO/NATALIA ANDREA DE LOURDES	4	20/12/2024	27/12/2024	20/12/2024	A0004-00058678		USD	          96.00				          96.00
+64840	F	RD	CRAGNOLINO/GISELLE	3	30/12/2024	 7/01/25	31/12/2024	A0004-00058854		USD	          96.00				          96.00
+64852	F	RD	PIEDRA / CARLOS CESAR	1	30/12/2024	 7/01/25	31/12/2024	A0004-00058855		USD	          30.00				          30.00
+64825	F	RD	LEVIT, SILVIO CLAUDIO	2	30/12/2024	 7/01/25	30/12/2024	A0004-00058833		USD	          64.00				          64.00
+65606	F	RJ	POTEPAN / DAVOR IVAN	1	31/12/2024	 9/01/25	31/12/2024	A0004-00058858		USD	          30.01				          30.01
+61671	F	RD	MORATA, RODRIGO IGNACIO	2	 1/01/25	 8/01/25	 4/01/25	A0004-00059084		USD	          54.02				          54.02
+64971	F	AU	BOCCO/GERARDO	1	 2/01/25	11/1/2025	 4/01/25	A0004-00059004		USD	          33.01				          33.01
+62504	F	BR	RUSEK/CHRISTIAN ADRIAN	2	 3/01/25	10/1/2025	 6/01/25	A0004-00059143		USD	          48.00				          48.00
+61979	F	BR	BANCHIO/ADEMIR LEONEL	2	 3/01/25	10/1/2025	 6/01/25	A0004-00059142		USD	          48.00				          48.00
+62917	F	BR	CACIORGNA/LAURA SILVANA	2	 3/01/25	10/1/2025	 4/01/25	A0004-00059093		USD	          48.30				          48.30
+64396	F	UB	JUDEZ/JUAN PABLO RICARDO	2	 4/01/25	13/1/2025				USD	          75.25				          75.25
+65694	F	BR	BENAVIDEZ SARMIENTO OCTAVIO	1	 6/01/25	18/1/2025				USD	          39.01				          39.01
+65728	F	BR	DANIELE AGUSTIN PABLO	1	 9/01/25	27/1/2025				USD	          57.01				          57.01
+65839	F	MX	GIORDANO / LUCIA	1	 9/01/25	 8/03/25				USD	         177.04				         177.04
+63699	F	RJ	OCTAVIO ANDRES JOSEFINI	1	10/1/2025	17/1/2025	 4/01/25	A0004-00059104		USD	          24.00				          24.00
+63003	F	BR	DANGUISE/LUCAS	4	10/1/2025	17/1/2025	 6/01/25	A0004-00059144		USD	          96.00				          96.00
+63561	F	BZ	SALGADO/ CARLOS ARTURO	3	10/1/2025	17/1/2025	 4/01/25	A0004-00059099		USD	          72.45				          72.45
+64881	F	RD	HERNANDEZ/DANIEL	4	11/1/2025	20/1/2025	 4/01/25	A0004-00059111		USD	         132.03				         132.03
+64987	F		MARTINEZ / MARCELO  EDGARDO	3	12/1/2025	 9/02/25	 4/01/25	A0004-00059113		USD	         400.09				         400.09
+65045	F	RD	HERRERA/JORGE ADRIAN	3	13/1/2025	21/1/2025	 4/01/25	A0004-00059116		USD	         135.04				         135.04
+58527	F	RD	HERNANDEZ/MARIA FERNANDA	5	15/1/2025	23/1/2025	 7/01/25	A0004-00059187		USD	         150.05				         150.05
+65880	F	EU	BOAGLIO / FRANCESCA	1	16/1/2025	29/1/2025				USD	          70.01				          70.01
+65605	F	MX	MARIN/MARIA VICTORIA	2	16/1/2025	26/1/2025				USD	          72.01				          72.01
+65690	F	MC	BECKER /  GUILLERMO CARLOS	1	16/1/2025	23/1/2025	 7/01/25	A0004-00059199		USD	          24.00				          24.00
+65673	F	MC	BELLINI / SOFIA ELENA	1	16/1/2025	23/1/2025	 7/01/25	A0004-00059198		USD	          24.00				          24.00
+65842	F	MC	FILIPI / MICAELA	1	16/1/2025	23/1/2025				USD	          24.00				          24.00
+63047	F	BZ	AVENDAÑO/ CESAR IGNACIO	8	17/1/2025	24/1/2025	 8/01/25	A0004-00059233		USD	         193.21				         193.21
+65901	F	MX	SOLARI / HEBERTO LORENZO	4	19/1/2025	30/1/2025				USD	         144.03				         144.03
+63106	F		4O34ZT /// 4O2NAH /// 4O94D4 /// 4O56OI /// 4O4FUS /// MATTIA/MABEL ALICIA	9	20/1/2025	 2/02/25				USD	         665.11				         665.11
+63385	F		4O5V4J /// CHECCHETTO/GRACIELA BEATRIZ (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059153		USD	          70.01				          70.01
+63156	F		4O5V4J /// REGIARDO/ANDREA EDITH (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059152		USD	          70.01				          70.01
+63759	F		2D3P68 /// AVEDAÑO MANELLI/CARLA FERNANDA	2	20/1/2025	 2/02/25	 8/01/25	A0004-00059235		USD	         140.02				         140.02
+63873	F		2D3P68 /// FIORI/LUCRECIA NOEMI (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059154		USD	          70.01				          70.01
+56044	F	PL	FERREYRA/ESTEBAN ANTONIO	2	21/1/2025	31/1/2025	 6/01/25	A0004-00059141		USD	          72.01				          72.01
+63656	F		GRUPO BOMBAY 23JAN24	15	23/1/2025	 4/02/25				USD	         693.12				         693.12
+65325	F		29VCT8 /// ERRECART/DANIEL ROBERTO	2	23/1/2025	 4/02/25				USD	          84.01				          84.01
+63039	F	BZ	DALMASSO/DANIEL NELSO	2	24/1/2025	31/1/2025				USD	          48.30				          48.30
+62884	F	BZ	URRUTIA MALDONADO/ BRIAN SALVADOR	3	24/1/2025	31/1/2025				USD	          72.45				          72.45
+65006	F	RD	GONZALEZ/MONICA - GRP BAHIA PRINCIPE PUJ	19	26/1/2025	 3/02/25				USD	         513.19				         513.19
+65861	F	MT	GODOY/OSVALDO ANDRES	2	27/1/2025	 7/02/25				USD	          86.13				          86.13
+63562	F	BZ	MORICONI/ GUILLERMO DANIEL	4	31/1/2025	 7/02/25				USD	          96.60				          96.60
+15082	F	AR	PRECOMPRA UNIVERSAL - TRAVEL ACE	1	 1/02/25	 1/02/25				USD	           0.01		       17903.77		      -17903.76
+64520	F	RD	MARTIN CONCI/ANTONELLA	14	 1/02/25	10/2/2025				USD	         363.09				         363.09
+62772	F	BZ	RODRIGUEZ/ALEXIS CARLOS	2	 7/02/25	14/2/2025				USD	          48.30				          48.30
+63796	F	BR	LUDUEÑA MARISA DE LOS ANGELES	3	 7/02/25	14/2/2025				USD	          72.00				          72.00
+65287	F	BZ	PEREA OJEDA MATIAS DANIEL	3	 7/02/25	14/2/2025				USD	          72.00				          72.00
+63690	F	BR	FRISONE HEARNE/JEAN LUCA	2	 7/02/25	18/2/2025				USD	          78.01				          78.01
+65935	F	MX	DANILO ORECCHIA	5	 7/02/25	17/2/2025				USD	         180.03				         180.03
+65596	F	RJ	MORELLI MARIN/JUAN CRUZ	2	13/2/2025	20/2/2025	 7/01/25	A0004-00059194		USD	          48.00				          48.00
+65275	F	BR	GARELLO/GASTON	2	14/2/2025	21/2/2025				USD	          48.00				          48.00
+64894	F	BR	BUDINI / ESTELA MARY	2	14/2/2025	21/2/2025				USD	          48.00				          48.00
+64311	F	RJ	MADUSSI/VANINA ELIZABETH	2	14/2/2025	21/2/2025	 4/01/25	A0004-00059035		USD	          48.30				          48.30
+65712	F	MX	RIOS / RUBEN OSCAR	4	15/2/2025	25/2/2025	 8/01/25	A0004-00059240		USD	         132.03				         132.03
+64121	F	BR	CARBO/MARCELA ELIZABETH	5	17/2/2025	24/2/2025				USD	         120.01				         120.01
+63564	F	BZ	PETERSEN/GERARDO HUGO	4	21/2/2025	28/2/2025				USD	          96.60				          96.60
+65153	F	RJ	QUEVEDO/ JOSE MATIAS	2	21/2/2025	28/2/2025				USD	          48.00				          48.00
+65136	F	BR	RUIZ/JOSE GUSTAVO JAVIER	2	24/2/2025	 3/03/25				USD	          48.00				          48.00
+65012	F	BZ	MAGLIONE/ JUAN HECTOR	6	24/2/2025	 3/03/25				USD	         168.01				         168.01
+60507	F	BZ	TANTUCCI / FEDERICO PASCUAL	4	28/2/2025	 7/03/25				USD	          96.00				          96.00
+64653	F		DELLA GHELFA/GABRIEL MARCELO	2	 3/03/25	16/3/2025				USD	          84.01				          84.01
+60782	F	PU	 DIEGO GASPAR PAREJO	2	 8/03/25	17/3/2025				USD	         149.96		          82.50		          67.46
+60427	F	PU	MATIAS EXEQUIEL OLOCCO	15	 8/03/25	17/3/2025	 8/01/25	A0004-00059232		USD	         514.72		         379.50		         135.22
+65730	F	AU	FURBATTO ELSA BEATRIZ	2	10/3/2025	17/3/2025				USD	          54.02				          54.02
+61682	F	RD	PRINS/GERMAN DARIO	3	11/3/2025	18/3/2025				USD	          81.03				          81.03
+61573	F	PM	AQUERE/ARACELI GABRIELA (A COMP)	1	13/3/2025	 2/04/25				USD	         110.02				         110.02
+65015	F	CC	TORRES/ SERGIO ALBERTO	4	13/3/2025	21/3/2025				USD	         120.04				         120.04
+65073	F	CC	15QSE2 SORIA/JOSE ALEJANDRO	3	13/3/2025	21/3/2025				USD	          90.03				          90.03
+64394	F	BR	ALANIZ/SOFIA RUTH	2	15/3/2025	22/3/2025				USD	          54.02				          54.02
+60063	F	GR	PICCONI/CLAUDIA MARIA	3	16/3/2025	27/3/2025				USD	         180.02				         180.02
+61100	F	GR	GROSSO/ALICIA DEL VALLE	1	16/3/2025	27/3/2025				USD	          60.01				          60.01
+64342	F	GR	ALEMANDRI/GISELA MARISEL (A COMP)	1	16/3/2025	27/3/2025				USD	          60.01				          60.01
+64947	F		MUSSO/PABLO MIGUEL	3	18/3/2025	 3/04/25				USD	         255.05				         255.05
+65722	F		CAMINOS/ELIANA LILIANA	2	26/3/2025	 3/04/25				USD	          90.03				          90.03
+64728	F	RD	MIO/GUSTAVO	3	26/3/2025	 3/04/25				USD	          90.03				          90.03
+61330	F	RJ	QUINN/ RICHARD ROBERTO	2	28/3/2025	 4/04/25	22/10/2024	A0004-00056264		USD	          47.95				          47.95
+			SUBTOTAL PROV.:	346						USD	       17280.75		       25748.42		       -8467.67
+															
+838	ACTION TRAVEL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          30.00		       16477.00		      -16447.00
+62275	F	EU	BASILUK/FRANCISCO JUAN	4	10/2/2025	23/2/2025				USD	        5606.32		        3012.58		        2593.74
+61489	F	EU	ASEGUINOLAZA/ FERNANDO	4	11/2/2025	 2/03/25				USD	        7138.73		        3559.17		        3579.56
+65015	F	CC	TORRES/ SERGIO ALBERTO	4	13/3/2025	21/3/2025				USD	        5108.48				        5108.48
+			SUBTOTAL PROV.:	13						USD	       17883.53		       23048.75		       -5165.22
+															
+844	LIMA TOURS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+65722	F		CAMINOS/ELIANA LILIANA	2	26/3/2025	 3/04/25				USD	        1701.60				        1701.60
+			SUBTOTAL PROV.:	2						USD	        1701.60		           0.00		        1701.60
+															
+941	RIU PLAZA PANAMA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         241.02		        -241.01
+64836	F	MX	MAURINO/ GRACIELA DOMINGA	3	31/3/2025	10/4/2025				USD	         238.22				         238.22
+			SUBTOTAL PROV.:	4						USD	         238.23		         241.02		          -2.79
+															
+942	STIVA GENERAL PARTNERSHIP														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+61108	F	RD	LUCIENTES/RODOLFO GREGORIO	3	21/11/2024	 3/12/24	21/11/2024	A0004-00057525		USD	        4778.78		        4687.88		          90.90
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       79608.20		      -79608.19
+58083	F	RD	FLORES/MARIA GABRIELA	4	 4/01/25	18/1/2025	 4/01/25	A0004-00059068		USD	           0.40		        1892.35		       -1891.95
+62946	F	MX	LERDA/JUAN DANTE	9	30/1/2025	 8/02/25				USD	       11721.20				       11721.20
+65155	F	PU	BABINI DANIEL EDUARDO	2	 4/02/25	14/2/2025				USD	        1822.48				        1822.48
+65935	F	MX	DANILO ORECCHIA	5	 7/02/25	17/2/2025				USD	        3757.52				        3757.52
+63998	F	MX	ARIAS / DIEGO JULIO	6	14/2/2025	22/2/2025				USD	        9189.12				        9189.12
+65164	F	MX	RIOS/RUBEN OSCAR	6	15/2/2025	25/2/2025				USD	        9576.00				        9576.00
+65086	F	PL	PAVESA/ ALEJANDRO  JOSUE	2	18/2/2025	26/2/2025				USD	        2676.86				        2676.86
+60134	F	CU	MINERVINO AGUSTIN	4	27/2/2025	 6/03/25				USD	        3739.68				        3739.68
+64752	F	RD	PRIETO/LUIS MARIA	3	 7/03/25	15/3/2025				USD	        4017.66				        4017.66
+64706	F	NJ	BERTINOTTI / SILVIA GABRIELA	4	17/3/2025	20/3/2025				USD	        2600.16				        2600.16
+64472	F	RD	JARRYS/MARIO EMILIO	2	19/3/2025	29/3/2025				USD	        2788.54				        2788.54
+			SUBTOTAL PROV.:	51						USD	       56668.41		       86188.43		      -29520.02
+															
+944	DE PALM  TOURS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         334.60		        -334.59
+60422	F	AU	TAVERNA/DANIEL IVAN	5	19/1/2025	28/1/2025				USD	         180.00				         180.00
+65730	F	AU	FURBATTO ELSA BEATRIZ	2	10/3/2025	17/3/2025				USD	          38.52				          38.52
+			SUBTOTAL PROV.:	8						USD	         218.53		         334.60		        -116.07
+															
+1033	CITY TOURS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		           2.57		          -2.56
+			SUBTOTAL PROV.:	1						USD	           0.01		           2.57		          -2.56
+															
+1270	SOUTH TRAVEL VIAGENS E TURISMO LTDA - EPP														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.02		           2.01		          -1.99
+60710	F	FL	GALINDO/ CARLOS ALBERTO	15	 7/01/25	14/1/2025	 4/01/25	A0004-00059078		USD	          70.00				          70.00
+			SUBTOTAL PROV.:	16						USD	          70.02		           2.01		          68.01
+															
+1388	CARACOL INTERNACIONAL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+59106	F		BONALDI/LUCAS DANIEL	8	31/10/2024	 4/11/24				PES	           0.01		      521450.00		     -521449.99
+			SUBTOTAL PROV.:	8						PES	           0.01		      521450.00		     -521449.99
+															
+1474	JOURNEYS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         310.00		        -309.99
+62115	F	RJ	OCAÑO/ELIANA BELEN	5	10/3/2025	19/3/2025				USD	         310.00				         310.00
+			SUBTOTAL PROV.:	6						USD	         310.01		         310.00		           0.01
+															
+1534	EL PRACTICO														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+50425	F	AR	INCHAURRONDO/MARIANA	2	 8/04/24	10/4/2024				PES	      113045.62		      155570.62		      -42525.00
+			SUBTOTAL PROV.:	2						PES	      113045.62		      155570.62		      -42525.00
+															
+1603	COMING2														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          15.96		         892.70		        -876.74
+65016	F	SA	PEREYRA/LAURA CECILIA	5	23/1/2025	30/1/2025				USD	         346.00				         346.00
+64181	F	RD	DE ELEJALDE / CARLOS GUILLERMO	2	 5/03/25	18/3/2025				USD	         256.00				         256.00
+64728	F	RD	MIO/GUSTAVO	3	26/3/2025	 3/04/25				USD	         256.00				         256.00
+			SUBTOTAL PROV.:	11						USD	         873.96		         892.70		         -18.74
+															
+1729	COSTA VIAJES														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+54180	F	PH	PERU 18-05	2	21/5/2024	21/5/2024				PES	           0.01		     2272500.01		    -2272500.00
+59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	         166.00				         166.00
+60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	         332.00				         332.00
+58903	F		JAIME/JUANA ISABEL (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055676		USD	         166.00				         166.00
+58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	         166.00				         166.00
+61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	         332.00				         332.00
+			SUBTOTAL PROV.:	9						PES	           0.01		     2272500.01		    -2272500.00
+			SUBTOTAL PROV.:							USD	        1162.00		           0.00		        1162.00
+															
+1732	PANAMERICANA DE VIAJES DMC														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+62383	F	CT	BENVENUTO, MARCELO FABIAN	2	22/2/2025	 6/03/25				USD	          45.00				          45.00
+64653	F		DELLA GHELFA/GABRIEL MARCELO	2	 3/03/25	16/3/2025				USD	        2049.06				        2049.06
+			SUBTOTAL PROV.:	4						USD	        2094.06		           0.00		        2094.06
+															
+1917	HOTELBEDS USA INC														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+54298	F	EU	ROBLEDO ALEXIS	17	25/5/2024	25/5/2024				USD	           0.01		        1206.49		       -1206.48
+62261	F	MX	MURINA/ BETTINA MONICA	1	31/10/2024	 4/11/24	31/10/2024	A0004-00056483		USD	         336.76				         336.76
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       32592.35		      -32592.34
+58083	F	RD	FLORES/MARIA GABRIELA	4	 4/01/25	18/1/2025	 4/01/25	A0004-00059068		USD	        2891.10		        1261.42		        1629.68
+61333	F	EU	VICH/CRISTIAN ADRIAN	4	12/1/2025	 7/02/25	 4/01/25	B0004-00003599		USD	        2288.23		         737.88		        1550.35
+55209	F	PU	TOZZI/ EMILIANO MARTIN	9	13/1/2025	21/1/2025	 4/01/25	A0004-00059060		USD	        1326.88				        1326.88
+62578	F	EU	CASSINA/GRISELDA VICTORIA	1	14/1/2025	 5/02/25	 4/01/25	A0004-00059089		USD	        2202.59				        2202.59
+65371	F	BR	ARTICO/IVANA DEOLINDA	2	14/1/2025	22/1/2025	 4/01/25	B0004-00003603		USD	         423.49				         423.49
+65358	F	EU	BUSTOS/OSCAR HUGO	4	17/1/2025	 9/02/25				USD	        2172.23				        2172.23
+65631	F	EU	FITUR - REZENDE MALACHIAS/ANIELE	3	18/1/2025	26/1/2025				USD	        3209.47				        3209.47
+65557	F	RJ	ROSSI/ ALEJANDRO ALFREDO	6	22/1/2025	 2/02/25				USD	        5560.80				        5560.80
+60464	F	BR	GUALTIERI/NESTOR ENRIQUE	4	24/1/2025	 2/02/25				USD	         250.00				         250.00
+65450	F	RD	BALDARENA/ NICOLAS ARIEL	8	27/1/2025	 6/02/25				USD	         444.74				         444.74
+65861	F	MT	GODOY/OSVALDO ANDRES	2	27/1/2025	 7/02/25				USD	        1322.98				        1322.98
+57368	F	CU	CIGANOTTO  CARLOS ALBERTO	3	 2/02/25	 9/02/25				USD	        1854.09				        1854.09
+65021	F	MX	AYUP / ALEJANDRA SUSANA	2	 3/02/25	11/2/2025				USD	        1928.26				        1928.26
+52031	F	BZ	CHAILE/JORGE JOSE FLIX	4	 4/02/25	12/2/2025				USD	        1949.83				        1949.83
+65179	F	CU	PETTINA ANA VICTORIA	2	16/2/2025	17/2/2025	 4/01/25	B0004-00003596		USD	          30.60				          30.60
+57097	F	CU	AGUERREVENGOA/MARTIN ANTONIO	2	17/2/2025	25/2/2025				USD	         708.84				         708.84
+65634	F	MX	VALENTI ARIEL	2	21/2/2025	 4/03/25				USD	         301.08				         301.08
+62383	F	CT	BENVENUTO, MARCELO FABIAN	2	22/2/2025	 6/03/25				USD	         232.77				         232.77
+61102	F	EU	OSELLA/ DIANA MARIA	2	10/3/2025	25/3/2025				USD	        2143.81				        2143.81
+54339	F	CU	MAZZONI/NATHALIE	3	16/3/2025	26/3/2025	 4/01/25	A0004-00059010		USD	         388.66				         388.66
+64836	F	MX	MAURINO/ GRACIELA DOMINGA	3	31/3/2025	10/4/2025				USD	        1002.13				        1002.13
+			SUBTOTAL PROV.:	91						USD	       32969.36		       35798.14		       -2828.78
+															
+1956	DIPLOMATIC TRAVEL SERVICES														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        1641.00		       -1640.99
+			SUBTOTAL PROV.:	1						USD	           0.01		        1641.00		       -1640.99
+															
+1991	WORLD TO MEET (W2M)														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				EUR	           0.01		         961.39		        -961.38
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          24.00		      161002.68		     -160978.68
+59086	F	BR	GUARDIOLA/FELIPE	3	 8/01/25	16/1/2025	 4/01/25	A0004-00059072		USD	        2766.54				        2766.54
+61333	F	EU	VICH/CRISTIAN ADRIAN	4	12/1/2025	 7/02/25	 4/01/25	B0004-00003599		USD	         692.00				         692.00
+55209	F	PU	TOZZI/ EMILIANO MARTIN	9	13/1/2025	21/1/2025	 4/01/25	A0004-00059060		USD	        1477.67				        1477.67
+62653	F	MX	BALESTRINI/ FABIAN OMAR	3	15/1/2025	27/1/2025	 4/01/25	A0004-00059090		USD	        2964.50				        2964.50
+65358	F	EU	BUSTOS/OSCAR HUGO	4	17/1/2025	 9/02/25				USD	         173.90				         173.90
+57010	F	BY	LASTRICO/MARTIN OMAR	3	18/1/2025	28/1/2025	 4/01/25	A0004-00059065		USD	        4403.70				        4403.70
+65669	F	CL	DAMARIO JORGE LUIS	13	19/1/2025	29/1/2025				USD	         472.68				         472.68
+64961	F	RD	SANSIñENA/RAUL RAFAEL	1	20/1/2025	28/1/2025	 4/01/25	A0004-00059003		USD	        4007.98				        4007.98
+55224	F	PU	AREVALO TAMARA	10	21/1/2025	31/1/2025				USD	        9768.00				        9768.00
+62399	F	RD	BORDAQUIEVICH/MARTIN JAVIER	7	26/1/2025	 5/02/25				USD	        6111.22				        6111.22
+59775	F	MX	CUPELLINO/DANIELA	10	31/1/2025	13/2/2025	 4/01/25	A0004-00059075		USD	         172.97				         172.97
+15300	F	AU	GARANTIA W2M	1	 1/02/25	 1/02/25				USD	           0.01		        5000.00		       -4999.99
+59148	F	PU	HIRUELA/CARLOS ENRIQUE	4	 1/02/25	10/2/2025				USD	        4573.80				        4573.80
+62681	F	PU	CAMBRONERO/  ANDRES OSCAR	5	 1/02/25	13/2/2025				USD	        5935.15				        5935.15
+62596	F	MX	GUSMAR HUGO HORACIO	7	 2/02/25	10/2/2025				USD	        3819.68				        3819.68
+63861	F	EU	AMATO/FERNANDA	3	 2/02/25	11/2/2025				USD	        1086.21				        1086.21
+64278	F	RD	TISSERA/MAXIMILIANO	2	 6/02/25	14/2/2025				USD	        2424.00				        2424.00
+60416	F	PL	FERNANDO DANIEL LOMBARDI	5	 8/02/25	18/2/2025	 9/10/24	A0004-00055900		USD	        8150.90				        8150.90
+65376	F	RD	BLENCIO / YANINA	4	 9/02/25	18/2/2025				USD	        2743.92				        2743.92
+60623	F	RD	SUFIA/ELADIO ELISEO	5	10/2/2025	20/2/2025				USD	        7124.39				        7124.39
+62493	F	MX	CORVALAN,/SILVIA MABEL	2	12/2/2025	21/2/2025	 4/01/25	A0004-00059020		USD	        1983.38				        1983.38
+64986	F	MX	ANGIORAMA / JUAN CRUZ	2	13/2/2025	28/2/2025				USD	         759.50				         759.50
+64469	F	BR	TOMMASI MATIAS FEDERICO	5	13/2/2025	20/2/2025	 4/01/25	A0004-00059036		USD	        6150.93				        6150.93
+64381	F	MX	RODRIGUEZ / ADRIANA MARIELA	25	23/2/2025	 7/03/25				USD	        7868.28				        7868.28
+63696	F	BR	BASTIANELLI/ MARIA ROSALIA	2	25/2/2025	 4/03/25				USD	         806.31				         806.31
+64548	F	BY	GRUDINE SONIA ANABELLA	2	26/2/2025	 1/03/25				USD	        2541.28				        2541.28
+60300	F	PU	JORGE LUIS ACUNA	9	26/2/2025	 6/03/25	 4/01/25	A0004-00059018		USD	        2635.20				        2635.20
+64003	F	MX	QUINTERO/DIEGO LUIS ROBERTO	2	 1/03/25	 8/03/25				USD	        1459.08				        1459.08
+63524	F	RD	ALESSIO CARRIZO/ROCIO	10	 5/03/25	13/3/2025				USD	       11351.76				       11351.76
+65076	F	BY	GALAN ALFONSINA	18	 7/03/25	14/3/2025				USD	       20213.23				       20213.23
+60263	F	PU	ANDREA GISELLE FARIñA	3	 8/03/25	18/3/2025				USD	        1531.67				        1531.67
+61682	F	RD	PRINS/GERMAN DARIO	3	11/3/2025	18/3/2025				USD	        2600.47				        2600.47
+59456	F	RD	CHIARANDINI/MIRCO	6	11/3/2025	20/3/2025	 7/01/25	A0004-00059188		USD	        7208.16				        7208.16
+65873	F	PU	NEGRI CANDELA	6	30/3/2025	 7/04/25				USD	        4903.20				        4903.20
+64836	F	MX	MAURINO/ GRACIELA DOMINGA	3	31/3/2025	10/4/2025				USD	         617.55				         617.55
+			SUBTOTAL PROV.:	203						EUR	           0.01		         961.39		        -961.38
+			SUBTOTAL PROV.:							USD	      141523.22		      166002.68		      -24479.46
+															
+2144	VILAR NOELIA MELINA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	           5.00				           5.00
+60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	          10.00				          10.00
+61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	          10.00				          10.00
+58903	F		JAIME/JUANA ISABEL (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055676		USD	           5.00				           5.00
+58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	           5.00				           5.00
+			SUBTOTAL PROV.:	7						USD	          35.00		           0.00		          35.00
+															
+2168	EURORIENTE TRAVEL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+42687	F	EU	MARTIARENA/EDUARDO HECTOR	2	 5/09/24	21/9/2024	 5/07/24	A0004-00050603		USD	        4520.00		        4400.00		         120.00
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          26.00		       25603.00		      -25577.00
+61100	F	GR	GROSSO/ALICIA DEL VALLE	1	16/3/2025	27/3/2025				USD	         822.67				         822.67
+64342	F	GR	ALEMANDRI/GISELA MARISEL (A COMP)	1	16/3/2025	27/3/2025				USD	         742.20				         742.20
+60063	F	GR	PICCONI/CLAUDIA MARIA	3	16/3/2025	27/3/2025				USD	        2467.86				        2467.86
+64947	F		MUSSO/PABLO MIGUEL	3	18/3/2025	 3/04/25				USD	        3150.00				        3150.00
+			SUBTOTAL PROV.:	11						USD	       11728.73		       30003.00		      -18274.27
+															
+2268	WELCOMEBEDS/PLANET BUSINESS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          10.02		        5886.95		       -5876.93
+65140	F	CT	MORERO/JUAN CRUZ	2	28/1/2025	 7/02/25				USD	         438.69				         438.69
+65981	F	CL	RODRIGUEZ VALENTINA	2	 2/02/25	 6/02/25				USD	         535.40				         535.40
+64321	F	BY	CASAS MIRTA ERCILIA	3	 5/03/25	13/3/2025				USD	        3570.36				        3570.36
+58245	F	PL	Antoniazzi Axel Gabriel	4	 7/03/25	16/3/2025				USD	        1048.30				        1048.30
+65073	F	CC	15QSE2 SORIA/JOSE ALEJANDRO	3	13/3/2025	21/3/2025				USD	        3188.13				        3188.13
+62551	F	BR	MARIA FLORENCIA DIAZ	2	21/3/2025	30/3/2025				USD	         426.12				         426.12
+			SUBTOTAL PROV.:	17						USD	        9217.02		        5886.95		        3330.07
+															
+2451	VPT														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       67965.81		      -67965.80
+65358	F	EU	BUSTOS/OSCAR HUGO	4	17/1/2025	 9/02/25				USD	         520.00		         300.00		         220.00
+61573	F	PM	AQUERE/ARACELI GABRIELA (A COMP)	1	13/3/2025	 2/04/25				USD	        2081.00				        2081.00
+			SUBTOTAL PROV.:	6						USD	        2601.01		       68265.81		      -65664.80
+															
+2460	EMBAJADA DE CUBA - VISAS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+61695	F		GRUPO MARCELO GELARDINO CUBA 13 NOV	18	13/11/2024	22/11/2024				USD	         216.00		         264.00		         -48.00
+64396	F	UB	JUDEZ/JUAN PABLO RICARDO	2	 4/01/25	13/1/2025				USD	          24.00				          24.00
+55038	F	UB	AGUERREVENGOA, CAMILA	4	30/1/2025	10/2/2025				USD	          48.00				          48.00
+12222	F	UB	VISAS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        3542.00		       -3541.99
+63952	F	UB	MUCHUT/MARIO	3	10/2/2025	19/2/2025				USD	          24.00				          24.00
+			SUBTOTAL PROV.:	28						USD	         312.01		        3806.00		       -3493.99
+															
+2471	CLUB VIVA INTERNATIONAL INC														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+63565	F	RD	MONZONI/DANIEL FERNANDO	4	19/12/2024	29/12/2024	30/12/2024	A0004-00058798		USD	           0.10		        3980.00		       -3979.90
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       89761.71		      -89761.70
+64520	F	RD	MARTIN CONCI/ANTONELLA	14	 1/02/25	10/2/2025				USD	       11745.36				       11745.36
+57404	F	PU	BARBOZA/JUAN CRUZ	5	 5/02/25	19/2/2025	 8/01/25	A0004-00059231		USD	        3458.00				        3458.00
+60300	F	PU	JORGE LUIS ACUNA	9	26/2/2025	 6/03/25	 4/01/25	A0004-00059018		USD	        4880.00				        4880.00
+57702	F	RD	CANDIANI/SANTIAGO ALEJANDRO	2	 3/03/25	14/3/2025	 4/01/25	A0004-00059013		USD	        1392.00				        1392.00
+64181	F	RD	DE ELEJALDE / CARLOS GUILLERMO	2	 5/03/25	18/3/2025				USD	        2340.00				        2340.00
+64695	F	MX	FRATTIN / EZEQUIEL ONÉSIMO	3	11/3/2025	21/3/2025				USD	        3000.00				        3000.00
+61570	F	BY	MOLINERI/ALEXIS SEBASTIAN	3	12/3/2025	20/3/2025				USD	        2304.00				        2304.00
+59984	F	RD	COSTANTINI/LUCIO VICENTE	12	12/3/2025	20/3/2025				USD	        6296.00				        6296.00
+64728	F	RD	MIO/GUSTAVO	3	26/3/2025	 3/04/25				USD	        1857.60				        1857.60
+60397	F	BY	FRACAROLLI/GERMAN IGNACIO	20	30/3/2025	 7/04/25				USD	       17439.80				       17439.80
+			SUBTOTAL PROV.:	78						USD	       54712.87		       93741.71		      -39028.84
+															
+2481	HYD* BRAZILIAN TOURS VIAGENS LTDA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+9930	F	RJ	GRUPO HYD***	1	 1/01/25	 1/01/25				USD	           0.01		      226684.00		     -226683.99
+65853	F	CL	2H2GJ7 URRUCHUA/CHRISTIAN HERNAN	1	13/1/2025	30/1/2025				USD	          70.15				          70.15
+65854	F	MA	2CVCL2 VILLEGAS/ALFREDO DANIEL	2	15/1/2025	20/1/2025				USD	          45.00				          45.00
+			SUBTOTAL PROV.:	4						USD	         115.16		      226684.00		     -226568.84
+															
+2501	RELATUR SA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+61899	F	CT	FERREYRA HORROCKS/ ANGEL NICOLAS	3	17/10/2024	25/10/2024	 8/10/24	A0004-00055735		USD	        1590.15		        1338.66		         251.49
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        7862.97		       -7862.96
+65560	F	CT	SAN ISIDRO ANGEL FABIAN	3	20/1/2025	30/1/2025				USD	        2341.61		        2197.61		         144.00
+65140	F	CT	MORERO/JUAN CRUZ	2	28/1/2025	 7/02/25				USD	        2303.39				        2303.39
+54154	F	CT	MORES/EBER JESUS	2	 6/02/25	14/2/2025				USD	        2354.70				        2354.70
+62383	F	CT	BENVENUTO, MARCELO FABIAN	2	22/2/2025	 6/03/25				USD	        1622.16				        1622.16
+64653	F		DELLA GHELFA/GABRIEL MARCELO	2	 3/03/25	16/3/2025				USD	        1293.32				        1293.32
+			SUBTOTAL PROV.:	15						USD	       11505.34		       11399.24		         106.10
+															
+2645	JUMBO TOURS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	         228.98		         216.24		          12.74
+			SUBTOTAL PROV.:	1						USD	         228.98		         216.24		          12.74
+															
+2668	TANGO TRAVEL CONSULTANT INC														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+41662	F	PU	25R6UZ AGUIRRE/MARIA DEL CARMEN	4	 8/05/24	18/5/2024	23/10/2023	A0004-00036507		USD	        3723.60		        2812.70		         910.90
+45445	F	CU	2QRVCY  DOMANSKI ESTELA MARIS	2	20/6/2024	 1/07/24	13/12/2023	A0004-00040192		USD	        2846.62		        2668.90		         177.72
+52015	F	EU	3FJYS7 3FKKSY BADINO/SERGIO DARIO	2	28/6/2024	19/7/2024	19/4/2024	A0004-00046768		USD	        4369.80				        4369.80
+56001	F	MA	HENFLEN/CESAR LUIS	4	10/7/2024	20/7/2024	16/7/2024	A0004-00051065		USD	         550.00				         550.00
+56561	F	MD	 3QTNWT PEYRALLO/SANTIAGO	2	11/7/2024	18/7/2024	 5/07/24	A0004-00050676		USD	        5058.30		        5018.30		          40.00
+56790	F	MD	3IH4DV PIZANO ALVAREZ ANA EMILIA	2	11/7/2024	27/7/2024	22/7/2024	A0004-00051394		USD	         492.00		         453.62		          38.38
+56762	F	MD	 4EP5TL BAVA/MARIA PAULA	2	12/7/2024	25/7/2024	11/7/2024	A0004-00050957		USD	        2744.20		        2738.51		           5.69
+56841	F	MD	3Y5M4R VIGANEGO/LEANDRO	1	12/7/2024	15/7/2024	16/7/2024	A0004-00051144		USD	         789.50		         769.50		          20.00
+56673	F	MD	3Y5M4R VIGANEGO/LEANDRO	1	13/7/2024	15/7/2024	11/7/2024	A0004-00050938		USD	        1781.20		        1761.22		          19.98
+56394	F	EU	2CUGBG - HEINZ/HUGO RAMON	1	19/7/2024	19/7/2024	11/7/2024	B0004-00003207		USD	         195.00		         175.00		          20.00
+56404	F	MD	 38WW5V RICAURTE/MAXIMO	1	19/7/2024	 1/08/24	 5/07/24	A0004-00050649		USD	        1481.60		        1461.60		          20.00
+56635	F	MD	3W98W4 BARBERIA/MARIA FERNANDA	2	26/7/2024	 3/08/24	11/7/2024	A0004-00050927		USD	        2832.60		        2792.60		          40.00
+56929	F	MD	 4EEMUL ALFONSO/MARIA LAURA	2	 3/08/24	23/8/2024	11/7/2024	A0004-00050983		USD	        3072.60		        3032.30		          40.30
+57720	F	MD	3XSLAC 3XTCIC KOK/JONATHAN	5	 4/08/24	12/8/2024	31/7/2024	A0004-00051770		USD	        6017.00		        5916.00		         101.00
+57715	F	MD	3X9RXE GENIUK/RICARDO ALEJANDRO	1	 4/08/24	12/8/2024	31/7/2024	A0004-00051769		USD	        1151.00		        1131.00		          20.00
+57228	F	MD	4X8YPG FOLINO/FRANCISCO PEDRO	4	 6/08/24	18/8/2024	22/7/2024	A0004-00051461		USD	        4184.40		        4104.40		          80.00
+58423	F	EU	2XZLNR FERNANDEZ BOBBIO/JERONIMO	2	 6/08/24	 7/08/24	 6/08/24	A0004-00052270		USD	        1752.60				        1752.60
+58529	F	MD	3B29X5  AMEGLIO/GIULIANO FRANCO	1	 7/08/24	18/8/2024	 8/08/24	A0004-00052432		USD	        1297.60		        1277.60		          20.00
+58248	F	RD	2CBTGG GOMEZ PALACIOS/ ARIEL MATIAS	3	 8/08/24	20/8/2024	 6/08/24	A0004-00052261		USD	        2635.66		        2615.66		          20.00
+56206	F	MD	2PWKUO  PAGLIERI/DANIEL	1	 8/08/24	23/8/2024	21/8/2024	A0004-00053113		USD	        1967.20		        1804.50		         162.70
+57507	F	MD	 2XWEBA 3433ZL ERENU/MIGUEL ANGEL	2	 9/08/24	26/8/2024	22/7/2024	A0004-00051533		USD	         110.00		          90.00		          20.00
+57946	F	MD	4GYMSF  GUARNIERI/GIUSEPPE	2	13/8/2024	 3/10/24	 2/08/24	A0004-00052052		USD	        2220.60		        2176.46		          44.14
+59005	F	EU	2NXKW4 FLACHS/DIEGO JOAQUIN	1	14/8/2024	14/8/2024	14/8/2024	A0004-00052884		USD	         160.00		         140.00		          20.00
+50020	F	PU	2VC8CD 2VC9NY 2VCWU8 ANGELI/DAMIAN	15	19/8/2024	27/8/2024	 5/03/24	A0004-00044570		USD	       15883.50		       15583.50		         300.00
+58649	F	MD	 3C5MD8 3C5BFT RUIZ/MARIA CATALINA	2	20/8/2024	 8/09/24	12/8/2024	A0004-00052627		USD	        2728.40		        2688.40		          40.00
+56513	F	MD	3KXMGS PEREZ GIMENEZ PABLO MARIANO	1	22/8/2024	 1/09/24	22/7/2024	A0004-00051443		USD	        2241.90		        2134.90		         107.00
+59611	F	MD	 2YXTAJ CREDIDIO/JONATHAN	2	26/8/2024	31/8/2024	26/8/2024	A0004-00053330		USD	        2832.60		        2803.40		          29.20
+59306	F	EU	4OSXJV BEGUE PALIS/SOFIA BELEN	2	27/8/2024	27/8/2024	21/8/2024	A0004-00053161		USD	        3655.80		        3445.80		         210.00
+60016	F	CL	427274 PEREZ DISALVO/MARTIN	1	29/8/2024	31/8/2024	29/8/2024	A0004-00053547		USD	         749.50		         529.10		         220.40
+56800	F	MD	4G8ZCA  3LV9IZ 3Q9U54 3LVDUV ALVAREZ/PATRICIA	4	30/8/2024	16/9/2024	11/7/2024	A0004-00050968		USD	       11562.00		       11462.00		         100.00
+59509	F	MD	3RHN9C TACCO CARULLI/CLARA MARIA	1	30/8/2024	14/9/2024	26/8/2024	A0004-00053325		USD	          50.00		          20.00		          30.00
+58663	F	MD	36VF78   1.CONCI/ADRIAN LEONARDO	2	30/8/2024	 9/09/24	12/8/2024	A0004-00052632		USD	       11179.20		       11114.30		          64.90
+59583	F	MD	 2UN633  VALENTINO/GRACIELA PATRICIA	1	 1/09/24	13/9/2024	26/8/2024	A0004-00053328		USD	        1151.00		        1131.00		          20.00
+57709	F	MD	 44AT58 44CYT6 DRAVICA/XIOMARA DENISE	3	 1/09/24	13/9/2024	 2/08/24	A0004-00051972		USD	        7286.70		        7226.70		          60.00
+60007	F	MD	3ZUNRK RAGONE/GABRIELA PATRICIA	1	 1/09/24	 6/09/24	29/8/2024	A0004-00053546		USD	        1220.70		        1200.70		          20.00
+56378	F	MD	3F5YNV LOPARDO VILLARINO/MARIA DEL PILAR	1	 1/09/24	18/9/2024	 5/07/24	A0004-00050644		USD	        1692.70		        1672.70		          20.00
+59756	F	EU	3IGZ6B PETIT BON/JULIETA	1	 2/09/24	13/9/2024	29/8/2024	A0004-00053541		USD	          84.00		          64.81		          19.19
+57846	F	MD	44QPEV RIGHETTI VALENTINA	1	 3/09/24	 8/12/24	 2/08/24	A0004-00052013		USD	        1754.20		        1652.50		         101.70
+56392	F	MD	3FWMM9 AGUERO/RAUL ANTONIO	2	 4/09/24	27/9/2024	11/7/2024	A0004-00050887		USD	        5510.40		        4554.20		         956.20
+57945	F	MD	4HDEVW ROCCA DAMIAN	1	 4/09/24	13/9/2024	 5/09/24	A0004-00053678		USD	        2308.90		        2180.50		         128.40
+57558	F	MD	 3AIRUG CHEMEZ CODINA/CLAUDIA ANGELICA	3	 4/09/24	18/9/2024	22/7/2024	A0004-00051545		USD	        9622.90		        9604.70		          18.20
+56999	F	PU	B4UOZ7 MARIA FABIOLA DECOBERTI	8	 5/09/24	13/9/2024	16/7/2024	A0004-00051210		USD	        8310.90		        8026.60		         284.30
+57784	F	MD	  466QD8 BRUNO/GUILLERMO NORBERTO	4	 5/09/24	14/9/2024	 2/08/24	A0004-00051996		USD	        5288.80		        5208.80		          80.00
+58075	F	CC	4X234Y BORETTO/FERNANDO OSCAR	8	 6/09/24	14/9/2024	 2/08/24	A0004-00052089		USD	        7177.09		        7157.09		          20.00
+59315	F	MD	  4Z9QPM ALTMARK/SEBASTIAN	2	 6/09/24	13/9/2024	21/8/2024	A0004-00053164		USD	        2620.80		        2580.80		          40.00
+58119	F	MD	26E52F VARAS/DAMIAN	1	 7/09/24	14/9/2024	 6/08/24	A0004-00052257		USD	        1151.00		        1131.90		          19.10
+58594	F	MD	3CFI3Z MONTI/DIEGO	1	 7/09/24	14/9/2024	12/8/2024	A0004-00052608		USD	        1172.40		        1152.40		          20.00
+60408	F	MD	27JMUB PATERNA/JORGE EDUARDO	1	 8/09/24	13/9/2024	 7/09/24	A0004-00054158		USD	        1328.60		        1308.60		          20.00
+57837	F	MD	 4AO647 LOZA MARONEO/MARTIN	1	 9/09/24	 9/10/24	 2/08/24	A0004-00052011		USD	        4580.60		        4560.60		          20.00
+57768	F	EU	2ZRC3S CORDOBA/MARISEL CECILIA	2	 9/09/24	25/9/2024	 8/08/24	A0004-00052394		USD	         478.70		         458.70		          20.00
+57839	F	MD	 29LBS9 LOZA SCHAEFER/JULIO	1	 9/09/24	20/9/2024	 2/08/24	A0004-00052012		USD	        4718.60		        4698.60		          20.00
+56838	F	MD	4FA6EI ARIAS/JORGE HECTOR	4	10/9/2024	28/9/2024	11/7/2024	A0004-00050974		USD	        5584.00		        5504.00		          80.00
+57287	F	EU	2S238E 2RZ3HC DAMATO/LUCIANA	6	10/9/2024	29/9/2024	 2/08/24	A0004-00051871		USD	        6100.90		        6080.90		          20.00
+60269	F	EU	 4UENE7 FURFARO/NILDA	4	11/9/2024	27/9/2024	 7/09/24	A0004-00054124		USD	        6123.20		        6043.20		          80.00
+59420	F	MD	2J8NSB 2J9QCV LOSER/EDGARDO MIGUEL	2	11/9/2024	22/9/2024	 5/09/24	A0004-00053765		USD	        2554.15		        2524.70		          29.45
+55113	F	MX	BKJML1 HUBMANN/ANA	4	11/9/2024	18/9/2024	10/6/2024	A0004-00049457		USD	        3749.14		        3396.46		         352.68
+60898	F	MD	 2C42U3 LITVAK/JOSE DANIEL	1	12/9/2024	 5/10/24	13/9/2024	A0004-00054652		USD	         331.40				         331.40
+58259	F	RD	2B77RU ROCCA/ GASTON HERNAN	4	12/9/2024	23/9/2024	 6/08/24	A0004-00052284		USD	        2853.75		        2833.30		          20.45
+60589	F	MX	2D4OY4   1.ANTONELLI/MARINA PAOLA	2	13/9/2024	22/9/2024	13/9/2024	A0004-00054515		USD	        4985.54		        4925.54		          60.00
+56904	F	EU	383759   4QFLA2 GRUPO SEP  OPORTO HENFLEN / CESAR	30	16/9/2024	10/10/2024	13/9/2024	A0004-00054582		USD	        2872.00		        2862.10		           9.90
+51253	F	MD	43ON7Y 3SK5LY 4PHEMV 3L9KPY  3LBXIJ 3LB7XK 3LCEG7 322TLL BARETTO/NELIDA CATALINA	19	16/9/2024	13/10/2024	 4/09/24	A0004-00053611		USD	       43051.88		       42207.20		         844.68
+58958	F	MD	3SFEOI GIMENEZ/MARIA ISABEL	1	16/9/2024	 3/10/24	14/8/2024	A0004-00052865		USD	        2188.50		        2168.50		          20.00
+55089	F	MD	4YQXNK FERRERO JORGE RAUL	2	16/9/2024	 6/10/24	13/6/2024	A0004-00049634		USD	        4634.60		        2392.40		        2242.20
+57027	F	MD	4XMYCY  EPEL/SACHA(INF/UMA)	3	17/9/2024	 5/10/24	16/7/2024	A0004-00051196		USD	        3294.00		        3273.79		          20.21
+61059	F	CC	GABRIEL FASSI	2	21/9/2024	28/9/2024				USD	        1895.87		        1805.87		          90.00
+57531	F	MD	 3BF9TS 3BEZF9 JUAN/MARIA SILVINA	2	22/9/2024	 2/10/24	22/7/2024	A0004-00051540		USD	        2263.40		        2223.41		          39.99
+57294	F	MD	 2Q6OMF HERNANDEZ/ROBERTO JUAN	2	25/9/2024	12/10/2024	 8/08/24	A0004-00052449		USD	        2092.20		        2052.20		          40.00
+53331	F	PE	2AV2YC 2AV3J6 FERNANDEZ TORRES/DIEGO SEBASTIAN	2	26/9/2024	 5/10/24	 4/06/24	A0004-00048847		USD	        1827.48				        1827.48
+58309	F	BR	2HFRC7 SCHLENKER/NICOLAS ADRIAN	3	27/9/2024	 5/10/24	 6/08/24	A0004-00052292		USD	        1617.50		        1597.50		          20.00
+57354	F	MD	2SRSL7 BREPPE PATRICIA IRMA	2	28/9/2024	20/10/2024	22/7/2024	A0004-00051492		USD	        4176.60		        4156.60		          20.00
+61041	F	MD	2JGVN6 COOMBS/DAVID ANDREW	1	30/9/2024	 4/10/24	16/9/2024	A0004-00054836		USD	          30.00		          20.00		          10.00
+61857	F	EU	4C3KZ2 3G985H 2HWIYS PICHETTI/IGNACIO	3	 2/10/24	 2/10/24	 9/10/24	A0004-00055915		USD	         480.00		         460.00		          20.00
+60673	F	MA	2IH3ZJ  2J4BXL ANAIN/JUAN	3	 2/10/24	10/10/2024	16/9/2024	A0004-00054772		USD	        3157.50		        3117.90		          39.60
+59396	F	MD	2HRDW8 ZUBERBUHLER/CECILIA MARIA	1	 2/10/24	19/10/2024	21/8/2024	A0004-00053182		USD	        3019.20		        2998.28		          20.92
+57670	F	MA	 3X2XMH -  3XRZQ3 - CERUTTI/GRACIELA DEL CARMEN	2	 3/10/24	14/10/2024	 2/08/24	A0004-00051966		USD	        2518.10		        2478.10		          40.00
+58362	F	MD	2NBY4O ALONSO/ROMINA VALERIA(INFROJAS/SANTIAGO EMILIANO)	2	 5/10/24	 3/01/25	 8/08/24	A0004-00052409		USD	        1460.60		        1441.30		          19.30
+55769	F	PU	49ABJL  BIES/SABRINA	5	 9/10/24	18/10/2024	 1/07/24	A0004-00050224		USD	        5866.00		        5766.00		         100.00
+59067	F	MD	 4D3FJ2 DISTEL LOPEZ/VANINA AILEN	3	 9/10/24	31/10/2024	14/8/2024	A0004-00052900		USD	        3566.60		        3546.60		          20.00
+61721	F	MD	4995BZ SPURIO/GERARDO DAVID	3	11/10/2024	23/10/2024	 1/10/24	A0004-00055529		USD	        2510.70		        2450.90		          59.80
+61214	F	PU	4JIFS4  SANDRONI/MARIA ISABEL	1	12/10/2024	20/10/2024	 1/10/24	A0004-00055239		USD	        1959.70		        1949.70		          10.00
+58004	F	MD	4HG8AN 4H4I3C ALBORNOZ/YANINA BELEN	2	12/10/2024	27/10/2024	 2/08/24	A0004-00052067		USD	        8854.60		        8816.10		          38.50
+57629	F	MD	 2XYTUP 3FFL8R TOBIAS CORDOVA/MARIA JOSE	2	13/10/2024	27/10/2024	 2/08/24	A0004-00051955		USD	        4043.90		        4003.90		          40.00
+58003	F	MD	4GW5F3 4BWKGU NASSIMOF/JANA	8	14/10/2024	22/10/2024	 2/08/24	A0004-00052066		USD	        2962.76		        2741.62		         221.14
+60841	F	MD	383PBF 39A8LW CABALLERO/FIORELLA	3	15/10/2024	28/10/2024	19/9/2024	A0004-00054912		USD	        3844.50		        3805.90		          38.60
+62156	F	MD	4QVO27 4QUQG4 CHEMEZ CODINA/CLAUDIA ANGELICA	2	16/10/2024	27/10/2024	 9/10/24	A0004-00055929		USD	        9361.13		        9301.13		          60.00
+58739	F	MD	3MVX7T FERNANDEZ BRITAL/SANTIAGO	1	17/10/2024	18/10/2024	12/8/2024	A0004-00052650		USD	        1361.10		        1355.30		           5.80
+59089	F	MD	 4I3RG7 CANINO/JULIE	1	18/10/2024	26/10/2024	19/8/2024	A0004-00053044		USD	         949.70		         929.70		          20.00
+59002	F	MD	4CP5BL ESPINDOLA/JOAQUIN ALEJANDRO	4	20/10/2024	 3/11/24	14/8/2024	A0004-00052882		USD	        3350.30		        3330.90		          19.40
+62552	F	MD	4CP5BL ESPINDOLA/JOAQUIN ALEJANDRO	4	20/10/2024	10/11/2024	22/10/2024	A0004-00056361		USD	         741.20		         700.44		          40.76
+60876	F	MD	  399L5C PALUDI/ROSANA CARINA	1	20/10/2024	 1/11/24	16/9/2024	A0004-00054796		USD	        1001.20		         982.04		          19.16
+60355	F	MD	4VQ9O2   4VQ9O2 GIL/JORGE MARCELO	1	20/10/2024	 1/11/24	 7/09/24	A0004-00054150		USD	        2004.40		        1964.40		          40.00
+61410	F	EU	4WWC56 PIERCE/DIORELLA	2	21/10/2024	 1/11/24	 1/10/24	A0004-00055538		USD	        2494.60		        2454.60		          40.00
+59055	F	MX	4HQ25B BRUNI/MARCELA ALEJANDRA	2	22/10/2024	 1/11/24	19/8/2024	A0004-00053033		USD	        1437.56		        1421.56		          16.00
+62430	F	MD	2X7PYC AZPILLAGA/MARIA PAULA	2	25/10/2024	 3/11/24	17/10/2024	A0004-00056231		USD	        1362.02		        1322.02		          40.00
+62845	F	MD	3NUFJV RUIZ JELENIC/MATIAS	1	25/10/2024	 1/11/24	28/10/2024	A0004-00056453		USD	        1246.31		        1226.31		          20.00
+60411	F	MD	22DR3W LUCCI/SUSANA BEATRIZ	1	26/10/2024	13/11/2024	 7/09/24	A0004-00054159		USD	        1046.10		        1026.10		          20.00
+58749	F	MD	3CXZMI GONZALEZ SELMI/JOSE LUIS	2	29/10/2024	14/11/2024	14/8/2024	A0004-00052809		USD	        4976.80		        4936.80		          40.00
+61303	F	AS	49KBXW ALBERTENGO/MARIA JOSE	2	29/10/2024	12/11/2024	31/10/2024	A0004-00056482		USD	        4096.00		        4057.96		          38.04
+60510	F	MD	27ZVAD MEL/RAUL HUGO	2	30/10/2024	10/11/2024	 7/09/24	A0004-00054176		USD	        2263.40		        2223.40		          40.00
+60009	F	MD	 3O6ZDL 3O6WBW 3O4T4Y 3O58HD HAYRAPETYAN/ALETA	4	30/10/2024	 6/11/24	 7/09/24	A0004-00054040		USD	        4308.40		        4228.40		          80.00
+57248	F	MD	 2R5KU5 SABATER BAGLIETTO/MILAGROS	1	31/10/2024	11/11/2024	18/7/2024	A0004-00051336		USD	        1024.70		        1004.70		          20.00
+57350	F	MD	2XFB8K CANEVARI/MARIA LUCIA	1	31/10/2024	11/11/2024	22/7/2024	A0004-00051491		USD	        1024.70		        1004.70		          20.00
+57329	F	MD	 2RF598 OPPEL/CAMILA	1	31/10/2024	11/11/2024	22/7/2024	A0004-00051485		USD	        1024.70		        1004.70		          20.00
+58002	F	MD	3KVQQG 2O2D5M DEBERNARDI NORBERTO LUIS	2	 3/11/24	17/11/2024	 8/11/24	A0004-00056785		USD	        3423.16		        5119.74		       -1696.58
+57976	F	MD	24ZHIQ DANA/ESTHER MONICA MRS	2	 3/11/24	23/11/2024	 2/08/24	A0004-00052057		USD	        2049.40		        2009.40		          40.00
+61854	F	MD	3QOKM7 GAGGERO/VERONICA LETICIA	1	 4/11/24	12/11/2024	 4/10/24	A0004-00055628		USD	          25.00		          20.05		           4.95
+61256	F	MD	4L2I5E 4L3NUO SALVO/JUAN MANUEL	4	 5/11/24	15/11/2024	 1/10/24	A0004-00055388		USD	        3337.74		        3317.74		          20.00
+62817	F	EU	472P5M GUTIERREZ ZALDIVAR/ALVARO JOSE	2	15/11/2024	24/11/2024	 8/11/24	A0004-00056890		USD	        3243.00		        3163.00		          80.00
+60013	F	MD	3ZZOMH COHEN/ARIEL	1	17/11/2024	22/11/2024	 7/09/24	A0004-00054041		USD	        2064.30		        2044.30		          20.00
+60451	F	MD	23GSMB GOLBERT/SOLANGE(INFMERENZON/TALI)	2	28/11/2024	18/12/2024	 7/09/24	A0004-00054163		USD	        1631.70		        1611.70		          20.00
+14326	F	BC	PAGOS A CUENTA TANGO	1	 1/12/24	 1/12/24				USD	       -1444.00		       49106.87		      -50550.87
+46686	F	MA	3CWSCF REEMISION PAUTASSO JUAN IGNACIO	2	 2/12/24	28/3/2025	26/12/2023	A0004-00041056		USD	         568.80				         568.80
+62119	F	MD	4RL2EA   1.PONSSA/MARTINA CANDELA	1	 3/12/24	27/12/2024	22/10/2024	A0004-00056286		USD	        1089.61		        1069.81		          19.80
+62566	F	MD	3CCMC4 3CC2LE 3GHLFK	4	 3/12/24	28/12/2024	 8/11/24	A0004-00056835		USD	        4738.93		        4678.93		          60.00
+59777	F	RD	37TNRE CABRERA/FLORENCIA EVA	2	 6/12/24	13/12/2024	 7/09/24	A0004-00053961		USD	        1751.60		        1745.56		           6.04
+64253	F	EU	48TKRF JASOSKA/ALBERTO FEDERICO	1	 6/12/24	21/12/2024	25/11/2024	A0004-00057831		USD	         855.60		         850.60		           5.00
+58986	F	MD	4CBEFL  FREDIANI/IGNACIO	2	10/12/2024	10/12/2024	14/8/2024	A0004-00052875		USD	        2221.80		        2181.80		          40.00
+58331	F	MD	2XY5AU MURANO/CAROLINA	4	13/12/2024	29/12/2024	 6/08/24	A0004-00052298		USD	        4098.80		        4018.80		          80.00
+60527	F	MD	 28PA4D GARCIA/NELLY	4	16/12/2024	18/1/2025	13/9/2024	A0004-00054508		USD	       16540.50		       16502.50		          38.00
+58306	F	MD	 2GIG3S 2GGNFF 2GHI92 LESCANO/MARIA EUGENIA	4	16/12/2024	 6/01/25	 6/08/24	A0004-00052290		USD	        4084.90		        4004.90		          80.00
+64766	F	EU	2H3YG3 GOMEZ/AUGUSTO LUCIANO	4	17/12/2024	 8/01/25	20/12/2024	A0004-00058683		USD	        6463.60		        6443.60		          20.00
+59459	F	MD	2NELEQ   1.RAMIREZ/CARLOS ALBERTO	2	20/12/2024	10/1/2025	 5/09/24	A0004-00053782		USD	        3080.20		        2951.80		         128.40
+64723	F	MD	2G7H5N  2G6RMR   CASTILLO/TAMARA GISEL	4	21/12/2024	22/12/2024	11/12/2024	A0004-00058306		USD	        5640.00		        5620.10		          19.90
+57820	F	PT	4AC97U 4AB38F ZWX1XJ STEFANIC/DAVID	7	22/12/2024	10/1/2025	 2/08/24	A0004-00052005		USD	       13220.80		        4967.10		        8253.70
+60047	F	MD	3CO6G8  ALBERTO/ANA PAULA	2	22/12/2024	10/2/2025	 7/09/24	A0004-00054053		USD	        4929.40		        4801.00		         128.40
+60997	F	MD	3KPXY6 BERGSON SZABES/SARA GUITA	2	23/12/2024	 6/01/25	16/9/2024	A0004-00054824		USD	        7897.40		        7857.40		          40.00
+64196	F	MD	3KPXY6 BERGSON SZABES/SARA GUITA	2	23/12/2024	10/1/2025	25/11/2024	A0004-00057827		USD	         384.22		         374.22		          10.00
+57153	F	MD	4FG9IK  GOROYESKY/JONATHAN URIEL	4	23/12/2024	 1/01/25	22/7/2024	A0004-00051454		USD	       13232.40		       13152.40		          80.00
+62960	F	MD	4MO95K 4MPKAF PISANI/GUILLERMO	5	26/12/2024	 6/02/25	 8/11/24	A0004-00056924		USD	        5927.20		        5907.20		          20.00
+58710	F	MD	3DCLK7 MARTINEZ CUERDA/ERNESTO	1	26/12/2024	19/1/2025	12/8/2024	A0004-00052642		USD	         238.00		         218.00		          20.00
+58930	F	MD	 3YF3IL CALDERONE/JULIAN	1	28/12/2024	 1/01/25	19/8/2024	A0004-00053013		USD	         507.70		         504.92		           2.78
+64787	F	MD	 2Q55OU PETRONE/SILVIA	2	30/12/2024	 2/02/25	11/12/2024	A0004-00058308		USD	        3274.42		        3221.42		          53.00
+64197	F	EU	3EHEAT RAMIREZ/LUCAS DARIO	3	30/12/2024	 8/01/25	11/12/2024	A0004-00058296		USD	        6882.53		        6867.53		          15.00
+57289	F	MD	 2SD2PW 4QWSGB  4QVZI2 HABERLE/CAMILA SOL	4	30/12/2024	25/1/2025	22/7/2024	A0004-00051470		USD	        6024.80		        5984.80		          40.00
+65612	F	PU	3Z4KMDFLEIDERMAN/DAMIAN RUBEN	2	31/12/2024	 6/01/25	31/12/2024	A0004-00058859		USD	        2819.46		        2728.82		          90.64
+56515	F	MD	38OFHG 2KFUFH 38O45F 38OF9B AMODEI/DELFINA CHIARA	8	 2/01/25	17/1/2025	11/7/2024	A0004-00051000		USD	       10345.30		       10208.14		         137.16
+59091	F	MD	4HSDPX 4H6TPR GOMEZ/KARINA	4	 2/01/25	18/1/2025	19/8/2024	A0004-00053045		USD	        5684.50		        5604.50		          80.00
+64558	F	EU	4V3FKE MAMAN/FEDERICO DANIEL	1	 2/01/25	17/1/2025	14/12/2024	A0004-00058483		USD	        3329.91		        3271.73		          58.18
+60303	F	MD	 4V8FU7 GHERBESI/AMBAR	4	 9/01/25	28/1/2025	 9/09/24	A0004-00054290		USD	        5999.20		        5925.74		          73.46
+65494	F	MD	3DB6VN 37ZT4H BREITMAN/JAVIER DIEGO	2	 9/01/25	 9/01/25	 4/01/25	A0004-00059007		USD	        2920.00		        2832.52		          87.48
+65997	F	MA	3ALRBJ GAITAN/ANDRES ERNESTO	1	13/1/2025	17/1/2025				USD	         954.51				         954.51
+66015	F	MD	3C7FUD RODRIGUEZ/ELIZABETH	1	14/1/2025	 5/02/25				USD	        2202.60				        2202.60
+66040	F	MA	3D9KV2 PONTE/JUAN MARTIN	1	14/1/2025	18/1/2025				USD	        1599.71				        1599.71
+58476	F	MD	  2N2FL2 CASTILLO/CHRISTIAN JAVIER	3	14/1/2025	 2/02/25	 8/08/24	A0004-00052415		USD	        4495.10		        4475.10		          20.00
+64268	F	MA	38UF5J REEMISION BERTODO/GENESIO	1	16/1/2025	25/1/2025	14/12/2024	A0004-00058460		USD	         320.11		         315.11		           5.00
+61994	F	MD	45SJHG BRUNI/MARCELA ALEJANDRA	2	20/1/2025	10/2/2025	 8/10/24	A0004-00055759		USD	        2952.62		        2912.62		          40.00
+64222	F	MD	3DGR7U CARRIZO/SILVIA INES	3	28/1/2025	 3/02/25	14/12/2024	A0004-00058456		USD	        3581.13		        3566.00		          15.13
+57288	F	MD	2QNUVR 2QNNHL VINA/MARIA CECILIA DE JESUS	4	29/1/2025	12/2/2025	22/7/2024	A0004-00051469		USD	        4876.80		        4796.80		          80.00
+57145	F	AA	2KWBM2 GUTIERREZ HERRERA/NOELIA	5	29/1/2025	 7/02/25	22/7/2024	A0004-00051453		USD	        4129.50		        4381.00		        -251.50
+65516	F	MD	3H8967 3H9PIV MUHAFRA/JOSE EZEQUIEL	2	30/1/2025	30/1/2025	 4/01/25	A0004-00059127		USD	        3121.80		        3108.32		          13.48
+59535	F	MD	2IFAK4 2TD4JD GENDRA SILVESTRE/BAUTISTA	5	30/1/2025	10/2/2025	 5/09/24	A0004-00053815		USD	        6257.70		        6157.70		         100.00
+57634	F	MD	 3WLITZ CACOSSO/GABRIEL PABLO	4	 1/02/25	 1/03/25	 6/08/24	A0004-00052168		USD	        5240.90		        5160.90		          80.00
+61361	F	MA	44ZXCL FERNANDEZ/CHRISTIAN DANIEL	4	 2/02/25	16/2/2025	 1/10/24	A0004-00055422		USD	        4879.50		        4821.26		          58.24
+64172	F	MD	37RDCW 384ZTY CASTRO/AGUSTINA	4	 2/02/25	23/2/2025	14/12/2024	A0004-00058454		USD	        5999.10		        5979.00		          20.10
+59217	F	MD	 4ON6MK 4ON6TL 4T9HUZ FISZMAN/VANESA ALEJANDRA	6	 3/02/25	11/2/2025	19/8/2024	A0004-00053088		USD	        4271.00		        4251.00		          20.00
+59379	F	MD	 4YKCND FORNAZARIC/AGUSTIN ALBERTO	5	 8/02/25	21/2/2025	21/8/2024	A0004-00053179		USD	        6611.00		        6511.00		         100.00
+59042	F	MA	4H3X78 4H4CUA GUINDI/STEFANIA JEZABEL	4	13/2/2025	 4/03/25	14/8/2024	A0004-00052893		USD	        3962.80		        3882.80		          80.00
+63642	F	MA	3NGU4N 3NGRIC CARNUCCIO/ANTONIO	3	14/2/2025	 8/03/25	13/11/2024	A0004-00057243		USD	        3470.33		        3451.32		          19.01
+65924	F	MA	3AHYGH 3AHPCS SAVALIO/LUCAS	2	14/2/2025	22/2/2025				USD	          88.81		          73.40		          15.41
+65134	F	MD	43IGQS GARZILLI/AYELEN CECILIA	2	15/2/2025	26/2/2025				USD	        2682.60		        2675.98		           6.62
+59553	F	MD	 2TAROS  TRESSOLS/AGUSTINA	2	16/2/2025	 2/03/25	 5/09/24	A0004-00053827		USD	        2742.80		        2702.80		          40.00
+59533	F	MD	2OSYU 2OTZXP DANGELO/JUAN MANUEL	4	16/2/2025	 2/03/25	 5/09/24	A0004-00053813		USD	        4949.50		        4869.50		          80.00
+61267	F	MD	4L5L95 PADRON/ALUA SOLEDAD	3	22/2/2025	12/3/2025	 1/10/24	A0004-00055390		USD	        2303.80		        2283.80		          20.00
+65154	F	PE	4LGEAW/ WALTER/MONICA ALEJANDRA	1	25/2/2025	 2/03/25	 4/01/25	A0004-00059047		USD	         785.36		         780.36		           5.00
+57833	F	MD	 3YDG3J BONFANTI/WALTER ROBERTO	3	27/2/2025	23/3/2025	 6/08/24	A0004-00052193		USD	        3295.50		        3255.60		          39.90
+60688	F	BR	2XCJ72 JONNERET BREDICHE/MAGALI	3	 1/03/25	 9/03/25	13/9/2024	A0004-00054533		USD	        1200.50		        1160.50		          40.00
+61075	F	MD	3VB2GW   1.LASALA/EDGARDO DAVID	3	 8/03/25	20/3/2025	16/9/2024	A0004-00054841		USD	        2995.89		        2936.06		          59.83
+65784	F	MA	4CBEFL FREDIANI/IGNACIO	2	10/3/2025	10/3/2025				USD	         511.20		         504.40		           6.80
+60428	F	MD	 22R488 DE MARCHI/VIVIANA BEATRIZ	2	20/3/2025	 7/04/25	 9/09/24	A0004-00054305		USD	        1897.40		        1857.40		          40.00
+60248	F	EU	 4CRLP5 MAGLIOCCHINI/ORLANDO JULIO	5	24/3/2025	 9/04/25	 9/09/24	A0004-00054284		USD	        4272.20		        4172.20		         100.00
+66005	F	MX	19PMRZ MATIAS ALEJANDRO BOSY	2	30/3/2025	 5/04/25				USD	        3128.52				        3128.52
+			SUBTOTAL PROV.:	485						USD	      620181.73		      634342.87		      -14161.14
+															
+2671	CARIBBEAN DREAM														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       -1415.80		        1415.81
+			SUBTOTAL PROV.:	1						USD	           0.01		       -1415.80		        1415.81
+															
+2741	TBO HOLIDAYS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          30.00		        7349.17		       -7319.17
+65490	F	BR	BERTOZZI ERIKA	2	28/1/2025	 5/02/25				USD	         693.08				         693.08
+60366	F	EU	SCAGLIA/ERICA FABIANA	3	 5/03/25	10/3/2025				USD	         584.85				         584.85
+63379	F	PU	EVELIO JOSE MORES	10	14/3/2025	24/3/2025				USD	        5044.50				        5044.50
+54872	F	PU	DELPINO LEONOR HERMELINDA	2	14/3/2025	24/3/2025				USD	         659.57				         659.57
+62551	F	BR	MARIA FLORENCIA DIAZ	2	21/3/2025	30/3/2025				USD	         409.62				         409.62
+			SUBTOTAL PROV.:	20						USD	        7421.62		        7349.17		          72.45
+															
+2757	FASTPAYHOTELS, SL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         247.11		        -247.10
+			SUBTOTAL PROV.:	1						USD	           0.01		         247.11		        -247.10
+															
+2844	BUDGET														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+65979	F	MA	COSTABEL WALTER	1	28/1/2025	11/2/2025				USD	         831.53				         831.53
+			SUBTOTAL PROV.:	1						USD	         831.53		           0.00		         831.53
+															
+2892	IATA JAZZ PESOS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+47596	F		AVILA/HECTOR ALEJANDRO	1	15/1/2024	15/1/2024	 2/02/24	A0004-00042587		PES	      951949.50		      870000.00		       81949.50
+46531	F		MUSSETTI/MARIA CELESTE	1	27/1/2024	30/1/2024	22/2/2024	B0004-00002960		PES	      914941.52		      914671.40		         270.12
+44492	F		JORNET PRISCILA	1	31/1/2024	 4/02/24	30/11/2023	A0004-00039537		PES	       72286.60				       72286.60
+41681	F		ALANIZ/VICTORIA SOFIA(ADT)	1	 4/02/24	11/2/2024	31/10/2023	A0004-00036941		PES	      736449.20		      734254.20		        2195.00
+41546	F		CARABAJAL/VICTOR MIGUEL	2	 6/03/24	27/3/2024	21/10/2023	A0004-00036418		PES	     1768187.00		     1744941.20		       23245.80
+36060	F	MO	RODRIGUEZ/RAUL ALEJANDRO	1	10/3/2024	29/3/2024	11/8/2023	B0004-00002705		PES	      720047.55		      717133.20		        2914.35
+41300	F	GR	FILE PAGOS GRP TR 1001 NTS 12APR24	1	12/4/2024	23/4/2024				PES			       36550.00		      -36550.00
+52394	F		BLANCO PABLO OSCAR	1	21/4/2024	26/4/2024	25/4/2024	A0004-00047018		PES	     2404385.50		     2335537.85		       68847.65
+41301	F	GR	FILE PAGOS GRP TR 1001 NTS 02MAY24	1	 2/05/24	13/5/2024				PES			       36550.00		      -36550.00
+43862	F		DAVILA X2	2	 2/05/24	25/5/2024	13/3/2024	A0004-00045055		PES	     1985690.00		     1985708.00		         -18.00
+41302	F	GR	FILE PAGOS GRP TR 1001 NTS 21MAY24	1	21/5/2024	 1/06/24				PES			       36550.00		      -36550.00
+41303	F	GR	FILE PAGOS GRP TR 1001 NTS 27MAY24	1	27/5/2024	 7/06/24				PES			       36550.00		      -36550.00
+41304	F	GR	FILE PAGOS GRP TR 1001 NTS 11JUN24	1	11/6/2024	22/6/2024				PES			       36550.00		      -36550.00
+50939	F		PAGANO/PABLO	2	12/6/2024	15/6/2024	20/3/2024	A0004-00045508		PES	      347265.58		      347959.00		        -693.42
+46992	F		GOMEZ SOLER MARINA ISABEL	1	14/6/2024	29/6/2024	10/1/2024	A0004-00041533		PES	     1401616.30				     1401616.30
+41305	F	GR	FILE PAGOS GRP TR 1001 NTS 17JUN24	1	17/6/2024	28/6/2024				PES			       36550.00		      -36550.00
+41307	F	GR	3N69WF /// FILE PAGOS GRP TR 1001 NTS 23JUN24	1	23/6/2024	 4/07/24				PES			       36550.00		      -36550.00
+56387	F		ROJAS/HORVAT	2	 3/07/24	 4/07/24	31/7/2024	A0004-00051647		PES	       89136.75		       59505.35		       29631.40
+56694	F		BAROVERO/ARIEL SEBASTIAN	4	11/7/2024	17/7/2024	 1/08/24	A0004-00051777		PES	     1868171.08		     1866359.20		        1811.88
+57184	F		NASTRI SAMOCACHAN/FRANCA	3	18/7/2024	18/7/2024	 7/08/24	A0004-00052384		PES	      739284.97		      739289.70		          -4.73
+36111	F		KUGEL X2	2	30/7/2024	18/10/2024	23/8/2023	A0004-00031875		PES	      403975.00		      400286.84		        3688.16
+57151	F	MB	ADM'S GRP UX 23MAY24 /// EXP 764081	1	 1/08/24	 1/08/24				PES	    12408000.00		     8272000.00		     4136000.00
+46692	F		ALBERO X2	2	29/8/2024	29/8/2024	28/12/2023	A0004-00041176		PES	      572812.12		     1974428.42		    -1401616.30
+61371	F	BR	ADM GOL CHURNING - FILE 56230	1	20/9/2024	20/9/2024				PES	       49076.93		       48076.93		        1000.00
+61842	F		PEREZ/ARIEL ALEJANDRO	1	 9/10/24	11/10/2024	17/10/2024	A0004-00056132		PES	      495783.60		      495793.60		         -10.00
+61441	F		PEREZ PATRICIO NEHUEN	1	16/10/2024	17/10/2024	16/10/2024	A0004-00055946		PES	      274004.00		      274000.00		           4.00
+62435	F		MIADOSQUI JORGE ERNESTO	1	18/10/2024	18/10/2024	22/10/2024	A0004-00056330		PES	      362310.80		      362299.80		          11.00
+57692	F		LOZA X4	5	27/10/2024	11/11/2024	13/8/2024	A0004-00052708		PES	      614892.80		      614593.10		         299.70
+62374	F	SL	INCHAURRONDO/MARIANA	2	28/10/2024	28/10/2024				PES	      218268.56				      218268.56
+63581	F	EU	ADM UX 0699630246	1	 7/11/24	 7/11/24				PES	      403457.74		      151519.30		      251938.44
+63373	F		BALERDI X2	2	20/11/2024	21/11/2024	19/11/2024	A0004-00057449		PES	    13042640.00		    12619813.80		      422826.20
+64857	F		HEIS X8	8	11/12/2024	11/12/2024	13/12/2024	A0004-00058442		PES	     1590060.40				     1590060.40
+64827	F		ELIAS/NESTOR	1	12/12/2024	15/12/2024	13/12/2024	A0004-00058440		PES	      445025.50		     2035085.90		    -1590060.40
+64921	F		CORIMAYO X3	3	13/12/2024	16/2/2025	10/12/2024	A0004-00058283		PES	     2520659.80		     2578102.30		      -57442.50
+65419	F		ADM GOL SEGM INACTIVO	1	24/12/2024	24/12/2024				PES	      122448.97				      122448.97
+65330	F		CHAVEZ X8	8	 2/01/25	 2/01/25	13/1/2025	A0004-00059361		PES	     1777921.45		     1864006.70		      -86085.25
+65661	F		HERRERA X2	2	 5/01/25	 7/01/25	13/1/2025	A0004-00059371		PES	      439216.00				      439216.00
+65701	F		ANDINO SANTINO	1	 6/01/25	 6/01/25	13/1/2025	A0004-00059382		PES	      665408.35				      665408.35
+65724	F		BISCHOF/OSCAR DARIO	1	 6/01/25	 6/01/25	13/1/2025	A0004-00059387		PES	       78101.75				       78101.75
+65639	F		AMARILLA X2	2	 6/01/25	 6/01/25	13/1/2025	A0004-00059365		PES	      335442.60				      335442.60
+65699	F		ACUNA X5	5	 6/01/25	 6/01/25	13/1/2025	A0004-00059380		PES	      666027.30				      666027.30
+65768	F		ADM UX DUTSCHMANN FEDERICO	1	 7/01/25	 7/01/25				PES	       51707.18				       51707.18
+65635	F		CUBILLA ZOTELO/ROSALBA	1	 7/01/25	 7/01/25	11/1/2025	A0004-00059319		PES	      171594.05				      171594.05
+65840	F		CEBALLOS X2	2	 8/01/25	 8/01/25				PES	      257960.40				      257960.40
+65735	F		HERRERA X2	2	 8/01/25	 8/01/25	13/1/2025	A0004-00059391		PES	      279411.60				      279411.60
+65751	F		LOPEZ CINTIA CECILIA	1	 9/01/25	 9/01/25				PES	      355280.75				      355280.75
+65863	F		GOITEA NICOLAS OMAR EDUARDO	1	 9/01/25	 9/01/25	 9/01/25	B0004-00003615		PES	      217236.75				      217236.75
+65679	F		PAEZ X2	2	10/1/2025	13/1/2025				PES	      787875.14				      787875.14
+65913	F	AR	ABONO ENTIDAD PRINCIPAL IATA JAZZ ENE 2025	1	10/1/2025	10/1/2025				PES	     2032419.39				     2032419.39
+65958	F		ERCOLI X2	2	10/1/2025	10/1/2025				PES	      736517.60				      736517.60
+65700	F		FERREYRA BALMACEDA/CRISTIAN DANIEL	1	10/1/2025	11/1/2025	13/1/2025	A0004-00059381		PES	      261371.20				      261371.20
+65908	F		CANAL/SILVIA ALICIA GUADALUPE	1	10/1/2025	10/1/2025				PES	      115087.10				      115087.10
+65968	F		DEVOLUCION IMPUESTOS IB INCORRECTA	1	10/1/2025	10/1/2025				PES	      138854.00				      138854.00
+65771	F		GIMENEZ X5	5	13/1/2025	13/1/2025				PES	     1799319.15				     1799319.15
+65688	F		REVELLO/PATRICIO ANTONIO	1	13/1/2025	22/1/2025	13/1/2025	A0004-00059377		PES	      964016.35				      964016.35
+65884	F		CUBILLA ZOTELO/ROSALBA	1	13/1/2025	13/1/2025				PES	      171594.05				      171594.05
+65806	F		TORNAY/CAROLINA INES	1	13/1/2025	25/1/2025				PES	       79333.10				       79333.10
+65912	F		BENITEZ ESTECHE/ALICIA GABRIELA	1	13/1/2025	13/1/2025				PES	      171594.05				      171594.05
+65879	F		ACUNA X44	44	14/1/2025	14/1/2025				PES	    31841520.06				    31841520.06
+65989	F		MENDIZABAL X2	2	14/1/2025	16/1/2025	13/1/2025	A0004-00059414		PES	      499823.00				      499823.00
+66017	F		DUTRA X3	4	15/1/2025	15/1/2025				PES	      421779.45				      421779.45
+65825	F		PALAZZO/LUCAS	1	15/1/2025	16/1/2025				PES	      243038.70				      243038.70
+65719	F		CAMPBELL/MARTIN	1	15/1/2025	15/1/2025	13/1/2025	A0004-00059386		PES	      283403.55				      283403.55
+65710	F		CORONEL/MARTIRES RUBEN	1	15/1/2025	15/1/2025				PES	       54322.20				       54322.20
+65809	F		TORNAY/CAROLINA INES	1	16/1/2025	21/1/2025				PES	     1536515.50				     1536515.50
+65793	F		GARCIA X2	2	16/1/2025	16/1/2025	13/1/2025	A0004-00059406		PES	      934821.80				      934821.80
+65762	F		22678 DAILEY X2	2	17/1/2025	19/1/2025	13/1/2025	A0004-00059397		PES	     1129088.40				     1129088.40
+66023	F		MERENZON HERNAN	1	18/1/2025	18/1/2025				PES	      175102.60				      175102.60
+66013	F		RUDI X5	5	19/1/2025	19/1/2025				PES	     7809553.50				     7809553.50
+65633	F		CONTRERAS X2	2	19/1/2025	19/1/2025	 6/01/25	A0004-00059185		PES	     1025977.00				     1025977.00
+65955	F		GESEMONDO/ARTURO	1	21/1/2025	23/1/2025				PES	      470598.00				      470598.00
+65648	F		FIGUEROA X2	2	22/1/2025	25/1/2025	13/1/2025	A0004-00059368		PES	     1249319.74				     1249319.74
+65718	F		BARBEITO X2	2	22/1/2025	22/1/2025	13/1/2025	A0004-00059385		PES	       32000.00				       32000.00
+65638	F		IVANENKO X2	2	28/1/2025	30/1/2025	 9/01/25	A0004-00059294		PES	     1681770.20				     1681770.20
+65777	F		BARRIOS/LUIS ALBERTO	1	30/1/2025	30/1/2025	13/1/2025	A0004-00059401		PES	       16000.00				       16000.00
+65707	F		WOISKI PIOLETTI/ALEXANDER CARLOS	1	 3/02/25	 4/02/25				PES	      162909.00				      162909.00
+66018	F		IPARRAGUIRRE/MARIA CECILIA	1	 7/02/25	21/2/2025				PES	       21000.00				       21000.00
+65922	F		BAZAN/GRACIELA FERNANDA	1	10/2/2025	14/2/2025				PES	      237796.35				      237796.35
+65779	F		DUTRA X4	4	12/2/2025	19/2/2025	 9/01/25	A0004-00059303		PES	     7691858.30				     7691858.30
+65993	F		PISONI/NATALIA	1	16/2/2025	23/2/2025				PES	      875409.70				      875409.70
+65666	F		CRUZ X3	3	17/2/2025	21/2/2025				PES	      424171.80				      424171.80
+65754	F		ISLA X3	3	21/2/2025	28/2/2025				PES	     2769042.60				     2769042.60
+65927	F		BROUGHAM X4	4	22/2/2025	22/2/2025				PES	     1070875.20				     1070875.20
+66001	F		CONTRERAS X4	4	 1/03/25	 4/03/25				PES	     2231841.40				     2231841.40
+65774	F		LLOVERAS X2	2	 1/03/25	 8/03/25	 9/01/25	A0004-00059302		PES	     1761281.54				     1761281.54
+64653	F		DELLA GHELFA/GABRIEL MARCELO	2	 3/03/25	16/3/2025				USD	        2680.00				        2680.00
+65822	F		SUAREZ X2	2	 6/03/25	11/3/2025				PES	      337228.30				      337228.30
+65846	F		BECCAGLIA X3	3	 6/03/25	11/3/2025				PES	      505842.45		      377228.30		      128614.15
+65848	F		WEHNCKE X3	3	 6/03/25	11/3/2025				PES	      523710.75				      523710.75
+66003	F		AMAYA X2	2	 8/03/25	12/3/2025				PES	      285397.24				      285397.24
+65952	F		19924 PANIAGUA X3	3	 9/03/25	11/3/2025				PES	     1742056.71				     1742056.71
+65998	F		SAMBRIZZI/ROBERTO	1	12/3/2025	16/3/2025				PES	      211215.45				      211215.45
+61573	F	PM	AQUERE/ARACELI GABRIELA (A COMP)	1	13/3/2025	 2/04/25				USD	        1496.00				        1496.00
+61100	F	GR	GROSSO/ALICIA DEL VALLE	1	16/3/2025	27/3/2025				USD	        1588.10				        1588.10
+64342	F	GR	ALEMANDRI/GISELA MARISEL (A COMP)	1	16/3/2025	27/3/2025				USD	        1727.30				        1727.30
+60063	F	GR	PICCONI/CLAUDIA MARIA	3	16/3/2025	27/3/2025				USD	        4479.30				        4479.30
+65934	F		LEON X2	2	17/3/2025	19/3/2025				PES	     1139982.40				     1139982.40
+64947	F		MUSSO/PABLO MIGUEL	3	18/3/2025	 3/04/25				USD	        4692.00				        4692.00
+65821	F		22699 CRESPO X2	2	26/3/2025	26/3/2025				PES	      170923.90				      170923.90
+65722	F		CAMINOS/ELIANA LILIANA	2	26/3/2025	 3/04/25				USD	        2014.00				        2014.00
+65720	F		SABELLA JULIO	1	26/3/2025	26/4/2025				PES	      191706.60				      191706.60
+			SUBTOTAL PROV.:	235						PES	   131835000.47		    44638444.09		    87196556.38
+			SUBTOTAL PROV.:							USD	       18676.70		           0.00		       18676.70
+															
+2893	IATA JAZZ DOLARES														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+52773	F		FLETCHER X2	2	24/6/2024	24/6/2024	24/4/2024	A0004-00046965		USD	         310.40				         310.40
+56367	F	BR	DIAZ/MARIA VIRGINIA	2	22/7/2024	29/7/2024	18/7/2024	B0004-00003233		USD	         712.00		         708.60		           3.40
+61673	F	BR	CAMPOS/GONZALO MARTIN	4	21/10/2024	28/10/2024	22/10/2024	B0004-00003481		USD	        1424.00		        1417.80		           6.20
+54108	F		 4SO2RY 24X5NO 24WOPX 4MPYYV 4NM2VF 4MQPVN ALBANO/WALTER HUGO	19	22/10/2024	29/10/2024	17/10/2024	A0004-00056105		USD	        4851.70		        5347.70		        -496.00
+62414	F	BR	MARTINEZ/JESSICA ELIZABETH	2	22/11/2024	29/11/2024	 5/12/24	A0004-00058106		USD	         707.60				         707.60
+64588	F		ANCHORDOQUY X3	3	12/12/2024	19/12/2024	 7/12/24	A0004-00058209		USD	        2565.51		        2612.16		         -46.65
+65441	F		%1 COMISION AA - 62770 Gamez	3	26/12/2024	26/12/2024				USD	          20.34				          20.34
+65035	F		VARCASIA X2	2	 5/01/25	15/1/2025	11/1/2025	A0004-00059343		USD	         200.00		        1883.10		       -1683.10
+65681	F		FERNANDEZ X2	2	 5/01/25	 5/01/25	11/1/2025	A0004-00059322		USD	        2778.68				        2778.68
+65658	F		VERNINO MARCELO	1	 6/01/25	12/1/2025	13/1/2025	A0004-00059369		USD	        1621.71				        1621.71
+65695	F		BUQUETE LAUTARO	1	 8/01/25	 8/01/25	13/1/2025	A0004-00059379		USD	          75.00				          75.00
+65765	F		NIEVA X3	3	 8/01/25	17/1/2025	13/1/2025	A0004-00059399		USD	        1170.50				        1170.50
+65663	F		TROTTA VERONICA PAOLA	1	10/1/2025	20/1/2025	13/1/2025	A0004-00059359		USD	        1147.80				        1147.80
+65826	F		INSAURRALDE X8	8	10/1/2025	10/1/2025				USD	        3692.80				        3692.80
+65752	F		CIRAMI X3	3	10/1/2025	25/1/2025	13/1/2025	A0004-00059393		USD	        6281.91				        6281.91
+65870	F		HORISBERGER/MARIA ROSA	1	11/1/2025	11/1/2025				USD	         294.20				         294.20
+65773	F		STUVEN X2	2	12/1/2025	26/1/2025	13/1/2025	A0004-00059400		USD	        1785.00				        1785.00
+65976	F		ORELLANO X2	2	12/1/2025	21/1/2025				USD	        1458.20				        1458.20
+65877	F		REINOSO TIAGO	1	12/1/2025	 6/02/25				USD	        2138.20				        2138.20
+65963	F		MAMANI X4	4	13/1/2025	23/1/2025				USD	        6241.78				        6241.78
+65938	F		LASALA/ROBERTO ESTEBAN	1	15/1/2025	16/1/2025				USD	         727.10				         727.10
+65790	F		CERALDI X2	2	15/1/2025	25/1/2025	13/1/2025	A0004-00059404		USD	        1383.00				        1383.00
+65698	F		CORRAL/ALEJANDRA GABRIELA MRS	1	16/1/2025	26/1/2025	11/1/2025	A0004-00059323		USD	         755.50				         755.50
+63047	F	BZ	AVENDAÑO/ CESAR IGNACIO	8	17/1/2025	24/1/2025	 8/01/25	A0004-00059233		USD	        4182.00				        4182.00
+66027	F		AMBRONOSI X2	2	20/1/2025	26/1/2025				USD	        1712.20				        1712.20
+65871	F		ACEVEDO MARIA ESTHER	1	20/1/2025	 8/02/25				USD	        2150.30				        2150.30
+65702	F		FERNANDEZ X2	2	20/1/2025	20/1/2025	11/1/2025	A0004-00059324		USD	        2187.98				        2187.98
+65657	F		AVALOS X3	3	21/1/2025	14/2/2025	 7/01/25	B0004-00003610		USD	        1161.40				        1161.40
+65780	F		INNAMORATO X2	2	22/1/2025	22/1/2025	13/1/2025	A0004-00059403		USD	         494.60				         494.60
+65827	F		CAGNONI X5	5	22/1/2025	18/3/2025				USD	        7462.40				        7462.40
+63656	F		GRUPO BOMBAY 23JAN24	15	23/1/2025	 4/02/25				USD	       12668.10				       12668.10
+65325	F		29VCT8 /// ERRECART/DANIEL ROBERTO	2	23/1/2025	 4/02/25				USD	         893.90				         893.90
+65782	F		KNACK X3	3	23/1/2025	31/1/2025	11/1/2025	A0004-00059330		USD	        1775.40				        1775.40
+65832	F		RUSTAN/SANTIAGO	2	24/1/2025	 3/02/25				USD	        3364.74				        3364.74
+63039	F	BZ	DALMASSO/DANIEL NELSO	2	24/1/2025	31/1/2025				USD	        1134.40				        1134.40
+65704	F		LAMANNA X5	5	24/1/2025	31/1/2025	13/1/2025	A0004-00059383		USD	        6359.45				        6359.45
+65994	F		CORREA X2	3	24/1/2025	31/1/2025				USD	        1286.70				        1286.70
+66031	F	BR	NUNES ELTON JONHI	1	24/1/2025	31/1/2025				USD	         559.00				         559.00
+62884	F	BZ	URRUTIA MALDONADO/ BRIAN SALVADOR	3	24/1/2025	31/1/2025				USD	        1270.50				        1270.50
+65760	F		ALCALA X2	2	25/1/2025	30/1/2025	 9/01/25	A0004-00059301		USD	         774.20				         774.20
+64425	F		GARBERO X4	4	26/1/2025	26/1/2025	 7/12/24	A0004-00058175		USD	        2289.30		        2286.90		           2.40
+65670	F		SIMON X4	4	27/1/2025	12/2/2025	 9/01/25	A0004-00059297		USD	       12549.20				       12549.20
+65734	F		ALVESTAD X18	18	28/1/2025	28/1/2025				USD	        1546.00				        1546.00
+65757	F		CADENAS X4	4	29/1/2025	29/1/2025	13/1/2025	A0004-00059395		USD	        1902.40				        1902.40
+65646	F		4HMT6P MAGRI/JULIO ARMANDO	2	31/1/2025	10/2/2025	13/1/2025	A0004-00059349		USD	        2397.62				        2397.62
+63562	F	BZ	MORICONI/ GUILLERMO DANIEL	4	31/1/2025	 7/02/25				USD	        2149.00				        2149.00
+63303	F	RJ	TOLEDO, SILVIA RITA	2	31/1/2025	 7/02/25				USD	        1134.40				        1134.40
+64184	F	BR	MORO/SEBASTIAN IGNACIO	2	31/1/2025	 7/02/25				USD	         712.00				         712.00
+65715	F		ALFONSO X7	7	 2/02/25	12/2/2025	11/1/2025	A0004-00059325		USD	        2862.65				        2862.65
+65662	F		LABATON X2	2	 2/02/25	 5/02/25	11/1/2025	A0004-00059320		USD	         154.40				         154.40
+65706	F		ONORATO X2	2	 2/02/25	 7/02/25	 9/01/25	A0004-00059299		USD	        3166.20				        3166.20
+65837	F		KULISH MARCELO	1	 3/02/25	18/2/2025	13/1/2025	A0004-00059412		USD	        1869.90				        1869.90
+65865	F		SANCHEZ X2	2	 4/02/25	15/2/2025				USD	        1564.60				        1564.60
+65711	F		SENESTRARI X4	4	 4/02/25	15/2/2025	 8/01/25	A0004-00059228		USD	        3192.80				        3192.80
+66000	F	AS	3BQGH7 BERGESIO JORGE ANDRES	2	 4/02/25	 4/03/25				USD	        3959.40				        3959.40
+63796	F	BR	LUDUEÑA MARISA DE LOS ANGELES	3	 7/02/25	14/2/2025				USD	        1077.00				        1077.00
+62772	F	BZ	RODRIGUEZ/ALEXIS CARLOS	2	 7/02/25	14/2/2025				USD	        1158.00				        1158.00
+65941	F		CASTRILLO X3	3	 8/02/25	20/2/2025				USD	        1698.30				        1698.30
+66029	F		GOMEZ X2	2	10/2/2025	17/2/2025				USD	        1143.00				        1143.00
+65742	F	BR	4HFEFT - BANCHERO/FRANCO	4	10/2/2025	18/2/2025	 7/01/25	B0004-00003611		USD	        2356.24				        2356.24
+65758	F		BISCHOF/OSCAR DARIO	1	13/2/2025	 4/03/25	13/1/2025	A0004-00059396		USD	        1139.11				        1139.11
+65275	F	BR	GARELLO/GASTON	2	14/2/2025	21/2/2025				USD	         708.00				         708.00
+64894	F	BR	BUDINI / ESTELA MARY	2	14/2/2025	21/2/2025				USD	         718.00				         718.00
+65957	F		DE LA VEGA/JOSE FERNANDO	2	14/2/2025	 1/03/25				USD	        2603.82				        2603.82
+65956	F		MOYANO X2	2	15/2/2025	22/2/2025				USD	        1425.95				        1425.95
+65902	F		BRUN GUYET X4	4	16/2/2025	 1/03/25				USD	        5161.84				        5161.84
+65306	F	BR	SAHARREA CESAR DANIEL	3	17/2/2025	24/2/2025				USD	        1083.00				        1083.00
+64121	F	BR	CARBO/MARCELA ELIZABETH	5	17/2/2025	24/2/2025				USD	        1780.00				        1780.00
+65727	F		QUEVEDO X4	4	18/2/2025	27/2/2025	13/1/2025	A0004-00059390		USD	        2039.45				        2039.45
+65986	F		GALLEGO X4	4	19/2/2025	26/2/2025				USD	        2801.20				        2801.20
+65814	F		GOMEZ MARIA BELEN	1	20/2/2025	12/3/2025				USD	        1244.62				        1244.62
+66020	F		MAZZITELLI X2	2	21/2/2025	 3/03/25				USD	        1416.80				        1416.80
+65153	F	RJ	QUEVEDO/ JOSE MATIAS	2	21/2/2025	28/2/2025				USD	         758.00				         758.00
+63564	F	BZ	PETERSEN/GERARDO HUGO	4	21/2/2025	28/2/2025				USD	        2091.00				        2091.00
+65792	F	PU	N777ZK CACERES MARIA CLARA	1	22/2/2025	 1/03/25				USD	        1096.48				        1096.48
+65012	F	BZ	MAGLIONE/ JUAN HECTOR	6	24/2/2025	 3/03/25				USD	        2220.00				        2220.00
+65805	F		ZALAZAR X3	3	24/2/2025	 3/03/25	13/1/2025	A0004-00059408		USD	        1693.50				        1693.50
+65136	F	BR	RUIZ/JOSE GUSTAVO JAVIER	2	24/2/2025	 3/03/25				USD	         922.00				         922.00
+65959	F		TOKMAN/FEDERICO	1	25/2/2025	 3/03/25				USD	         587.50				         587.50
+60507	F	BZ	TANTUCCI / FEDERICO PASCUAL	4	28/2/2025	 7/03/25				USD	        2086.00				        2086.00
+65824	F		DE LARA X2	2	28/2/2025	11/3/2025				USD	        1447.00				        1447.00
+65640	F		CENCHA X2	2	 1/03/25	 4/03/25	13/1/2025	A0004-00059366		USD	         573.38				         573.38
+65923	F		CUCHALLO X2	2	 2/03/25	 8/03/25				USD	        1199.60				        1199.60
+65849	F		PALADINO X5	5	 4/03/25	12/3/2025				USD	         903.40				         903.40
+65858	F		GANGITANO/CARMEN SUSANA	2	 8/03/25	16/3/2025				USD	        1274.10				        1274.10
+65888	F		DELFINO X2	2	 8/03/25	15/3/2025				USD	        2230.14				        2230.14
+65731	F	AU	1LKOZ7  FURBATTO ELSA BEATRIZ	2	10/3/2025	17/3/2025	 9/01/25	B0004-00003614		USD	        1468.40				        1468.40
+65823	F		GALVAN X2	2	11/3/2025	20/3/2025				USD	        2376.20				        2376.20
+65726	F		MUNOZ X2	2	16/3/2025	26/3/2025	13/1/2025	A0004-00059389		USD	        1110.40				        1110.40
+65723	F		FAINBRAUN X2	2	17/3/2025	22/3/2025	11/1/2025	A0004-00059327		USD	        7561.72				        7561.72
+65876	F		POCHE X2	2	18/3/2025	25/3/2025	13/1/2025	A0004-00059360		USD	        1090.80				        1090.80
+65911	F		ARREGUEZ X3	3	18/3/2025	25/3/2025				USD	        1464.60				        1464.60
+65918	F		BLASCO X3	3	20/3/2025	29/3/2025				USD	        1814.40				        1814.40
+55181	F		ROBERT X2	3	22/3/2025	 2/04/25	18/6/2024	A0004-00049754		USD	        1929.40		        2894.10		        -964.70
+66033	F		SOLIMANO ANA MARIA	1	22/3/2025	29/3/2025				USD	         670.30				         670.30
+65889	F		GROSSO X2	2	27/3/2025	 4/04/25				USD	        1755.76				        1755.76
+65820	F		ROMANO X2	2	30/3/2025	 5/04/25	13/1/2025	A0004-00059410		USD	        1270.80				        1270.80
+			SUBTOTAL PROV.:	299						USD	      204379.28		       17150.36		      187228.92
+															
+2907	GRUPO PIXEL SAS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+53351	F	TD	3EKLKL /// QUETGLAS / JORGE DANIEL	3	15/9/2024	30/9/2024	13/9/2024	A0004-00054467		USD	          38.26				          38.26
+56471	F	EM	CAVERZAN / GRACIELA MARIA	2	 5/10/24	24/10/2024	 1/10/24	A0004-00055182		USD	          17.47				          17.47
+			SUBTOTAL PROV.:	5						USD	          55.73		           0.00		          55.73
+															
+2965	MARTINEZ FERNANDO														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+64221	F		SCORZA/MARILINA BIBIANA	2	28/12/2024	 5/01/25	22/11/2024	B0004-00003522		PES	       59142.04				       59142.04
+			SUBTOTAL PROV.:	2						PES	       59142.04		           0.00		       59142.04
+															
+2977	TUCANO PESOS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+53800	F		PERNAS/ALBERTO OSCAR	1	15/5/2024	26/5/2024	27/5/2024	A0004-00048476		PES	     6581876.70				     6581876.70
+56147	F		MANTEGAZZA/CECILIA	1	15/9/2024	25/9/2024	11/7/2024	A0004-00050759		PES	     2474699.40				     2474699.40
+65672	F		SCALONI/LIONEL SEBASTIAN	1	27/1/2025	27/1/2025	13/1/2025	A0004-00059374		PES	     1095377.50				     1095377.50
+			SUBTOTAL PROV.:	3						PES	    10151953.60		           0.00		    10151953.60
+															
+3001	AEROMUNDO INTERNACIONAL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+46970	F	MA	3Q8FNU REMISION AQUIN/JAZMIN PAULINA	4	28/1/2024	28/1/2024	11/1/2024	A0004-00041590		USD	         160.00				         160.00
+38664	F	MX	BD3D7D BIRRI/ROBERTO CESAR	2	29/1/2024	 8/02/24	20/9/2023	A0004-00033837		USD	        3254.24				        3254.24
+44982	F	EU	227KWR BOBADILLA/MARIA LUJAN	1	11/2/2024	19/3/2024	 5/03/24	A0004-00044606		USD			        2077.20		       -2077.20
+43159	F	MD	26YSZD LANDAETA HERNANDEZ/NATALIA STHEFANI JESUS	3	 3/05/24	 4/06/24	 9/11/23	A0004-00037848		USD	        4199.70		        2819.80		        1379.90
+43186	F	MD	27Y2PJ 4Z94SY 4CWUDS BOEHLER ANALICIA	23	 4/05/24	11/5/2024	 9/11/23	A0004-00037861		USD	       16767.40		       15646.20		        1121.20
+47441	F	MD	BOGY5Z PISANI JOEL	2	12/5/2024	23/5/2024	22/1/2024	A0004-00042043		USD	        2024.00		        1727.20		         296.80
+53889	F	EU	4AXFQN HENFLEN/CESAR LUIS	2	18/5/2024	24/5/2024	21/5/2024	A0004-00048321		USD	        2060.60		        1050.30		        1010.30
+51203	F	MX	 4WMZI6 FERNANDEZ CAMPON/CARLOS	1	22/5/2024	23/5/2024	16/5/2024	A0004-00048019		USD	         190.00		         170.00		          20.00
+53537	F	EU	46QJ3P 33BIGJ GOMEZ/MARIA GUILLERMINA	2	23/5/2024	12/6/2024	21/5/2024	A0004-00048345		USD	         372.00		         332.00		          40.00
+52390	F	BR	28P4FZ VASENA/TERESITA	2	25/5/2024	31/5/2024	19/4/2024	A0004-00046793		USD	        1436.60		        1386.80		          49.80
+49715	F	RD	 BDEYJJ -  BG5XJJ -ROGGERO/RODRIGO EMMANUEL	10	26/5/2024	 7/06/24	23/2/2024	A0004-00043824		USD	        8494.20		        8474.20		          20.00
+42904	F	PU	4IKUZT  4I46OX   BONO/MARTHA EDICH	3	26/5/2024	 7/06/24	 8/11/23	A0004-00037615		USD	        3363.99		        3199.70		         164.29
+15944	F	EU	4F92CU -BALDI/LEONEL JESUS	2	28/5/2024	28/5/2024	 1/06/24	A0004-00048537		USD	        1530.00		        2260.00		        -730.00
+38667	F	EU	249HM4 249QIU 24APE6 FERRAZANO EZEQUILIAN/GABRIELA BRIGIDA	2	30/5/2024	23/6/2024	20/9/2023	A0004-00033839		USD	        4888.80		        4329.20		         559.60
+51118	F		3XMSWB /// 3XISTJ /// 4U76NS /// 2TPC8Y /// DUTSCHMANN/MATIAS	1	30/5/2024	16/6/2024				USD	        4549.40		        4002.20		         547.20
+52158	F	EU	3DZ8M3 MARTINEZ/EDUARDOANDRES	1	31/5/2024	31/8/2024	11/1/2025	A0004-00059339		USD	         280.00		        1640.30		       -1360.30
+53790	F	MD	3YIJTY MARTINEZ/LORENA ALEJANDRA	2	 2/06/24	 4/07/24	20/5/2024	A0004-00048288		USD	        2789.80		        2769.80		          20.00
+53837	F	CU	TORRES NEME/PERO SANTIAG	2	 6/06/24	17/6/2024	 1/06/24	A0004-00048593		USD	         570.00		         370.00		         200.00
+55057	F	CU	2926EJ TOMAS/RICARDO ANTONIO	1	11/6/2024	12/6/2024	10/6/2024	A0004-00049450		USD	         290.00		         270.00		          20.00
+52333	F	AU	BZTFBJ - FERRO/FRANCISCO	1	13/6/2024	21/6/2024	17/4/2024	A0004-00046689		USD	         907.00		         902.80		           4.20
+55203	F	PU	2CSCE4  CEBALLOS MARTIN/MARIA FLORENCIA	4	21/6/2024	 4/07/24	13/6/2024	A0004-00049658		USD	        3467.00		        3464.40		           2.60
+52646	F	MA	 HBAGNP  2VUKQ2 BOMBELLI/ELENA VICTORIA	7	22/6/2024	 8/07/24	 6/05/24	A0004-00047436		USD	        5264.00		        4984.00		         280.00
+55244	F	MA	 2P7M2J SALAMONE/ MARIO JOSE	2	22/6/2024	29/6/2024	24/6/2024	A0004-00049842		USD	         312.00		         272.00		          40.00
+54311	F	CL	2GRHU8 HALUSZKA/VERONICA INES	3	24/6/2024	28/6/2024	 1/06/24	A0004-00048736		USD	        1431.96		        1411.96		          20.00
+48579	F	EU	3JOZAF MANCINI VILLAR/LIHUE FRANCISCA	1	25/6/2024	25/6/2024	 6/02/24	A0004-00042991		USD	         788.60		         771.58		          17.02
+55452	F	AA	2ZSVPT 2ZT9RI BOCCO/JUAN CRUZ	4	26/6/2024	16/7/2024	24/6/2024	B0004-00003164		USD	        8524.08		        8503.10		          20.98
+50693	F	MD	4U57OL BLANDA/MONICA GABRIELA	2	27/6/2024	28/7/2024	24/6/2024	A0004-00049803		USD	        4017.20		        4010.20		           7.00
+53676	F	RD	GIAI/MARIA LAURA	4	30/6/2024	19/7/2024	16/5/2024	B0004-00003113		USD	        6675.00		        6615.00		          60.00
+48882	F	UB	 2O8JLA  OHANIAN/IGNACIO	3	 4/07/24	15/7/2024	23/2/2024	A0004-00043833		USD	        3328.50		        3348.50		         -20.00
+55565	F	EU	4O4YBH 2LVW68 BARILI RODOLFO	1	 4/07/24	16/7/2024				USD	         574.00		         554.48		          19.52
+51732	F	MD	4ZVEKO 4ZVRZS CABRINI TONI	4	 7/07/24	15/7/2024	15/4/2024	A0004-00046460		USD	        4304.64		        4264.64		          40.00
+55080	F	RJ	4Z7YAD REMISION MALLMANN/FERNANDO GUILLERMO	1	 8/07/24	17/7/2024	13/6/2024	A0004-00049631		USD	         335.00		         315.00		          20.00
+51702	F	MD	4VN9NO DALFARO/MARCO JOSE	3	 8/07/24	 9/07/24	19/4/2024	A0004-00046761		USD	        5710.20		        3806.80		        1903.40
+45988	F	CC	3PMXMS D ERAMO/FEDERICO LUIS	4	 9/07/24	17/7/2024	15/1/2024	A0004-00041730		USD	        7108.00		        5911.48		        1196.52
+52633	F	PU	2SCBKP - DOMINGUEZ/GERARDO MARTIN	4	10/7/2024	18/7/2024	 6/05/24	A0004-00047434		USD	        6590.80		        6630.80		         -40.00
+56730	F	MD	4F7N85 CABO/MARIA EUGENIA MRS	7	10/7/2024	22/7/2024	11/7/2024	A0004-00050950		USD	       12648.90		       12349.10		         299.80
+53697	F	MD	3HLLQ3 GUZMAN/DELIA	7	12/7/2024	 1/08/24	16/5/2024	A0004-00048115		USD	       15533.63		       15212.60		         321.03
+57105	F	MX	3XBXEQ REY/MARIA LORENA	1	15/7/2024	22/7/2024	29/7/2024	A0004-00051603		USD	         790.00		         770.00		          20.00
+50706	F	MA	2BWTPK Z/JORGE MARTIN	3	18/7/2024	19/7/2024	14/3/2024	A0004-00045153		USD	        1468.90		        1438.90		          30.00
+56146	F	MA	 2LWA7Y IMEL/DANIEL	5	22/7/2024	 2/08/24	11/7/2024	A0004-00050863		USD	        9302.00		        9200.00		         102.00
+57679	F	MX	3YHODY HUBMANN/GUILLERMO	4	30/7/2024	 7/08/24	31/7/2024	A0004-00051662		USD	        1696.00		        1600.00		          96.00
+58301	F	MD	4GDCQ2 ANGHEL/LUCI	1	 2/08/24	 2/08/24	 6/08/24	A0004-00052375		USD	          40.00				          40.00
+45413	F	RJ	2QXH4W  FERRO ISABELLA	3	 3/08/24	 7/08/24	30/11/2023	A0004-00039568		USD	        1157.10		         771.20		         385.90
+54936	F	EU	2OWMPA PATOCCHI/MARCELA CLAUDIA	2	 5/08/24	21/8/2024	10/6/2024	A0004-00049427		USD	         285.00		         245.00		          40.00
+56139	F	CU	REEMISION 3O624E 2VM279 PEDUZZI/DOMANSKI	8	10/8/2024	21/10/2024	31/7/2024	A0004-00051760		USD	         750.00		         650.00		         100.00
+49355	F	MD	42WF37  MARTINEZ ANDUJAR/CAROLINA DEL MILAGRO	1	10/8/2024	 1/09/24	23/2/2024	A0004-00043856		USD	        1485.00		        1465.00		          20.00
+57767	F	EU	2VWOQ2 ALCARAZ/ANGEL ARMANDO	1	15/8/2024	18/9/2024	 2/08/24	A0004-00051991		USD	         313.00		         293.00		          20.00
+58253	F	CL	2HC5CJ CAMACHO SALDANA/ESMERALDA SARAHI	9	15/8/2024	18/8/2024	12/8/2024	A0004-00052554		USD	        8181.90				        8181.90
+55881	F	CU	4OO4TE  RENZER/JUDITH ELIZABETH	2	15/8/2024	24/8/2024	 3/07/24	A0004-00050405		USD	        1512.70				        1512.70
+58621	F	CL	3CKDHY ACOSTA PINTO/PATRICIA MSS	2	16/8/2024	19/8/2024	12/8/2024	A0004-00052622		USD	        1145.90		         572.95		         572.95
+59063	F	MD	4E4XHA 4E39SI CANTARELLA/JUAN ANTONIO	2	21/8/2024	28/8/2024	22/8/2024	A0004-00053220		USD	        3323.90		        3303.90		          20.00
+58550	F	EU	287JIA FLORES/FERNANDO	4	22/8/2024	10/9/2024	12/8/2024	A0004-00052598		USD	         420.00		         410.00		          10.00
+51350	F	EU	2PROLR BONAIUTI/FLORENCIA	2	24/8/2024	 8/09/24	25/3/2024	A0004-00045753		USD	        3550.20		        3510.20		          40.00
+57199	F	PU	B9XP42 - TERISI/ANA GABRIELA	4	28/8/2024	 7/09/24	18/7/2024	B0004-00003238		USD	        4028.10		        4008.10		          20.00
+59855	F	EU	2UWONP SERRA/MANUEL	1	30/8/2024	 9/09/24	29/8/2024	A0004-00053543		USD	        3127.40		        3107.40		          20.00
+56778	F	EU	PERUSIA/RODOLFO LEANDRO	2	 2/09/24	 2/09/24	11/7/2024	A0004-00050961		USD	         280.00		         240.00		          40.00
+58676	F	PS	35KX3X CABO/MARIA EUGENIA	2	 3/09/24	10/9/2024	12/8/2024	A0004-00052637		USD	        3321.40		        3341.40		         -20.00
+52588	F	EU	2KTWWP SECONDI/JULIO CESAR	1	 5/09/24	15/9/2024	 6/05/24	A0004-00047428		USD	         505.00		         485.00		          20.00
+54354	F	MA	2GXTSU SCHULMAN/SUSANA ROSA	1	 6/09/24	17/9/2024	 4/06/24	A0004-00049002		USD	         252.00		         232.00		          20.00
+60496	F	EU	2PROLR BONAIUTI/FLORENCIA	1	 8/09/24	 8/09/24	 7/09/24	A0004-00054170		USD	         140.00		         120.00		          20.00
+42838	F	EU	4DBYHR LARROSA/GRISELDA FERNANDA	1	12/9/2024	29/9/2024	 8/11/23	A0004-00037597		USD	        5555.40		        5551.08		           4.32
+58364	F	NA	2MTOOU GONNET/LAURA	2	13/9/2024	20/9/2024	12/8/2024	A0004-00052567		USD	        2374.30				        2374.30
+60806	F	EU	2KTWWP SECONDI/JULIO CESAR	1	15/9/2024	15/9/2024	13/9/2024	A0004-00054644		USD	         103.00		          83.00		          20.00
+54873	F	EU	4WBGZQ GOGNA/JOSE ALBERTO	2	15/9/2024	26/9/2024	13/6/2024	A0004-00049617		USD	         946.00		         906.00		          40.00
+58768	F	PE	3IKS5W ECHEVERRIA/SANTIAGO	1	17/9/2024	28/9/2024	14/8/2024	A0004-00052815		USD	         590.90		         545.90		          45.00
+60499	F	EU	3TSP6M HAYIPANTELI/GABRIEL MARCOS	1	24/9/2024	 5/12/24	25/9/2024	A0004-00055062		USD	         225.00		         145.00		          80.00
+53238	F	PE	243A98 244FYW 242ZAE 243JUD 24T82D ALAM/ANALIA VERONICA	10	26/9/2024	 5/10/24	20/12/2024	A0004-00058648		USD	         957.20		        7523.50		       -6566.30
+59849	F	MD	3OHW7Z   MORA/VENTURA	2	27/9/2024	 5/10/24	 7/09/24	A0004-00053992		USD	        3530.00		        3491.00		          39.00
+61616	F	BR	2QCLOL SANTANDER/ARIANA	2	 3/10/24	 3/10/24	 1/10/24	A0004-00055312		USD	        1200.80		        1180.80		          20.00
+59327	F	BR	4NRM57 LUJAN/ALVARO	2	 5/10/24	11/10/2024	 5/09/24	A0004-00053738		USD	         587.00		         600.40		         -13.40
+59694	F		ZT2TF6 /// 2KHS7F /// VILLADAÑE/IVANA VALERIA (A COMP)	1	 6/10/24	19/10/2024	 1/10/24	A0004-00055200		USD	         162.70		         154.00		           8.70
+58114	F	EU	4LQF4X 44JZCN CALDERON/HAIDEE MARIA	2	 7/10/24	20/10/2024	 2/08/24	A0004-00052104		USD	       13967.92		       13973.80		          -5.88
+41289	F	MD	3LLG62 3LI3S4 3LIUTJ 3LI9FW 3LNNSR 3LJQTE 3LPPSD 3LIF29 3LHHPW 3LTI89 3NJTQJ 3LIQXC 3LOX3O	32	11/10/2024	11/10/2024	27/10/2023	A0004-00036738		USD	        7364.67		        6855.50		         509.17
+62143	F	MA	Z8LW9T  SPINDLER MARCOS	1	15/10/2024	27/10/2024	 9/10/24	A0004-00055926		USD	         472.00				         472.00
+61308	F	EU	2TNG8E RODRIGUEZ/CECILIA	1	17/10/2024	28/10/2024	 1/10/24	A0004-00055516		USD	         260.00		         240.00		          20.00
+58923	F	AS	4X2D4E CRISTINO/ALEJANDRO JOSE	2	21/10/2024	 6/11/24	14/8/2024	A0004-00052857		USD	        4771.20		        2385.60		        2385.60
+59555	F	EU	2P78BT MARTINEZ BONAUDI/GLADYS RAQUEL	1	28/10/2024	16/11/2024	28/8/2024	A0004-00053470		USD	        1107.00		        1104.10		           2.90
+59461	F	EU	2JEIZ9 MARTINEZ BONAUDI/GLADYS RAQUEL	1	28/10/2024	16/11/2024	28/8/2024	A0004-00053461		USD	        1137.30				        1137.30
+61868	F	MC	ZURITA/MARIA JOSE	2	29/10/2024	30/10/2024	 4/10/24	A0004-00055632		USD	        1610.00		        1570.00		          40.00
+52179	F	BR	434RGL ASIN SILVIA FERNANDA	2	31/10/2024	10/11/2024	17/4/2024	A0004-00046672		USD	        1535.40		        1495.40		          40.00
+63022	F	EU	34Z8N2 PIGNATTA/SERGIO ALEJANDRO	1	 3/11/24	 3/11/24	 8/11/24	A0004-00056942		USD	         315.00		         297.00		          18.00
+58546	F	EU	3ATKQR VERGNANO/OMAR JOSE	6	 3/11/24	18/11/2024	12/8/2024	A0004-00052596		USD	        8852.28		        8842.28		          10.00
+58773	F	EU	3IUXDM CAZENAVE/MARIA	2	 8/11/24	 8/12/24	14/8/2024	A0004-00052819		USD	        2285.70				        2285.70
+63135	F	RJ	2H7E9K GALLO/LUCAS SANTIAGO	1	11/11/2024	18/11/2024	12/11/2024	A0004-00057105		USD	         174.00		         154.00		          20.00
+57554	F	RJ	3QS5Z5 HUERTA ALBORNOZ/GABRIELA	2	14/11/2024	17/11/2024	 2/08/24	A0004-00051932		USD	         676.30		         647.70		          28.60
+60657	F	RD	 B62G5X - OLMEDO/RAUL OMAR	2	17/11/2024	27/11/2024	16/9/2024	A0004-00054766		USD	        2428.56		        2408.56		          20.00
+62909	F	EU	4IOH8X LOPEZ/RAQUEL ALICIA	2	25/11/2024	 8/12/24	 8/11/24	A0004-00056917		USD	        2879.80		        2839.80		          40.00
+62535	F	BA	3CEXH4 3CFSRL GARRIDO LIZAMA/LEOPOLDO EDMUNDO	8	26/11/2024	26/11/2024	22/10/2024	A0004-00056357		USD	        4072.96		        4232.96		        -160.00
+58291	F	CU	2LQP8Z CERINO/CLAUDIA LORENA	4	26/11/2024	 6/12/24	 6/08/24	A0004-00052327		USD	        3232.32		        3228.32		           4.00
+64220	F	CL	3EBLLE PERALTA/DARIO MIGUEL	1	26/11/2024	 1/12/24	20/12/2024	A0004-00058670		USD	         225.00				         225.00
+62188	F	CU	4WUC5G 4WYNWW 4WZOJJ LUCERO/MATIAS ABEL ERNESTO	4	27/11/2024	 3/12/24	22/10/2024	A0004-00056294		USD	        4252.60		        4216.30		          36.30
+63910	F	EU	27WVAL 27YTIP 27ZSC2 BARONE/LUIS MARCELO	3	28/11/2024	11/12/2024	25/11/2024	A0004-00057808		USD	         454.98				         454.98
+49658	F	MD	22JKRN GIL ONANDIA/FERNANDO	1	28/11/2024	 7/01/25	 1/03/24	A0004-00044285		USD	        1203.60		        1206.60		          -3.00
+57799	F	GU	3JWPJ4 VELASQUEZ MUNOZ/EDY NEFTALY	1	30/11/2024	16/12/2024	 6/08/24	A0004-00052312		USD	         169.00		         149.00		          20.00
+14049	F		AEROMUNDO	1	 1/12/24	 1/12/24				USD	          60.00		       62294.16		      -62234.16
+64633	F	EU	3WWI3W GABAZZI/RODOLFO MARCELO	1	15/12/2024	15/12/2024	11/12/2024	A0004-00058303		USD	         140.00				         140.00
+63871	F		2GTRAA FERNANDEZ/DAVID URIEL	2	22/12/2024	17/1/2025	19/11/2024	A0004-00057470		USD	         712.00				         712.00
+57954	F	MD	46PGRY  PIFFARETI/AGUSTINA	5	22/12/2024	 7/01/25	 2/08/24	A0004-00052053		USD	        6845.00		        6832.00		          13.00
+63903	F	EU	 4W8EGP   3EEOFK AMIL LOURES/JUAN MANUEL	3	27/12/2024	27/12/2024	25/11/2024	A0004-00057807		USD	         106.98				         106.98
+60996	F	MX	3LJMVW MAGISTRE/ANDREA FABIANA	5	29/12/2024	 8/01/25	19/9/2024	A0004-00054928		USD	        7422.00		        7419.20		           2.80
+64255	F	EU	3R7XQ2 MARCON/LARA	1	 1/01/25	 1/01/25	11/12/2024	A0004-00058298		USD	         285.00				         285.00
+63316	F	MD	2U7LWD 2OOOUD SALVADOR GIANNA PAOLA	2	 3/01/25	 8/01/25	12/11/2024	A0004-00057145		USD	        2814.00		        2808.20		           5.80
+63814	F	EU	3BH6ZC ARIAS/LEANDRO GABRIEL	1	 5/01/25	 5/01/25	14/12/2024	A0004-00058452		USD	         195.00				         195.00
+54602	F	EU	3GZZFP  DE BRITO/MERCEDES	4	 8/01/25	25/1/2025	 6/08/24	A0004-00052337		USD	        6280.00		        6200.00		          80.00
+53620	F	EU	3ATKAF 3ASYRK RIOS TOLEDO/ALEJANDRO NICOLAS	2	 8/01/25	23/1/2025	 6/08/24	A0004-00052142		USD	         265.00		         170.00		          95.00
+59431	F	EU	2HZ44M CARLOS/ABIGAILLE	3	 9/01/25	27/1/2025	 5/09/24	A0004-00053771		USD	        4792.95		        1597.65		        3195.30
+65604	F	EU	36QAXF HAAR/BRIGIDA	2	 9/01/25	31/1/2025	 7/01/25	A0004-00059195		USD	          90.00				          90.00
+65843	F	CE	4A8J8S ARESCA MOREIRA/ABRIL SELENA	3	13/1/2025	23/1/2025	11/1/2025	B0004-00003616		USD	         300.00				         300.00
+61711	F	BR	2PQ5BD 2PPKWX 2PQD9L 2PPN96 CASALE/ELVIO MARCO	11	18/1/2025	26/1/2025	 9/10/24	A0004-00055836		USD	        9087.80		        8320.00		         767.80
+66021	F	EU	27QOUW RALLIN MONJE/ANGEL DIEGO	2	22/1/2025	22/1/2025				USD	         640.00				         640.00
+64645	F	EU	49KREA DI GIOVANNI/ADRIANA ELINA	1	27/1/2025	27/1/2025	 4/01/25	A0004-00059002		USD	         528.00				         528.00
+59579	F	BR	2TNGBX ARTIGAS RAMOS/SOFIA ANTONIETA	2	31/1/2025	 5/02/25	28/8/2024	A0004-00053474		USD	        1280.20		        1260.20		          20.00
+57477	F	PU	 39MRSP MOLINA/LUISANA SOLANGE	1	 5/02/25	19/2/2025	 6/08/24	A0004-00052309		USD	        1345.18		        1348.18		          -3.00
+58694	F	BR	35ABVM GUILLERMON/MARIA LAURA	4	11/2/2025	21/2/2025	14/8/2024	A0004-00052798		USD	        4064.40		        3944.40		         120.00
+62316	F	EU	24TDOI MARTIN/CORAL ALEJANDRA	5	14/2/2025	 8/03/25	 8/11/24	A0004-00056821		USD	        5615.00		        5595.00		          20.00
+60283	F	CU	4V6QF3 HONSE/LILIANA BEATRIZ	2	15/2/2025	 2/03/25	16/9/2024	A0004-00054663		USD	         524.00		         424.00		         100.00
+65293	F	MD	3CSKSR MORESCHI/MATEO	1	21/2/2025	22/2/2025	 7/01/25	A0004-00059190		USD	         175.00				         175.00
+60298	F	PU	4UXGC4 ACUNA/JORGE LUIS	9	26/2/2025	 7/03/25	 9/09/24	A0004-00054288		USD	        9055.64		        9046.24		           9.40
+62971	F	PU	4MMMCD 4MKG6B ALESSIO CARRIZO/ROCIO	10	 5/03/25	13/3/2025	12/11/2024	A0004-00057083		USD	        8792.82		        8812.82		         -20.00
+62563	F	RD	NGWYP - BRESSAN/GERARDO RAUL	2	 7/03/25	14/3/2025	 8/11/24	A0004-00056834		USD	        2330.00		        2327.16		           2.84
+65745	F	MD	3AP2SG ANGELI/ALBERTO SANTIAGO	1	 9/03/25	18/3/2025				USD	         135.00				         135.00
+59755	F	BY	37L2FL/ 2ZDR4A/ 324GLD - COSTANTINI/LUCIO VICENTE	12	12/3/2025	20/3/2025	 9/09/24	A0004-00054212		USD	        8745.90		        8716.20		          29.70
+60863	F	EU	DIAZ,/ GUSTAVO RUBEN	2	18/3/2025	 4/04/25	 4/01/25	A0004-00059019		EUR	        3899.34		        3743.82		         155.52
+57434	F	MA	33MSHV CHIAPERO/ARIEL UMBERTO	5	21/3/2025	 5/04/25	 6/08/24	A0004-00052155		USD	        6094.00		        5694.00		         400.00
+			SUBTOTAL PROV.:	402						EUR	        3899.34		        3743.82		         155.52
+			SUBTOTAL PROV.:							USD	      360217.50		      390454.40		      -30236.90
+															
+3087	TUCANO USD														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+53691	F		FERRER/JUAN LEANDRO	1	18/5/2024	25/5/2024	15/5/2024	A0004-00047933		USD	        1768.68		        1697.19		          71.49
+62232	F		BRAVO X4	4	10/10/2024	10/10/2024	22/10/2024	A0004-00056301		USD	        3001.52		        2989.52		          12.00
+62373	F		BURGO X7	7	14/10/2024	14/10/2024	22/10/2024	A0004-00056321		USD	        4518.36		        4497.36		          21.00
+62458	F		RODRIGUEZ X2	2	15/10/2024	15/10/2024	17/10/2024	A0004-00056234		USD	        3434.60		        3428.60		           6.00
+62583	F		MOLINA X3	3	17/10/2024	17/10/2024	28/10/2024	A0004-00056443		USD	        2096.94		        2087.94		           9.00
+62890	F		GIELSOMINO LEON/JUAN CRUZ	2	30/10/2024	30/10/2024	31/10/2024	A0004-00056505		USD	         578.24		         559.57		          18.67
+62225	F		FABERZANI/GUIDO LUIS(ADT)	1	 1/11/24	10/11/2024	22/10/2024	A0004-00056299		USD	         861.00		         858.00		           3.00
+63617	F		GENNONI/AUGUSTO JESUS	1	 7/11/24	 7/11/24	14/11/2024	A0004-00057298		USD	        1401.81		        1399.30		           2.51
+62459	F		KRITZER/RICARDO ANDRES	1	 8/11/24	11/11/2024	 4/11/24	A0004-00056597		USD	         267.00		         264.00		           3.00
+63801	F		DUBOSCQ X2	2	13/11/2024	13/11/2024	13/11/2024	A0004-00057266		USD	        1392.60		        1386.60		           6.00
+62372	F		DELLA MONICA/MELINA FIORELLA	1	20/11/2024	12/12/2024	 4/11/24	A0004-00056586		USD	        2568.52		        2550.18		          18.34
+64155	F		ALI CAMILA LAURA	1	21/11/2024	28/11/2024	 2/12/24	A0004-00057942		USD	        1156.73		        1153.73		           3.00
+63635	F		VONDERHEIDE/SUSANA ROSA	1	21/11/2024	30/11/2024	21/11/2024	A0004-00057539		USD	        4814.65		        4811.65		           3.00
+62358	F		ACOLINO/MARTIN	1	28/11/2024	28/11/2024	 4/11/24	A0004-00056581		USD	        1294.76		        1292.21		           2.55
+64136	F		CROSATTO X2	2	28/11/2024	 4/12/24	 2/12/24	A0004-00057936		USD	        1766.42		        1760.42		           6.00
+62228	F		BRIONES X5	5	11/12/2024	16/12/2024	 4/11/24	A0004-00056561		USD	        1699.00		        1684.00		          15.00
+64453	F		CALOGERO/ROBERTA	1	11/12/2024	11/12/2024	10/12/2024	A0004-00058243		USD	         823.30		         816.82		           6.48
+63859	F		ROIZ/ERNESTO FABIAN	4	12/12/2024	12/12/2024	22/11/2024	A0004-00057602		USD	        4555.54		        4309.14		         246.40
+64177	F		FERNANDES/JOHN ANTONIO	1	13/12/2024	13/12/2024	26/11/2024	A0004-00057856		USD	         201.90		         198.90		           3.00
+62362	F		GAFFNEY/MICHELLE ANNE	1	13/12/2024	13/12/2024	 4/11/24	A0004-00056584		USD	         279.10		         276.10		           3.00
+62878	F		ZALL/BRIAN DAVID	1	13/12/2024	13/12/2024	 8/11/24	A0004-00056913		USD	         253.00		         250.00		           3.00
+64126	F		GALEANO X2	2	21/12/2024	25/12/2024	 2/12/24	A0004-00057933		USD	         999.98		         993.98		           6.00
+64629	F		VALENTI/ELVIRA MARGARITA	1	25/12/2024	 3/01/25	19/12/2024	A0004-00058562		USD	         741.50		         738.50		           3.00
+62642	F		ELBERG/JEREMIAS JOAQUIN	1	25/12/2024	25/12/2024	 4/11/24	A0004-00056634		USD	         581.68		         578.68		           3.00
+63044	F		GRANIERI X3	3	26/12/2024	 4/01/25	 8/11/24	A0004-00057006		USD	        3571.80		        3562.80		           9.00
+62519	F		MERICLE X2	2	29/12/2024	29/12/2024	 4/11/24	A0004-00056608		USD	         614.20		         608.20		           6.00
+64256	F		ALLADIO X5	5	 5/01/25	20/1/2025	 2/12/24	A0004-00057974		USD	       15927.50		       15912.50		          15.00
+65709	F		UCCI X2	2	 6/01/25	 6/01/25	13/1/2025	A0004-00059384		USD	        3747.20				        3747.20
+64065	F		PEREZ/ABEL	2	 6/01/25	29/1/2025	27/11/2024	A0004-00057873		USD	        7003.00		        6985.23		          17.77
+64148	F		DIOGUARDI X3	3	 8/01/25	22/1/2025	 2/12/24	A0004-00057939		USD	        4596.57		        4587.57		           9.00
+65624	F		CALVINO X2	2	10/1/2025	 4/02/25	 3/01/25	A0004-00058983		USD	        2380.20		        2335.20		          45.00
+65951	F		BLOISI X8	8	10/1/2025	10/1/2025				USD	        6760.48				        6760.48
+64133	F		CORIGLIANO X2	2	11/1/2025	18/1/2025	28/11/2024	A0004-00057879		USD	        3487.62		        3481.62		           6.00
+65229	F		AUZMENDI/MIKEL JUAN	1	11/1/2025	24/1/2025	23/12/2024	A0004-00058759		USD	         758.36				         758.36
+62616	F		BATALOFF/ALEJANDRO	1	13/1/2025	13/1/2025	 4/11/24	B0004-00003499		USD	         232.80		         229.80		           3.00
+64257	F		ALLADIO X5	5	14/1/2025	14/1/2025	 2/12/24	A0004-00057975		USD	         949.00		         934.00		          15.00
+64117	F		SALAZAR X4	4	15/1/2025	24/1/2025	 2/12/24	A0004-00057930		USD	        2180.00		        2168.00		          12.00
+63510	F		FABIANO/GRACIELA	1	20/1/2025	30/1/2025	15/11/2024	A0004-00057410		USD	         496.60		         493.60		           3.00
+63703	F		GOMEZ X6	6	22/1/2025	22/1/2025	22/11/2024	A0004-00057646		USD	        3197.60		        3182.60		          15.00
+63262	F		FAVILLI X4	4	24/1/2025	 8/02/25	 1/11/24	A0004-00056550		USD	        6492.04		        6480.04		          12.00
+64347	F		ALFREDO X3	3	26/1/2025	 7/02/25	 7/12/24	A0004-00058167		USD	        3298.86		        3289.86		           9.00
+65738	F		TERUEL X4	4	26/1/2025	26/1/2025	13/1/2025	A0004-00059392		USD	         263.60				         263.60
+64346	F		LUCCHESE X3	3	26/1/2025	 7/02/25	 7/12/24	A0004-00058166		USD	        3427.26		        3336.81		          90.45
+64153	F		BERBERIAN/MARIA CANDELARIA	2	26/1/2025	26/1/2025	25/11/2024	A0004-00057825		USD	         296.60		         290.60		           6.00
+65506	F		LETONA/IGNACIO	2	28/1/2025	 5/02/25	 9/01/25	A0004-00059271		USD	        1472.00				        1472.00
+64368	F		BORODOWSKI X2	2	 1/02/25	28/2/2025	 4/12/24	A0004-00058015		USD	        4764.16		        4759.70		           4.46
+64033	F		SPOMER X3	3	 2/02/25	10/2/2025	 2/12/24	A0004-00057905		USD	        1606.40		        1597.40		           9.00
+63965	F		CAFFARO X4	4	 3/02/25	21/2/2025	20/11/2024	A0004-00057495		USD	        6100.00		        6088.00		          12.00
+62199	F		BALDO X9	9	 5/02/25	 5/02/25	16/10/2024	A0004-00056057		USD	        9649.98		        9635.66		          14.32
+62402	F		LOPEZ FRESCO/DELFINA	1	 5/02/25	 7/03/25	 4/11/24	A0004-00056591		USD	        1914.80		        1911.80		           3.00
+64142	F		AVIN X3	3	11/2/2025	22/2/2025	28/11/2024	A0004-00057880		USD	        1802.10		        1793.10		           9.00
+65725	F		POLENTA X5	5	14/2/2025	25/2/2025	13/1/2025	A0004-00059388		USD	        6730.55				        6730.55
+65664	F		BISCHOF/OSCAR DARIO	1	18/2/2025	27/2/2025	13/1/2025	A0004-00059372		USD	         910.11				         910.11
+65894	F		ROVILA X2	2	20/2/2025	11/3/2025				USD	        3891.80				        3891.80
+63283	F		CARNA X4	4	 5/03/25	13/3/2025	 8/11/24	A0004-00056982		USD	        3476.32		        3464.32		          12.00
+64116	F		BARACAT X2	2	 6/03/25	25/3/2025	 2/12/24	A0004-00057929		USD	        1078.40		        1072.40		           6.00
+65878	F		KOFFMAN X2	2	 9/03/25	30/3/2025	 9/01/25	A0004-00059305		USD	        2286.02				        2286.02
+64119	F		INDULSKI X2	2	10/3/2025	21/3/2025	29/11/2024	A0004-00057889		USD	        2016.36		        2010.36		           6.00
+64149	F		FRAIZ X3	3	11/3/2025	25/3/2025	 2/12/24	A0004-00057940		USD	        2296.53		        2275.03		          21.50
+64224	F		SELIGMANN X2	2	14/3/2025	27/3/2025	 2/12/24	A0004-00057893		USD	        4391.59		        4383.46		           8.13
+64819	F		GARDENAL X2	2	22/3/2025	30/3/2025	11/12/2024	A0004-00058341		USD	        1040.20		        1034.20		           6.00
+65659	F		PASSAMANI/JUAN DOMINGO	1	23/3/2025	 6/04/25	13/1/2025	A0004-00059370		USD	         475.90				         475.90
+			SUBTOTAL PROV.:	160						USD	      166641.34		      138486.25		       28155.09
+															
+3142	DELMAR TOUR OPERATOR -AM RESORT-														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+62765	F	MX	MURINA/ BETTINA MONICA	1	25/10/2024	19/11/2024	30/12/2024	A0004-00058841		USD	           0.01		         407.84		        -407.83
+62763	F	RD	FACCHINI/NESTOR HUGO	7	 4/02/25	13/2/2025				USD	        6464.50				        6464.50
+62561	F	RD	BRESSAN/GERARDO RAUL	2	 7/03/25	14/3/2025				USD	        1974.26				        1974.26
+			SUBTOTAL PROV.:	10						USD	        8438.77		         407.84		        8030.93
+															
+3200	IBEROSTAR BELLA VISTA VARADERO														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        5150.43		       -5150.42
+			SUBTOTAL PROV.:	1						USD	           0.01		        5150.43		       -5150.42
+															
+3246	IBEROSTAR HOTEL LA LAGUNA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2503.76		       -2503.75
+			SUBTOTAL PROV.:	1						USD	           0.01		        2503.76		       -2503.75
+															
+3265	SPECIAL TOURS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+64069	F	EU	2XEY9S RODRIGUEZ/LAUTARO MIGUEL	1	 1/12/24	12/12/2024				EUR	         179.00				         179.00
+			SUBTOTAL PROV.:	1						EUR	         179.00		           0.00		         179.00
+															
+3285	SANDOS PLAYACAR/CANCUN														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       29193.98		      -29193.97
+63520	F	MX	RODRIGUEZ/ZULEMA ZELINDA	2	 9/03/25	18/3/2025				USD	        2924.28				        2924.28
+62926	F	MX	BRESSAN/NORMA GLADYS	6	 9/03/25	18/3/2025				USD	        8814.48				        8814.48
+57683	F	CU	ADRIANA ROSA CURLETTI	2	 9/03/25	19/3/2025				USD	        1884.34				        1884.34
+62159	F	PL	JOSE DOMINGO CARDETTI	2	 9/03/25	21/3/2025				USD	        3341.00				        3341.00
+			SUBTOTAL PROV.:	13						USD	       16964.11		       29193.98		      -12229.87
+															
+3316	Transportes Automotores 20 de Junio S.A.														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+64028	F		48SB9J /// FILE PAGOS GRP EG Y DXB 20JAN25	1	20/1/2025	 2/02/25				PES	      121800.00				      121800.00
+			SUBTOTAL PROV.:	1						PES	      121800.00		           0.00		      121800.00
+															
+3372	HELLENIC TRAVEL NETWORK SA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        4090.40		       -4090.39
+			SUBTOTAL PROV.:	1						USD	           0.01		        4090.40		       -4090.39
+															
+3397	IBEROSTAR BELLA COSTA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2886.50		       -2886.49
+			SUBTOTAL PROV.:	1						USD	           0.01		        2886.50		       -2886.49
+															
+3465	IBEROSTAR PLAYA ALAMEDA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2099.60		       -2099.59
+			SUBTOTAL PROV.:	1						USD	           0.01		        2099.60		       -2099.59
+															
+3484	SOL PALMERAS CUBA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        6076.20		       -6076.19
+			SUBTOTAL PROV.:	1						USD	           0.01		        6076.20		       -6076.19
+															
+3503	FABIAN ALBERTO LEROUX														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+58813	F		BIANCHI X3	3	 9/09/24	13/9/2024	27/8/2024	A0004-00053423		PES	      104867.10		      104936.30		         -69.20
+61189	F		SEMPE X10	10	24/9/2024	24/9/2024	 1/10/24	A0004-00055238		USD	         164.30		         134.00		          30.30
+65681	F		FERNANDEZ X2	2	 5/01/25	 5/01/25	11/1/2025	A0004-00059322		USD	         281.32				         281.32
+65702	F		FERNANDEZ X2	2	20/1/2025	20/1/2025	11/1/2025	A0004-00059324		USD	         112.00				         112.00
+			SUBTOTAL PROV.:	17						PES	      104867.10		      104936.30		         -69.20
+			SUBTOTAL PROV.:							USD	         557.62		         134.00		         423.62
+															
+3594	JME Turismo Receptivo														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+61059	F	CC	GABRIEL FASSI	2	21/9/2024	28/9/2024				USD	         165.00				         165.00
+61478	F	CC	FASSI BAUTISTA	1	24/9/2024	28/9/2024				USD	          90.00				          90.00
+61275	F	CC	FASSI ANDRES Y MARIA FABIANA ALVAREZ	2	24/9/2024	30/9/2024				USD	         144.00				         144.00
+60848	F	CC	FOLGUERA/ADRIANA LUJAN	2	25/11/2024	 3/12/24	21/11/2024	A0004-00057523		USD	         124.00				         124.00
+62220	F	CC	MALLAINA/CARMEN MARGARITA	1	24/12/2024	 9/01/25	30/12/2024	A0004-00058828		USD	         117.00				         117.00
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          57.00		        1624.65		       -1567.65
+65359	F	NJ	CRAVERO MICHEL SILVANA MARILIN	2	12/1/2025	20/1/2025	 4/01/25	A0004-00059121		USD	         164.00				         164.00
+			SUBTOTAL PROV.:	11						USD	         861.00		        1624.65		        -763.65
+															
+3619	Yrigoyen 111 Hotel														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+51506	F	AR	EURORIENTE 09/04 Hotel Irigoyen 111- 50 agencias	1	 1/05/24	 1/05/24				PES	     1753022.59		     1773000.00		      -19977.41
+			SUBTOTAL PROV.:	1						PES	     1753022.59		     1773000.00		      -19977.41
+															
+3642	HOTEL GRAND OASIS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+64986	F	MX	ANGIORAMA / JUAN CRUZ	2	13/2/2025	28/2/2025				USD	        1035.30				        1035.30
+65634	F	MX	VALENTI ARIEL	2	21/2/2025	 4/03/25				USD	         459.14				         459.14
+			SUBTOTAL PROV.:	4						USD	        1494.44		           0.00		        1494.44
+															
+3710	PARADISUS LOS CAYOS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1634.86		       -1634.85
+			SUBTOTAL PROV.:	1						USD	           0.01		        1634.86		       -1634.85
+															
+3766	CARRANI TOURS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+61102	F	EU	OSELLA/ DIANA MARIA	2	10/3/2025	25/3/2025				USD	         290.00				         290.00
+			SUBTOTAL PROV.:	2						USD	         290.00		           0.00		         290.00
+															
+3794	OTIUM INTERNACIONAL REP DOM														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+59295	F	PU	GILABERTE MELISA	4	 2/12/24	12/12/2024	 5/12/24	A0004-00058053		USD	         165.04		         160.00		           5.04
+58165	F	PU	BARBERO/LUCAS PABLO	8	26/12/2024	 4/01/25	30/12/2024	A0004-00058822		USD	         255.99		          66.00		         189.99
+64840	F	RD	CRAGNOLINO/GISELLE	3	30/12/2024	 7/01/25	31/12/2024	A0004-00058854		USD	          36.00		          30.00		           6.00
+64825	F	RD	LEVIT, SILVIO CLAUDIO	2	30/12/2024	 7/01/25	30/12/2024	A0004-00058833		USD	          26.00		          24.00		           2.00
+59351	F	BY	SERGIO AURELIO GIORDANO	5	 1/01/25	 9/01/25	 4/01/25	A0004-00059073		USD	         170.00				         170.00
+62531	F	PU	CARLOS ALBERTO GRIBAUDO	13	 1/01/25	 8/01/25	 4/01/25	A0004-00058997		USD	         356.98				         356.98
+61671	F	RD	MORATA, RODRIGO IGNACIO	2	 1/01/25	 8/01/25	 4/01/25	A0004-00059084		USD	          68.00				          68.00
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        3869.77		       -3869.76
+58083	F	RD	FLORES/MARIA GABRIELA	4	 4/01/25	18/1/2025	 4/01/25	A0004-00059068		USD	          48.00				          48.00
+58076	F	PU	ZAMORA LETICIA INES	2	 6/01/25	14/1/2025	27/8/2024	A0004-00053428		USD	          21.78				          21.78
+63670	F	BY	BOVIO/ANA CAROLINA	4	 8/01/25	15/1/2025	 4/01/25	A0004-00059100		USD	         102.00				         102.00
+62438	F	RD	LOPEZ/ GABRIEL NORBERTO	2	10/1/2025	17/1/2025	 4/01/25	A0004-00059088		USD	          24.00				          24.00
+64881	F	RD	HERNANDEZ/DANIEL	4	11/1/2025	20/1/2025	 4/01/25	A0004-00059111		USD	          48.00				          48.00
+65501	F	PU	LUDUENA/MAXIMILIANO NOE	3	13/1/2025	25/1/2025	 4/01/25	A0004-00059125		USD	          45.00				          45.00
+60272	F	PU	JORGE ADRIAN HERRERA	3	13/1/2025	20/1/2025	 4/01/25	A0004-00059077		USD	          24.00				          24.00
+55209	F	PU	TOZZI/ EMILIANO MARTIN	9	13/1/2025	21/1/2025	 4/01/25	A0004-00059060		USD	         360.00				         360.00
+65651	F	RD	CORONEL/LEONARDO SEBASTIAN	4	15/1/2025	23/1/2025	 8/01/25	A0004-00059237		USD	          52.00				          52.00
+58527	F	RD	HERNANDEZ/MARIA FERNANDA	5	15/1/2025	23/1/2025	 7/01/25	A0004-00059187		USD	          60.00				          60.00
+65095	F	RD	LOPEZ/IVANA	11	17/1/2025	27/1/2025				USD	         132.00				         132.00
+57010	F	BY	LASTRICO/MARTIN OMAR	3	18/1/2025	28/1/2025	 4/01/25	A0004-00059065		USD	          85.00				          85.00
+58696	F	RD	FERNANDEZ/ADRIANA BEATRIZ	2	18/1/2025	 1/02/25	14/12/2024	A0004-00058448		USD	          24.00				          24.00
+63223	F	PU	LEVA/MICAELA IVANA	5	20/1/2025	28/1/2025	11/1/2025	A0004-00059342		USD	          54.00				          54.00
+64961	F	RD	SANSIñENA/RAUL RAFAEL	1	20/1/2025	28/1/2025	 4/01/25	A0004-00059003		USD	          34.00				          34.00
+59271	F	BY	GRACIELA JOSEFINA AGUIRRE	5	20/1/2025	29/1/2025	 4/01/25	A0004-00058995		USD	         170.00				         170.00
+63817	F	PU	LEDESMA/EVELYN AILEN	3	21/1/2025	30/1/2025	 4/01/25	A0004-00059105		USD	         120.00				         120.00
+62645	F	RD	BOSSIO/SERGIO DANIEL	8	21/1/2025	31/1/2025	11/1/2025	A0004-00059341		USD	         300.00				         300.00
+54121	F	RD	MATTIACCI/ARMANDO AGUSTIN	4	21/1/2025	28/1/2025	 4/01/25	A0004-00059056		USD	         136.00				         136.00
+55224	F	PU	AREVALO TAMARA	10	21/1/2025	31/1/2025				USD	         114.03				         114.03
+65813	F	RD	QUIROGA/ALEJANDRA	7	26/1/2025	 6/02/25				USD	         260.00				         260.00
+62399	F	RD	BORDAQUIEVICH/MARTIN JAVIER	7	26/1/2025	 5/02/25				USD	         155.99				         155.99
+65006	F	RD	GONZALEZ/MONICA - GRP BAHIA PRINCIPE PUJ	19	26/1/2025	 3/02/25				USD	         256.00				         256.00
+65450	F	RD	BALDARENA/ NICOLAS ARIEL	8	27/1/2025	 6/02/25				USD	         132.00				         132.00
+54929	F	PU	AMILCAR MIGUEL MOLINERI	7	29/1/2025	 6/02/25	 4/01/25	A0004-00059059		USD	          72.00				          72.00
+63356	F	RD	ARAMBURU/MARTIN	2	31/1/2025	10/2/2025				USD	          24.00				          24.00
+64520	F	RD	MARTIN CONCI/ANTONELLA	14	 1/02/25	10/2/2025				USD	         730.00				         730.00
+62681	F	PU	CAMBRONERO/  ANDRES OSCAR	5	 1/02/25	13/2/2025				USD	         200.00				         200.00
+58241	F	PU	BOHN VALENTINA	2	 1/02/25	 8/02/25				USD	          68.00				          68.00
+59148	F	PU	HIRUELA/CARLOS ENRIQUE	4	 1/02/25	10/2/2025				USD	          36.00				          36.00
+65434	F	PU	WAQUIM DIEGO	6	 2/02/25	12/2/2025				USD	          93.96				          93.96
+62442	F	PU	GARAU/MARTIN CRISTIAN	3	 2/02/25	12/2/2025				USD	          36.00				          36.00
+65017	F	RD	CARLETTI/PAULA	2	 2/02/25	10/2/2025				USD	          24.00				          24.00
+55972	F	PU	POMILIO FERNANDO DAVID	3	 2/02/25	10/2/2025				USD	          36.00				          36.00
+62763	F	RD	FACCHINI/NESTOR HUGO	7	 4/02/25	13/2/2025				USD	         221.00				         221.00
+65155	F	PU	BABINI DANIEL EDUARDO	2	 4/02/25	14/2/2025				USD	          80.00				          80.00
+61888	F	PU	GUTIERREZ,HECTOR LEONARDO	3	 5/02/25	13/2/2025				USD	          30.00				          30.00
+57404	F	PU	BARBOZA/JUAN CRUZ	5	 5/02/25	19/2/2025	 8/01/25	A0004-00059231		USD	         200.00				         200.00
+64278	F	RD	TISSERA/MAXIMILIANO	2	 6/02/25	14/2/2025				USD	          24.00				          24.00
+64254	F	PU	YAZBEK DANIEL ALEJANDRO	7	 9/02/25	16/2/2025				USD	         120.02				         120.02
+65376	F	RD	BLENCIO / YANINA	4	 9/02/25	18/2/2025				USD	          58.08				          58.08
+60623	F	RD	SUFIA/ELADIO ELISEO	5	10/2/2025	20/2/2025				USD	         200.00				         200.00
+65550	F	PU	MILANESIO HUGO	2	11/2/2025	19/2/2025				USD	          24.00				          24.00
+63991	F	RD	BALNAGERO / CARINA ELIZABETH	2	15/2/2025	22/2/2025				USD	          24.00				          24.00
+61878	F	RD	CUARTA/GABRIEL GUSTAVO	9	17/2/2025	27/2/2025				USD	         102.00				         102.00
+58990	F	PU	VICTOR HUGO BOTTOS	2	19/2/2025	27/2/2025				USD	          24.00				          24.00
+65041	F	PU	SANTARELLI AGUSTINA	5	26/2/2025	 6/03/25				USD	          60.00				          60.00
+64624	F	RD	LOPEZ/JUAN CARLOS	8	26/2/2025	 5/03/25				USD	          96.00				          96.00
+64548	F	BY	GRUDINE SONIA ANABELLA	2	26/2/2025	 1/03/25				USD	          68.00				          68.00
+60300	F	PU	JORGE LUIS ACUNA	9	26/2/2025	 6/03/25	 4/01/25	A0004-00059018		USD	         320.02				         320.02
+57702	F	RD	CANDIANI/SANTIAGO ALEJANDRO	2	 3/03/25	14/3/2025	 4/01/25	A0004-00059013		USD	          80.00				          80.00
+63524	F	RD	ALESSIO CARRIZO/ROCIO	10	 5/03/25	13/3/2025				USD	         272.00				         272.00
+64321	F	BY	CASAS MIRTA ERCILIA	3	 5/03/25	13/3/2025				USD	         114.00				         114.00
+62561	F	RD	BRESSAN/GERARDO RAUL	2	 7/03/25	14/3/2025				USD	          68.00				          68.00
+64752	F	RD	PRIETO/LUIS MARIA	3	 7/03/25	15/3/2025				USD	          39.00				          39.00
+65076	F	BY	GALAN ALFONSINA	18	 7/03/25	14/3/2025				USD	         577.98				         577.98
+60782	F	PU	 DIEGO GASPAR PAREJO	2	 8/03/25	17/3/2025				USD	          29.04				          29.04
+60427	F	PU	MATIAS EXEQUIEL OLOCCO	15	 8/03/25	17/3/2025	 8/01/25	A0004-00059232		USD	         192.50				         192.50
+61682	F	RD	PRINS/GERMAN DARIO	3	11/3/2025	18/3/2025				USD	          36.00				          36.00
+59456	F	RD	CHIARANDINI/MIRCO	6	11/3/2025	20/3/2025	 7/01/25	A0004-00059188		USD	         240.00				         240.00
+59984	F	RD	COSTANTINI/LUCIO VICENTE	12	12/3/2025	20/3/2025				USD	         340.00				         340.00
+61570	F	BY	MOLINERI/ALEXIS SEBASTIAN	3	12/3/2025	20/3/2025				USD	         102.00				         102.00
+63379	F	PU	EVELIO JOSE MORES	10	14/3/2025	24/3/2025				USD	         360.00				         360.00
+54872	F	PU	DELPINO LEONOR HERMELINDA	2	14/3/2025	24/3/2025				USD	         116.00				         116.00
+64472	F	RD	JARRYS/MARIO EMILIO	2	19/3/2025	29/3/2025				USD	          24.00				          24.00
+64223	F	PU	PICCOLI MIGUEL ALBERTO	2	29/3/2025	 7/04/25				USD	          24.00				          24.00
+60397	F	BY	FRACAROLLI/GERMAN IGNACIO	20	30/3/2025	 7/04/25				USD	         680.00				         680.00
+			SUBTOTAL PROV.:	408						USD	       10101.42		        4149.77		        5951.65
+															
+3811	IBEROSTAR VARADERO - MARCARIBE														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         482.39		        -482.38
+63952	F	UB	MUCHUT/MARIO	3	10/2/2025	19/2/2025				USD	        1632.12				        1632.12
+			SUBTOTAL PROV.:	4						USD	        1632.13		         482.39		        1149.74
+															
+3839	MELIA INTERNACIONAL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+55038	F	UB	AGUERREVENGOA, CAMILA	4	30/1/2025	10/2/2025				USD	        1763.34				        1763.34
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         300.11		        -300.10
+			SUBTOTAL PROV.:	5						USD	        1763.35		         300.11		        1463.24
+															
+3878	Fiesta Tours Curacao														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         912.00		        -911.99
+65070	F	CC	PONCE CLAUDIO	3	 4/02/25	13/2/2025				USD	         159.00				         159.00
+65073	F	CC	15QSE2 SORIA/JOSE ALEJANDRO	3	13/3/2025	21/3/2025				USD	          84.00				          84.00
+65015	F	CC	TORRES/ SERGIO ALBERTO	4	13/3/2025	21/3/2025				USD	         112.00				         112.00
+			SUBTOTAL PROV.:	11						USD	         355.01		         912.00		        -556.99
+															
+3949	ACCION PUBLICITARIA SRL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+54692	F		2UVGEH /// 2UTBDY /// 3KADQM /// FILE ÚNICO GRP TR C/ISLAS GRIEGAS C/CRUCERO 07AUG (EXCL BOMBAY)	38	 7/08/24	19/8/2024	 6/08/24	A0004-00052144		USD	           5.06				           5.06
+63106	F		4O34ZT /// 4O2NAH /// 4O94D4 /// 4O56OI /// 4O4FUS /// MATTIA/MABEL ALICIA	9	20/1/2025	 2/02/25				USD	           1.20				           1.20
+63656	F		GRUPO BOMBAY 23JAN24	15	23/1/2025	 4/02/25				USD	           2.00				           2.00
+			SUBTOTAL PROV.:	62						USD	           8.26		           0.00		           8.26
+															
+4069	AIR EUROPA LINEAS AEREAS SA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+64069	F	EU	2XEY9S RODRIGUEZ/LAUTARO MIGUEL	1	 1/12/24	12/12/2024				USD	         155.00				         155.00
+			SUBTOTAL PROV.:	1						USD	         155.00		           0.00		         155.00
+															
+4086	AGUAS AGENCIA DE VIAJES														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+60448	F	BM	FILE PAGOS GRP BMGCA 14SEP24	1	14/9/2024	22/9/2024				USD	           0.01		       10000.00		       -9999.99
+			SUBTOTAL PROV.:	1						USD	           0.01		       10000.00		       -9999.99
+															
+4099	CH GRUPO COMERCIAL S.A.S														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+54692	F		2UVGEH /// 2UTBDY /// 3KADQM /// FILE ÚNICO GRP TR C/ISLAS GRIEGAS C/CRUCERO 07AUG (EXCL BOMBAY)	38	 7/08/24	19/8/2024	 6/08/24	A0004-00052144		USD	         357.26				         357.26
+49207	F	TD	FILE PAGOS GRP TR Y DXB 23AUG24	1	23/8/2024	 7/09/24				PES	           0.01		      439714.00		     -439713.99
+59087	F		GIACHE/HUGO JOSE JORGE	1	 2/09/24	14/9/2024	29/8/2024	A0004-00053529		USD	           9.10				           9.10
+57305	F	PM	PIGINI / TERESA ADELA ( A COMP )	3	12/9/2024	 2/10/24	28/8/2024	A0004-00053436		USD	           9.70				           9.70
+53351	F	TD	3EKLKL /// QUETGLAS / JORGE DANIEL	3	15/9/2024	30/9/2024	13/9/2024	A0004-00054467		USD	          30.38				          30.38
+58442	F		BANDIROLA/VIVIANA MONICA	1	24/9/2024	 1/10/24	20/9/2024	A0004-00054964		USD	           7.21				           7.21
+58586	F		GIOVANELLA/EBERT FABIAN	2	24/9/2024	 1/10/24	25/9/2024	A0004-00055053		USD	          14.42				          14.42
+61134	F		RIOS/VERONICA ANALIA	1	24/9/2024	 1/10/24	25/9/2024	A0004-00055100		USD	           8.93				           8.93
+58636	F		STERREN/SILVINA VIVIANA	2	24/9/2024	 1/10/24	25/9/2024	A0004-00055055		USD	          14.42				          14.42
+59831	F		LOZANO/JOSE EDUARDO	2	24/9/2024	 1/10/24	25/9/2024	A0004-00055059		USD	          14.25				          14.25
+59262	F	PM	PEREYRA/EVA CAYETANA (A COMP)	1	 3/10/24	23/10/2024	 1/10/24	A0004-00055198		USD	           9.10				           9.10
+60500	F	EM	ACTIS/MIGUEL ANGEL	1	 5/10/24	23/10/2024	 1/10/24	A0004-00055207		USD	           9.04				           9.04
+60149	F	EM	ROPELLATTO/DANIELA ANDREA (A COMP)	1	 5/10/24	23/10/2024	 1/10/24	A0004-00055205		USD	           9.04				           9.04
+61143	F	EM	ANTINORI/MARIANO PABLO	2	 5/10/24	23/10/2024	 1/10/24	A0004-00055232		USD	          17.86				          17.86
+56471	F	EM	CAVERZAN / GRACIELA MARIA	2	 5/10/24	24/10/2024	 1/10/24	A0004-00055182		USD	          21.18				          21.18
+60066	F	EM	MULLER/RUBEN TOMAS (A COMP)	1	 5/10/24	23/10/2024	 1/10/24	A0004-00055204		USD	           9.04				           9.04
+60740	F	EM	CERUTTI/FERNANDO JOSE	2	 5/10/24	23/10/2024	 1/10/24	A0004-00055211		USD	          18.08				          18.08
+60304	F	EM	BAZAN/JOSE ANGEL	2	 5/10/24	23/10/2024	 1/10/24	A0004-00055206		USD	          18.08				          18.08
+59694	F		ZT2TF6 /// 2KHS7F /// VILLADAÑE/IVANA VALERIA (A COMP)	1	 6/10/24	19/10/2024	 1/10/24	A0004-00055200		USD	           9.04				           9.04
+59683	F		2KHNJL /// 2KHS7F /// B81OD9 /// IMAHORN/JAVIER HUGO	3	 6/10/24	19/10/2024	 9/10/24	A0004-00055779		USD	          27.12				          27.12
+59446	F		ZT2TF6 /// 2KHNJL /// B81OD9 /// CENTURION/CLAUDIO FABIAN	2	 6/10/24	19/10/2024	 1/10/24	B0004-00003440		USD	          18.13				          18.13
+58903	F		JAIME/JUANA ISABEL (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055676		USD	           7.19				           7.19
+61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	          14.01				          14.01
+60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	          14.25				          14.25
+58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	           7.19				           7.19
+59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	           7.18				           7.18
+58684	F		GOMEZ/ESTER DEL CARMEN	2	10/10/2024	27/11/2024	 9/10/24	A0004-00055892		USD	          18.30				          18.30
+60319	F		FRANCONI/LAURA ANGELA  (A COMP)	1	10/10/2024	27/10/2024	 9/10/24	A0004-00055898		USD	           9.04				           9.04
+59839	F		PEREZ/MIRTA MARTA MIRIA	2	10/10/2024	27/10/2024	 9/10/24	A0004-00055895		USD	          18.08				          18.08
+59220	F		TICONA/LUISA MARGARITA	1	10/10/2024	27/10/2024	 9/10/24	A0004-00055894		USD	           9.10				           9.10
+59979	F		TUR/GRACIELA DE LOS ANGELES	1	10/10/2024	27/10/2024	 9/10/24	A0004-00055897		USD	           9.04				           9.04
+60516	F		38HJC6 /// BERTINAT/MARIA ISABEL DOMINGA	3	10/10/2024	27/10/2024	28/9/2024	A0004-00055148		USD	          27.12				          27.12
+58630	F		MORALES/MARTA INES (A COMP)	1	10/10/2024	27/10/2024	 9/10/24	A0004-00055891		USD	           9.15				           9.15
+61188	F	PM	MARRERO/GUILLERMO	1	17/10/2024	 6/11/24	15/11/2024	A0004-00057329		USD	           8.93				           8.93
+60387	F	PM	PALMESANO/NOEMI GRACIELA	2	17/10/2024	 6/11/24	22/10/2024	A0004-00056262		USD	          18.08				          18.08
+59352	F	EM	HESSEL/ANTONIO DANIEL JOSE	2	19/10/2024	 6/11/24	17/10/2024	A0004-00056117		USD	          18.13				          18.13
+56534	F	EM	MORENO / ROBERTO ( A COMP )	1	19/10/2024	 6/11/24	 9/10/24	A0004-00055778		USD	          11.31				          11.31
+58714	F	EM	SOSA/CECILIA DEL VALLE (A COMP)	1	19/10/2024	 6/11/24	28/8/2024	A0004-00053437		USD	           9.15				           9.15
+61218	F	EM	ISAIA/JUAN FRANCISCO	1	19/10/2024	 6/11/24	 8/10/24	A0004-00055697		USD	           8.91				           8.91
+58926	F	EM	ALIONE/EDUARDO JOSE	2	19/10/2024	 6/11/24	17/10/2024	A0004-00056115		USD	          18.22				          18.22
+58558	F	EM	BONESSI/OSCAR ALBERTO	1	19/10/2024	 6/11/24	17/10/2024	A0004-00056114		USD	           9.15				           9.15
+60712	F	EM	IBAÑEZ/MARIA ISABEL (A COMP)	1	19/10/2024	 6/11/24	 8/10/24	A0004-00055692		USD	           9.04				           9.04
+59222	F	EM	MONTENEGRO/NORA BEATRIZ (A COMP)	1	19/10/2024	 6/11/24	17/10/2024	A0004-00056116		USD	           9.10				           9.10
+60299	F	EM	PETTITI/GLORIA SILVIA (A COMP)	1	19/10/2024	 6/11/24	 8/10/24	A0004-00055687		USD	           9.04				           9.04
+63873	F		2D3P68 /// FIORI/LUCRECIA NOEMI (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059154		USD	           8.59				           8.59
+63156	F		4O5V4J /// REGIARDO/ANDREA EDITH (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059152		USD	           8.68				           8.68
+63106	F		4O34ZT /// 4O2NAH /// 4O94D4 /// 4O56OI /// 4O4FUS /// MATTIA/MABEL ALICIA	9	20/1/2025	 2/02/25				USD	          78.08				          78.08
+63385	F		4O5V4J /// CHECCHETTO/GRACIELA BEATRIZ (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059153		USD	           8.68				           8.68
+63759	F		2D3P68 /// AVEDAÑO MANELLI/CARLA FERNANDA	2	20/1/2025	 2/02/25	 8/01/25	A0004-00059235		USD	          17.21				          17.21
+63656	F		GRUPO BOMBAY 23JAN24	15	23/1/2025	 4/02/25				USD	         129.05				         129.05
+65325	F		29VCT8 /// ERRECART/DANIEL ROBERTO	2	23/1/2025	 4/02/25				USD	          16.72				          16.72
+64653	F		DELLA GHELFA/GABRIEL MARCELO	2	 3/03/25	16/3/2025				USD	          17.04				          17.04
+61573	F	PM	AQUERE/ARACELI GABRIELA (A COMP)	1	13/3/2025	 2/04/25				USD	           8.88				           8.88
+60063	F	GR	PICCONI/CLAUDIA MARIA	3	16/3/2025	27/3/2025				USD	          21.38				          21.38
+61100	F	GR	GROSSO/ALICIA DEL VALLE	1	16/3/2025	27/3/2025				USD	           7.04				           7.04
+64342	F	GR	ALEMANDRI/GISELA MARISEL (A COMP)	1	16/3/2025	27/3/2025				USD	           8.52				           8.52
+65722	F		CAMINOS/ELIANA LILIANA	2	26/3/2025	 3/04/25				USD	          13.07				          13.07
+			SUBTOTAL PROV.:	145						PES	           0.01		      439714.00		     -439713.99
+			SUBTOTAL PROV.:							USD	        1253.03		           0.00		        1253.03
+															
+4142	LIAGRE CINTIA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	         100.00				         100.00
+59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	          50.00				          50.00
+58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	          50.00				          50.00
+58903	F		JAIME/JUANA ISABEL (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055676		USD	          50.00				          50.00
+60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	         100.00				         100.00
+			SUBTOTAL PROV.:	7						USD	         350.00		           0.00		         350.00
+															
+4193	ITAPARICA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       34404.59		      -34404.58
+59600	F	PG	BONAMINO/AGUSTINA	2	12/1/2025	22/1/2025	 4/01/25	A0004-00059074		USD	        1874.28		        1860.00		          14.28
+60464	F	BR	GUALTIERI/NESTOR ENRIQUE	4	24/1/2025	 2/02/25				USD	        1444.96				        1444.96
+65753	F	SB	MARTINEZ SILVINA	2	29/1/2025	 6/02/25				USD	         877.36				         877.36
+54750	F	RJ	PIZARRO/MAXIMILIANO AUGUSTO	1	 3/02/25	10/2/2025				USD	         494.94				         494.94
+65480	F	PG	GUTIERREZ/NESTOR	2	 4/02/25	13/2/2025				USD	          68.00				          68.00
+59178	F	PG	GIUSIANO/FEDERICO JOSE	4	 5/02/25	13/2/2025	15/11/2024	A0004-00057357		USD	        1293.67				        1293.67
+63690	F	BR	FRISONE HEARNE/JEAN LUCA	2	 7/02/25	18/2/2025				USD	         365.81				         365.81
+65098	F	MG	PERONI/ CARLOS AGUSTIN	4	 7/02/25	21/2/2025				USD	        3158.99				        3158.99
+65467	F	MG	LASSAGA/ RAMIRO MARTIN	4	11/2/2025	21/2/2025				USD	        2887.10				        2887.10
+59045	F	MG	BARSEGHIAN/DIEGO	14	11/2/2025	21/2/2025				USD	       11281.74				       11281.74
+64894	F	BR	BUDINI / ESTELA MARY	2	14/2/2025	21/2/2025				USD	         661.31				         661.31
+65153	F	RJ	QUEVEDO/ JOSE MATIAS	2	21/2/2025	28/2/2025				USD	         644.83				         644.83
+65136	F	BR	RUIZ/JOSE GUSTAVO JAVIER	2	24/2/2025	 3/03/25				USD	        2545.60				        2545.60
+64851	F	BR	REFI BIASI / BIANCA	3	25/2/2025	 8/03/25				USD	        2379.82				        2379.82
+65816	F	MC	ROCCA, PAULA CANDELA	2	 2/03/25	10/3/2025				USD	         803.00				         803.00
+64769	F	BR	GANZER/NOELIA	2	 7/03/25	16/3/2025	 4/01/25	A0004-00059043		USD	         769.87				         769.87
+62013	F	BR	COCA/ANA LUZ	4	21/3/2025	26/3/2025				USD	        1368.21				        1368.21
+61292	F	SS	 MONASTIRSKY/DAMIAN	4	21/3/2025	29/3/2025	 9/10/24	A0004-00055903		USD	         142.00				         142.00
+57270	F	MC	GRIMAU/ CLAUDIOALEJANDRO	4	25/3/2025	 2/04/25	 4/01/25	A0004-00059011		USD	        1842.17				        1842.17
+57810	F	MG	ALVAREZ/GUSTAVO ARIEL	3	25/3/2025	 4/04/25	 4/01/25	A0004-00059014		USD	        1931.00				        1931.00
+			SUBTOTAL PROV.:	68						USD	       36834.67		       36264.59		         570.08
+															
+4260	ENJOY CUBA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         263.00		        -262.99
+			SUBTOTAL PROV.:	1						USD	           0.01		         263.00		        -262.99
+															
+4359	VIAJEMOS SRL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+57753	F		COLOMBO X4	4	24/7/2024	24/7/2024	 2/08/24	A0004-00051985		PES	      240918.90				      240918.90
+62091	F		AYR X5	5	26/12/2024	30/12/2024	 8/10/24	A0004-00055775		PES	       48000.00				       48000.00
+62097	F		FUERTES ALEJANDRO FABIAN	1	26/12/2024	30/12/2024	 8/10/24	A0004-00055776		PES	       32000.00				       32000.00
+			SUBTOTAL PROV.:	10						PES	      320918.90		           0.00		      320918.90
+															
+4410	BAHIA PRINCIPE SUNLIGHT CORAL PLAYA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+51935	F	MB	FILE PAGOS GRP MARAVILL MAD, BCN Y PMI 23MAY24	1	23/5/2024	 2/06/24				EUR	           0.01		         989.12		        -989.11
+50778	F	MB	3STYND /// GRP BOMBAY MAD, BCN Y PMI 13JUN24 X 28+1 PAXS	29	13/6/2024	26/6/2024	22/6/2024	A0004-00049786		EUR	       16284.00		       18135.00		       -1851.00
+			SUBTOTAL PROV.:	30						EUR	       16284.01		       19124.12		       -2840.11
+															
+4446	CIVITATIS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          59.00		        5086.36		       -5027.36
+65819	F	MX	MORALES LILIANA CARINA	2	12/1/2025	19/1/2025				USD	        1241.40				        1241.40
+			SUBTOTAL PROV.:	3						USD	        1300.40		        5086.36		       -3785.96
+															
+4465	GOLDEN NILE														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+63873	F		2D3P68 /// FIORI/LUCRECIA NOEMI (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059154		USD	        1188.55				        1188.55
+63759	F		2D3P68 /// AVEDAÑO MANELLI/CARLA FERNANDA	2	20/1/2025	 2/02/25	 8/01/25	A0004-00059235		USD	        2397.26				        2397.26
+63106	F		4O34ZT /// 4O2NAH /// 4O94D4 /// 4O56OI /// 4O4FUS /// MATTIA/MABEL ALICIA	9	20/1/2025	 2/02/25				USD	       10787.67				       10787.67
+64028	F		48SB9J /// FILE PAGOS GRP EG Y DXB 20JAN25	1	20/1/2025	 2/02/25				USD	           0.01		       19148.00		      -19147.99
+63156	F		4O5V4J /// REGIARDO/ANDREA EDITH (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059152		USD	        1188.63				        1188.63
+63385	F		4O5V4J /// CHECCHETTO/GRACIELA BEATRIZ (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059153		USD	        1188.63				        1188.63
+			SUBTOTAL PROV.:	15						USD	       16750.75		       19148.00		       -2397.25
+															
+4591	COURTYARD MARRIOTT MULTIPLAZA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+61695	F		GRUPO MARCELO GELARDINO CUBA 13 NOV	18	13/11/2024	22/11/2024				USD	         941.50		        1260.00		        -318.50
+64396	F	UB	JUDEZ/JUAN PABLO RICARDO	2	 4/01/25	13/1/2025				USD	         118.80				         118.80
+			SUBTOTAL PROV.:	20						USD	        1060.30		        1260.00		        -199.70
+															
+4602	SOCIAL MEDIA TRAVEL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+54694	F	AU	BROLLO/FRANCO	1	 1/06/24	 7/06/24	29/5/2024	A0004-00048516		USD	          12.10				          12.10
+55298	F	CL	NAZZETTA/ NATALIA	4	23/6/2024	28/6/2024	13/6/2024	A0004-00049516		USD	          48.40				          48.40
+56984	F	CL	RAMALLO/MARICEL	3	14/7/2024	18/7/2024	25/7/2024	A0004-00051560		USD	          18.15				          18.15
+58272	F	CL	LEDESMA/PAOLA	4	 5/08/24	22/8/2024	 2/08/24	A0004-00051785		USD	          48.40				          48.40
+59408	F	CL	SANJUAN/LEONARDO GABRIEL	3	21/8/2024	30/8/2024	26/8/2024	A0004-00053394		USD	          36.30				          36.30
+59795	F	CL	SANCHEZ/MARIA CECILIA	2	26/8/2024	30/8/2024	26/8/2024	A0004-00053402		USD	          24.20				          24.20
+63748	F	EU	CUELLO/DIEGO ISMAEL	1	18/11/2024	23/11/2024	13/11/2024	A0004-00057254		USD	          10.00				          10.00
+63547	F	CL	SOLARI/ MARIA ALEJANDRA	3	19/11/2024	11/12/2024	14/11/2024	A0004-00057275		USD	          30.00				          30.00
+			SUBTOTAL PROV.:	21						USD	         227.55		           0.00		         227.55
+															
+4666	PIXEL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+54692	F		2UVGEH /// 2UTBDY /// 3KADQM /// FILE ÚNICO GRP TR C/ISLAS GRIEGAS C/CRUCERO 07AUG (EXCL BOMBAY)	38	 7/08/24	19/8/2024	 6/08/24	A0004-00052144		PES	      361800.01				      361800.01
+57066	F	TD	FILE PAGOS GRP TR Y DXB 13AUG24	1	13/8/2024	28/8/2024				PES	           0.01		      211680.00		     -211679.99
+59097	F	TD	EXC OPC GRP TR Y DXB 23AUG24 /// EXCL EUGENIA VIAJES	22	23/8/2024	 7/09/24	26/8/2024	A0004-00053388		PES	           0.01		      231840.00		     -231839.99
+57725	F		FILE PAGOS GRP AROM CO 02SEP24	1	 2/09/24	14/9/2024				PES	           0.01		      133890.00		     -133889.99
+59087	F		GIACHE/HUGO JOSE JORGE	1	 2/09/24	14/9/2024	29/8/2024	A0004-00053529		USD	          11.46				          11.46
+56437	F		FILE PAGOS GRP MARAVILL PE 03SEP24	1	 3/09/24	10/9/2024				PES	           0.01		      142800.00		     -142799.99
+58939	F		3MVDGL /// DURDOS/WANDA	1	 5/09/24	22/9/2024	13/9/2024	A0004-00054483		PES	           0.01		       95030.00		      -95029.99
+57560	F	EM	FILE PAGOS GRP UE MÁG 07SEP24	1	 7/09/24	25/9/2024				PES	           0.01		      200820.00		     -200819.99
+57305	F	PM	PIGINI / TERESA ADELA ( A COMP )	3	12/9/2024	 2/10/24	28/8/2024	A0004-00053436		USD	          12.22				          12.22
+56478	F	TD	3ENEHS /// FILE PAGOS GRP TR Y DXB 15SEP24	1	15/9/2024	 1/10/24				PES	           0.01		      312480.00		     -312479.99
+58972	F	GR	4CSVMF /// FILE PAGOS GRP TR 1001 NTS 22SEP24	1	22/9/2024	 3/10/24				PES	           0.01		      134820.00		     -134819.99
+58636	F		STERREN/SILVINA VIVIANA	2	24/9/2024	 1/10/24	25/9/2024	A0004-00055055		USD	          23.04				          23.04
+58586	F		GIOVANELLA/EBERT FABIAN	2	24/9/2024	 1/10/24	25/9/2024	A0004-00055053		USD	          23.04				          23.04
+58442	F		BANDIROLA/VIVIANA MONICA	1	24/9/2024	 1/10/24	20/9/2024	A0004-00054964		USD	          11.52				          11.52
+59831	F		LOZANO/JOSE EDUARDO	2	24/9/2024	 1/10/24	25/9/2024	A0004-00055059		USD	          22.75				          22.75
+61134	F		RIOS/VERONICA ANALIA	1	24/9/2024	 1/10/24	25/9/2024	A0004-00055100		USD	          11.24				          11.24
+59750	F		37VB3E /// FILE PAGOS GRP JOY TR Y DXB 26SEP24	1	26/9/2024	13/10/2024				PES	           0.01		      181440.00		     -181439.99
+59262	F	PM	PEREYRA/EVA CAYETANA (A COMP)	1	 3/10/24	23/10/2024	 1/10/24	A0004-00055198		USD	          11.45				          11.45
+59586	F	PM	FILE PAGOS GRP PT, SP Y MA 03OCT24	1	 3/10/24	23/10/2024				PES	           0.01		      104100.00		     -104099.99
+60149	F	EM	ROPELLATTO/DANIELA ANDREA (A COMP)	1	 5/10/24	23/10/2024	 1/10/24	A0004-00055205		USD	          11.37				          11.37
+61143	F	EM	ANTINORI/MARIANO PABLO	2	 5/10/24	23/10/2024	 1/10/24	A0004-00055232		USD	          22.48				          22.48
+60500	F	EM	ACTIS/MIGUEL ANGEL	1	 5/10/24	23/10/2024	 1/10/24	A0004-00055207		USD	          11.37				          11.37
+60066	F	EM	MULLER/RUBEN TOMAS (A COMP)	1	 5/10/24	23/10/2024	 1/10/24	A0004-00055204		USD	          11.37				          11.37
+60740	F	EM	CERUTTI/FERNANDO JOSE	2	 5/10/24	23/10/2024	 1/10/24	A0004-00055211		USD	          22.63				          22.63
+60564	F	EM	FILE PAGOS GRP UE MÁG 05OCT24	1	 5/10/24	23/10/2024				PES	           0.01		      187380.00		     -187379.99
+60304	F	EM	BAZAN/JOSE ANGEL	2	 5/10/24	23/10/2024	 1/10/24	A0004-00055206		USD	          22.75				          22.75
+59694	F		ZT2TF6 /// 2KHS7F /// VILLADAÑE/IVANA VALERIA (A COMP)	1	 6/10/24	19/10/2024	 1/10/24	A0004-00055200		USD	          11.37				          11.37
+59683	F		2KHNJL /// 2KHS7F /// B81OD9 /// IMAHORN/JAVIER HUGO	3	 6/10/24	19/10/2024	 9/10/24	A0004-00055779		USD	          34.12				          34.12
+60085	F		2QYH2A /// ZXOEWT /// FILE PAGOS GRP AROM CO 07OCT24	1	 6/10/24	19/10/2024				PES	           0.01		       89250.00		      -89249.99
+59446	F		ZT2TF6 /// 2KHNJL /// B81OD9 /// CENTURION/CLAUDIO FABIAN	2	 6/10/24	19/10/2024	 1/10/24	B0004-00003440		USD	          22.82				          22.82
+58903	F		JAIME/JUANA ISABEL (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055676		USD	          11.47				          11.47
+61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	          22.36				          22.36
+58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	          11.48				          11.48
+60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	          22.75				          22.75
+59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	          11.45				          11.45
+60516	F		38HJC6 /// BERTINAT/MARIA ISABEL DOMINGA	3	10/10/2024	27/10/2024	28/9/2024	A0004-00055148		USD	          34.12				          34.12
+60174	F		FILE PAGOS GRP JOY TR Y GR 10OCT24	1	10/10/2024	27/10/2024				PES	           0.01		      287740.00		     -287739.99
+59979	F		TUR/GRACIELA DE LOS ANGELES	1	10/10/2024	27/10/2024	 9/10/24	A0004-00055897		USD	          11.37				          11.37
+58630	F		MORALES/MARTA INES (A COMP)	1	10/10/2024	27/10/2024	 9/10/24	A0004-00055891		USD	          11.52				          11.52
+59220	F		TICONA/LUISA MARGARITA	1	10/10/2024	27/10/2024	 9/10/24	A0004-00055894		USD	          11.45				          11.45
+60319	F		FRANCONI/LAURA ANGELA  (A COMP)	1	10/10/2024	27/10/2024	 9/10/24	A0004-00055898		USD	          11.37				          11.37
+59839	F		PEREZ/MIRTA MARTA MIRIA	2	10/10/2024	27/10/2024	 9/10/24	A0004-00055895		USD	          22.75				          22.75
+58684	F		GOMEZ/ESTER DEL CARMEN	2	10/10/2024	27/11/2024	 9/10/24	A0004-00055892		USD	          23.04				          23.04
+58950	F	PM	FILE PAGOS GRP PT, SP Y MA 17OCT24	1	17/10/2024	 6/11/24				PES	           0.01		      200340.00		     -200339.99
+61188	F	PM	MARRERO/GUILLERMO	1	17/10/2024	 6/11/24	15/11/2024	A0004-00057329		USD	          11.24				          11.24
+60387	F	PM	PALMESANO/NOEMI GRACIELA	2	17/10/2024	 6/11/24	22/10/2024	A0004-00056262		USD	          22.75				          22.75
+58558	F	EM	BONESSI/OSCAR ALBERTO	1	19/10/2024	 6/11/24	17/10/2024	A0004-00056114		USD	          11.52				          11.52
+58714	F	EM	SOSA/CECILIA DEL VALLE (A COMP)	1	19/10/2024	 6/11/24	28/8/2024	A0004-00053437		USD	          11.52				          11.52
+60299	F	EM	PETTITI/GLORIA SILVIA (A COMP)	1	19/10/2024	 6/11/24	 8/10/24	A0004-00055687		USD	          11.37				          11.37
+59352	F	EM	HESSEL/ANTONIO DANIEL JOSE	2	19/10/2024	 6/11/24	17/10/2024	A0004-00056117		USD	          22.82				          22.82
+59222	F	EM	MONTENEGRO/NORA BEATRIZ (A COMP)	1	19/10/2024	 6/11/24	17/10/2024	A0004-00056116		USD	          11.45				          11.45
+60712	F	EM	IBAÑEZ/MARIA ISABEL (A COMP)	1	19/10/2024	 6/11/24	 8/10/24	A0004-00055692		USD	          11.37				          11.37
+61218	F	EM	ISAIA/JUAN FRANCISCO	1	19/10/2024	 6/11/24	 8/10/24	A0004-00055697		USD	          11.22				          11.22
+62173	F	EM	FILE PAGOS GRP UE MAG 19OCT24	1	19/10/2024	 6/11/24				PES	           0.01		      224700.00		     -224699.99
+56534	F	EM	MORENO / ROBERTO ( A COMP )	1	19/10/2024	 6/11/24	 9/10/24	A0004-00055778		USD	          14.23				          14.23
+58926	F	EM	ALIONE/EDUARDO JOSE	2	19/10/2024	 6/11/24	17/10/2024	A0004-00056115		USD	          22.94				          22.94
+57900	F	CU	4G48W9 GROSSO/AGUSTIN	2	21/11/2024	28/11/2024				PES	           0.02		      178500.00		     -178499.98
+63873	F		2D3P68 /// FIORI/LUCRECIA NOEMI (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059154		USD	          10.82				          10.82
+63385	F		4O5V4J /// CHECCHETTO/GRACIELA BEATRIZ (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059153		USD	          10.93				          10.93
+63156	F		4O5V4J /// REGIARDO/ANDREA EDITH (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059152		USD	          10.93				          10.93
+63106	F		4O34ZT /// 4O2NAH /// 4O94D4 /// 4O56OI /// 4O4FUS /// MATTIA/MABEL ALICIA	9	20/1/2025	 2/02/25				USD	          98.34				          98.34
+63759	F		2D3P68 /// AVEDAÑO MANELLI/CARLA FERNANDA	2	20/1/2025	 2/02/25	 8/01/25	A0004-00059235		USD	          21.66				          21.66
+65325	F		29VCT8 /// ERRECART/DANIEL ROBERTO	2	23/1/2025	 4/02/25				USD	          21.05				          21.05
+63656	F		GRUPO BOMBAY 23JAN24	15	23/1/2025	 4/02/25				USD	         162.62		         138.77		          23.85
+64653	F		DELLA GHELFA/GABRIEL MARCELO	2	 3/03/25	16/3/2025				USD	          21.44				          21.44
+61573	F	PM	AQUERE/ARACELI GABRIELA (A COMP)	1	13/3/2025	 2/04/25				USD	          11.18				          11.18
+60063	F	GR	PICCONI/CLAUDIA MARIA	3	16/3/2025	27/3/2025				USD	          34.12				          34.12
+61100	F	GR	GROSSO/ALICIA DEL VALLE	1	16/3/2025	27/3/2025				USD	          11.24				          11.24
+64342	F	GR	ALEMANDRI/GISELA MARISEL (A COMP)	1	16/3/2025	27/3/2025				USD	          10.72				          10.72
+65722	F		CAMINOS/ELIANA LILIANA	2	26/3/2025	 3/04/25				USD	          20.88				          20.88
+			SUBTOTAL PROV.:	177						PES	      361800.18		     2916810.00		    -2555009.82
+			SUBTOTAL PROV.:							USD	        1110.49		         138.77		         971.72
+															
+4698	HOTEL MALALHUE														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+62125	F		FILE PAGOS GRP SUR CL 08OCT24	1	 8/10/24	16/10/2024				USD	           0.01		        2968.00		       -2967.99
+61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	         200.00				         200.00
+58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	         100.00				         100.00
+58903	F		JAIME/JUANA ISABEL (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055676		USD	         100.00				         100.00
+59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	         100.00				         100.00
+60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	         200.00				         200.00
+			SUBTOTAL PROV.:	8						USD	         700.01		        2968.00		       -2267.99
+															
+4709	HOTEL BORDE LAGO														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	         220.00				         220.00
+58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	         110.00				         110.00
+61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	         220.00				         220.00
+58903	F		JAIME/JUANA ISABEL (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055676		USD	         110.00				         110.00
+59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	         110.00				         110.00
+62125	F		FILE PAGOS GRP SUR CL 08OCT24	1	 8/10/24	16/10/2024				USD	           0.01		        3520.00		       -3519.99
+			SUBTOTAL PROV.:	8						USD	         770.01		        3520.00		       -2749.99
+															
+4773	STI CORPORATE TRAVEL														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+61203	F	MA	PAGOS A CUENTA STI	1	 1/10/24	 1/10/24				USD	           0.01		       10774.70		      -10774.69
+63653	F	DB	MALAS PRACTICAS PAULA	2	23/11/2024	23/11/2024				USD	         644.20				         644.20
+65071	F	RM	3R76K5 GARDIOL/MARIA ANGELICA RITA	3	19/12/2024	25/12/2024				USD	        5107.11		        5077.42		          29.69
+65437	F	MD	2QVDPX MOSCHELLA/BERNABE	1	26/12/2024	26/12/2024	30/12/2024	A0004-00058820		USD	         868.40		         857.20		          11.20
+65656	F	SP	4GOPOY 4GQR3G DURANONA Y VEDIA/ALVARO JUAN MANUEL MR	2	 7/01/25	 9/01/25	 7/01/25	A0004-00059197		USD	         906.38		         901.39		           4.99
+65746	F	MA	44PMBH SOTO/CARLOS ANDRES	1	 9/01/25	12/1/2025	 8/01/25	A0004-00059245		USD	        1409.21		        1403.92		           5.29
+58897	F	MD	3OIUH3 RAZZETO / MAXIMO	9	11/1/2025	20/1/2025	14/12/2024	A0004-00058449		USD	        2700.00		        3344.20		        -644.20
+65972	F	BR	ORTIN/AGOSTINA	2	13/1/2025	13/1/2025				USD	        1256.60				        1256.60
+65864	F	MA	2M8PZQ MOSCHELLA/BERNABE	1	13/1/2025	13/1/2025				USD	         482.00		         470.98		          11.02
+65439	F	MD	2WPLSM FARIAS/ALEJANDRO GABRIEL	1	14/1/2025	21/1/2025	 4/01/25	A0004-00059122		USD	        1789.11				        1789.11
+66009	F	MD	3BI73I PARODI/DANIEL ALBERTO	1	14/1/2025	 5/02/25				USD	        2122.70				        2122.70
+65974	F	BR	2NDQKD BORDON/CRISTIAN MARCO	3	24/1/2025	24/1/2025				USD	        1950.60				        1950.60
+65160	F	EU	4KX3C3  AMAYA/JEREMIAS EZEQUIEL	3	 9/02/25	23/2/2025	 4/01/25	A0004-00059048		USD	        5029.70		        4917.15		         112.55
+66014	F	MA	38LC65 MORON/GALO BAUTISTA	1	12/2/2025	27/2/2025				USD	        1102.91				        1102.91
+65374	F	MD	4M8R8K EPOSTO/EMILIANO ALFREDO	1	21/2/2025	28/2/2025	 4/01/25	A0004-00059051		USD	         785.90		         765.16		          20.74
+65443	F	MD	2X6RY7 39WCS2 39VYJF ARANGO/ROSANA LORENA	4	 1/04/25	 9/04/25				USD	        4213.00		        4077.20		         135.80
+			SUBTOTAL PROV.:	36						USD	       30367.83		       32589.32		       -2221.49
+															
+4975	GRAND BAVARO PRINCESS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+63565	F	RD	MONZONI/DANIEL FERNANDO	4	19/12/2024	29/12/2024	30/12/2024	A0004-00058798		USD			         380.00		        -380.00
+			SUBTOTAL PROV.:	4						USD	           0.00		         380.00		        -380.00
+															
+5016	VIAGENS PROMO/VP INCOMING														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+65619	F	BR	VIGLIANCO LUCIANO	7	 2/03/25	11/3/2025				USD	        4683.27				        4683.27
+			SUBTOTAL PROV.:	7						USD	        4683.27		           0.00		        4683.27
+															
+5032	RED TURISTICA														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        6422.42		       -6422.41
+62884	F	BZ	URRUTIA MALDONADO/ BRIAN SALVADOR	3	24/1/2025	31/1/2025				USD	        1235.38				        1235.38
+63039	F	BZ	DALMASSO/DANIEL NELSO	2	24/1/2025	31/1/2025				USD	        1111.22				        1111.22
+64184	F	BR	MORO/SEBASTIAN IGNACIO	2	31/1/2025	 7/02/25				USD	        1145.56				        1145.56
+62772	F	BZ	RODRIGUEZ/ALEXIS CARLOS	2	 7/02/25	14/2/2025				USD	        1074.46				        1074.46
+65012	F	BZ	MAGLIONE/ JUAN HECTOR	6	24/2/2025	 3/03/25				USD	        4864.98				        4864.98
+			SUBTOTAL PROV.:	16						USD	        9431.61		        6422.42		        3009.19
+															
+5051	MAIS BRASIL VIAGENS														
+File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
+--------------------------------------------------------------------------------------------------------------------------------															
+66024	F	BR	FAIDELLA DANIEL	4	28/2/2025	 7/03/25				USD	        3367.92				        3367.92
+			SUBTOTAL PROV.:	4						USD	        3367.92		           0.00		        3367.92
+															
+			TOTAL GENERAL:	4240						EUR	       20362.36		       23829.33		       -3466.97
+			TOTAL GENERAL:							PES	   144821550.53		    52822425.02		    91999125.51
+			TOTAL GENERAL:							USD	     2039141.96		     2344454.91		     -305312.95
+
