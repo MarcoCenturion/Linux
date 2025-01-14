@@ -1,19 +1,13 @@
 263	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 57097	F	CU	AGUERREVENGOA/MARTIN ANTONIO	2	17/2/2025	25/2/2025				USD	         489.30				         489.30
 62115	F	RJ	OCAÑO/ELIANA BELEN	5	10/3/2025	19/3/2025				USD	        1209.60				        1209.60
 			SUBTOTAL PROV.:	7						USD	        1698.90		           0.00		        1698.90
 															
 328	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 65730	F	AU	FURBATTO ELSA BEATRIZ	2	10/3/2025	17/3/2025				USD	        2581.88				        2581.88
 			SUBTOTAL PROV.:	2						USD	        2581.88		           0.00		        2581.88
 															
 341	HYD REPRESENTACIONES TURISTICAS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 63619	F	BZ	LABORDE/FACUNDO MARCELO	3	16/12/2024	23/12/2024	20/12/2024	A0004-00058667		USD	         567.00		         525.00		          42.00
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       16183.96		      -16183.95
 63366	F	BR	GIANNA PAOLA SALVADOR	2	 3/01/25	 8/01/25	 8/01/25	A0004-00059234		USD	          25.00		          50.00		         -25.00
@@ -50,8 +44,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	97						USD	       17135.49		       16758.96		         376.53
 															
 367	BAHIA PRINCIPE HOTELES - KIPPIN														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 65006	F	RD	GONZALEZ/MONICA - GRP BAHIA PRINCIPE PUJ	19	26/1/2025	 3/02/25				USD	       12712.08		        1271.21		       11440.87
 63356	F	RD	ARAMBURU/MARTIN	2	31/1/2025	10/2/2025				USD	        2078.60				        2078.60
 10678	F	AR	PAGO BAHIA PRINCIPE	1	 1/02/25	 1/02/25				USD	           0.01		      103171.81		     -103171.80
@@ -65,8 +57,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	50						USD	       41741.59		      104443.02		      -62701.43
 															
 384	PALLADIUM  HOTELS & RESOTS (PUJ - SDQ)														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 58524	F	PU	DECOBERTI MARIA LAURA	8	 5/09/24	13/9/2024	 5/09/24	A0004-00053687		USD	        5154.16		        5692.00		        -537.84
 65104	F	PU	GODOY MARTINEZ PABLO JAVIER	8	 7/03/25	14/3/2025				USD	        7211.89				        7211.89
 60782	F	PU	 DIEGO GASPAR PAREJO	2	 8/03/25	17/3/2025				USD	        1714.14				        1714.14
@@ -75,14 +65,10 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	43						USD	       29345.11		        5692.00		       23653.11
 															
 390	OCEAN BLUE & OCEAN SAND														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           6.00		         106.07		        -100.07
 			SUBTOTAL PROV.:	1						USD	           6.00		         106.07		        -100.07
 															
-401	CATALONIA HOTELES														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+401	CATALONIA HOTELES														
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.41		       15025.21		      -15024.80
 58241	F	PU	BOHN VALENTINA	2	 1/02/25	 8/02/25				USD	        2969.12				        2969.12
 65155	F	PU	BABINI DANIEL EDUARDO	2	 4/02/25	14/2/2025				USD	        2490.00				        2490.00
@@ -90,8 +76,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	7						USD	        7464.17		       15025.21		       -7561.04
 															
 406	TURISMO MUNDIAL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 56526	F	CU	HEFLING MATIAS EZEQUIEL	3	 7/11/24	15/11/2024	19/11/2024	A0004-00057453		USD	         102.00				         102.00
 58952	F	MX	MONTENEGRO CATHERINE SOLANGE	1	22/12/2024	 1/01/25	20/12/2024	A0004-00058654		USD	          30.00				          30.00
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        5760.35		       -5760.34
@@ -131,117 +115,81 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 64836	F	MX	MAURINO/ GRACIELA DOMINGA	3	31/3/2025	10/4/2025				USD	         237.00				         237.00
 			SUBTOTAL PROV.:	152						USD	        7059.33		        5760.35		        1298.98
 															
-413	MELIA CAYO COCO														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+413	MELIA CAYO COCO														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1920.00		       -1919.99
 			SUBTOTAL PROV.:	1						USD	           0.01		        1920.00		       -1919.99
 															
-414	MELIA JARDINES DEL REY														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+414	MELIA JARDINES DEL REY														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         654.66		        -654.65
 			SUBTOTAL PROV.:	1						USD	           0.01		         654.66		        -654.65
 															
-415	IBEROSTAR CAYO ENSENACHOS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+415	IBEROSTAR CAYO ENSENACHOS														
 55038	F	UB	AGUERREVENGOA, CAMILA	4	30/1/2025	10/2/2025				USD	         861.25				         861.25
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         740.23		        -740.22
 			SUBTOTAL PROV.:	5						USD	         861.26		         740.23		         121.03
 															
-426	MELIA HABANA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+426	MELIA HABANA														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1655.44		       -1655.43
 			SUBTOTAL PROV.:	1						USD	           0.01		        1655.44		       -1655.43
 															
-427	MELIA TRYP HABANA LIBRE														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+427	MELIA TRYP HABANA LIBRE														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	          17.17		        1573.46		       -1556.29
 			SUBTOTAL PROV.:	1						USD	          17.17		        1573.46		       -1556.29
 															
-428	SOLWAYS - CUBA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+428	SOLWAYS - CUBA														
 55038	F	UB	AGUERREVENGOA, CAMILA	4	30/1/2025	10/2/2025				USD	         300.00				         300.00
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         659.00		        -658.99
 63952	F	UB	MUCHUT/MARIO	3	10/2/2025	19/2/2025				USD	         165.00				         165.00
 			SUBTOTAL PROV.:	8						USD	         465.01		         659.00		        -193.99
 															
-429	GAVIOTA TOURS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+429	GAVIOTA TOURS														
 61695	F		GRUPO MARCELO GELARDINO CUBA 13 NOV	18	13/11/2024	22/11/2024				USD	        1802.00		        2278.95		        -476.95
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2195.35		       -2195.34
 63952	F	UB	MUCHUT/MARIO	3	10/2/2025	19/2/2025				USD	         453.15				         453.15
 			SUBTOTAL PROV.:	22						USD	        2255.16		        4474.30		       -2219.14
 															
-431	IBEROSTAR PARQUE CENTRAL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+431	IBEROSTAR PARQUE CENTRAL														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         534.40		        -534.39
 			SUBTOTAL PROV.:	1						USD	           0.01		         534.40		        -534.39
 															
-432	MELIA COHIBA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+432	MELIA COHIBA														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1441.80		       -1441.79
 			SUBTOTAL PROV.:	1						USD	           0.01		        1441.80		       -1441.79
 															
-436	MELIA VARADERO														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+436	MELIA VARADERO														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2719.46		       -2719.45
 			SUBTOTAL PROV.:	1						USD	           0.01		        2719.46		       -2719.45
 															
-438	MELIA LAS ANTILLAS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+438	MELIA LAS ANTILLAS														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1557.50		       -1557.49
 			SUBTOTAL PROV.:	1						USD	           0.01		        1557.50		       -1557.49
 															
-440	PARADISUS PRINCESA DEL MAR														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+440	PARADISUS PRINCESA DEL MAR														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1494.00		       -1493.99
 			SUBTOTAL PROV.:	1						USD	           0.01		        1494.00		       -1493.99
 															
-443	PARADISUS VARADERO														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+443	PARADISUS VARADERO														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1836.68		       -1836.67
 			SUBTOTAL PROV.:	1						USD	           0.01		        1836.68		       -1836.67
 															
-445	MELIA PENINSULA VARADERO														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+445	MELIA PENINSULA VARADERO														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         269.02		        -269.01
 			SUBTOTAL PROV.:	1						USD	           0.01		         269.02		        -269.01
 															
-446	MELIA  BUENAVISTA / CAYO SANTA MARIA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+446	MELIA  BUENAVISTA / CAYO SANTA MARIA														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         961.12		        -961.11
 			SUBTOTAL PROV.:	1						USD	           0.01		         961.12		        -961.11
 															
-447	SOL CAYO SANTA MARIA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+447	SOL CAYO SANTA MARIA														
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1011.15		       -1011.14
 			SUBTOTAL PROV.:	1						USD	           0.01		        1011.15		       -1011.14
 															
 449	MELIA LAS DUNAS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 40777	F	UB	DUTRUEL/ DAVID ESTEBAN	7	 9/07/24	18/7/2024	 4/10/24	A0004-00055548		USD	           0.01		         687.61		        -687.60
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         705.74		        -705.73
 			SUBTOTAL PROV.:	8						USD	           0.02		        1393.35		       -1393.33
 															
-463	ARCO IRIS PANAMA - BLUE MOON														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
+463	ARCO IRIS PANAMA - BLUE MOON														
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         994.00		        -993.99
 65450	F	RD	BALDARENA/ NICOLAS ARIEL	8	27/1/2025	 6/02/25				USD	         352.00				         352.00
 62383	F	CT	BENVENUTO, MARCELO FABIAN	2	22/2/2025	 6/03/25				USD	         160.00				         160.00
@@ -250,21 +198,15 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	17						USD	         874.17		         994.00		        -119.83
 															
 470	PALLADIUM HOTEL GROUP-COSTA MUJERES-														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 35444	F	MX	96CL5743970M PALLADIUM -SINGETIL 53284 USD	1	31/12/2024	31/12/2024				USD	           0.01		        6633.06		       -6633.05
 65935	F	MX	DANILO ORECCHIA	5	 7/02/25	17/2/2025				USD	        4375.80				        4375.80
 			SUBTOTAL PROV.:	6						USD	        4375.81		        6633.06		       -2257.25
 															
 689	THE REEF PLAYACAR														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 64381	F	MX	RODRIGUEZ / ADRIANA MARIELA	25	23/2/2025	 7/03/25				USD	       14080.00				       14080.00
 			SUBTOTAL PROV.:	25						USD	       14080.00		           0.00		       14080.00
 															
 736	INFINITAS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       13696.01		      -13696.00
 64455	F	BR	YACOMUSI/JOSE	7	19/1/2025	28/1/2025	 7/01/25	A0004-00059189		USD	         286.00		         260.00		          26.00
 65557	F	RJ	ROSSI/ ALEJANDRO ALFREDO	6	22/1/2025	 2/02/25				USD	         180.00				         180.00
@@ -284,21 +226,15 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	60						USD	       11174.01		       14062.01		       -2888.00
 															
 745	PENDIENTE														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 62935	F	BZ	MONACO/ LUCIANO ADRIAN	2	15/2/2025	22/2/2025	 4/01/25	A0004-00059024		USD	         593.48				         593.48
 66016	F	BR	GALIZIA JOAQUIN NICOLAS	3	 4/03/25	14/3/2025				USD	         829.73				         829.73
 			SUBTOTAL PROV.:	5						USD	        1423.21		           0.00		        1423.21
 															
 774	RED TURISTICA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 66016	F	BR	GALIZIA JOAQUIN NICOLAS	3	 4/03/25	14/3/2025				USD	         758.54				         758.54
 			SUBTOTAL PROV.:	3						USD	         758.54		           0.00		         758.54
 															
 786	RESTEL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.02		        3570.08		       -3570.06
 64907	F	BR	VILLALBA/GUSTAVO FERNANDO	2	 5/02/25	13/2/2025				USD	         665.52				         665.52
 65306	F	BR	SAHARREA CESAR DANIEL	3	17/2/2025	24/2/2025				USD	        1401.85				        1401.85
@@ -306,8 +242,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	13						USD	        3140.70		        3570.08		        -429.38
 															
 825	TRAVEL ACE - UNIVERSAL ASS.														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 50223	F	RD	GRUPO SAMANA 64952	46	29/8/2024	 7/09/24	26/8/2024	A0004-00053304		USD	        2870.47		        2505.03		         365.44
 59221	F	RJ	FLORES/LOURDES	2	16/9/2024	23/9/2024	16/9/2024	A0004-00054722		USD	          68.99		          60.00		           8.99
 50404	F	EU	GRUPO ESPAñA	40	22/9/2024	20/10/2024				USD	        4545.20		        4282.41		         262.79
@@ -397,8 +331,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	346						USD	       17280.75		       25748.42		       -8467.67
 															
 838	ACTION TRAVEL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          30.00		       16477.00		      -16447.00
 62275	F	EU	BASILUK/FRANCISCO JUAN	4	10/2/2025	23/2/2025				USD	        5606.32		        3012.58		        2593.74
 61489	F	EU	ASEGUINOLAZA/ FERNANDO	4	11/2/2025	 2/03/25				USD	        7138.73		        3559.17		        3579.56
@@ -406,21 +338,15 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	13						USD	       17883.53		       23048.75		       -5165.22
 															
 844	LIMA TOURS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 65722	F		CAMINOS/ELIANA LILIANA	2	26/3/2025	 3/04/25				USD	        1701.60				        1701.60
 			SUBTOTAL PROV.:	2						USD	        1701.60		           0.00		        1701.60
 															
 941	RIU PLAZA PANAMA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         241.02		        -241.01
 64836	F	MX	MAURINO/ GRACIELA DOMINGA	3	31/3/2025	10/4/2025				USD	         238.22				         238.22
 			SUBTOTAL PROV.:	4						USD	         238.23		         241.02		          -2.79
 															
 942	STIVA GENERAL PARTNERSHIP														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 61108	F	RD	LUCIENTES/RODOLFO GREGORIO	3	21/11/2024	 3/12/24	21/11/2024	A0004-00057525		USD	        4778.78		        4687.88		          90.90
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       79608.20		      -79608.19
 58083	F	RD	FLORES/MARIA GABRIELA	4	 4/01/25	18/1/2025	 4/01/25	A0004-00059068		USD	           0.40		        1892.35		       -1891.95
@@ -437,48 +363,33 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	51						USD	       56668.41		       86188.43		      -29520.02
 															
 944	DE PALM  TOURS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         334.60		        -334.59
 60422	F	AU	TAVERNA/DANIEL IVAN	5	19/1/2025	28/1/2025				USD	         180.00				         180.00
 65730	F	AU	FURBATTO ELSA BEATRIZ	2	10/3/2025	17/3/2025				USD	          38.52				          38.52
 			SUBTOTAL PROV.:	8						USD	         218.53		         334.60		        -116.07
 															
 1033	CITY TOURS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		           2.57		          -2.56
 			SUBTOTAL PROV.:	1						USD	           0.01		           2.57		          -2.56
 															
 1270	SOUTH TRAVEL VIAGENS E TURISMO LTDA - EPP														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.02		           2.01		          -1.99
 60710	F	FL	GALINDO/ CARLOS ALBERTO	15	 7/01/25	14/1/2025	 4/01/25	A0004-00059078		USD	          70.00				          70.00
 			SUBTOTAL PROV.:	16						USD	          70.02		           2.01		          68.01
 															
 1388	CARACOL INTERNACIONAL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 59106	F		BONALDI/LUCAS DANIEL	8	31/10/2024	 4/11/24				PES	           0.01		      521450.00		     -521449.99
 			SUBTOTAL PROV.:	8						PES	           0.01		      521450.00		     -521449.99
 															
 1474	JOURNEYS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
-10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         310.00		        -309.99
 62115	F	RJ	OCAÑO/ELIANA BELEN	5	10/3/2025	19/3/2025				USD	         310.00				         310.00
 			SUBTOTAL PROV.:	6						USD	         310.01		         310.00		           0.01
 															
 1534	EL PRACTICO														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 50425	F	AR	INCHAURRONDO/MARIANA	2	 8/04/24	10/4/2024				PES	      113045.62		      155570.62		      -42525.00
 			SUBTOTAL PROV.:	2						PES	      113045.62		      155570.62		      -42525.00
 															
 1603	COMING2														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          15.96		         892.70		        -876.74
 65016	F	SA	PEREYRA/LAURA CECILIA	5	23/1/2025	30/1/2025				USD	         346.00				         346.00
 64181	F	RD	DE ELEJALDE / CARLOS GUILLERMO	2	 5/03/25	18/3/2025				USD	         256.00				         256.00
@@ -486,8 +397,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	11						USD	         873.96		         892.70		         -18.74
 															
 1729	COSTA VIAJES														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 54180	F	PH	PERU 18-05	2	21/5/2024	21/5/2024				PES	           0.01		     2272500.01		    -2272500.00
 59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	         166.00				         166.00
 60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	         332.00				         332.00
@@ -495,18 +404,13 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	         166.00				         166.00
 61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	         332.00				         332.00
 			SUBTOTAL PROV.:	9						PES	           0.01		     2272500.01		    -2272500.00
-			SUBTOTAL PROV.:							USD	        1162.00		           0.00		        1162.00
 															
 1732	PANAMERICANA DE VIAJES DMC														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 62383	F	CT	BENVENUTO, MARCELO FABIAN	2	22/2/2025	 6/03/25				USD	          45.00				          45.00
 64653	F		DELLA GHELFA/GABRIEL MARCELO	2	 3/03/25	16/3/2025				USD	        2049.06				        2049.06
 			SUBTOTAL PROV.:	4						USD	        2094.06		           0.00		        2094.06
 															
 1917	HOTELBEDS USA INC														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 54298	F	EU	ROBLEDO ALEXIS	17	25/5/2024	25/5/2024				USD	           0.01		        1206.49		       -1206.48
 62261	F	MX	MURINA/ BETTINA MONICA	1	31/10/2024	 4/11/24	31/10/2024	A0004-00056483		USD	         336.76				         336.76
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       32592.35		      -32592.34
@@ -534,14 +438,10 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	91						USD	       32969.36		       35798.14		       -2828.78
 															
 1956	DIPLOMATIC TRAVEL SERVICES														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        1641.00		       -1640.99
 			SUBTOTAL PROV.:	1						USD	           0.01		        1641.00		       -1640.99
 															
 1991	WORLD TO MEET (W2M)														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				EUR	           0.01		         961.39		        -961.38
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          24.00		      161002.68		     -160978.68
 59086	F	BR	GUARDIOLA/FELIPE	3	 8/01/25	16/1/2025	 4/01/25	A0004-00059072		USD	        2766.54				        2766.54
@@ -583,8 +483,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:							USD	      141523.22		      166002.68		      -24479.46
 															
 2144	VILAR NOELIA MELINA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	           5.00				           5.00
 60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	          10.00				          10.00
 61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	          10.00				          10.00
@@ -593,8 +491,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	7						USD	          35.00		           0.00		          35.00
 															
 2168	EURORIENTE TRAVEL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 42687	F	EU	MARTIARENA/EDUARDO HECTOR	2	 5/09/24	21/9/2024	 5/07/24	A0004-00050603		USD	        4520.00		        4400.00		         120.00
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          26.00		       25603.00		      -25577.00
 61100	F	GR	GROSSO/ALICIA DEL VALLE	1	16/3/2025	27/3/2025				USD	         822.67				         822.67
@@ -604,8 +500,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	11						USD	       11728.73		       30003.00		      -18274.27
 															
 2268	WELCOMEBEDS/PLANET BUSINESS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          10.02		        5886.95		       -5876.93
 65140	F	CT	MORERO/JUAN CRUZ	2	28/1/2025	 7/02/25				USD	         438.69				         438.69
 65981	F	CL	RODRIGUEZ VALENTINA	2	 2/02/25	 6/02/25				USD	         535.40				         535.40
@@ -616,16 +510,12 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	17						USD	        9217.02		        5886.95		        3330.07
 															
 2451	VPT														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       67965.81		      -67965.80
 65358	F	EU	BUSTOS/OSCAR HUGO	4	17/1/2025	 9/02/25				USD	         520.00		         300.00		         220.00
 61573	F	PM	AQUERE/ARACELI GABRIELA (A COMP)	1	13/3/2025	 2/04/25				USD	        2081.00				        2081.00
 			SUBTOTAL PROV.:	6						USD	        2601.01		       68265.81		      -65664.80
 															
 2460	EMBAJADA DE CUBA - VISAS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 61695	F		GRUPO MARCELO GELARDINO CUBA 13 NOV	18	13/11/2024	22/11/2024				USD	         216.00		         264.00		         -48.00
 64396	F	UB	JUDEZ/JUAN PABLO RICARDO	2	 4/01/25	13/1/2025				USD	          24.00				          24.00
 55038	F	UB	AGUERREVENGOA, CAMILA	4	30/1/2025	10/2/2025				USD	          48.00				          48.00
@@ -634,8 +524,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	28						USD	         312.01		        3806.00		       -3493.99
 															
 2471	CLUB VIVA INTERNATIONAL INC														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 63565	F	RD	MONZONI/DANIEL FERNANDO	4	19/12/2024	29/12/2024	30/12/2024	A0004-00058798		USD	           0.10		        3980.00		       -3979.90
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       89761.71		      -89761.70
 64520	F	RD	MARTIN CONCI/ANTONELLA	14	 1/02/25	10/2/2025				USD	       11745.36				       11745.36
@@ -651,16 +539,12 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	78						USD	       54712.87		       93741.71		      -39028.84
 															
 2481	HYD* BRAZILIAN TOURS VIAGENS LTDA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 9930	F	RJ	GRUPO HYD***	1	 1/01/25	 1/01/25				USD	           0.01		      226684.00		     -226683.99
 65853	F	CL	2H2GJ7 URRUCHUA/CHRISTIAN HERNAN	1	13/1/2025	30/1/2025				USD	          70.15				          70.15
 65854	F	MA	2CVCL2 VILLEGAS/ALFREDO DANIEL	2	15/1/2025	20/1/2025				USD	          45.00				          45.00
 			SUBTOTAL PROV.:	4						USD	         115.16		      226684.00		     -226568.84
 															
 2501	RELATUR SA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 61899	F	CT	FERREYRA HORROCKS/ ANGEL NICOLAS	3	17/10/2024	25/10/2024	 8/10/24	A0004-00055735		USD	        1590.15		        1338.66		         251.49
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        7862.97		       -7862.96
 65560	F	CT	SAN ISIDRO ANGEL FABIAN	3	20/1/2025	30/1/2025				USD	        2341.61		        2197.61		         144.00
@@ -671,14 +555,10 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	15						USD	       11505.34		       11399.24		         106.10
 															
 2645	JUMBO TOURS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	         228.98		         216.24		          12.74
 			SUBTOTAL PROV.:	1						USD	         228.98		         216.24		          12.74
 															
 2668	TANGO TRAVEL CONSULTANT INC														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 41662	F	PU	25R6UZ AGUIRRE/MARIA DEL CARMEN	4	 8/05/24	18/5/2024	23/10/2023	A0004-00036507		USD	        3723.60		        2812.70		         910.90
 45445	F	CU	2QRVCY  DOMANSKI ESTELA MARIS	2	20/6/2024	 1/07/24	13/12/2023	A0004-00040192		USD	        2846.62		        2668.90		         177.72
 52015	F	EU	3FJYS7 3FKKSY BADINO/SERGIO DARIO	2	28/6/2024	19/7/2024	19/4/2024	A0004-00046768		USD	        4369.80				        4369.80
@@ -853,14 +733,10 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	485						USD	      620181.73		      634342.87		      -14161.14
 															
 2671	CARIBBEAN DREAM														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       -1415.80		        1415.81
 			SUBTOTAL PROV.:	1						USD	           0.01		       -1415.80		        1415.81
 															
 2741	TBO HOLIDAYS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          30.00		        7349.17		       -7319.17
 65490	F	BR	BERTOZZI ERIKA	2	28/1/2025	 5/02/25				USD	         693.08				         693.08
 60366	F	EU	SCAGLIA/ERICA FABIANA	3	 5/03/25	10/3/2025				USD	         584.85				         584.85
@@ -870,20 +746,14 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	20						USD	        7421.62		        7349.17		          72.45
 															
 2757	FASTPAYHOTELS, SL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         247.11		        -247.10
 			SUBTOTAL PROV.:	1						USD	           0.01		         247.11		        -247.10
 															
 2844	BUDGET														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 65979	F	MA	COSTABEL WALTER	1	28/1/2025	11/2/2025				USD	         831.53				         831.53
 			SUBTOTAL PROV.:	1						USD	         831.53		           0.00		         831.53
 															
 2892	IATA JAZZ PESOS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 47596	F		AVILA/HECTOR ALEJANDRO	1	15/1/2024	15/1/2024	 2/02/24	A0004-00042587		PES	      951949.50		      870000.00		       81949.50
 46531	F		MUSSETTI/MARIA CELESTE	1	27/1/2024	30/1/2024	22/2/2024	B0004-00002960		PES	      914941.52		      914671.40		         270.12
 44492	F		JORNET PRISCILA	1	31/1/2024	 4/02/24	30/11/2023	A0004-00039537		PES	       72286.60				       72286.60
@@ -989,8 +859,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:							USD	       18676.70		           0.00		       18676.70
 															
 2893	IATA JAZZ DOLARES														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 52773	F		FLETCHER X2	2	24/6/2024	24/6/2024	24/4/2024	A0004-00046965		USD	         310.40				         310.40
 56367	F	BR	DIAZ/MARIA VIRGINIA	2	22/7/2024	29/7/2024	18/7/2024	B0004-00003233		USD	         712.00		         708.60		           3.40
 61673	F	BR	CAMPOS/GONZALO MARTIN	4	21/10/2024	28/10/2024	22/10/2024	B0004-00003481		USD	        1424.00		        1417.80		           6.20
@@ -1091,29 +959,21 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	299						USD	      204379.28		       17150.36		      187228.92
 															
 2907	GRUPO PIXEL SAS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 53351	F	TD	3EKLKL /// QUETGLAS / JORGE DANIEL	3	15/9/2024	30/9/2024	13/9/2024	A0004-00054467		USD	          38.26				          38.26
 56471	F	EM	CAVERZAN / GRACIELA MARIA	2	 5/10/24	24/10/2024	 1/10/24	A0004-00055182		USD	          17.47				          17.47
 			SUBTOTAL PROV.:	5						USD	          55.73		           0.00		          55.73
 															
 2965	MARTINEZ FERNANDO														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 64221	F		SCORZA/MARILINA BIBIANA	2	28/12/2024	 5/01/25	22/11/2024	B0004-00003522		PES	       59142.04				       59142.04
 			SUBTOTAL PROV.:	2						PES	       59142.04		           0.00		       59142.04
 															
 2977	TUCANO PESOS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 53800	F		PERNAS/ALBERTO OSCAR	1	15/5/2024	26/5/2024	27/5/2024	A0004-00048476		PES	     6581876.70				     6581876.70
 56147	F		MANTEGAZZA/CECILIA	1	15/9/2024	25/9/2024	11/7/2024	A0004-00050759		PES	     2474699.40				     2474699.40
 65672	F		SCALONI/LIONEL SEBASTIAN	1	27/1/2025	27/1/2025	13/1/2025	A0004-00059374		PES	     1095377.50				     1095377.50
 			SUBTOTAL PROV.:	3						PES	    10151953.60		           0.00		    10151953.60
 															
 3001	AEROMUNDO INTERNACIONAL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 46970	F	MA	3Q8FNU REMISION AQUIN/JAZMIN PAULINA	4	28/1/2024	28/1/2024	11/1/2024	A0004-00041590		USD	         160.00				         160.00
 38664	F	MX	BD3D7D BIRRI/ROBERTO CESAR	2	29/1/2024	 8/02/24	20/9/2023	A0004-00033837		USD	        3254.24				        3254.24
 44982	F	EU	227KWR BOBADILLA/MARIA LUJAN	1	11/2/2024	19/3/2024	 5/03/24	A0004-00044606		USD			        2077.20		       -2077.20
@@ -1242,8 +1102,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:							USD	      360217.50		      390454.40		      -30236.90
 															
 3087	TUCANO USD														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 53691	F		FERRER/JUAN LEANDRO	1	18/5/2024	25/5/2024	15/5/2024	A0004-00047933		USD	        1768.68		        1697.19		          71.49
 62232	F		BRAVO X4	4	10/10/2024	10/10/2024	22/10/2024	A0004-00056301		USD	        3001.52		        2989.52		          12.00
 62373	F		BURGO X7	7	14/10/2024	14/10/2024	22/10/2024	A0004-00056321		USD	        4518.36		        4497.36		          21.00
@@ -1309,34 +1167,24 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	160						USD	      166641.34		      138486.25		       28155.09
 															
 3142	DELMAR TOUR OPERATOR -AM RESORT-														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 62765	F	MX	MURINA/ BETTINA MONICA	1	25/10/2024	19/11/2024	30/12/2024	A0004-00058841		USD	           0.01		         407.84		        -407.83
 62763	F	RD	FACCHINI/NESTOR HUGO	7	 4/02/25	13/2/2025				USD	        6464.50				        6464.50
 62561	F	RD	BRESSAN/GERARDO RAUL	2	 7/03/25	14/3/2025				USD	        1974.26				        1974.26
 			SUBTOTAL PROV.:	10						USD	        8438.77		         407.84		        8030.93
 															
 3200	IBEROSTAR BELLA VISTA VARADERO														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        5150.43		       -5150.42
 			SUBTOTAL PROV.:	1						USD	           0.01		        5150.43		       -5150.42
 															
 3246	IBEROSTAR HOTEL LA LAGUNA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2503.76		       -2503.75
 			SUBTOTAL PROV.:	1						USD	           0.01		        2503.76		       -2503.75
 															
 3265	SPECIAL TOURS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 64069	F	EU	2XEY9S RODRIGUEZ/LAUTARO MIGUEL	1	 1/12/24	12/12/2024				EUR	         179.00				         179.00
 			SUBTOTAL PROV.:	1						EUR	         179.00		           0.00		         179.00
 															
 3285	SANDOS PLAYACAR/CANCUN														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       29193.98		      -29193.97
 63520	F	MX	RODRIGUEZ/ZULEMA ZELINDA	2	 9/03/25	18/3/2025				USD	        2924.28				        2924.28
 62926	F	MX	BRESSAN/NORMA GLADYS	6	 9/03/25	18/3/2025				USD	        8814.48				        8814.48
@@ -1345,38 +1193,26 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	13						USD	       16964.11		       29193.98		      -12229.87
 															
 3316	Transportes Automotores 20 de Junio S.A.														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 64028	F		48SB9J /// FILE PAGOS GRP EG Y DXB 20JAN25	1	20/1/2025	 2/02/25				PES	      121800.00				      121800.00
 			SUBTOTAL PROV.:	1						PES	      121800.00		           0.00		      121800.00
 															
 3372	HELLENIC TRAVEL NETWORK SA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        4090.40		       -4090.39
 			SUBTOTAL PROV.:	1						USD	           0.01		        4090.40		       -4090.39
 															
 3397	IBEROSTAR BELLA COSTA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2886.50		       -2886.49
 			SUBTOTAL PROV.:	1						USD	           0.01		        2886.50		       -2886.49
 															
 3465	IBEROSTAR PLAYA ALAMEDA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        2099.60		       -2099.59
 			SUBTOTAL PROV.:	1						USD	           0.01		        2099.60		       -2099.59
 															
 3484	SOL PALMERAS CUBA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        6076.20		       -6076.19
 			SUBTOTAL PROV.:	1						USD	           0.01		        6076.20		       -6076.19
 															
 3503	FABIAN ALBERTO LEROUX														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 58813	F		BIANCHI X3	3	 9/09/24	13/9/2024	27/8/2024	A0004-00053423		PES	      104867.10		      104936.30		         -69.20
 61189	F		SEMPE X10	10	24/9/2024	24/9/2024	 1/10/24	A0004-00055238		USD	         164.30		         134.00		          30.30
 65681	F		FERNANDEZ X2	2	 5/01/25	 5/01/25	11/1/2025	A0004-00059322		USD	         281.32				         281.32
@@ -1385,8 +1221,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:							USD	         557.62		         134.00		         423.62
 															
 3594	JME Turismo Receptivo														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 61059	F	CC	GABRIEL FASSI	2	21/9/2024	28/9/2024				USD	         165.00				         165.00
 61478	F	CC	FASSI BAUTISTA	1	24/9/2024	28/9/2024				USD	          90.00				          90.00
 61275	F	CC	FASSI ANDRES Y MARIA FABIANA ALVAREZ	2	24/9/2024	30/9/2024				USD	         144.00				         144.00
@@ -1397,33 +1231,23 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	11						USD	         861.00		        1624.65		        -763.65
 															
 3619	Yrigoyen 111 Hotel														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 51506	F	AR	EURORIENTE 09/04 Hotel Irigoyen 111- 50 agencias	1	 1/05/24	 1/05/24				PES	     1753022.59		     1773000.00		      -19977.41
 			SUBTOTAL PROV.:	1						PES	     1753022.59		     1773000.00		      -19977.41
 															
 3642	HOTEL GRAND OASIS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 64986	F	MX	ANGIORAMA / JUAN CRUZ	2	13/2/2025	28/2/2025				USD	        1035.30				        1035.30
 65634	F	MX	VALENTI ARIEL	2	21/2/2025	 4/03/25				USD	         459.14				         459.14
 			SUBTOTAL PROV.:	4						USD	        1494.44		           0.00		        1494.44
 															
 3710	PARADISUS LOS CAYOS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		        1634.86		       -1634.85
 			SUBTOTAL PROV.:	1						USD	           0.01		        1634.86		       -1634.85
 															
 3766	CARRANI TOURS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 61102	F	EU	OSELLA/ DIANA MARIA	2	10/3/2025	25/3/2025				USD	         290.00				         290.00
 			SUBTOTAL PROV.:	2						USD	         290.00		           0.00		         290.00
 															
 3794	OTIUM INTERNACIONAL REP DOM														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 59295	F	PU	GILABERTE MELISA	4	 2/12/24	12/12/2024	 5/12/24	A0004-00058053		USD	         165.04		         160.00		           5.04
 58165	F	PU	BARBERO/LUCAS PABLO	8	26/12/2024	 4/01/25	30/12/2024	A0004-00058822		USD	         255.99		          66.00		         189.99
 64840	F	RD	CRAGNOLINO/GISELLE	3	30/12/2024	 7/01/25	31/12/2024	A0004-00058854		USD	          36.00		          30.00		           6.00
@@ -1502,22 +1326,16 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	408						USD	       10101.42		        4149.77		        5951.65
 															
 3811	IBEROSTAR VARADERO - MARCARIBE														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         482.39		        -482.38
 63952	F	UB	MUCHUT/MARIO	3	10/2/2025	19/2/2025				USD	        1632.12				        1632.12
 			SUBTOTAL PROV.:	4						USD	        1632.13		         482.39		        1149.74
 															
 3839	MELIA INTERNACIONAL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 55038	F	UB	AGUERREVENGOA, CAMILA	4	30/1/2025	10/2/2025				USD	        1763.34				        1763.34
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         300.11		        -300.10
 			SUBTOTAL PROV.:	5						USD	        1763.35		         300.11		        1463.24
 															
 3878	Fiesta Tours Curacao														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		         912.00		        -911.99
 65070	F	CC	PONCE CLAUDIO	3	 4/02/25	13/2/2025				USD	         159.00				         159.00
 65073	F	CC	15QSE2 SORIA/JOSE ALEJANDRO	3	13/3/2025	21/3/2025				USD	          84.00				          84.00
@@ -1525,28 +1343,20 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	11						USD	         355.01		         912.00		        -556.99
 															
 3949	ACCION PUBLICITARIA SRL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 54692	F		2UVGEH /// 2UTBDY /// 3KADQM /// FILE ÚNICO GRP TR C/ISLAS GRIEGAS C/CRUCERO 07AUG (EXCL BOMBAY)	38	 7/08/24	19/8/2024	 6/08/24	A0004-00052144		USD	           5.06				           5.06
 63106	F		4O34ZT /// 4O2NAH /// 4O94D4 /// 4O56OI /// 4O4FUS /// MATTIA/MABEL ALICIA	9	20/1/2025	 2/02/25				USD	           1.20				           1.20
 63656	F		GRUPO BOMBAY 23JAN24	15	23/1/2025	 4/02/25				USD	           2.00				           2.00
 			SUBTOTAL PROV.:	62						USD	           8.26		           0.00		           8.26
 															
 4069	AIR EUROPA LINEAS AEREAS SA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 64069	F	EU	2XEY9S RODRIGUEZ/LAUTARO MIGUEL	1	 1/12/24	12/12/2024				USD	         155.00				         155.00
 			SUBTOTAL PROV.:	1						USD	         155.00		           0.00		         155.00
 															
 4086	AGUAS AGENCIA DE VIAJES														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 60448	F	BM	FILE PAGOS GRP BMGCA 14SEP24	1	14/9/2024	22/9/2024				USD	           0.01		       10000.00		       -9999.99
 			SUBTOTAL PROV.:	1						USD	           0.01		       10000.00		       -9999.99
 															
 4099	CH GRUPO COMERCIAL S.A.S														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 54692	F		2UVGEH /// 2UTBDY /// 3KADQM /// FILE ÚNICO GRP TR C/ISLAS GRIEGAS C/CRUCERO 07AUG (EXCL BOMBAY)	38	 7/08/24	19/8/2024	 6/08/24	A0004-00052144		USD	         357.26				         357.26
 49207	F	TD	FILE PAGOS GRP TR Y DXB 23AUG24	1	23/8/2024	 7/09/24				PES	           0.01		      439714.00		     -439713.99
 59087	F		GIACHE/HUGO JOSE JORGE	1	 2/09/24	14/9/2024	29/8/2024	A0004-00053529		USD	           9.10				           9.10
@@ -1608,8 +1418,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:							USD	        1253.03		           0.00		        1253.03
 															
 4142	LIAGRE CINTIA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	         100.00				         100.00
 59268	F		LOYS/GLADYS ESTELA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055678		USD	          50.00				          50.00
 58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	          50.00				          50.00
@@ -1618,8 +1426,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	7						USD	         350.00		           0.00		         350.00
 															
 4193	ITAPARICA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		       34404.59		      -34404.58
 59600	F	PG	BONAMINO/AGUSTINA	2	12/1/2025	22/1/2025	 4/01/25	A0004-00059074		USD	        1874.28		        1860.00		          14.28
 60464	F	BR	GUALTIERI/NESTOR ENRIQUE	4	24/1/2025	 2/02/25				USD	        1444.96				        1444.96
@@ -1644,36 +1450,26 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	68						USD	       36834.67		       36264.59		         570.08
 															
 4260	ENJOY CUBA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 15116	F	VR	PAGOS CUBA	1	 1/02/25	 1/02/25				USD	           0.01		         263.00		        -262.99
 			SUBTOTAL PROV.:	1						USD	           0.01		         263.00		        -262.99
 															
 4359	VIAJEMOS SRL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 57753	F		COLOMBO X4	4	24/7/2024	24/7/2024	 2/08/24	A0004-00051985		PES	      240918.90				      240918.90
 62091	F		AYR X5	5	26/12/2024	30/12/2024	 8/10/24	A0004-00055775		PES	       48000.00				       48000.00
 62097	F		FUERTES ALEJANDRO FABIAN	1	26/12/2024	30/12/2024	 8/10/24	A0004-00055776		PES	       32000.00				       32000.00
 			SUBTOTAL PROV.:	10						PES	      320918.90		           0.00		      320918.90
 															
 4410	BAHIA PRINCIPE SUNLIGHT CORAL PLAYA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 51935	F	MB	FILE PAGOS GRP MARAVILL MAD, BCN Y PMI 23MAY24	1	23/5/2024	 2/06/24				EUR	           0.01		         989.12		        -989.11
 50778	F	MB	3STYND /// GRP BOMBAY MAD, BCN Y PMI 13JUN24 X 28+1 PAXS	29	13/6/2024	26/6/2024	22/6/2024	A0004-00049786		EUR	       16284.00		       18135.00		       -1851.00
 			SUBTOTAL PROV.:	30						EUR	       16284.01		       19124.12		       -2840.11
 															
 4446	CIVITATIS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	          59.00		        5086.36		       -5027.36
 65819	F	MX	MORALES LILIANA CARINA	2	12/1/2025	19/1/2025				USD	        1241.40				        1241.40
 			SUBTOTAL PROV.:	3						USD	        1300.40		        5086.36		       -3785.96
 															
 4465	GOLDEN NILE														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 63873	F		2D3P68 /// FIORI/LUCRECIA NOEMI (A COMP)	1	20/1/2025	 2/02/25	 6/01/25	A0004-00059154		USD	        1188.55				        1188.55
 63759	F		2D3P68 /// AVEDAÑO MANELLI/CARLA FERNANDA	2	20/1/2025	 2/02/25	 8/01/25	A0004-00059235		USD	        2397.26				        2397.26
 63106	F		4O34ZT /// 4O2NAH /// 4O94D4 /// 4O56OI /// 4O4FUS /// MATTIA/MABEL ALICIA	9	20/1/2025	 2/02/25				USD	       10787.67				       10787.67
@@ -1683,15 +1479,11 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	15						USD	       16750.75		       19148.00		       -2397.25
 															
 4591	COURTYARD MARRIOTT MULTIPLAZA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 61695	F		GRUPO MARCELO GELARDINO CUBA 13 NOV	18	13/11/2024	22/11/2024				USD	         941.50		        1260.00		        -318.50
 64396	F	UB	JUDEZ/JUAN PABLO RICARDO	2	 4/01/25	13/1/2025				USD	         118.80				         118.80
 			SUBTOTAL PROV.:	20						USD	        1060.30		        1260.00		        -199.70
 															
 4602	SOCIAL MEDIA TRAVEL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 54694	F	AU	BROLLO/FRANCO	1	 1/06/24	 7/06/24	29/5/2024	A0004-00048516		USD	          12.10				          12.10
 55298	F	CL	NAZZETTA/ NATALIA	4	23/6/2024	28/6/2024	13/6/2024	A0004-00049516		USD	          48.40				          48.40
 56984	F	CL	RAMALLO/MARICEL	3	14/7/2024	18/7/2024	25/7/2024	A0004-00051560		USD	          18.15				          18.15
@@ -1703,8 +1495,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	21						USD	         227.55		           0.00		         227.55
 															
 4666	PIXEL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 54692	F		2UVGEH /// 2UTBDY /// 3KADQM /// FILE ÚNICO GRP TR C/ISLAS GRIEGAS C/CRUCERO 07AUG (EXCL BOMBAY)	38	 7/08/24	19/8/2024	 6/08/24	A0004-00052144		PES	      361800.01				      361800.01
 57066	F	TD	FILE PAGOS GRP TR Y DXB 13AUG24	1	13/8/2024	28/8/2024				PES	           0.01		      211680.00		     -211679.99
 59097	F	TD	EXC OPC GRP TR Y DXB 23AUG24 /// EXCL EUGENIA VIAJES	22	23/8/2024	 7/09/24	26/8/2024	A0004-00053388		PES	           0.01		      231840.00		     -231839.99
@@ -1779,8 +1569,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:							USD	        1110.49		         138.77		         971.72
 															
 4698	HOTEL MALALHUE														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 62125	F		FILE PAGOS GRP SUR CL 08OCT24	1	 8/10/24	16/10/2024				USD	           0.01		        2968.00		       -2967.99
 61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	         200.00				         200.00
 58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	         100.00				         100.00
@@ -1790,8 +1578,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	8						USD	         700.01		        2968.00		       -2267.99
 															
 4709	HOTEL BORDE LAGO														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 60440	F		MAGNOLI/OLGA PASCUALINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055689		USD	         220.00				         220.00
 58802	F		CORDOBA / NILDA ELVA (A COMP)	1	 8/10/24	16/10/2024	 8/10/24	A0004-00055675		USD	         110.00				         110.00
 61893	F		VARISCO/MARIA CRISTINA	2	 8/10/24	16/10/2024	 8/10/24	A0004-00055733		USD	         220.00				         220.00
@@ -1801,8 +1587,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	8						USD	         770.01		        3520.00		       -2749.99
 															
 4773	STI CORPORATE TRAVEL														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 61203	F	MA	PAGOS A CUENTA STI	1	 1/10/24	 1/10/24				USD	           0.01		       10774.70		      -10774.69
 63653	F	DB	MALAS PRACTICAS PAULA	2	23/11/2024	23/11/2024				USD	         644.20				         644.20
 65071	F	RM	3R76K5 GARDIOL/MARIA ANGELICA RITA	3	19/12/2024	25/12/2024				USD	        5107.11		        5077.42		          29.69
@@ -1822,20 +1606,14 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	36						USD	       30367.83		       32589.32		       -2221.49
 															
 4975	GRAND BAVARO PRINCESS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 63565	F	RD	MONZONI/DANIEL FERNANDO	4	19/12/2024	29/12/2024	30/12/2024	A0004-00058798		USD			         380.00		        -380.00
 			SUBTOTAL PROV.:	4						USD	           0.00		         380.00		        -380.00
 															
 5016	VIAGENS PROMO/VP INCOMING														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 65619	F	BR	VIGLIANCO LUCIANO	7	 2/03/25	11/3/2025				USD	        4683.27				        4683.27
 			SUBTOTAL PROV.:	7						USD	        4683.27		           0.00		        4683.27
 															
 5032	RED TURISTICA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 10799	F	AR	PAGOS A CUENTA X IMPUTAR	1	 1/01/25	 1/01/25				USD	           0.01		        6422.42		       -6422.41
 62884	F	BZ	URRUTIA MALDONADO/ BRIAN SALVADOR	3	24/1/2025	31/1/2025				USD	        1235.38				        1235.38
 63039	F	BZ	DALMASSO/DANIEL NELSO	2	24/1/2025	31/1/2025				USD	        1111.22				        1111.22
@@ -1845,12 +1623,6 @@ File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
 			SUBTOTAL PROV.:	16						USD	        9431.61		        6422.42		        3009.19
 															
 5051	MAIS BRASIL VIAGENS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
 66024	F	BR	FAIDELLA DANIEL	4	28/2/2025	 7/03/25				USD	        3367.92				        3367.92
 			SUBTOTAL PROV.:	4						USD	        3367.92		           0.00		        3367.92
-															
-			TOTAL GENERAL:	4240						EUR	       20362.36		       23829.33		       -3466.97
-			TOTAL GENERAL:							PES	   144821550.53		    52822425.02		    91999125.51
-			TOTAL GENERAL:							USD	     2039141.96		     2344454.91		     -305312.95
 
