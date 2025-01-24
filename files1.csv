@@ -1,1839 +1,276 @@
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2025	HASTA:	14/1/2026												
-															
-															
-263	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
-62115	F	RJ	OCAÑO/ELIANA BELEN	5	10/3/2025	19/3/2025				USD	        1209.60				        1209.60
-64980	F	MX	BALLADARES / GUILLERMO HORACIO	6	18/4/2025	30/4/2025				USD	        5082.00				        5082.00
-			SUBTOTAL PROV.:	11						USD	        6291.60		           0.00		        6291.60
-															
-328	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															        2581.88
-															        2581.88
-POR FECHA IN DESDE:	 1/03/2026	HASTA:	15/1/2026												
-															
-															SALDO
-264	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															           0.00
--13710,15385	F	RJ	OCAÑO/ELIANA BELEN	13,33333333	27/5/2025	11/6/2025				USD	        1209.61				
--30565,5	F	MX	BALLADARES / GUILLERMO HORACIO	16,33333333	5/7/2025	23/7/2025				USD	        5082.01				
--47420,84615			SUBTOTAL PROV.:	19,33333333						USD	        6291.61		           0.01		SALDO
--64276,19231															
--81131,53846	BRICKELL BAY BEACH CLUB & SPA														         178.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         240.00
-SALDOS POR PROVEEDOR POR FILE															          57.00
-JAZZ															         266.00
-															         100.00
-POR FECHA IN DESDE:	 1/03/2027	HASTA:	16/1/2026												         106.98
-															
-															         947.98
-265	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															SALDO
--97986,88462	F	RJ	OCAÑO/ELIANA BELEN	22,33333333	13/8/2025	3/9/2025				USD	        1209.62				
--114842,2308	F	MX	BALLADARES / GUILLERMO HORACIO	25,33333333	21/9/2025	15/10/2025				USD	        5082.02				
--131697,5769			SUBTOTAL PROV.:	28,33333333						USD	        6291.62		           0.02		        8048.16
--148552,9231															        2358.76
--165408,2692	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1365.10
-SALDOS POR PROVEEDOR POR FILE															        1629.90
-JAZZ															      -14958.27
-															        1570.80
-POR FECHA IN DESDE:	 1/03/2028	HASTA:	17/1/2026												        3462.90
-															        1024.00
-															        4501.35
-266	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															SALDO
--182263,6154	F	RJ	OCAÑO/ELIANA BELEN	31,33333333	30/10/2025	26/11/2025				USD	        1209.63				
--199118,9615	F	MX	BALLADARES / GUILLERMO HORACIO	34,33333333	8/12/2025	7/1/2026				USD	        5082.03				        7211.89
--215974,3077			SUBTOTAL PROV.:	37,33333333						USD	        6291.63		           0.03		        1714.14
--232829,6538															       10484.72
--249685	BRICKELL BAY BEACH CLUB & SPA														        4780.20
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         691.44
-SALDOS POR PROVEEDOR POR FILE															        1376.00
-JAZZ															        8919.90
-															       35178.29
-POR FECHA IN DESDE:	 1/03/2029	HASTA:	18/1/2026												
-															
-															SALDO
-267	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        7394.24
---------------------------------------------------------------------------------------------------------------------------------															        1159.20
--266540,3462	F	RJ	OCAÑO/ELIANA BELEN	40,33333333	16/1/2026	18/2/2026				USD	        1209.64				        1092.00
--283395,6923	F	MX	BALLADARES / GUILLERMO HORACIO	43,33333333	24/2/2026	1/4/2026				USD	        5082.04				        1079.00
--300251,0385			SUBTOTAL PROV.:	46,33333333						USD	        6291.64		           0.04		       10724.44
--317106,3846															
--333961,7308	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															          72.00
-															         136.00
-POR FECHA IN DESDE:	 1/03/2030	HASTA:	19/1/2026												          80.00
-															          60.00
-															         108.00
-268	MYBEDS														         520.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         237.00
---------------------------------------------------------------------------------------------------------------------------------															          72.00
--350817,0769	F	RJ	OCAÑO/ELIANA BELEN	49,33333333	4/4/2026	13/5/2026				USD	        1209.65				         150.00
--367672,4231	F	MX	BALLADARES / GUILLERMO HORACIO	52,33333333	13/5/2026	24/6/2026				USD	        5082.05				         128.00
--384527,7692			SUBTOTAL PROV.:	55,33333333						USD	        6291.65		           0.05		         192.00
--401383,1154															         204.00
--418238,4615	BRICKELL BAY BEACH CLUB & SPA														           6.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          68.00
-SALDOS POR PROVEEDOR POR FILE															         128.00
-JAZZ															         180.00
-															         120.00
-POR FECHA IN DESDE:	 1/03/2031	HASTA:	20/1/2026												         120.00
-															         310.05
-															        2891.05
-269	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															SALDO
--435093,8077	F	RJ	OCAÑO/ELIANA BELEN	58,33333333	21/6/2026	5/8/2026				USD	        1209.66				
--451949,1538	F	MX	BALLADARES / GUILLERMO HORACIO	61,33333333	30/7/2026	16/9/2026				USD	        5082.06				         246.00
--468804,5			SUBTOTAL PROV.:	64,33333333						USD	        6291.66		           0.06		         116.16
--485659,8462															         224.99
--502515,1923	BRICKELL BAY BEACH CLUB & SPA														         160.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         747.15
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															SALDO
-POR FECHA IN DESDE:	 1/03/2032	HASTA:	21/1/2026												
-															       12085.76
-															       12085.76
-270	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															SALDO
--519370,5385	F	RJ	OCAÑO/ELIANA BELEN	67,33333333	7/9/2026	28/10/2026				USD	        1209.67				
--536225,8846	F	MX	BALLADARES / GUILLERMO HORACIO	70,33333333	16/10/2026	9/12/2026				USD	        5082.07				         182.00
--553081,2308			SUBTOTAL PROV.:	73,33333333						USD	        6291.67		           0.07		          82.00
--569936,5769															          82.00
--586791,9231	BRICKELL BAY BEACH CLUB & SPA														          82.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         138.00
-SALDOS POR PROVEEDOR POR FILE															         124.00
-JAZZ															         690.00
-															
-POR FECHA IN DESDE:	 1/03/2033	HASTA:	22/1/2026												
-															SALDO
-															
-271	MYBEDS														         829.73
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         829.73
---------------------------------------------------------------------------------------------------------------------------------															
--603647,2692	F	RJ	OCAÑO/ELIANA BELEN	76,33333333	24/11/2026	20/1/2027				USD	        1209.68				
--620502,6154	F	MX	BALLADARES / GUILLERMO HORACIO	79,33333333	2/1/2027	3/3/2027				USD	        5082.08				SALDO
--637357,9615			SUBTOTAL PROV.:	82,33333333						USD	        6291.68		           0.08		
--654213,3077															         758.54
--671068,6538	BRICKELL BAY BEACH CLUB & SPA														         758.54
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															SALDO
-															
-POR FECHA IN DESDE:	 1/03/2034	HASTA:	23/1/2026												        3132.80
-															        3132.80
-															
-272	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
--687924	F	RJ	OCAÑO/ELIANA BELEN	85,33333333	10/2/2027	14/4/2027				USD	        1209.69				          84.01
--704779,3462	F	MX	BALLADARES / GUILLERMO HORACIO	88,33333333	21/3/2027	26/5/2027				USD	        5082.09				         135.22
--721634,6923			SUBTOTAL PROV.:	91,33333333						USD	        6291.69		           0.09		          67.46
--738490,0385															          54.02
--755345,3846	BRICKELL BAY BEACH CLUB & SPA														          81.03
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         110.02
-SALDOS POR PROVEEDOR POR FILE															         120.04
-JAZZ															          90.03
-															          54.02
-POR FECHA IN DESDE:	 1/03/2035	HASTA:	24/1/2026												
-															          60.01
-															          60.01
-273	MYBEDS														         180.02
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         255.05
---------------------------------------------------------------------------------------------------------------------------------															          90.03
--772200,7308	F	RJ	OCAÑO/ELIANA BELEN	94,33333333	29/4/2027	7/7/2027				USD	        1209.70				          90.03
--789056,0769	F	MX	BALLADARES / GUILLERMO HORACIO	97,33333333	7/6/2027	18/8/2027				USD	        5082.10				          47.95
--805911,4231			SUBTOTAL PROV.:	100,3333333						USD	        6291.70		           0.10		
--822766,7692															          72.01
--839622,1154	BRICKELL BAY BEACH CLUB & SPA														         130.02
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         400.08
-SALDOS POR PROVEEDOR POR FILE															         100.02
-JAZZ															          54.02
-															         165.03
-POR FECHA IN DESDE:	 1/03/2036	HASTA:	25/1/2026												        2000.40
-															         180.03
-															         200.04
-274	MYBEDS														         200.04
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         100.02
---------------------------------------------------------------------------------------------------------------------------------															         200.04
--856477,4615	F	RJ	OCAÑO/ELIANA BELEN	103,3333333	16/7/2027	29/9/2027				USD	        1209.71				         200.04
--873332,8077	F	MX	BALLADARES / GUILLERMO HORACIO	106,3333333	24/8/2027	10/11/2027				USD	        5082.11				         100.02
--890188,1538			SUBTOTAL PROV.:	109,3333333						USD	        6291.71		           0.11		          72.01
--907043,5															         180.03
--923898,8462	BRICKELL BAY BEACH CLUB & SPA														         120.02
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          60.01
-SALDOS POR PROVEEDOR POR FILE															         207.86
-JAZZ															         200.04
-															         450.09
-POR FECHA IN DESDE:	 1/03/2037	HASTA:	26/1/2026												         255.07
-															         170.03
-															         170.03
-275	MYBEDS														         180.03
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         114.02
---------------------------------------------------------------------------------------------------------------------------------															        7860.00
--940754,1923	F	RJ	OCAÑO/ELIANA BELEN	112,3333333	2/10/2027	22/12/2027				USD	        1209.72				
--957609,5385	F	MX	BALLADARES / GUILLERMO HORACIO	115,3333333	10/11/2027	2/2/2028				USD	        5082.12				
--974464,8846			SUBTOTAL PROV.:	118,3333333						USD	        6291.72		           0.12		SALDO
--991320,2308															
--1008175,577	BRICKELL BAY BEACH CLUB & SPA														        5108.48
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        8281.60
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															       13390.08
-															
-POR FECHA IN DESDE:	 1/03/2038	HASTA:	27/1/2026												
-															SALDO
-															
-276	MYBEDS														        1701.60
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1701.60
---------------------------------------------------------------------------------------------------------------------------------															
--1025030,923	F	RJ	OCAÑO/ELIANA BELEN	121,3333333	19/12/2027	15/3/2028				USD	        1209.73				
--1041886,269	F	MX	BALLADARES / GUILLERMO HORACIO	124,3333333	27/1/2028	26/4/2028				USD	        5082.13				SALDO
--1058741,615			SUBTOTAL PROV.:	127,3333333						USD	        6291.73		           0.13		
--1075596,962															
--1092452,308	BRICKELL BAY BEACH CLUB & SPA														         238.22
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         356.40
-SALDOS POR PROVEEDOR POR FILE															         265.78
-JAZZ															         860.40
-															
-POR FECHA IN DESDE:	 1/03/2039	HASTA:	28/1/2026												
-															SALDO
-															
-277	MYBEDS														        4017.66
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															        2600.16
--1109307,654	F	RJ	OCAÑO/ELIANA BELEN	130,3333333	6/3/2028	7/6/2028				USD	        1209.74				        2788.54
--1126163	F	MX	BALLADARES / GUILLERMO HORACIO	133,3333333	14/4/2028	19/7/2028				USD	        5082.14				
--1143018,346			SUBTOTAL PROV.:	136,3333333						USD	        6291.74		           0.14		        3376.80
--1159873,692															
--1176729,038	BRICKELL BAY BEACH CLUB & SPA														        3947.52
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1440.00
-SALDOS POR PROVEEDOR POR FILE															       18170.68
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2040	HASTA:	29/1/2026												SALDO
-															
-															          38.52
-278	MYBEDS														          38.52
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--1193584,385	F	RJ	OCAÑO/ELIANA BELEN	139,3333333	23/5/2028	30/8/2028				USD	        1209.75				SALDO
--1210439,731	F	MX	BALLADARES / GUILLERMO HORACIO	142,3333333	1/7/2028	11/10/2028				USD	        5082.15				
--1227295,077			SUBTOTAL PROV.:	145,3333333						USD	        6291.75		           0.15		         310.00
--1244150,423															         310.00
--1261005,769	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															SALDO
-JAZZ															
-															         256.00
-POR FECHA IN DESDE:	 1/03/2041	HASTA:	30/1/2026												         256.00
-															         512.00
-															
-279	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
--1277861,115	F	RJ	OCAÑO/ELIANA BELEN	148,3333333	9/8/2028	22/11/2028				USD	        1209.76				        1022.00
--1294716,462	F	MX	BALLADARES / GUILLERMO HORACIO	151,3333333	17/9/2028	3/1/2029				USD	        5082.16				        1022.00
--1311571,808			SUBTOTAL PROV.:	154,3333333						USD	        6291.76		           0.16		        2044.00
--1328427,154															
--1345282,5	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															        2049.06
-															        2049.06
-POR FECHA IN DESDE:	 1/03/2042	HASTA:	31/1/2026												
-															
-															SALDO
-280	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         147.10
---------------------------------------------------------------------------------------------------------------------------------															         129.80
--1362137,846	F	RJ	OCAÑO/ELIANA BELEN	157,3333333	26/10/2028	14/2/2029				USD	        1209.77				         276.90
--1378993,192	F	MX	BALLADARES / GUILLERMO HORACIO	160,3333333	4/12/2028	28/3/2029				USD	        5082.17				
--1395848,538			SUBTOTAL PROV.:	163,3333333						USD	        6291.77		           0.17		
--1412703,885															SALDO
--1429559,231	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          68.00
-SALDOS POR PROVEEDOR POR FILE															          60.00
-JAZZ															         128.00
-															
-POR FECHA IN DESDE:	 1/03/2043	HASTA:	1/2/2026												
-															SALDO
-															
-281	MYBEDS														         231.32
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         210.00
---------------------------------------------------------------------------------------------------------------------------------															         441.32
--1446414,577	F	RJ	OCAÑO/ELIANA BELEN	166,3333333	12/1/2029	9/5/2029				USD	        1209.78				
--1463269,923	F	MX	BALLADARES / GUILLERMO HORACIO	169,3333333	20/2/2029	20/6/2029				USD	        5082.18				
--1480125,269			SUBTOTAL PROV.:	172,3333333						USD	        6291.78		           0.18		SALDO
--1496980,615															
--1513835,962	BRICKELL BAY BEACH CLUB & SPA														         598.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         550.00
-SALDOS POR PROVEEDOR POR FILE															        1148.00
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2044	HASTA:	2/2/2026												SALDO
-															
-															        2143.81
-282	MYBEDS														         388.66
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1002.13
---------------------------------------------------------------------------------------------------------------------------------															        1558.06
--1530691,308	F	RJ	OCAÑO/ELIANA BELEN	175,3333333	31/3/2029	1/8/2029				USD	        1209.79				         850.52
--1547546,654	F	MX	BALLADARES / GUILLERMO HORACIO	178,3333333	9/5/2029	12/9/2029				USD	        5082.19				         158.19
--1564402			SUBTOTAL PROV.:	181,3333333						USD	        6291.79		           0.19		        6101.37
--1581257,346															
--1598112,692	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															         130.92
-															         120.00
-POR FECHA IN DESDE:	 1/03/2045	HASTA:	3/2/2026												         250.92
-															
-															
-283	MYBEDS														SALDO
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															         207.86
--1614968,038	F	RJ	OCAÑO/ELIANA BELEN	184,3333333	17/6/2029	24/10/2029				USD	        1209.80				         190.00
--1631823,385	F	MX	BALLADARES / GUILLERMO HORACIO	187,3333333	26/7/2029	5/12/2029				USD	        5082.20				         397.86
--1648678,731			SUBTOTAL PROV.:	190,3333333						USD	        6291.80		           0.20		
--1665534,077															
--1682389,423	BRICKELL BAY BEACH CLUB & SPA														SALDO
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															          97.86
-JAZZ															          88.00
-															         185.86
-POR FECHA IN DESDE:	 1/03/2046	HASTA:	4/2/2026												
-															
-															SALDO
-284	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1459.08
---------------------------------------------------------------------------------------------------------------------------------															       11351.76
--1699244,769	F	RJ	OCAÑO/ELIANA BELEN	193,3333333	3/9/2029	16/1/2030				USD	        1209.81				       20213.23
--1716100,115	F	MX	BALLADARES / GUILLERMO HORACIO	196,3333333	12/10/2029	27/2/2030				USD	        5082.21				        1531.67
--1732955,462			SUBTOTAL PROV.:	199,3333333						USD	        6291.81		           0.21		        7208.16
--1749810,808															        2600.47
--1766666,154	BRICKELL BAY BEACH CLUB & SPA														        4903.20
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         617.55
-SALDOS POR PROVEEDOR POR FILE															        2700.00
-JAZZ															        1284.12
-															         806.23
-POR FECHA IN DESDE:	 1/03/2047	HASTA:	5/2/2026												        2973.60
-															        2292.64
-															        1881.60
-285	MYBEDS														        4832.60
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1238.34
---------------------------------------------------------------------------------------------------------------------------------															        1085.28
--1783521,5	F	RJ	OCAÑO/ELIANA BELEN	202,3333333	20/11/2029	10/4/2030				USD	        1209.82				        2436.00
--1800376,846	F	MX	BALLADARES / GUILLERMO HORACIO	205,3333333	29/12/2029	22/5/2030				USD	        5082.22				        1609.92
--1817232,192			SUBTOTAL PROV.:	208,3333333						USD	        6291.82		           0.22		        2004.20
--1834087,538															        1071.00
--1850942,885	BRICKELL BAY BEACH CLUB & SPA														       76100.65
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															SALDO
-															
-POR FECHA IN DESDE:	 1/03/2048	HASTA:	6/2/2026												          10.00
-															          10.00
-															          20.00
-286	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															SALDO
--1867798,231	F	RJ	OCAÑO/ELIANA BELEN	211,3333333	6/2/2030	3/7/2030				USD	        1209.83				
--1884653,577	F	MX	BALLADARES / GUILLERMO HORACIO	214,3333333	17/3/2030	14/8/2030				USD	        5082.23				         742.20
--1901508,923			SUBTOTAL PROV.:	217,3333333						USD	        6291.83		           0.23		         822.67
--1918364,269															        2467.86
--1935219,615	BRICKELL BAY BEACH CLUB & SPA														        3150.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1484.40
-SALDOS POR PROVEEDOR POR FILE															        4894.00
-JAZZ															        4926.66
-															        1484.40
-POR FECHA IN DESDE:	 1/03/2049	HASTA:	7/2/2026												         742.20
-															        2226.60
-															        2195.82
-287	MYBEDS														        2195.82
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1977.20
---------------------------------------------------------------------------------------------------------------------------------															        4858.66
--1952074,962	F	RJ	OCAÑO/ELIANA BELEN	220,3333333	25/4/2030	25/9/2030				USD	        1209.84				       34168.49
--1968930,308	F	MX	BALLADARES / GUILLERMO HORACIO	223,3333333	3/6/2030	6/11/2030				USD	        5082.24				
--1985785,654			SUBTOTAL PROV.:	226,3333333						USD	        6291.84		           0.24		
--2002641															SALDO
--2019496,346	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          -0.01
-SALDOS POR PROVEEDOR POR FILE															        3570.36
-JAZZ															        1048.30
-															        3188.13
-POR FECHA IN DESDE:	 1/03/2050	HASTA:	8/2/2026												         426.12
-															        8232.90
-															
-288	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
--2036351,692	F	RJ	OCAÑO/ELIANA BELEN	229,3333333	12/7/2030	18/12/2030				USD	        1209.85				        2081.00
--2053207,038	F	MX	BALLADARES / GUILLERMO HORACIO	232,3333333	20/8/2030	29/1/2031				USD	        5082.25				        4225.24
--2070062,385			SUBTOTAL PROV.:	235,3333333						USD	        6291.85		           0.25		        3306.66
--2086917,731															        9003.00
--2103773,077	BRICKELL BAY BEACH CLUB & SPA														        2081.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		       45751.70
-SALDOS POR PROVEEDOR POR FILE															        4272.00
-JAZZ															        4272.00
-															        2136.00
-POR FECHA IN DESDE:	 1/03/2051	HASTA:	9/2/2026												        4272.00
-															        4272.00
-															        2136.00
-289	MYBEDS														        4686.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        4272.00
---------------------------------------------------------------------------------------------------------------------------------															       96766.60
--2120628,423	F	RJ	OCAÑO/ELIANA BELEN	238,3333333	28/9/2030	12/3/2031				USD	        1209.86				
--2137483,769	F	MX	BALLADARES / GUILLERMO HORACIO	241,3333333	6/11/2030	23/4/2031				USD	        5082.26				
--2154339,115			SUBTOTAL PROV.:	244,3333333						USD	        6291.86		           0.26		SALDO
--2171194,462															
--2188049,808	BRICKELL BAY BEACH CLUB & SPA														        1392.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        2340.00
-SALDOS POR PROVEEDOR POR FILE															        3000.00
-JAZZ															        2304.00
-															        6296.00
-POR FECHA IN DESDE:	 1/03/2052	HASTA:	10/2/2026												        1857.60
-															       17439.80
-															        1476.00
-290	MYBEDS														        1632.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		       11496.40
---------------------------------------------------------------------------------------------------------------------------------															        1968.00
--2204905,154	F	RJ	OCAÑO/ELIANA BELEN	247,3333333	15/12/2030	4/6/2031				USD	        1209.87				        1968.00
--2221760,5	F	MX	BALLADARES / GUILLERMO HORACIO	250,3333333	23/1/2031	16/7/2031				USD	        5082.27				        1008.00
--2238615,846			SUBTOTAL PROV.:	253,3333333						USD	        6291.87		           0.27		       54177.80
--2255471,192															
--2272326,538	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2053	HASTA:	11/2/2026												
-															
-															
-291	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--2289181,885	F	RJ	OCAÑO/ELIANA BELEN	256,3333333	3/3/2031	27/8/2031				USD	        1209.88				
--2306037,231	F	MX	BALLADARES / GUILLERMO HORACIO	259,3333333	11/4/2031	8/10/2031				USD	        5082.28				
--2322892,577			SUBTOTAL PROV.:	262,3333333						USD	        6291.88		           0.28		
--2339747,923															
--2356603,269	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2054	HASTA:	12/2/2026												
-															
-															
-292	MYBEDS														          69.50
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--2373458,615	F	RJ	OCAÑO/ELIANA BELEN	265,3333333	20/5/2031	19/11/2031				USD	        1209.89				
--2390313,962	F	MX	BALLADARES / GUILLERMO HORACIO	268,3333333	28/6/2031	31/12/2031				USD	        5082.29				
--2407169,308			SUBTOTAL PROV.:	271,3333333						USD	        6291.89		           0.29		
--2424024,654															          69.50
--2440880	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															SALDO
-JAZZ															
-															        1293.32
-POR FECHA IN DESDE:	 1/03/2055	HASTA:	13/2/2026												        1130.34
-															        2423.66
-															
-293	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
--2457735,346	F	RJ	OCAÑO/ELIANA BELEN	274,3333333	6/8/2031	11/2/2032				USD	        1209.90				
--2474590,692	F	MX	BALLADARES / GUILLERMO HORACIO	277,3333333	14/9/2031	24/3/2032				USD	        5082.30				
--2491446,038			SUBTOTAL PROV.:	280,3333333						USD	        6291.90		           0.30		
--2508301,385															           0.00
--2525156,731	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															SALDO
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2056	HASTA:	14/2/2026												
-															          40.00
-															
-294	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--2542012,077	F	RJ	OCAÑO/ELIANA BELEN	283,3333333	23/10/2031	5/5/2032				USD	        1209.91				
--2558867,423	F	MX	BALLADARES / GUILLERMO HORACIO	286,3333333	1/12/2031	16/6/2032				USD	        5082.31				
--2575722,769			SUBTOTAL PROV.:	289,3333333						USD	        6291.91		           0.31		
--2592578,115															
--2609433,462	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2057	HASTA:	15/2/2026												          59.83
-															
-															
-295	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--2626288,808	F	RJ	OCAÑO/ELIANA BELEN	292,3333333	9/1/2032	28/7/2032				USD	        1209.92				           6.80
--2643144,154	F	MX	BALLADARES / GUILLERMO HORACIO	295,3333333	17/2/2032	8/9/2032				USD	        5082.32				
--2659999,5			SUBTOTAL PROV.:	298,3333333						USD	        6291.92		           0.32		
--2676854,846															
--2693710,192	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2058	HASTA:	16/2/2026												
-															
-															
-296	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--2710565,538	F	RJ	OCAÑO/ELIANA BELEN	301,3333333	27/3/2032	20/10/2032				USD	        1209.93				
--2727420,885	F	MX	BALLADARES / GUILLERMO HORACIO	304,3333333	5/5/2032	1/12/2032				USD	        5082.33				
--2744276,231			SUBTOTAL PROV.:	307,3333333						USD	        6291.93		           0.33		
--2761131,577															          40.00
--2777986,923	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2059	HASTA:	17/2/2026												
-															
-															
-297	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         100.00
---------------------------------------------------------------------------------------------------------------------------------															
--2794842,269	F	RJ	OCAÑO/ELIANA BELEN	310,3333333	13/6/2032	12/1/2033				USD	        1209.94				
--2811697,615	F	MX	BALLADARES / GUILLERMO HORACIO	313,3333333	22/7/2032	23/2/2033				USD	        5082.34				
--2828552,962			SUBTOTAL PROV.:	316,3333333						USD	        6291.94		           0.34		
--2845408,308															
--2862263,654	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															        3128.52
-POR FECHA IN DESDE:	 1/03/2060	HASTA:	18/2/2026												
-															
-															
-298	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--2879119	F	RJ	OCAÑO/ELIANA BELEN	319,3333333	30/8/2032	6/4/2033				USD	        1209.95				
--2895974,346	F	MX	BALLADARES / GUILLERMO HORACIO	322,3333333	8/10/2032	18/5/2033				USD	        5082.35				
--2912829,692			SUBTOTAL PROV.:	325,3333333						USD	        6291.95		           0.35		
--2929685,038															          15.04
--2946540,385	BRICKELL BAY BEACH CLUB & SPA														          48.80
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          20.00
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2061	HASTA:	19/2/2026												
-															
-															
-299	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															           2.60
--2963395,731	F	RJ	OCAÑO/ELIANA BELEN	328,3333333	16/11/2032	29/6/2033				USD	        1209.96				
--2980251,077	F	MX	BALLADARES / GUILLERMO HORACIO	331,3333333	25/12/2032	10/8/2033				USD	        5082.36				
--2997106,423			SUBTOTAL PROV.:	334,3333333						USD	        6291.96		           0.36		
--3013961,769															
--3030817,115	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															          20.00
-															
-POR FECHA IN DESDE:	 1/03/2062	HASTA:	20/2/2026												
-															
-															
-300	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--3047672,462	F	RJ	OCAÑO/ELIANA BELEN	337,3333333	2/2/2033	21/9/2033				USD	        1209.97				
--3064527,808	F	MX	BALLADARES / GUILLERMO HORACIO	340,3333333	13/3/2033	2/11/2033				USD	        5082.37				
--3081383,154			SUBTOTAL PROV.:	343,3333333						USD	        6291.97		           0.37		
--3098238,5															
--3115093,846	BRICKELL BAY BEACH CLUB & SPA														          20.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															          39.80
-															
-POR FECHA IN DESDE:	 1/03/2063	HASTA:	21/2/2026												
-															
-															
-301	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--3131949,192	F	RJ	OCAÑO/ELIANA BELEN	346,3333333	21/4/2033	14/12/2033				USD	        1209.98				
--3148804,538	F	MX	BALLADARES / GUILLERMO HORACIO	349,3333333	30/5/2033	25/1/2034				USD	        5082.38				
--3165659,885			SUBTOTAL PROV.:	352,3333333						USD	        6291.98		           0.38		
--3182515,231															
--3199370,577	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2064	HASTA:	22/2/2026												
-															
-															
-302	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--3216225,923	F	RJ	OCAÑO/ELIANA BELEN	355,3333333	8/7/2033	8/3/2034				USD	        1209.99				
--3233081,269	F	MX	BALLADARES / GUILLERMO HORACIO	358,3333333	16/8/2033	19/4/2034				USD	        5082.39				
--3249936,615			SUBTOTAL PROV.:	361,3333333						USD	        6291.99		           0.39		
--3266791,962															
--3283647,308	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2065	HASTA:	23/2/2026												
-															
-															
-303	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--3300502,654	F	RJ	OCAÑO/ELIANA BELEN	364,3333333	24/9/2033	31/5/2034				USD	        1209.100				
--3317358	F	MX	BALLADARES / GUILLERMO HORACIO	367,3333333	2/11/2033	12/7/2034				USD	        5082.40				
--3334213,346			SUBTOTAL PROV.:	370,3333333						USD	        6291.100		           0.40		
--3351068,692															
--3367924,038	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2066	HASTA:	24/2/2026												
-															
-															
-304	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--3384779,385	F	RJ	OCAÑO/ELIANA BELEN	373,3333333	11/12/2033	23/8/2034				USD	        1209.101				
--3401634,731	F	MX	BALLADARES / GUILLERMO HORACIO	376,3333333	19/1/2034	4/10/2034				USD	        5082.41				
--3418490,077			SUBTOTAL PROV.:	379,3333333						USD	        6291.101		           0.41		
--3435345,423															
--3452200,769	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2067	HASTA:	25/2/2026												
-															
-															
-305	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--3469056,115	F	RJ	OCAÑO/ELIANA BELEN	382,3333333	27/2/2034	15/11/2034				USD	        1209.102				
--3485911,462	F	MX	BALLADARES / GUILLERMO HORACIO	385,3333333	7/4/2034	27/12/2034				USD	        5082.42				
--3502766,808			SUBTOTAL PROV.:	388,3333333						USD	        6291.102		           0.42		
--3519622,154															          20.00
--3536477,5	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2068	HASTA:	26/2/2026												
-															
-															          16.00
-306	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--3553332,846	F	RJ	OCAÑO/ELIANA BELEN	391,3333333	16/5/2034	7/2/2035				USD	        1209.103				         306.60
--3570188,192	F	MX	BALLADARES / GUILLERMO HORACIO	394,3333333	24/6/2034	21/3/2035				USD	        5082.43				
--3587043,538			SUBTOTAL PROV.:	397,3333333						USD	        6291.103		           0.43		
--3603898,885															
--3620754,231	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2069	HASTA:	27/2/2026												
-															
-															
-307	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															         210.00
--3637609,577	F	RJ	OCAÑO/ELIANA BELEN	400,3333333	2/8/2034	2/5/2035				USD	        1209.104				
--3654464,923	F	MX	BALLADARES / GUILLERMO HORACIO	403,3333333	10/9/2034	13/6/2035				USD	        5082.44				
--3671320,269			SUBTOTAL PROV.:	406,3333333						USD	        6291.104		           0.44		
--3688175,615															
--3705030,962	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          20.00
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															          40.00
-															
-POR FECHA IN DESDE:	 1/03/2070	HASTA:	28/2/2026												
-															
-															
-308	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		           2.52
---------------------------------------------------------------------------------------------------------------------------------															
--3721886,308	F	RJ	OCAÑO/ELIANA BELEN	409,3333333	19/10/2034	25/7/2035				USD	        1209.105				
--3738741,654	F	MX	BALLADARES / GUILLERMO HORACIO	412,3333333	27/11/2034	5/9/2035				USD	        5082.45				
--3755597			SUBTOTAL PROV.:	415,3333333						USD	        6291.105		           0.45		
--3772452,346															
--3789307,692	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2071	HASTA:	1/3/2026												
-															
-															
-309	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--3806163,038	F	RJ	OCAÑO/ELIANA BELEN	418,3333333	5/1/2035	17/10/2035				USD	        1209.106				
--3823018,385	F	MX	BALLADARES / GUILLERMO HORACIO	421,3333333	13/2/2035	28/11/2035				USD	        5082.46				          80.00
--3839873,731			SUBTOTAL PROV.:	424,3333333						USD	        6291.106		           0.46		
--3856729,077															          40.00
--3873584,423	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2072	HASTA:	2/3/2026												          36.34
-															
-															
-310	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          40.00
---------------------------------------------------------------------------------------------------------------------------------															
--3890439,769	F	RJ	OCAÑO/ELIANA BELEN	427,3333333	24/3/2035	9/1/2036				USD	        1209.107				
--3907295,115	F	MX	BALLADARES / GUILLERMO HORACIO	430,3333333	2/5/2035	20/2/2036				USD	        5082.47				         100.00
--3924150,462			SUBTOTAL PROV.:	433,3333333						USD	        6291.107		           0.47		
--3941005,808															
--3957861,154	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															          85.00
-POR FECHA IN DESDE:	 1/03/2073	HASTA:	3/3/2026												
-															
-															
-311	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--3974716,5	F	RJ	OCAÑO/ELIANA BELEN	436,3333333	10/6/2035	2/4/2036				USD	        1209.108				
--3991571,846	F	MX	BALLADARES / GUILLERMO HORACIO	439,3333333	19/7/2035	14/5/2036				USD	        5082.48				
--4008427,192			SUBTOTAL PROV.:	442,3333333						USD	        6291.108		           0.48		
--4025282,538															
--4042137,885	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          20.00
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2074	HASTA:	4/3/2026												
-															
-															
-312	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          60.00
---------------------------------------------------------------------------------------------------------------------------------															
--4058993,231	F	RJ	OCAÑO/ELIANA BELEN	445,3333333	27/8/2035	25/6/2036				USD	        1209.109				
--4075848,577	F	MX	BALLADARES / GUILLERMO HORACIO	448,3333333	5/10/2035	6/8/2036				USD	        5082.49				
--4092703,923			SUBTOTAL PROV.:	451,3333333						USD	        6291.109		           0.49		
--4109559,269															
--4126414,615	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2075	HASTA:	5/3/2026												
-															
-															
-313	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          20.00
---------------------------------------------------------------------------------------------------------------------------------															
--4143269,962	F	RJ	OCAÑO/ELIANA BELEN	454,3333333	13/11/2035	17/9/2036				USD	        1209.110				
--4160125,308	F	MX	BALLADARES / GUILLERMO HORACIO	457,3333333	22/12/2035	29/10/2036				USD	        5082.50				
--4176980,654			SUBTOTAL PROV.:	460,3333333						USD	        6291.110		           0.50		
--4193836															
--4210691,346	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															        7365.60
-															
-POR FECHA IN DESDE:	 1/03/2076	HASTA:	6/3/2026												
-															         -13.20
-															          30.00
-314	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--4227546,692	F	RJ	OCAÑO/ELIANA BELEN	463,3333333	30/1/2036	10/12/2036				USD	        1209.111				
--4244402,038	F	MX	BALLADARES / GUILLERMO HORACIO	466,3333333	9/3/2036	21/1/2037				USD	        5082.51				          25.00
--4261257,385			SUBTOTAL PROV.:	469,3333333						USD	        6291.111		           0.51		
--4278112,731															          40.00
--4294968,077	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2077	HASTA:	7/3/2026												
-															
-															
-315	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--4311823,423	F	RJ	OCAÑO/ELIANA BELEN	472,3333333	17/4/2036	4/3/2037				USD	        1209.112				
--4328678,769	F	MX	BALLADARES / GUILLERMO HORACIO	475,3333333	26/5/2036	15/4/2037				USD	        5082.52				
--4345534,115			SUBTOTAL PROV.:	478,3333333						USD	        6291.112		           0.52		
--4362389,462															
--4379244,808	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2078	HASTA:	8/3/2026												
-															
-															
-316	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--4396100,154	F	RJ	OCAÑO/ELIANA BELEN	481,3333333	4/7/2036	27/5/2037				USD	        1209.113				
--4412955,5	F	MX	BALLADARES / GUILLERMO HORACIO	484,3333333	12/8/2036	8/7/2037				USD	        5082.53				
--4429810,846			SUBTOTAL PROV.:	487,3333333						USD	        6291.113		           0.53		
--4446666,192															
--4463521,538	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2079	HASTA:	9/3/2026												
-															          15.00
-															
-317	MYBEDS														          13.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--4480376,885	F	RJ	OCAÑO/ELIANA BELEN	490,3333333	20/9/2036	19/8/2037				USD	        1209.114				
--4497232,231	F	MX	BALLADARES / GUILLERMO HORACIO	493,3333333	29/10/2036	30/9/2037				USD	        5082.54				       12113.25
--4514087,577			SUBTOTAL PROV.:	496,3333333						USD	        6291.114		           0.54		
--4530942,923															
--4547798,269	BRICKELL BAY BEACH CLUB & SPA														SALDO
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															         584.85
-															
-POR FECHA IN DESDE:	 1/03/2080	HASTA:	10/3/2026												        5044.50
-															         659.57
-															         409.62
-318	MYBEDS														        2166.76
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        3259.79
---------------------------------------------------------------------------------------------------------------------------------															         234.26
--4564653,615	F	RJ	OCAÑO/ELIANA BELEN	499,3333333	7/12/2036	11/11/2037				USD	        1209.115				         538.26
--4581508,962	F	MX	BALLADARES / GUILLERMO HORACIO	502,3333333	15/1/2037	23/12/2037				USD	        5082.55				       12897.61
--4598364,308			SUBTOTAL PROV.:	505,3333333						USD	        6291.115		           0.55		
--4615219,654															
--4632075	BRICKELL BAY BEACH CLUB & SPA														SALDO
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															        1879.00
-JAZZ															        1879.00
-															
-POR FECHA IN DESDE:	 1/03/2081	HASTA:	11/3/2026												
-															SALDO
-															
-319	MYBEDS														     1761281.54
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		     2231841.40
---------------------------------------------------------------------------------------------------------------------------------															
--4648930,346	F	RJ	OCAÑO/ELIANA BELEN	508,3333333	23/2/2037	3/2/2038				USD	        1209.116				
--4665785,692	F	MX	BALLADARES / GUILLERMO HORACIO	511,3333333	3/4/2037	17/3/2038				USD	        5082.56				
--4682641,038			SUBTOTAL PROV.:	514,3333333						USD	        6291.116		           0.56		        2680.00
--4699496,385															      337228.30
--4716351,731	BRICKELL BAY BEACH CLUB & SPA														      128614.15
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		      523710.75
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2082	HASTA:	12/3/2026												
-															      285397.24
-															     1742056.71
-320	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--4733207,077	F	RJ	OCAÑO/ELIANA BELEN	517,3333333	12/5/2037	28/4/2038				USD	        1209.117				      211215.45
--4750062,423	F	MX	BALLADARES / GUILLERMO HORACIO	520,3333333	20/6/2037	9/6/2038				USD	        5082.57				
--4766917,769			SUBTOTAL PROV.:	523,3333333						USD	        6291.117		           0.57		        1496.00
--4783773,115															
--4800628,462	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2083	HASTA:	13/3/2026												
-															        1727.30
-															        1588.10
-321	MYBEDS														        4479.30
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		     1139982.40
---------------------------------------------------------------------------------------------------------------------------------															        4692.00
--4817483,808	F	RJ	OCAÑO/ELIANA BELEN	526,3333333	29/7/2037	21/7/2038				USD	        1209.118				
--4834339,154	F	MX	BALLADARES / GUILLERMO HORACIO	529,3333333	6/9/2037	1/9/2038				USD	        5082.58				
--4851194,5			SUBTOTAL PROV.:	532,3333333						USD	        6291.118		           0.58		
--4868049,846															
--4884905,192	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2084	HASTA:	14/3/2026												
-															
-															
-322	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															      170923.90
--4901760,538	F	RJ	OCAÑO/ELIANA BELEN	535,3333333	15/10/2037	13/10/2038				USD	        1209.119				      191706.60
--4918615,885	F	MX	BALLADARES / GUILLERMO HORACIO	538,3333333	23/11/2037	24/11/2038				USD	        5082.59				        2500.00
--4935471,231			SUBTOTAL PROV.:	541,3333333						USD	        6291.119		           0.59		
--4952326,577															
--4969181,923	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2085	HASTA:	15/3/2026												
-															      152578.00
-															
-323	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--4986037,269	F	RJ	OCAÑO/ELIANA BELEN	544,3333333	1/1/2038	5/1/2039				USD	        1209.120				
--5002892,615	F	MX	BALLADARES / GUILLERMO HORACIO	547,3333333	9/2/2038	16/2/2039				USD	        5082.60				
--5019747,962			SUBTOTAL PROV.:	550,3333333						USD	        6291.120		           0.60		
--5036603,308															
--5053458,654	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															        3278.20
-															
-POR FECHA IN DESDE:	 1/03/2086	HASTA:	16/3/2026												
-															
-															
-324	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5070314	F	RJ	OCAÑO/ELIANA BELEN	553,3333333	20/3/2038	30/3/2039				USD	        1209.121				
--5087169,346	F	MX	BALLADARES / GUILLERMO HORACIO	556,3333333	28/4/2038	11/5/2039				USD	        5082.61				
--5104024,692			SUBTOTAL PROV.:	559,3333333						USD	        6291.121		           0.61		
--5120880,038															
--5137735,385	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2087	HASTA:	17/3/2026												
-															
-															
-325	MYBEDS														          -0.60
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5154590,731	F	RJ	OCAÑO/ELIANA BELEN	562,3333333	6/6/2038	22/6/2039				USD	        1209.122				        2308.00
--5171446,077	F	MX	BALLADARES / GUILLERMO HORACIO	565,3333333	15/7/2038	3/8/2039				USD	        5082.62				        6112.00
--5188301,423			SUBTOTAL PROV.:	568,3333333						USD	        6291.122		           0.62		
--5205156,769															
--5222012,115	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															        1495.16
-JAZZ															      -54858.30
-															       31038.00
-POR FECHA IN DESDE:	 1/03/2088	HASTA:	18/3/2026												
-															
-															        5456.00
-326	MYBEDS														        1471.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        2942.00
---------------------------------------------------------------------------------------------------------------------------------															        2942.00
--5238867,462	F	RJ	OCAÑO/ELIANA BELEN	571,3333333	23/8/2038	14/9/2039				USD	        1209.123				
--5255722,808	F	MX	BALLADARES / GUILLERMO HORACIO	574,3333333	1/10/2038	26/10/2039				USD	        5082.63				        3002.00
--5272578,154			SUBTOTAL PROV.:	577,3333333						USD	        6291.123		           0.63		        3002.00
--5289433,5															        1471.00
--5306288,846	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        5184.00
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2089	HASTA:	19/3/2026												        2473.00
-															        3284.00
-															        7419.30
-327	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        4462.00
---------------------------------------------------------------------------------------------------------------------------------															        2942.00
--5323144,192	F	RJ	OCAÑO/ELIANA BELEN	580,3333333	9/11/2038	7/12/2039				USD	        1209.124				        3128.00
--5339999,538	F	MX	BALLADARES / GUILLERMO HORACIO	583,3333333	18/12/2038	18/1/2040				USD	        5082.64				        3128.00
--5356854,885			SUBTOTAL PROV.:	586,3333333						USD	        6291.124		           0.64		
--5373710,231															        4948.40
--5390565,577	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		     2163849.94
-SALDOS POR PROVEEDOR POR FILE															      380439.50
-JAZZ															      448757.94
-															
-POR FECHA IN DESDE:	 1/03/2090	HASTA:	20/3/2026												      954873.24
-															     4071273.85
-															
-328	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5407420,923	F	RJ	OCAÑO/ELIANA BELEN	589,3333333	26/1/2039	29/2/2040				USD	        1209.125				     1217037.20
--5424276,269	F	MX	BALLADARES / GUILLERMO HORACIO	592,3333333	6/3/2039	11/4/2040				USD	        5082.65				
--5441131,615			SUBTOTAL PROV.:	595,3333333						USD	        6291.125		           0.65		     4333331.80
--5457986,962															    22391241.01
--5474842,308	BRICKELL BAY BEACH CLUB & SPA														      120648.76
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															SALDO
-															
-POR FECHA IN DESDE:	 1/03/2091	HASTA:	21/3/2026												         573.38
-															
-															
-329	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5491697,654	F	RJ	OCAÑO/ELIANA BELEN	598,3333333	14/4/2039	23/5/2040				USD	        1209.126				        1199.60
--5508553	F	MX	BALLADARES / GUILLERMO HORACIO	601,3333333	23/5/2039	4/7/2040				USD	        5082.66				
--5525408,346			SUBTOTAL PROV.:	604,3333333						USD	        6291.126		           0.66		
--5542263,692															
--5559119,038	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2092	HASTA:	22/3/2026												         903.40
-															
-															
-330	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5575974,385	F	RJ	OCAÑO/ELIANA BELEN	607,3333333	1/7/2039	15/8/2040				USD	        1209.127				
--5592829,731	F	MX	BALLADARES / GUILLERMO HORACIO	610,3333333	9/8/2039	26/9/2040				USD	        5082.67				
--5609685,077			SUBTOTAL PROV.:	613,3333333						USD	        6291.127		           0.67		
--5626540,423															
--5643395,769	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2093	HASTA:	23/3/2026												
-															
-															
-331	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5660251,115	F	RJ	OCAÑO/ELIANA BELEN	616,3333333	17/9/2039	7/11/2040				USD	        1209.128				
--5677106,462	F	MX	BALLADARES / GUILLERMO HORACIO	619,3333333	26/10/2039	19/12/2040				USD	        5082.68				
--5693961,808			SUBTOTAL PROV.:	622,3333333						USD	        6291.128		           0.68		
--5710817,154															
--5727672,5	BRICKELL BAY BEACH CLUB & SPA														        2230.14
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1274.10
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2094	HASTA:	24/3/2026												
-															
-															
-332	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5744527,846	F	RJ	OCAÑO/ELIANA BELEN	625,3333333	4/12/2039	30/1/2041				USD	        1209.129				
--5761383,192	F	MX	BALLADARES / GUILLERMO HORACIO	628,3333333	12/1/2040	13/3/2041				USD	        5082.69				
--5778238,538			SUBTOTAL PROV.:	631,3333333						USD	        6291.129		           0.69		
--5795093,885															
--5811949,231	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2095	HASTA:	25/3/2026												
-															
-															        1468.40
-333	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5828804,577	F	RJ	OCAÑO/ELIANA BELEN	634,3333333	20/2/2040	24/4/2041				USD	        1209.130				
--5845659,923	F	MX	BALLADARES / GUILLERMO HORACIO	637,3333333	30/3/2040	5/6/2041				USD	        5082.70				
--5862515,269			SUBTOTAL PROV.:	640,3333333						USD	        6291.130		           0.70		
--5879370,615															
--5896225,962	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2096	HASTA:	26/3/2026												        2376.20
-															
-															
-334	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5913081,308	F	RJ	OCAÑO/ELIANA BELEN	643,3333333	8/5/2040	17/7/2041				USD	        1209.131				
--5929936,654	F	MX	BALLADARES / GUILLERMO HORACIO	646,3333333	16/6/2040	28/8/2041				USD	        5082.71				
--5946792			SUBTOTAL PROV.:	649,3333333						USD	        6291.131		           0.71		
--5963647,346															
--5980502,692	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2097	HASTA:	27/3/2026												
-															
-															
-335	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--5997358,038	F	RJ	OCAÑO/ELIANA BELEN	652,3333333	25/7/2040	9/10/2041				USD	        1209.132				
--6014213,385	F	MX	BALLADARES / GUILLERMO HORACIO	655,3333333	2/9/2040	20/11/2041				USD	        5082.72				        1110.40
--6031068,731			SUBTOTAL PROV.:	658,3333333						USD	        6291.132		           0.72		
--6047924,077															        7561.72
--6064779,423	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2098	HASTA:	28/3/2026												
-															
-															
-336	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1090.80
---------------------------------------------------------------------------------------------------------------------------------															        1464.60
--6081634,769	F	RJ	OCAÑO/ELIANA BELEN	661,3333333	11/10/2040	1/1/2042				USD	        1209.133				
--6098490,115	F	MX	BALLADARES / GUILLERMO HORACIO	664,3333333	19/11/2040	12/2/2042				USD	        5082.73				
--6115345,462			SUBTOTAL PROV.:	667,3333333						USD	        6291.133		           0.73		
--6132200,808															
--6149056,154	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2099	HASTA:	29/3/2026												
-															
-															        1814.40
-337	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--6165911,5	F	RJ	OCAÑO/ELIANA BELEN	670,3333333	28/12/2040	26/3/2042				USD	        1209.134				
--6182766,846	F	MX	BALLADARES / GUILLERMO HORACIO	673,3333333	5/2/2041	7/5/2042				USD	        5082.74				
--6199622,192			SUBTOTAL PROV.:	676,3333333						USD	        6291.134		           0.74		
--6216477,538															
--6233332,885	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2100	HASTA:	30/3/2026												         670.30
-															
-															
-338	MYBEDS														        -964.70
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--6250188,231	F	RJ	OCAÑO/ELIANA BELEN	679,3333333	16/3/2041	18/6/2042				USD	        1209.135				
--6267043,577	F	MX	BALLADARES / GUILLERMO HORACIO	682,3333333	24/4/2041	30/7/2042				USD	        5082.75				
--6283898,923			SUBTOTAL PROV.:	685,3333333						USD	        6291.135		           0.75		
--6300754,269															
--6317609,615	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															        1755.76
-															
-POR FECHA IN DESDE:	 1/03/2101	HASTA:	31/3/2026												
-															
-															
-339	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1270.80
---------------------------------------------------------------------------------------------------------------------------------															
--6334464,962	F	RJ	OCAÑO/ELIANA BELEN	688,3333333	2/6/2041	10/9/2042				USD	        1209.136				
--6351320,308	F	MX	BALLADARES / GUILLERMO HORACIO	691,3333333	11/7/2041	22/10/2042				USD	        5082.76				
--6368175,654			SUBTOTAL PROV.:	694,3333333						USD	        6291.136		           0.76		
--6385031															
--6401886,346	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2102	HASTA:	1/4/2026												        2520.47
-															        5272.40
-															        5626.60
-340	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--6418741,692	F	RJ	OCAÑO/ELIANA BELEN	697,3333333	19/8/2041	3/12/2042				USD	        1209.137				
--6435597,038	F	MX	BALLADARES / GUILLERMO HORACIO	700,3333333	27/9/2041	14/1/2043				USD	        5082.77				
--6452452,385			SUBTOTAL PROV.:	703,3333333						USD	        6291.137		           0.77		       14286.14
--6469307,731															
--6486163,077	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2103	HASTA:	2/4/2026												
-															
-															        1086.80
-341	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															        1024.70
--6503018,423	F	RJ	OCAÑO/ELIANA BELEN	706,3333333	5/11/2041	25/2/2043				USD	        1209.138				
--6519873,769	F	MX	BALLADARES / GUILLERMO HORACIO	709,3333333	14/12/2041	8/4/2043				USD	        5082.78				
--6536729,115			SUBTOTAL PROV.:	712,3333333						USD	        6291.138		           0.78		
--6553584,462															          23.70
--6570439,808	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2104	HASTA:	3/4/2026												        3430.74
-															
-															
-342	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--6587295,154	F	RJ	OCAÑO/ELIANA BELEN	715,3333333	22/1/2042	20/5/2043				USD	        1209.139				
--6604150,5	F	MX	BALLADARES / GUILLERMO HORACIO	718,3333333	2/3/2042	1/7/2043				USD	        5082.79				        5239.40
--6621005,846			SUBTOTAL PROV.:	721,3333333						USD	        6291.139		           0.79		       12817.70
--6637861,192															        3151.60
--6654716,538	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2105	HASTA:	4/4/2026												
-															
-															
-343	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        8554.18
---------------------------------------------------------------------------------------------------------------------------------															
--6671571,885	F	RJ	OCAÑO/ELIANA BELEN	724,3333333	10/4/2042	12/8/2043				USD	        1209.140				        1106.21
--6688427,231	F	MX	BALLADARES / GUILLERMO HORACIO	727,3333333	19/5/2042	23/9/2043				USD	        5082.80				
--6705282,577			SUBTOTAL PROV.:	730,3333333						USD	        6291.140		           0.80		
--6722137,923															
--6738993,269	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															        1121.40
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2106	HASTA:	5/4/2026												
-															
-															
-344	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--6755848,615	F	RJ	OCAÑO/ELIANA BELEN	733,3333333	27/6/2042	4/11/2043				USD	        1209.141				
--6772703,962	F	MX	BALLADARES / GUILLERMO HORACIO	736,3333333	5/8/2042	16/12/2043				USD	        5082.81				
--6789559,308			SUBTOTAL PROV.:	739,3333333						USD	        6291.141		           0.81		
--6806414,654															
--6823270	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2107	HASTA:	6/4/2026												
-															
-															
-345	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															        2149.56
--6840125,346	F	RJ	OCAÑO/ELIANA BELEN	742,3333333	13/9/2042	27/1/2044				USD	        1209.142				
--6856980,692	F	MX	BALLADARES / GUILLERMO HORACIO	745,3333333	22/10/2042	9/3/2044				USD	        5082.82				
--6873836,038			SUBTOTAL PROV.:	748,3333333						USD	        6291.142		           0.82		
--6890691,385															
--6907546,731	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															         111.70
-															
-POR FECHA IN DESDE:	 1/03/2108	HASTA:	7/4/2026												
-															
-															
-346	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--6924402,077	F	RJ	OCAÑO/ELIANA BELEN	751,3333333	30/11/2042	20/4/2044				USD	        1209.143				
--6941257,423	F	MX	BALLADARES / GUILLERMO HORACIO	754,3333333	8/1/2043	1/6/2044				USD	        5082.83				
--6958112,769			SUBTOTAL PROV.:	757,3333333						USD	        6291.143		           0.83		
--6974968,115															
--6991823,462	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															         755.60
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2109	HASTA:	8/4/2026												
-															
-															
-347	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7008678,808	F	RJ	OCAÑO/ELIANA BELEN	760,3333333	16/2/2043	13/7/2044				USD	        1209.144				
--7025534,154	F	MX	BALLADARES / GUILLERMO HORACIO	763,3333333	27/3/2043	24/8/2044				USD	        5082.84				
--7042389,5			SUBTOTAL PROV.:	766,3333333						USD	        6291.144		           0.84		        7544.60
--7059244,846															        3330.00
--7076100,192	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2110	HASTA:	9/4/2026												
-															
-															
-348	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7092955,538	F	RJ	OCAÑO/ELIANA BELEN	769,3333333	5/5/2043	5/10/2044				USD	        1209.145				
--7109810,885	F	MX	BALLADARES / GUILLERMO HORACIO	772,3333333	13/6/2043	16/11/2044				USD	        5082.85				
--7126666,231			SUBTOTAL PROV.:	775,3333333						USD	        6291.145		           0.85		
--7143521,577															
--7160376,923	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															         601.40
-POR FECHA IN DESDE:	 1/03/2111	HASTA:	10/4/2026												
-															         936.20
-															
-349	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7177232,269	F	RJ	OCAÑO/ELIANA BELEN	778,3333333	22/7/2043	28/12/2044				USD	        1209.146				
--7194087,615	F	MX	BALLADARES / GUILLERMO HORACIO	781,3333333	30/8/2043	8/2/2045				USD	        5082.86				        2541.14
--7210942,962			SUBTOTAL PROV.:	784,3333333						USD	        6291.146		           0.86		
--7227798,308															
--7244653,654	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2112	HASTA:	11/4/2026												
-															
-															
-350	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7261509	F	RJ	OCAÑO/ELIANA BELEN	787,3333333	8/10/2043	22/3/2045				USD	        1209.147				
--7278364,346	F	MX	BALLADARES / GUILLERMO HORACIO	790,3333333	16/11/2043	3/5/2045				USD	        5082.87				
--7295219,692			SUBTOTAL PROV.:	793,3333333						USD	        6291.147		           0.87		        3128.00
--7312075,038															
--7328930,385	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2113	HASTA:	12/4/2026												
-															
-															
-351	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7345785,731	F	RJ	OCAÑO/ELIANA BELEN	796,3333333	25/12/2043	14/6/2045				USD	        1209.148				
--7362641,077	F	MX	BALLADARES / GUILLERMO HORACIO	799,3333333	2/2/2044	26/7/2045				USD	        5082.88				
--7379496,423			SUBTOTAL PROV.:	802,3333333						USD	        6291.148		           0.88		
--7396351,769															
--7413207,115	BRICKELL BAY BEACH CLUB & SPA														        1631.40
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2114	HASTA:	13/4/2026												
-															
-															        2942.60
-352	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7430062,462	F	RJ	OCAÑO/ELIANA BELEN	805,3333333	12/3/2044	6/9/2045				USD	        1209.149				
--7446917,808	F	MX	BALLADARES / GUILLERMO HORACIO	808,3333333	20/4/2044	18/10/2045				USD	        5082.89				
--7463773,154			SUBTOTAL PROV.:	811,3333333						USD	        6291.149		           0.89		        5557.98
--7480628,5															
--7497483,846	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															        1432.80
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2115	HASTA:	14/4/2026												
-															
-															
-353	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															        3651.20
--7514339,192	F	RJ	OCAÑO/ELIANA BELEN	814,3333333	29/5/2044	29/11/2045				USD	        1209.150				        2859.20
--7531194,538	F	MX	BALLADARES / GUILLERMO HORACIO	817,3333333	7/7/2044	10/1/2046				USD	        5082.90				        1110.10
--7548049,885			SUBTOTAL PROV.:	820,3333333						USD	        6291.150		           0.90		
--7564905,231															
--7581760,577	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2116	HASTA:	15/4/2026												
-															
-															
-354	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7598615,923	F	RJ	OCAÑO/ELIANA BELEN	823,3333333	15/8/2044	21/2/2046				USD	        1209.151				
--7615471,269	F	MX	BALLADARES / GUILLERMO HORACIO	826,3333333	23/9/2044	4/4/2046				USD	        5082.91				
--7632326,615			SUBTOTAL PROV.:	829,3333333						USD	        6291.151		           0.91		
--7649181,962															
--7666037,308	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2117	HASTA:	16/4/2026												
-															
-															
-355	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7682892,654	F	RJ	OCAÑO/ELIANA BELEN	832,3333333	1/11/2044	16/5/2046				USD	        1209.152				
--7699748	F	MX	BALLADARES / GUILLERMO HORACIO	835,3333333	10/12/2044	27/6/2046				USD	        5082.92				
--7716603,346			SUBTOTAL PROV.:	838,3333333						USD	        6291.152		           0.92		
--7733458,692															
--7750314,038	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1277.40
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															          42.50
-															
-POR FECHA IN DESDE:	 1/03/2118	HASTA:	17/4/2026												
-															
-															
-356	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7767169,385	F	RJ	OCAÑO/ELIANA BELEN	841,3333333	18/1/2045	8/8/2046				USD	        1209.153				          30.30
--7784024,731	F	MX	BALLADARES / GUILLERMO HORACIO	844,3333333	26/2/2045	19/9/2046				USD	        5082.93				
--7800880,077			SUBTOTAL PROV.:	847,3333333						USD	        6291.153		           0.93		
--7817735,423															
--7834590,769	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        7751.15
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															        2446.20
-POR FECHA IN DESDE:	 1/03/2119	HASTA:	18/4/2026												
-															      142892.37
-															
-357	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
--7851446,115	F	RJ	OCAÑO/ELIANA BELEN	850,3333333	6/4/2045	31/10/2046				USD	        1209.154				
--7868301,462	F	MX	BALLADARES / GUILLERMO HORACIO	853,3333333	15/5/2045	12/12/2046				USD	        5082.94				           0.00
--7885156,808			SUBTOTAL PROV.:	856,3333333						USD	        6291.154		           0.94		
--7902012,154															
--7918867,5	BRICKELL BAY BEACH CLUB & SPA														SALDO
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															         511.35
-															         511.35
-POR FECHA IN DESDE:	 1/03/2120	HASTA:	19/4/2026												
-															
-															SALDO
-358	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--7935722,846	F	RJ	OCAÑO/ELIANA BELEN	859,3333333	23/6/2045	23/1/2047				USD	        1209.155				
--7952578,192	F	MX	BALLADARES / GUILLERMO HORACIO	862,3333333	1/8/2045	6/3/2047				USD	        5082.95				
--7969433,538			SUBTOTAL PROV.:	865,3333333						USD	        6291.155		           0.95		
--7986288,885															
--8003144,231	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2121	HASTA:	20/4/2026												
-															           0.00
-															
-359	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
--8019999,577	F	RJ	OCAÑO/ELIANA BELEN	868,3333333	9/9/2045	17/4/2047				USD	        1209.156				
--8036854,923	F	MX	BALLADARES / GUILLERMO HORACIO	871,3333333	18/10/2045	29/5/2047				USD	        5082.96				
--8053710,269			SUBTOTAL PROV.:	874,3333333						USD	        6291.156		           0.96		
--8070565,615															         -20.00
--8087420,962	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															           2.84
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2122	HASTA:	21/4/2026												
-															
-															
-360	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         135.00
---------------------------------------------------------------------------------------------------------------------------------															
--8104276,308	F	RJ	OCAÑO/ELIANA BELEN	877,3333333	26/11/2045	10/7/2047				USD	        1209.157				
--8121131,654	F	MX	BALLADARES / GUILLERMO HORACIO	880,3333333	4/1/2046	21/8/2047				USD	        5082.97				
--8137987			SUBTOTAL PROV.:	883,3333333						USD	        6291.157		           0.97		
--8154842,346															          29.70
--8171697,692	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															         155.52
-POR FECHA IN DESDE:	 1/03/2123	HASTA:	22/4/2026												
-															
-															
-361	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--8188553,038	F	RJ	OCAÑO/ELIANA BELEN	886,3333333	12/2/2046	2/10/2047				USD	        1209.158				         400.00
--8205408,385	F	MX	BALLADARES / GUILLERMO HORACIO	889,3333333	23/3/2046	13/11/2047				USD	        5082.98				
--8222263,731			SUBTOTAL PROV.:	892,3333333						USD	        6291.158		           0.98		
--8239119,077															
--8255974,423	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2124	HASTA:	23/4/2026												
-															
-															
-362	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--8272829,769	F	RJ	OCAÑO/ELIANA BELEN	895,3333333	1/5/2046	25/12/2047				USD	        1209.159				
--8289685,115	F	MX	BALLADARES / GUILLERMO HORACIO	898,3333333	9/6/2046	5/2/2048				USD	        5082.99				
--8306540,462			SUBTOTAL PROV.:	901,3333333						USD	        6291.159		           0.99		
--8323395,808															
--8340251,154	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2125	HASTA:	24/4/2026												         195.00
-															
-															
-363	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--8357106,5	F	RJ	OCAÑO/ELIANA BELEN	904,3333333	18/7/2046	18/3/2048				USD	        1209.160				
--8373961,846	F	MX	BALLADARES / GUILLERMO HORACIO	907,3333333	26/8/2046	29/4/2048				USD	        5082.100				
--8390817,192			SUBTOTAL PROV.:	910,3333333						USD	        6291.160		           0.100		
--8407672,538															
--8424527,885	BRICKELL BAY BEACH CLUB & SPA														          20.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2126	HASTA:	25/4/2026												
-															
-															
-364	MYBEDS														         550.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--8441383,231	F	RJ	OCAÑO/ELIANA BELEN	913,3333333	4/10/2046	10/6/2048				USD	        1209.161				        3326.64
--8458238,577	F	MX	BALLADARES / GUILLERMO HORACIO	916,3333333	12/11/2046	22/7/2048				USD	        5082.101				
--8475093,923			SUBTOTAL PROV.:	919,3333333						USD	        6291.161		           0.101		
--8491949,269															
--8508804,615	BRICKELL BAY BEACH CLUB & SPA														          20.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															         640.00
-POR FECHA IN DESDE:	 1/03/2127	HASTA:	26/4/2026												          20.00
-															        3482.16
-															        1992.54
-365	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															SALDO
--8525659,962	F	RJ	OCAÑO/ELIANA BELEN	922,3333333	21/12/2046	2/9/2048				USD	        1209.162				
--8542515,308	F	MX	BALLADARES / GUILLERMO HORACIO	925,3333333	29/1/2047	14/10/2048				USD	        5082.102				
--8559370,654			SUBTOTAL PROV.:	928,3333333						USD	        6291.162		           0.102		          12.00
--8576226															           6.00
--8593081,346	BRICKELL BAY BEACH CLUB & SPA														        2286.02
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		           6.00
-SALDOS POR PROVEEDOR POR FILE															          21.50
-JAZZ															
-															
-POR FECHA IN DESDE:	 1/03/2128	HASTA:	27/4/2026												           8.13
-															
-															
-366	MYBEDS														           6.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         475.90
---------------------------------------------------------------------------------------------------------------------------------															
--8609936,692	F	RJ	OCAÑO/ELIANA BELEN	931,3333333	9/3/2047	25/11/2048				USD	        1209.163				
--8626792,038	F	MX	BALLADARES / GUILLERMO HORACIO	934,3333333	17/4/2047	6/1/2049				USD	        5082.103				           6.00
--8643647,385			SUBTOTAL PROV.:	937,3333333						USD	        6291.163		           0.103		           6.00
--8660502,731															          13.17
--8677358,077	BRICKELL BAY BEACH CLUB & SPA														           3.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															          12.00
-															
-POR FECHA IN DESDE:	 1/03/2129	HASTA:	28/4/2026												           6.00
-															           6.00
-															           3.00
-367	MYBEDS														        2006.94
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--8694213,423	F	RJ	OCAÑO/ELIANA BELEN	940,3333333	26/5/2047	17/2/2049				USD	        1209.164				           6.00
--8711068,769	F	MX	BALLADARES / GUILLERMO HORACIO	943,3333333	4/7/2047	31/3/2049				USD	        5082.104				        4396.72
--8727924,115			SUBTOTAL PROV.:	946,3333333						USD	        6291.164		           0.104		
--8744779,462															        2579.64
--8761634,808	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															           3.00
-JAZZ															          12.00
-															          12.00
-POR FECHA IN DESDE:	 1/03/2130	HASTA:	29/4/2026												        4405.20
-															        9420.50
-															
-368	MYBEDS														           6.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		           6.00
---------------------------------------------------------------------------------------------------------------------------------															        1638.56
--8778490,154	F	RJ	OCAÑO/ELIANA BELEN	949,3333333	12/8/2047	12/5/2049				USD	        1209.165				          12.00
--8795345,5	F	MX	BALLADARES / GUILLERMO HORACIO	952,3333333	20/9/2047	23/6/2049				USD	        5082.105				
--8812200,846			SUBTOTAL PROV.:	955,3333333						USD	        6291.165		           0.105		       27381.28
--8829056,192															
--8845911,538	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															        1974.26
-															        1974.26
-POR FECHA IN DESDE:	 1/03/2131	HASTA:	30/4/2026												
-															
-															SALDO
-369	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        3159.00
---------------------------------------------------------------------------------------------------------------------------------															        3159.00
--8862766,885	F	RJ	OCAÑO/ELIANA BELEN	958,3333333	29/10/2047	4/8/2049				USD	        1209.166				
--8879622,231	F	MX	BALLADARES / GUILLERMO HORACIO	961,3333333	7/12/2047	15/9/2049				USD	        5082.106				
--8896477,577			SUBTOTAL PROV.:	964,3333333						USD	        6291.166		           0.106		SALDO
--8913332,923															
--8930188,269	BRICKELL BAY BEACH CLUB & SPA														        1884.34
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        2924.28
-SALDOS POR PROVEEDOR POR FILE															        3341.00
-JAZZ															        8814.48
-															        2107.68
-POR FECHA IN DESDE:	 1/03/2132	HASTA:	1/5/2026												        3777.68
-															       22849.46
-															
-370	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
--8947043,615	F	RJ	OCAÑO/ELIANA BELEN	967,3333333	15/1/2048	27/10/2049				USD	        1209.167				
--8963898,962	F	MX	BALLADARES / GUILLERMO HORACIO	970,3333333	23/2/2048	8/12/2049				USD	        5082.107				
--8980754,308			SUBTOTAL PROV.:	973,3333333						USD	        6291.167		           0.107		
--8997609,654															           0.00
--9014465	BRICKELL BAY BEACH CLUB & SPA														           0.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															SALDO
-															
-POR FECHA IN DESDE:	 1/03/2133	HASTA:	2/5/2026												         290.00
-															       -2499.99
-															       -2499.99
-371	MYBEDS														         290.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--9031320,346	F	RJ	OCAÑO/ELIANA BELEN	976,3333333	2/4/2048	19/1/2050				USD	        1209.168				SALDO
--9048175,692	F	MX	BALLADARES / GUILLERMO HORACIO	979,3333333	11/5/2048	2/3/2050				USD	        5082.108				
--9065031,038			SUBTOTAL PROV.:	982,3333333						USD	        6291.168		           0.108		          80.00
--9081886,385															         272.00
--9098741,731	BRICKELL BAY BEACH CLUB & SPA														         114.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          39.00
-SALDOS POR PROVEEDOR POR FILE															          68.00
-JAZZ															         577.98
-															          29.04
-POR FECHA IN DESDE:	 1/03/2134	HASTA:	3/5/2026												         192.50
-															         240.00
-															          36.00
-372	MYBEDS														         102.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         340.00
---------------------------------------------------------------------------------------------------------------------------------															         116.00
--9115597,077	F	RJ	OCAÑO/ELIANA BELEN	985,3333333	19/6/2048	13/4/2050				USD	        1209.169				         360.00
--9132452,423	F	MX	BALLADARES / GUILLERMO HORACIO	988,3333333	28/7/2048	25/5/2050				USD	        5082.109				          24.00
--9149307,769			SUBTOTAL PROV.:	991,3333333						USD	        6291.169		           0.109		          24.00
--9166163,115															         680.00
--9183018,462	BRICKELL BAY BEACH CLUB & SPA														         180.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          68.00
-SALDOS POR PROVEEDOR POR FILE															         272.00
-JAZZ															         255.90
-															          30.00
-POR FECHA IN DESDE:	 1/03/2135	HASTA:	4/5/2026												          80.00
-															         160.00
-															          12.00
-373	MYBEDS														          68.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         172.00
---------------------------------------------------------------------------------------------------------------------------------															          68.00
--9199873,808	F	RJ	OCAÑO/ELIANA BELEN	994,3333333	5/9/2048	6/7/2050				USD	        1209.170				          99.98
--9216729,154	F	MX	BALLADARES / GUILLERMO HORACIO	997,3333333	14/10/2048	17/8/2050				USD	        5082.110				         172.00
--9233584,5			SUBTOTAL PROV.:	1000,333333						USD	        6291.170		           0.110		          30.00
--9250439,846															          24.00
--9267295,192	BRICKELL BAY BEACH CLUB & SPA														          12.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          36.00
-SALDOS POR PROVEEDOR POR FILE															          36.00
-JAZZ															          24.00
-															          60.00
-POR FECHA IN DESDE:	 1/03/2136	HASTA:	5/5/2026												         850.00
-															          24.00
-															          74.00
-374	MYBEDS														         126.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          68.00
---------------------------------------------------------------------------------------------------------------------------------															          18.00
--9284150,538	F	RJ	OCAÑO/ELIANA BELEN	1003,333333	22/11/2048	28/9/2050				USD	        1209.171				        6314.40
--9301005,885	F	MX	BALLADARES / GUILLERMO HORACIO	1006,333333	31/12/2048	9/11/2050				USD	        5082.111				
--9317861,231			SUBTOTAL PROV.:	1009,333333						USD	        6291.171		           0.111		
--9334716,577															SALDO
--9351571,923	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         112.00
-SALDOS POR PROVEEDOR POR FILE															          84.00
-JAZZ															         196.00
-															
-POR FECHA IN DESDE:	 1/03/2137	HASTA:	6/5/2026												
-															SALDO
-															
-375	MYBEDS														           0.27
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		           0.13
---------------------------------------------------------------------------------------------------------------------------------															           0.40
--9368427,269	F	RJ	OCAÑO/ELIANA BELEN	1012,333333	8/2/2049	21/12/2050				USD	        1209.172				           0.13
--9385282,615	F	MX	BALLADARES / GUILLERMO HORACIO	1015,333333	19/3/2049	1/2/2051				USD	        5082.112				           0.13
--9402137,962			SUBTOTAL PROV.:	1018,333333						USD	        6291.172		           0.112		           0.27
--9418993,308															           0.27
--9435848,654	BRICKELL BAY BEACH CLUB & SPA														           0.53
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		           0.13
-SALDOS POR PROVEEDOR POR FILE															           0.13
-JAZZ															           2.80
-															           0.27
-POR FECHA IN DESDE:	 1/03/2138	HASTA:	7/5/2026												           0.27
-															           0.27
-															           0.13
-376	MYBEDS														           0.27
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		           0.27
---------------------------------------------------------------------------------------------------------------------------------															           0.13
--9452704	F	RJ	OCAÑO/ELIANA BELEN	1021,333333	27/4/2049	15/3/2051				USD	        1209.173				           0.27
--9469559,346	F	MX	BALLADARES / GUILLERMO HORACIO	1024,333333	5/6/2049	26/4/2051				USD	        5082.113				           0.27
--9486414,692			SUBTOTAL PROV.:	1027,333333						USD	        6291.173		           0.113		           0.13
--9503270,038															           0.27
--9520125,385	BRICKELL BAY BEACH CLUB & SPA														           0.27
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		           0.27
-SALDOS POR PROVEEDOR POR FILE															           0.27
-JAZZ															           0.27
-															           0.27
-POR FECHA IN DESDE:	 1/03/2139	HASTA:	8/5/2026												           0.27
-															           9.36
-															
-377	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
--9536980,731	F	RJ	OCAÑO/ELIANA BELEN	1030,333333	14/7/2049	7/6/2051				USD	        1209.174				
--9553836,077	F	MX	BALLADARES / GUILLERMO HORACIO	1033,333333	22/8/2049	19/7/2051				USD	        5082.114				           0.00
--9570691,423			SUBTOTAL PROV.:	1036,333333						USD	        6291.174		           0.114		
--9587546,769															
--9604402,115	BRICKELL BAY BEACH CLUB & SPA														SALDO
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															          17.04
-JAZZ															           8.88
-															           7.04
-POR FECHA IN DESDE:	 1/03/2140	HASTA:	9/5/2026												          21.38
-															           8.52
-															          13.07
-378	MYBEDS														          13.77
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          35.14
---------------------------------------------------------------------------------------------------------------------------------															           8.52
--9621257,462	F	RJ	OCAÑO/ELIANA BELEN	1039,333333	30/9/2049	30/8/2051				USD	        1209.175				           8.59
--9638112,808	F	MX	BALLADARES / GUILLERMO HORACIO	1042,333333	8/11/2049	11/10/2051				USD	        5082.115				         173.80
--9654968,154			SUBTOTAL PROV.:	1045,333333						USD	        6291.175		           0.115		          18.30
--9671823,5															          16.77
--9688678,846	BRICKELL BAY BEACH CLUB & SPA														          17.18
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		           8.88
-SALDOS POR PROVEEDOR POR FILE															          17.98
-JAZZ															          17.81
-															           8.29
-POR FECHA IN DESDE:	 1/03/2141	HASTA:	10/5/2026												          16.84
-															          13.36
-															           6.78
-379	MYBEDS														          14.01
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          17.18
---------------------------------------------------------------------------------------------------------------------------------															          16.65
--9705534,192	F	RJ	OCAÑO/ELIANA BELEN	1048,333333	17/12/2049	22/11/2051				USD	        1209.176				          16.58
--9722389,538	F	MX	BALLADARES / GUILLERMO HORACIO	1051,333333	25/1/2050	3/1/2052				USD	        5082.116				          17.04
--9739244,885			SUBTOTAL PROV.:	1054,333333						USD	        6291.176		           0.116		          17.04
--9756100,231															          18.08
--9772955,577	BRICKELL BAY BEACH CLUB & SPA														         574.52
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															SALDO
-															
-POR FECHA IN DESDE:	 1/03/2142	HASTA:	11/5/2026												         325.64
-															         325.64
-															
-380	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		SALDO
---------------------------------------------------------------------------------------------------------------------------------															
--9789810,923	F	RJ	OCAÑO/ELIANA BELEN	1057,333333	5/3/2050	14/2/2052				USD	        1209.177				         803.00
--9806666,269	F	MX	BALLADARES / GUILLERMO HORACIO	1060,333333	13/4/2050	27/3/2052				USD	        5082.117				         769.87
--9823521,615			SUBTOTAL PROV.:	1063,333333						USD	        6291.177		           0.117		         142.00
--9840376,962															        1368.21
--9857232,308	BRICKELL BAY BEACH CLUB & SPA														        1931.00
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		        1842.17
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															        6856.25
-															
-POR FECHA IN DESDE:	 1/03/2143	HASTA:	12/5/2026												
-															SALDO
-															
-381	MYBEDS														         146.12
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         146.12
---------------------------------------------------------------------------------------------------------------------------------															
--9874087,654	F	RJ	OCAÑO/ELIANA BELEN	1066,333333	22/5/2050	8/5/2052				USD	        1209.178				
--9890943	F	MX	BALLADARES / GUILLERMO HORACIO	1069,333333	30/6/2050	19/6/2052				USD	        5082.118				SALDO
--9907798,346			SUBTOTAL PROV.:	1072,333333						USD	        6291.178		           0.118		
--9924653,692															          21.44
--9941509,038	BRICKELL BAY BEACH CLUB & SPA														          11.18
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          11.24
-SALDOS POR PROVEEDOR POR FILE															          34.12
-JAZZ															          10.72
-															          20.88
-POR FECHA IN DESDE:	 1/03/2144	HASTA:	13/5/2026												          22.00
-															          44.24
-															          10.72
-382	MYBEDS														          10.82
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		         218.78
---------------------------------------------------------------------------------------------------------------------------------															          23.04
--9958364,385	F	RJ	OCAÑO/ELIANA BELEN	1075,333333	8/8/2050	31/7/2052				USD	        1209.179				          21.10
--9975219,731	F	MX	BALLADARES / GUILLERMO HORACIO	1078,333333	16/9/2050	11/9/2052				USD	        5082.119				          21.63
--9992075,077			SUBTOTAL PROV.:	1081,333333						USD	        6291.179		           0.119		          11.18
--10008930,42															          22.43
--10025785,77	BRICKELL BAY BEACH CLUB & SPA														          22.63
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          10.44
-SALDOS POR PROVEEDOR POR FILE															          21.18
-JAZZ															          21.34
-															          10.82
-POR FECHA IN DESDE:	 1/03/2145	HASTA:	14/5/2026												          22.36
-															          21.63
-															          20.96
-383	MYBEDS														          20.88
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		          21.44
---------------------------------------------------------------------------------------------------------------------------------															          21.44
--10042641,12	F	RJ	OCAÑO/ELIANA BELEN	1084,333333	25/10/2050	23/10/2052				USD	        1209.180				          22.75
--10059496,46	F	MX	BALLADARES / GUILLERMO HORACIO	1087,333333	3/12/2050	4/12/2052				USD	        5082.120				         753.39
--10076351,81			SUBTOTAL PROV.:	1090,333333						USD	        6291.180		           0.120		
--10093207,15															
--10110062,5	BRICKELL BAY BEACH CLUB & SPA														SALDO
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															
-JAZZ															
-															         135.80
-POR FECHA IN DESDE:	 1/03/2146	HASTA:	15/5/2026												
-															        3752.60
-															
-384	MYBEDS														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
---------------------------------------------------------------------------------------------------------------------------------															
--10126917,85	F	RJ	OCAÑO/ELIANA BELEN	1093,333333	11/1/2051	15/1/2053				USD	        1209.181				          10.00
--10143773,19	F	MX	BALLADARES / GUILLERMO HORACIO	1096,333333	19/2/2051	26/2/2053				USD	        5082.121				
--10160628,54			SUBTOTAL PROV.:	1099,333333						USD	        6291.181		           0.121		
--10177483,88															        3898.40
--10194339,23	BRICKELL BAY BEACH CLUB & SPA														
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		
-SALDOS POR PROVEEDOR POR FILE															SALDO
-JAZZ															
-															        4683.27
-POR FECHA IN DESDE:	 1/03/2147	HASTA:	16/5/2026												        4683.27
-															
-															         982.17
-385	MYBEDS														    22391241.01
-File		DT	Nombre	Pax	Fec.IN	Fec.OUT	Fec.FAC	Nro.Factura			COSTO		PAGADO		      781532.97
-
+Cóigo,,,ST,,Fecha,Fec.In,Nombre,ID,Cliente,%Com,Pax,,Total,Saldo,Prepago,Utilidad,%,Facturado,Fec.Fact.,Usu.,Prm.,Utl.Destino
+  25388,EU,F,RQ,670,13/3/2023,14/6/2023,4T544F DELUCHI PATRICI,1090,METROPOLIS VIAJES, 0.00,1,USD,        6083.00,        3212.19,       5.625.19,         457.81, 7.53,           0.00,  /  /,2,1,           0.00
+  30460,RM,F,RQ,590, 1/06/23,15/6/2023,ABDALA ANA EUGENIA Y P,871,ABDALA EUGENIA, 0.00,2,USD,        4444.86,         638.27,       4.444.85,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  31758,,FA,OK,,17/6/2023, 1/07/23,BAGGINI/NICOLAS,871,ABDALA EUGENIA, 0.00,1,PES,       35983.20,       27776.20,      35.468.20,           0.00, 0.00,           0.00,  /  /,25,1,           0.00
+  32907,PH,F,RQ,555, 6/07/23, 9/07/23,FARIAS/ALEJANDRO,2354,COSTA VIAJES, 0.00,2,USD,         109.59,         109.59,         108.02,           0.00, 0.00,           0.00,  /  /,23,1,           0.00
+  37622,BM,F,RQ,493, 6/09/23, 8/09/23,ZUBATA/LEONARDO,2354,COSTA VIAJES, 0.00,2,USD,          59.27,          59.27,          54.02,           0.00, 0.00,           0.00,  /  /,23,1,           0.00
+  38093,BY,F,RQ,473,26/9/2023,27/3/2024,ANA EUGENIA ABDALA,871,ABDALA EUGENIA,15.00,13,USD,        9734.00,         512.97,       9.734.00,           0.00, 0.00,           0.00,  /  /,39,1,           0.00
+  38130,RD,F,RQ,489,10/9/2023,27/3/2024,47OP3D 3UC78T 3UXDQZ A,871,ABDALA EUGENIA, 0.00,7,USD,        9534.60,        9434.60,       9.534.60,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  38131,EU,F,RQ,489,10/9/2023,11/10/2023,47OY2Z ABDALA ANA EUGE,871,ABDALA EUGENIA, 0.00,3,USD,         813.90,         813.90,         813.90,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  38338,PH,F,RQ,486,13/9/2023,16/9/2023,FARIAS/ALEJANDRO,2354,COSTA VIAJES, 0.00,2,USD,          96.36,          96.36,          90.03,           0.00, 0.00,           0.00,  /  /,23,1,           0.00
+  38340,PH,F,RQ,486,13/9/2023,17/9/2023,LUNA/MARCELO,2354,COSTA VIAJES, 0.00,2,USD,          96.36,          96.36,          90.03,           0.00, 0.00,           0.00,  /  /,23,1,           0.00
+  38417,EU,F,RQ,473,26/9/2023, 6/10/23,ABDALA ANA EUGENIA,871,ABDALA EUGENIA, 0.00,2,USD,        3509.78,        2523.82,       3.509.78,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  38470,,FA,RQ,485,14/9/2023,14/9/2023,ABDALA/ANA EUGENIA,871,ABDALA EUGENIA, 0.00,1,PES,       49340.61,       49340.61,      49.340.61,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  39869,EU,F,RQ,470,29/9/2023, 6/10/23,4N29F8  CORTIJO JUAN C,871,ABDALA EUGENIA, 0.00,1,USD,         326.40,         326.40,         326.40,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  41237,MD,F,RQ,458,11/10/2023,15/11/2023,3MLERS    CORTIJO JUAN,871,ABDALA EUGENIA, 0.00,1,USD,        4487.10,        4487.10,       4.487.10,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  41423,RJ,F,RQ,451,18/10/2023, 8/12/23,LUIS YAMETTI,4090,AEROMUNDO,15.00,3,USD,        4542.31,         128.77,       4.209.00,         285.37, 5.40,           0.00,  /  /,38,1,           0.00
+  41424,,FA,RQ,452,17/10/2023,25/11/2023,CORTIJO/JUAN CRUZ,4143,CORTIJO JUAN CRUZ, 0.00,1,PES,       51347.27,       51347.27,      51.347.27,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  41649,,FA,RQ,449,20/10/2023,30/11/2023,ABDALA/ANA EUGENIA,258,JAZZ OPERADOR CORDOBA, 0.00,1,PES,       85394.40,       85394.40,      85.394.41,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  41774,,FA,RQ,446,23/10/2023, 9/11/23,MENDEZ/HORACIO EDUARDO,4174,MENDEZ HORACIO EDUARDO, 0.00,1,PES,      229822.08,       20975.64,     229.822.08,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  42406,MD,F,RQ,438,31/10/2023,15/1/2024,FITUR - ABDALA EUGENIA,871,ABDALA EUGENIA, 0.00,4,USD,       13144.05,       13144.05,      24.592.22,      -11448.17,87.10,           0.00,  /  /,5,1,           0.00
+  42419,MA,F,RQ,438,31/10/2023, 7/12/23,ABDALA - PIATTI - BENT,994,PIATTI GEORGINA, 0.00,3,USD,        5000.18,        1666.72,       4.902.30,           0.00, 0.00,           0.00,  /  /,5,1,           0.00
+  42440,SJ,F,RQ,438,31/10/2023,31/10/2023,SABORIO MARIA JOSE,994,PIATTI GEORGINA, 0.00,1,USD,        1249.45,        1249.45,         783.33,         441.67,36.05,           0.00,  /  /,5,1,           0.00
+  43219,EU,F,RQ,431, 7/11/23, 7/12/23,PIATTI / BENTANCOURT /,258,JAZZ OPERADOR CORDOBA, 0.00,3,USD,       14382.24,        4794.08,      14.068.79,           0.00, 0.00,           0.00,  /  /,3,1,           0.00
+  44529,,FA,RQ,417,21/11/2023,30/11/2023,ABDALA/ANA EUGENIA,258,JAZZ OPERADOR CORDOBA, 0.00,1,PES,       19108.44,       19108.44,      19.108.44,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  45185,EU,F,RQ,409,29/11/2023,21/12/2023,PIRO ZANDOMENEGO / EZE,722,PENDIENTE, 0.00,1,USD,         106.54,         106.54,         105.02,           0.00, 0.00,           0.00,  /  /,19,1,           0.00
+  45578,EU,F,RQ,407, 1/12/23, 7/12/23,DE LA OSA ALEJANDRO,4090,AEROMUNDO,15.00,3,USD,         567.28,         567.28,         525.82,          32.87, 5.00,           0.00,  /  /,38,1,           0.00
+  45990,,FA,RQ,404, 4/12/23,23/12/2023,ABDALA/ANA EUGENIA,871,ABDALA EUGENIA, 0.00,2,PES,      143273.90,      143273.90,     143.273.90,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  46093,,F,RQ,403, 5/12/23,18/12/2023,3VZJCG KOCHLOWSKI MARA,722,PENDIENTE, 0.00,1,USD,         433.63,         433.63,         261.15,         172.48,39.78,           0.00,  /  /,2,1,           0.00
+  46100,,FA,RQ,403, 5/12/23,23/12/2023,MILLER/FLORENCIA,871,ABDALA EUGENIA, 0.00,1,PES,       71636.90,       71636.90,      71.636.90,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  49350,,FA,RQ,331,15/2/2024,23/2/2024,ABDALA/ANA EUGENIA,258,JAZZ OPERADOR CORDOBA, 0.00,1,PES,      161138.62,      161138.62,     161.138.60,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  50364,,FA,RQ,313, 4/03/24, 6/03/24,BELTRAN/MARIA EUGENIA,4257,AZCONA MARIA EUGENIA, 0.00,3,PES,      385081.21,      102181.21,     378.069.85,        1500.00, 0.47,           0.00,  /  /,29,1,           0.00
+  51400,,FA,RQ,296,21/3/2024,21/3/2024,NICORA AZCONA/JUSTINA,4257,AZCONA MARIA EUGENIA, 0.00,1,PES,       22284.12,       22176.73,      21.965.19,           0.00, 0.00,           0.00,  /  /,3,1,           0.00
+  51516,PU,F,RQ,292,25/3/2024,27/3/2024,FAMILIA ABDALA,871,ABDALA EUGENIA, 0.00,13,USD,        1043.70,          45.57,       1.043.70,           0.00, 0.00,           0.00,  /  /,19,1,           0.00
+  53054,,FA,RQ,257,29/4/2024,29/4/2024,ABDALA/ANA EUGENIA,871,ABDALA EUGENIA, 0.00,1,PES,      197742.28,       16000.08,     197.742.28,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  53115,,FA,RQ,257,29/4/2024, 4/05/24,CESARO/SILVIA,4547,SILVIA BEATRIZ CESARO, 0.00,4,USD,        6608.79,        3408.79,       6.992.80,        -592.80,10.85,           0.00,  /  /,29,1,           0.00
+  53354,,FA,RQ,252, 4/05/24, 5/05/24,ABDALA/ANA EUGENIA,871,ABDALA EUGENIA, 0.00,1,PES,      324882.15,      324882.15,     324.882.15,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  53755,,FA,RQ,243,13/5/2024,30/5/2024,MENDEZ/MONICA,871,ABDALA EUGENIA, 0.00,1,PES,      196202.91,      196202.91,     193.394.81,           0.00, 0.00,           0.00,  /  /,29,1,           0.00
+  53867,PH,F,RQ,241,15/5/2024,18/5/2024,ZUBATA / LEORNARDO,2354,COSTA VIAJES, 0.00,2,USD,         112.18,         112.18,          90.03,          20.54,18.67,           0.00,  /  /,19,1,           0.00
+  54255,MD,F,RQ,234,22/5/2024, 7/06/24,CAFFARATTI/EUGENIA,722,PENDIENTE, 0.00,2,USD,        7761.20,        3232.13,       7.761.20,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  54378,RD,F,RQ,232,24/5/2024,31/1/2025, GILI/ALVARO FRANCO,251,LORENA BORGOGNO VIAJES, 0.00,3,USD,        2692.94,         689.19,       2.311.47,         244.53, 8.15,           0.00,  /  /,27,2,           0.00
+  54430,MD,F,RQ,232,24/5/2024,24/5/2024,3XKISA WONKO MATIAS,4190,AGUSTIN WONKO, 0.00,1,USD,         414.31,         414.31,         406.20,           0.00, 0.00,           0.00,  /  /,36,1,           0.00
+  54872,PU,F,RQ,221, 4/06/24,14/3/2025,DELPINO LEONOR HERMELI,558,MARCELO MANSILLA ASESO,14.00,2,USD,         868.77,          52.44,           0.00,          58.60, 6.04,           0.00,  /  /,38,1,           0.00
+  55038,UB,F,RQ,219, 6/06/24,30/1/2025,AGUERREVENGOA. CAMILA,714,LUX TRAVELS,10.00,4,USD,        3674.65,        3674.65,           0.00,         522.25,13.45,           0.00,  /  /,39,1,           0.00
+  55668,MD,F,RQ,206,19/6/2024,24/8/2024,44F774 GARDIOL MARIA A,722,PENDIENTE, 0.00,2,USD,        4844.43,        4844.43,       4.749.60,           0.00, 0.00,           0.00,  /  /,36,1,           0.00
+  55688,,FA,OK,,19/6/2024,19/6/2024,ABDALA/ANA EUGENIA,871,ABDALA EUGENIA, 0.00,1,PES,      434368.40,      434368.40,     434.368.40,           0.00, 0.00,           0.00,  /  /,25,1,           0.00
+  55972,PU,F,RQ,199,26/6/2024, 2/02/25,POMILIO FERNANDO DAVID,714,LUX TRAVELS, 0.00,3,USD,        2820.87,        2820.87,           0.00,         278.32, 9.08,           0.00,  /  /,36,1,           0.00
+  56888,RD,F,RQ,178,17/7/2024,11/2/2025,CAMPOS/ENRIQUE SEBASTI,929,LIAGRE VIAJES, 0.00,7,USD,        4189.01,         425.02,           0.00,         287.39, 6.12,           0.00,  /  /,27,1,           0.00
+  57097,CU,F,RQ,180,15/7/2024,17/2/2025,AGUERREVENGOA/MARTIN A,714,LUX TRAVELS,12.00,2,USD,        1463.47,        1463.47,           0.00,         120.86, 7.65,           0.00,  /  /,36,1,           0.00
+  57171,EU,F,RQ,179,16/7/2024, 4/08/24,2MX9UT ABDALA SILVIA,722,PENDIENTE, 0.00,2,USD,        3453.13,        3453.13,       3.448.08,           5.05, 0.15,           0.00,  /  /,36,1,           0.00
+  57217,PU,F,RQ,177,18/7/2024,10/2/2025,ACCASTELLO/GERMAN ALEJ,4540,MORVIAT,14.72,8,USD,        6498.58,        2000.08,           0.00,         436.40, 5.94,           0.00,  /  /,11,1,           0.00
+  57234,PU,F,RQ,178,17/7/2024,10/2/2025,ACCASTELLO/ESTEFANIA V,4540,MORVIAT,14.00,4,USD,        2403.00,        1000.00,           0.00,         179.40, 6.67,           0.00,  /  /,11,1,           0.00
+  57385,,FA,RQ,177,18/7/2024,18/7/2024,Fumagalli/MARIA LUZ,3238,MARíA SOL EVANGELINA G, 0.00,3,PES,      623528.76,       87528.76,     596.613.25,        1020.00, 0.20,           0.00,  /  /,3,1,           0.00
+  57683,CU,F,RQ,171,24/7/2024, 9/03/25,ADRIANA ROSA CURLETTI,991,ILUSIONES VIAJES & TUR,14.00,2,USD,        2104.25,        2104.25,           0.00,         141.33, 6.00,           0.00,  /  /,36,1,           0.00
+  57695,BR,FA,RQ,171,24/7/2024,24/7/2024,HID/LEONARDO ARIEL,722,PENDIENTE, 0.00,2,USD,         891.91,         891.91,         762.40,         100.00,15.38,           0.00,  /  /,29,1,           0.00
+  58124,RD,FA,RQ,164,31/7/2024,28/4/2025,PAGES/JORGE OSVALDO,251,LORENA BORGOGNO VIAJES, 0.00,2,USD,        2903.98,        1003.51,         535.40,         327.96,10.19,           0.00,  /  /,27,2,           0.00
+  58179,EU,F,RQ,163, 1/08/24, 7/07/25,AMIGO/LEONARDO ALEJAND,3306,DELTA TURISMO,10.00,2,USD,        3153.16,        2167.05,         900.00,         250.13, 7.71,           0.00,  /  /,39,1,           0.00
+  58226,RD,F,RQ,162, 2/08/24, 3/04/25, BUJAN/ HERNAN PABLO,714,LUX TRAVELS, 0.00,13,USD,        8702.98,        8702.98,           0.00,        1213.82,12.94,           0.00,  /  /,7,1,           0.00
+  58241,PU,F,RQ,163, 1/08/24, 1/02/25,BOHN VALENTINA,714,LUX TRAVELS,12.00,2,USD,        3482.79,        3482.79,           0.00,         303.36, 7.99,           0.00,  /  /,36,1,           0.00
+  58245,PL,F,RQ,162, 2/08/24, 7/03/25,Antoniazzi Axel Gabrie,665,ABORDO VIAJES Y TURISM,14.00,4,USD,        1313.00,        1313.00,           0.00,          79.90, 5.44,           0.00,  /  /,11,1,           0.00
+  58298,CT,F,RQ,159, 5/08/24,12/3/2025,DEMO/MARIA DE LOURDES,4365,DEMO MARIA DE LOURDES,12.00,4,USD,        3364.29,        3364.29,           0.00,         354.36, 9.70,           0.00,  /  /,11,1,           0.00
+  58345,RD,F,RQ,149,15/8/2024,23/1/2025,RE/NORMA BEATRIZ,251,LORENA BORGOGNO VIAJES, 0.00,7,USD,       13514.13,       13514.13,           0.00,         955.78, 6.31,           0.00,  /  /,27,2,           0.00
+  58445,RD,F,RQ,159, 5/08/24,22/4/2025,ENRICO/JUAN FRANCISCO,251,LORENA BORGOGNO VIAJES, 0.00,17,USD,       10967.00,       10967.00,           0.00,         812.50, 6.62,           0.00,  /  /,27,2,           0.00
+  58464,PU,F,RQ,158, 6/08/24,16/4/2025,VOTTERO/SANDRA MERCEDE,1334,GRACIEL TOURS,12.00,4,USD,        5397.07,        2000.57,       1.536.00,         502.16, 8.54,           0.00,  /  /,11,1,           0.00
+  58467,,FA,RQ,157, 7/08/24,15/5/2025,LOPEZ/MARCELO JOSE,3892,A-TITOUR, 0.00,2,USD,       11164.26,        8364.26,           0.00,         226.96, 3.15,           0.00,  /  /,19,1,           0.00
+  58539,EU,F,RQ,158, 6/08/24,10/8/2024,2RI8ME  ABDALA ANA EUG,871,ABDALA EUGENIA, 0.00,1,USD,       10135.75,       10135.75,      10.135.72,           0.03, 0.00,           0.00,  /  /,2,1,           0.00
+  58840,CU,F,RQ,155, 9/08/24,30/4/2025,ALFONZO GUSTAVO NICOLA,4986,WOMEN GROUP,14.00,6,USD,        4679.49,        4675.52,           0.00,         350.06, 6.69,           0.00,  /  /,36,1,           0.00
+  58899,,FA,RQ,152,12/8/2024,13/8/2024,CARBALLO X2,3435,COLVER TOURS, 0.00,2,USD,        2017.88,        2017.88,       1.989.00,           0.00, 0.00,           0.00,  /  /,32,1,           0.00
+  58990,PU,F,RQ,151,13/8/2024,19/2/2025,VICTOR HUGO BOTTOS,714,LUX TRAVELS,12.00,2,USD,        1972.76,        1972.76,           0.00,         190.00, 8.88,           0.00,  /  /,36,1,           0.00
+  59342,EU,F,RQ,145,19/8/2024,29/11/2024,2ANQGL  BARROS FRANCIS,722,PENDIENTE, 0.00,1,USD,        1644.90,        1144.90,       1.644.90,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  59696,MX,F,RQ,141,23/8/2024,12/4/2025,MALDONADO/ ENZO,714,LUX TRAVELS,12.00,4,USD,        4104.38,        4104.38,           0.00,         419.12, 9.40,           0.00,  /  /,11,1,           0.00
+  59816,EU,F,RQ,138,26/8/2024,26/8/2024,KOCHLOWKI / CARLOS OTT,981,MARIA EUGENIA IRENE MA, 0.00,1,USD,         125.88,         125.88,          99.02,          24.97,20.24,           0.00,  /  /,19,1,           0.00
+  59984,RD,F,RQ,135,29/8/2024,12/3/2025,COSTANTINI/LUCIO VICEN,251,LORENA BORGOGNO VIAJES, 0.00,12,USD,        8757.16,        8287.07,       1.310.00,         511.50, 5.14,           0.00,  /  /,27,2,           0.00
+  60041,RJ,F,RQ,134,30/8/2024,14/3/2025,GHIONE/SONIA NOEMI,714,LUX TRAVELS, 0.00,10,USD,        6703.25,        6703.25,           0.00,        1253.62,17.53,           0.00,  /  /,7,1,           0.00
+  60063,GR,FA,RQ,128, 5/09/24,16/3/2025,PICCONI/CLAUDIA MARIA,1741,SUL MARE VIAGGIO SRL,12.00,3,USD,        7856.05,        4811.56,           0.00,         311.90, 7.59,           0.00,  /  /,16,1,           0.00
+  60127,UB,F,RQ,134,30/8/2024,18/5/2025,DEMARIA/MARCELO GERMAN,251,LORENA BORGOGNO VIAJES, 0.00,4,USD,        1299.01,        1299.01,           0.00,         122.04, 8.45,           0.00,  /  /,27,2,           0.00
+  60150,UB,F,RQ,127, 6/09/24,27/2/2025,FIA /ROBERTO PEDRO,251,LORENA BORGOGNO VIAJES, 0.00,13,USD,       10853.44,        7163.99,       2.486.50,         621.16, 5.13,           0.00,  /  /,27,2,           0.00
+  60230,PL,F,RQ,131, 2/09/24, 1/06/25,GARELLO/RICARDO FRANCI,714,LUX TRAVELS, 0.00,2,USD,        3445.56,        3445.56,           0.00,         359.84, 9.84,           0.00,  /  /,7,1,           0.00
+  60263,PU,F,RQ,131, 2/09/24, 8/03/25,ANDREA GISELLE FARIñA,4986,WOMEN GROUP,14.00,3,USD,        1711.10,        1711.10,           0.00,         114.88, 6.00,           0.00,  /  /,36,1,           0.00
+  60366,EU,F,RQ,120,13/9/2024, 5/03/25,SCAGLIA/ERICA FABIANA,4716,GESTINA TRAVEL, 0.00,3,USD,         651.97,         451.97,           0.00,          43.86, 6.00,           0.00,  /  /,7,1,           0.00
+  60377,PU,F,RQ,129, 4/09/24,14/6/2025,BRUNENGO/NORA,714,LUX TRAVELS,12.00,2,USD,        1859.96,        1859.96,           0.00,         183.08, 9.09,           0.00,  /  /,36,1,           0.00
+  60397,BY,F,RQ,129, 4/09/24,30/3/2025,FRACAROLLI/GERMAN IGNA,918,BCTURISMO - PICCATO- D,14.00,20,USD,       20350.49,        6423.81,           0.00,        1478.20, 6.53,           0.00,  /  /,36,1,           0.00
+  60413,MA,F,RQ,129, 4/09/24, 4/09/24,FRANZI /SEBASTIAN,4760,FRANZI SEBASTIAN ANDRE, 0.00,4,USD,        1429.08,          49.02,       1.285.99,          47.82, 2.98,           0.00,  /  /,39,1,           0.00
+  60422,AU,F,RQ,128, 5/09/24,19/1/2025,TAVERNA/DANIEL IVAN,251,LORENA BORGOGNO VIAJES,14.00,5,USD,        8975.25,        2636.39,           0.00,         623.77, 6.20,           0.00,  /  /,27,2,           0.00
+  60426,EU,FV,RQ,129, 4/09/24,23/9/2024,FEDERICO DUTSCHMANN Y,722,PENDIENTE, 0.00,2,USD,       13694.48,       13694.48,      13.701.48,          -0.20, 0.00,           0.00,  /  /,2,1,           0.00
+  60438,PH,F,RQ,128, 5/09/24, 7/09/24,ASISTENCIA CHOFERES PH,2354,COSTA VIAJES, 0.00,2,USD,          96.36,          96.36,          90.03,           0.00, 0.00,           0.00,  /  /,23,1,           0.00
+  60464,BR,F,RQ,116,17/9/2024,24/1/2025,GUALTIERI/NESTOR ENRIQ,251,LORENA BORGOGNO VIAJES, 0.00,4,USD,        2074.49,        1619.89,           0.00,         106.84, 4.59,           0.00,  /  /,27,2,           0.00
+  60475,RD,F,RQ,128, 5/09/24,12/2/2025,AMARILLO/ROMINA LUISA,714,LUX TRAVELS, 0.00,2,USD,        1985.70,        1985.70,           0.00,         192.00, 8.90,           0.00,  /  /,7,1,           0.00
+  60507,BZ,FA,RQ,127, 6/09/24,28/2/2025,TANTUCCI / FEDERICO PA,1334,GRACIEL TOURS,12.00,4,USD,        3637.00,         292.04,           0.00,         275.06, 9.80,           0.00,  /  /,11,1,           0.00
+  60623,RD,F,RQ,124, 9/09/24,10/2/2025,SUFIA/ELADIO ELISEO,546,DESERET TRAVEL,13.00,5,USD,        8328.68,        5152.31,           0.00,         678.74, 7.38,           0.00,  /  /,27,1,           0.00
+  60767,BM,F,RQ,122,11/9/2024,14/9/2024,PAVON/CLAUDIO JAVIER (,2354,COSTA VIAJES, 0.00,2,USD,          59.27,          59.27,          54.02,           0.00, 0.00,           0.00,  /  /,23,1,           0.00
+  60782,PU,F,RQ,123,10/9/2024, 8/03/25, DIEGO GASPAR PAREJO,4371,SOCIAL MEDIA CP,14.00,2,USD,        2196.31,         757.31,          82.50,         212.36, 8.92,           0.00,  /  /,36,1,           0.00
+  60968,BR,F,RQ,120,13/9/2024,28/3/2025,3J97QU - BONESSI/DANIE,991,ILUSIONES VIAJES & TUR, 0.00,2,USD,        1597.24,        1597.24,           0.00,         111.56, 6.23,           0.00,  /  /,27,1,           0.00
+  60999,EM,FA,RQ,115,18/9/2024,17/5/2025,MATEU/JORGE CRISTOBAL,3676,EUGENIA VIAJES RIO IV, 0.00,2,USD,       10188.03,        1188.03,           0.00,        2131.44,30.46,           0.00,  /  /,16,1,           0.00
+  61102,EU,F,RQ,25,17/12/2024,10/3/2025,OSELLA/ DIANA MARIA,489,CARLOS GARRO TRAVELS,12.00,2,USD,        3052.00,        1452.00,         157.91,         322.84, 9.75,           0.00,  /  /,11,1,           0.00
+  61185,MX,FV,RQ,115,18/9/2024, 5/05/25, HEFLING/HUGO GERARDO,714,LUX TRAVELS, 0.00,2,USD,        1329.01,        1329.01,           0.00,         149.44,10.39,           0.00,  /  /,7,1,           0.00
+  61198,BR,F,RQ,115,18/9/2024,24/1/2025,BUZZACCHI/ALEJANDRO AN,251,LORENA BORGOGNO VIAJES, 0.00,4,USD,        2666.40,        2666.40,           0.00,         202.80, 6.81,           0.00,  /  /,27,2,           0.00
+  61290,EM,FA,RQ,113,20/9/2024,17/5/2025,SOSA/RAMON ALEJANDRO,3676,EUGENIA VIAJES RIO IV, 0.00,2,USD,       10186.55,        6186.55,           0.00,        2131.74,30.46,           0.00,  /  /,16,1,           0.00
+  61455,GR,FA,RQ,100, 3/10/24,26/5/2025,MENDEZ. NORMA BEATRIZ,1838,TURISMO LA RIBERA SRL,12.00,3,USD,       10876.95,        7876.95,           0.00,         501.71,11.00,           0.00,  /  /,16,1,           0.00
+  61457,EU,F,RQ,110,23/9/2024, 3/07/25,EULA/NESTOR JAVIER,251,LORENA BORGOGNO VIAJES, 0.00,2,USD,        4137.45,        4137.45,           0.00,         274.70, 6.06,           0.00,  /  /,27,2,           0.00
+  61478,CC,F,RQ,110,23/9/2024,24/9/2024,FASSI BAUTISTA,722,PENDIENTE, 0.00,1,USD,        1130.00,        1130.00,         903.00,         137.00,12.12,           0.00,  /  /,2,1,           0.00
+  61489,EU,F,RQ,109,24/9/2024,11/2/2025,ASEGUINOLAZA/ FERNANDO,714,LUX TRAVELS, 0.00,4,USD,       10494.75,        8294.75,       5.579.57,         899.42, 8.02,           0.00,  /  /,7,1,           0.00
+  61531,EM,FA,RQ,99, 4/10/24,17/5/2025,BELLETINI/VILMA INES (,3676,EUGENIA VIAJES RIO IV, 0.00,1,USD,        5095.07,        2095.07,           0.00,        1065.92,30.46,           0.00,  /  /,16,1,           0.00
+  61570,BY,F,RQ,108,25/9/2024,12/3/2025,MOLINERI/ALEXIS SEBAST,251,LORENA BORGOGNO VIAJES, 0.00,3,USD,        2949.63,        2949.63,         220.00,         212.00, 6.42,           0.00,  /  /,27,2,           0.00
+  61621,RD,F,RQ,106,27/9/2024,24/5/2025,RODRIGUEZ/SILVINA LOUR,991,ILUSIONES VIAJES & TUR,14.00,1,USD,         587.04,         587.04,           0.00,          39.25, 6.00,           0.00,  /  /,27,1,           0.00
+  61682,RD,FA,RQ,106,27/9/2024,11/3/2025,PRINS/GERMAN DARIO,2940,SINDICATO ARGENTINO DE, 0.00,3,USD,        4784.07,        3014.07,       1.709.36,         305.13, 6.55,           0.00,  /  /,27,1,           0.00
+  61695,,FVA,RQ,107,26/9/2024,13/11/2024,GRUPO MARCELO GELARDIN,4123,LATITUD 40 VIAJES, 0.00,18,USD,       40992.99,        3081.90,      34.056.79,        6889.91,19.65,           0.00,  /  /,27,1,           0.00
+  61717,CU,F,RQ,103,30/9/2024,12/4/2025,SIBILLA / MARIA VIRGIN,714,LUX TRAVELS, 0.00,8,USD,        5346.03,        5346.03,         728.64,         557.71, 9.60,           0.00,  /  /,7,1,           0.00
+  61752,UB,F,RQ,100, 3/10/24,26/1/2025,GHIO/FRANCO,251,LORENA BORGOGNO VIAJES, 0.00,2,USD,        2624.51,        2624.51,           0.00,         251.22, 8.60,           0.00,  /  /,27,2,           0.00
+  61881,MA,F,RQ,102, 1/10/24, 5/10/24,HORACIO MENDEZ BROZ Y,722,PENDIENTE, 0.00,3,USD,        2289.00,        2289.00,       2.289.00,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  62013,BR,F,RQ,96, 7/10/24,21/3/2025,COCA/ANA LUZ,991,ILUSIONES VIAJES & TUR,14.00,4,USD,        1720.11,        1720.11,           0.00,         174.61, 9.14,           0.00,  /  /,27,1,           0.00
+  62041,UB,F,RQ,96, 7/10/24,27/4/2025,GONZALEZ/ JOSE JULIO,1135,ANTONIETTI VIAJES, 0.00,2,USD,         668.53,         668.53,           0.00,          89.21,12.42,           0.00,  /  /,7,1,           0.00
+  62058,UB,F,RQ,96, 7/10/24,19/2/2025,NAZARIO/ANAHI DEL VALL,714,LUX TRAVELS, 0.00,4,USD,        2629.71,        2629.71,           0.00,         259.64, 9.08,           0.00,  /  /,7,1,           0.00
+  62060,BR,F,RQ,96, 7/10/24,13/2/2025,VIENNY/ ATILIO FEDERIC,714,LUX TRAVELS, 0.00,3,USD,        1263.74,        1263.74,           0.00,         151.20,11.08,           0.00,  /  /,7,1,           0.00
+  62061,ES,F,PM,97, 6/10/24,28/11/2024,44RNLL FUNES ALBERTO,722,PENDIENTE, 0.00,2,USD,        3048.00,         218.10,       2.848.00,         200.00, 6.56,           0.00,  /  /,2,1,           0.00
+  62067,PH,F,RQ,96, 7/10/24,12/7/2025,MARTINEZ/YAMILE STELLA,1128,VICENT TURISMO,12.00,2,USD,        3344.05,        2758.49,           0.00,         673.13,18.71,           0.00,  /  /,16,1,           0.00
+  62115,RJ,F,RQ,80,23/10/2024,10/3/2025,OCAÑO/ELIANA BELEN,3306,DELTA TURISMO,14.00,5,USD,        2010.00,        1010.00,           0.00,         149.40, 6.64,           0.00,  /  /,11,1,           0.00
+  62128,,F,RQ,95, 8/10/24, 8/10/24,REYNA/JOSE ERNESTO,2354,COSTA VIAJES, 0.00,2,USD,          59.27,          59.27,          54.02,           0.00, 0.00,           0.00,  /  /,23,1,           0.00
+  62159,PL,F,RQ,95, 8/10/24, 9/03/25,JOSE DOMINGO CARDETTI,991,ILUSIONES VIAJES & TUR,14.00,2,USD,        3807.95,        3807.95,           0.00,         265.57, 6.25,           0.00,  /  /,36,1,           0.00
+  62178,RJ,F,RQ,95, 8/10/24,13/5/2025,PROSDOCIMO/ MAXIMILIAN,1135,ANTONIETTI VIAJES, 0.00,2,USD,        1078.60,         322.81,           0.00,         156.04,13.47,           0.00,  /  /,7,1,           0.00
+  62241,MX,F,RQ,89,14/10/2024, 6/04/25,LANDO/FRANCO DIEGO,991,ILUSIONES VIAJES & TUR,14.00,2,USD,        2433.49,        2433.49,           0.00,         163.48, 6.00,           0.00,  /  /,39,1,           0.00
+  62275,EU,F,RQ,93,10/10/2024,10/2/2025,BASILUK/FRANCISCO JUAN,714,LUX TRAVELS, 0.00,4,USD,        6628.78,        6628.78,       3.012.58,         724.03,10.06,           0.00,  /  /,7,1,           0.00
+  62285,EM,FA,RQ,88,15/10/2024,26/4/2025,ORIONE/DANIEL ALFREDO,4560,ASPEN TRAVEL,12.00,4,USD,       21530.63,       12798.63,           0.00,        4682.20,27.29,           0.00,  /  /,16,1,           0.00
+  62297,RJ,F,RQ,89,14/10/2024,31/1/2025,BOVETTI/HERNAN EZEQUIE,251,LORENA BORGOGNO VIAJES,12.00,4,USD,        1700.00,        1682.92,           0.00,         108.80, 5.85,           0.00,  /  /,11,2,           0.00
+  62345,MD,F,RQ,93,10/10/2024, 5/01/25,24NL7Z CORTIJO JUAN CR,722,PENDIENTE, 0.00,1,USD,        1145.30,        1145.30,       1.145.30,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  62351,RJ,FA,RQ,89,14/10/2024,14/10/2024,RITONDALE LUIS / VILLA,3971,LUIS RITONDALE, 0.00,2,USD,        1217.45,          17.45,       1.217.45,           0.00, 0.00,           0.00,  /  /,2,1,           0.00
+  62399,RD,F,RQ,88,15/10/2024,26/1/2025,BORDAQUIEVICH/MARTIN J,714,LUX TRAVELS, 0.00,7,USD,        7154.49,        7154.49,           0.00,         602.95, 7.72,           0.00,  /  /,7,1,           0.00
+  62486,MX,F,RQ,86,17/10/2024, 8/05/25,IDIART/FABIAN ANTONIO,714,LUX TRAVELS, 0.00,2,USD,        2399.09,        2399.09,           0.00,         274.24,10.56,           0.00,  /  /,7,1,           0.00
+  62537,,FVA,PM,86,17/10/2024,13/12/2024,NOCELLI GUILLERMO,783,ELSA FURBATTO, 0.00,9,USD,        9254.15,        1254.15,       9.042.00,         212.00, 2.57,           0.00,  /  /,29,1,           0.00
+  62549,RD,F,RQ,86,17/10/2024,22/6/2025,MENARDI/MARIA VENANCIA,714,LUX TRAVELS, 0.00,2,USD,        1618.47,        1618.47,           0.00,         148.80, 8.45,           0.00,  /  /,7,1,           0.00
+  62551,BR,F,RQ,86,17/10/2024,21/3/2025,MARIA FLORENCIA DIAZ,991,ILUSIONES VIAJES & TUR,14.00,2,USD,        1077.69,        1077.69,           0.00,          89.42, 7.59,           0.00,  /  /,36,1,           0.00
+  62561,RD,F,RQ,86,17/10/2024, 7/03/25,BRESSAN/GERARDO RAUL,714,LUX TRAVELS,12.00,2,USD,        2372.99,        2372.99,           0.00,         228.14, 8.84,           0.00,  /  /,27,1,           0.00
+  62568,PU,F,RQ,86,17/10/2024,12/7/2025,MARIA DEL VALLE PANEIV,4370,SOCIAL MEDIA TRAVEL,14.00,15,USD,       10115.02,       10115.02,           0.00,         700.50, 6.20,           0.00,  /  /,36,1,           0.00
+  62596,MX,F,RQ,86,17/10/2024, 2/02/25,GUSMAR HUGO HORACIO,714,LUX TRAVELS,13.00,7,USD,        4792.78,        4792.78,           0.00,         591.97,11.53,           0.00,  /  /,36,1,           0.00
+  62621,RD,F,RQ,82,21/10/2024, 3/07/25,ARGUELLO/ JOSE LUIS,714,LUX TRAVELS, 0.00,5,USD,        3454.67,        3454.67,           0.00,         323.20, 8.60,           0.00,  /  /,7,1,           0.00
+  62625,GR,FA,RQ,81,22/10/2024,14/4/2025,PONCE/MONICA ANA ELCIR,714,LUX TRAVELS,12.00,2,USD,        6223.78,        4223.78,           0.00,        1000.66,26.35,           0.00,  /  /,16,1,           0.00
+  62681,PU,F,RQ,84,19/10/2024, 1/02/25,CAMBRONERO/  ANDRES OS,2380,EXODO TRAVEL,17.00,5,USD,       11224.00,        2520.59,       4.373.11,         391.29, 2.98,           0.00,  /  /,11,1,           0.00
+  62696,GR,FA,RQ,78,25/10/2024,20/4/2025,SAAD/CARLOS OMAR ALBER,2142,PLATINO TURISMO,14.00,2,USD,        6135.49,          35.49,           0.00,         924.69,24.35,           0.00,  /  /,16,1,           0.00
+  62724,GR,FA,RQ,81,22/10/2024,26/5/2025,MANTEROLA/MARCELA NANC,4859,TRAVEL BOUTIQUE,15.00,2,USD,        6036.07,        3734.84,           0.00,         290.72, 7.65,           0.00,  /  /,16,1,           0.00
+  62745,GR,FA,RQ,64, 8/11/24,14/4/2025,FILIPPI/CAROLINA ANDRE,2462,TURISMO LATINO,12.00,2,USD,        6223.78,        3723.78,           0.00,        1000.66,26.35,           0.00,  /  /,16,1,           0.00
+  62763,RD,F,RQ,81,22/10/2024, 4/02/25,FACCHINI/NESTOR HUGO,714,LUX TRAVELS, 0.00,7,USD,        7898.32,        7898.32,           0.00,         858.74,10.02,           0.00,  /  /,7,1,           0.00
+  62772,BZ,FA,RQ,80,23/10/2024, 7/02/25,RODRIGUEZ/ALEXIS CARLO,714,LUX TRAVELS, 0.00,2,USD,        2643.60,        1943.60,           0.00,         181.78, 7.00,           0.00,  /  /,7,1,           0.00
+  62836,BZ,FA,RQ,80,23/10/2024, 7/02/25,BORLETTO/ ALEXIS,714,LUX TRAVELS, 0.00,2,USD,        2643.60,        1943.60,           0.00,         181.78, 7.00,           0.00,  /  /,7,1,           0.00
+  62884,BZ,FA,RQ,78,25/10/2024,24/1/2025,URRUTIA MALDONADO/ BRI,714,LUX TRAVELS, 0.00,3,USD,        3414.59,        1889.59,           0.00,         571.68,17.66,           0.00,  /  /,7,1,           0.00
+  62925,RD,F,RQ,77,26/10/2024,26/2/2025,POZO/PEDRO ANTONIO,251,LORENA BORGOGNO VIAJES, 0.00,5,USD,        6108.21,        6108.21,           0.00,         555.40, 8.35,           0.00,  /  /,7,2,           0.00
+  62926,MX,F,RQ,79,24/10/2024, 9/03/25,BRESSAN/NORMA GLADYS,991,ILUSIONES VIAJES & TUR,14.00,6,USD,        9829.76,        9829.76,           0.00,         661.09, 6.00,           0.00,  /  /,39,1,           0.00
+  62946,MX,F,RQ,77,26/10/2024,30/1/2025,LERDA/JUAN DANTE,714,LUX TRAVELS, 0.00,9,USD,       13916.57,       13916.57,           0.00,        1338.80, 8.84,           0.00,  /  /,27,1,           0.00
+  62948,RD,F,RQ,77,26/10/2024, 3/03/25,PUIATTI/MARIA FERNANDA,1135,ANTONIETTI VIAJES, 0.00,4,USD,        4613.41,        2654.55,           0.00,         404.40, 8.04,           0.00,  /  /,7,1,           0.00
+  62973,RD,F,RQ,78,25/10/2024,27/1/2025,RIOS/RODOLFO BENJAMIN,714,LUX TRAVELS, 0.00,5,USD,        5672.52,        5672.52,           0.00,         536.85, 8.69,           0.00,  /  /,7,1,           0.00
+  63030,CU,F,RQ,75,28/10/2024, 8/02/25,LOMBARDI /  FERNANDO D,4567,WONDERTRIP, 0.00,5,USD,         302.60,         302.60,         198.04,         100.21,30.37,           0.00,  /  /,19,1,           0.00
+  63039,BZ,FA,RQ,75,28/10/2024,24/1/2025,DALMASSO/DANIEL NELSO,714,LUX TRAVELS, 0.00,2,USD,        2695.30,        1295.30,          82.00,         196.98, 7.58,           0.00,  /  /,7,1,           0.00
+  63049,,FA,RQ,75,28/10/2024,28/10/2024,59701,4306,ORBITAL TOUR, 0.00,1,PES,      651530.70,      651530.70,     637.491.86,           0.00, 0.00,           0.00,  /  /,32,1,           0.00
+  63071,BY,F,RQ,74,29/10/2024, 1/05/25,CERIONI/EZEQUIEL MARTI,251,LORENA BORGOGNO VIAJES, 0.00,2,USD,        1775.89,        1649.80,           0.00,         157.08, 7.94,           0.00,  /  /,27,2,           0.00
+  63174,GR,FA,RQ,65, 7/11/24,14/4/2025,DURETTI/MARIO ROBERTO,810,ICONICA LAS VARILLAS.,12.00,2,USD,        6223.78,        2723.78,           0.00,        1000.66,26.35,           0.00,  /  /,16,1,           0.00
+  63191,CT,F,RQ,72,31/10/2024,10/3/2025,GASTALDI/ROBERTO,2935,MBV MARIANA BONELLI CB, 0.00,2,USD,        2823.55,        2823.55,           0.00,         254.54, 8.08,           0.00,  /  /,27,1,           0.00
+  63288,CU,F,RQ,71, 1/11/24, 8/04/25,ANALIA ALEJANDRA MOLIN,4701,MAZZUCCO VIAJES,14.00,4,USD,        1435.13,        1005.13,           0.00,          96.31, 6.00,           0.00,  /  /,36,1,           0.00
+  63312,PG,F,RQ,68, 4/11/24,20/3/2025,VIANO/MARIA DEL CARMEN,714,LUX TRAVELS, 0.00,2,USD,        1403.10,        1403.10,           0.00,         159.44,10.50,           0.00,  /  /,7,1,           0.00
+  63356,RD,F,RQ,68, 4/11/24,31/1/2025,ARAMBURU/MARTIN,714,LUX TRAVELS, 0.00,2,USD,        2562.14,        2562.14,           0.00,         331.23,11.98,           0.00,  /  /,7,1,           0.00
+  63379,PU,F,RQ,68, 4/11/24,14/3/2025,EVELIO JOSE MORES,991,ILUSIONES VIAJES & TUR,14.00,10,USD,       11357.23,       11357.23,           0.00,         763.85, 6.00,           0.00,  /  /,36,1,           0.00
+  63520,MX,F,RQ,65, 7/11/24, 9/03/25,RODRIGUEZ/ZULEMA ZELIN,991,ILUSIONES VIAJES & TUR,14.00,2,USD,        3352.71,        3352.71,           0.00,         225.32, 6.00,           0.00,  /  /,27,1,           0.00
+  63524,RD,F,RQ,65, 7/11/24, 5/03/25,ALESSIO CARRIZO/ROCIO,991,ILUSIONES VIAJES & TUR,14.00,10,USD,       12961.45,        8145.35,           0.00,         871.78, 6.00,           0.00,  /  /,39,1,           0.00
+  63543,BR,F,RQ,66, 6/11/24,15/3/2025,DARIO DAVID YACOB,4371,SOCIAL MEDIA CP,14.00,3,USD,        1409.17,         956.22,       1.178.83,          94.56, 6.00,           0.00,  /  /,36,1,           0.00
+  63560,CU,F,RQ,65, 7/11/24, 6/05/25,GRIBAUDO/ CARLOS ALBER,714,LUX TRAVELS, 0.00,6,USD,       10225.68,       10225.68,           0.00,         883.47, 7.92,           0.00,  /  /,7,1,           0.00
+  63562,BZ,FA,RQ,64, 8/11/24,31/1/2025,MORICONI/ GUILLERMO DA,714,LUX TRAVELS, 0.00,4,USD,        4356.73,        1556.73,           0.00,         559.78,13.47,           0.00,  /  /,7,1,           0.00
+  63563,RD,F,RQ,65, 7/11/24,17/5/2025,MARTINENGO/ GERARDO HU,714,LUX TRAVELS, 0.00,3,USD,        1317.92,        1317.92,           0.00,         135.52, 9.48,           0.00,  /  /,7,1,           0.00
+  63564,BZ,FA,RQ,60,12/11/2024,21/2/2025,PETERSEN/GERARDO HUGO,714,LUX TRAVELS, 0.00,4,USD,        4359.99,        1559.99,           0.00,         687.29,16.54,           0.00,  /  /,7,1,           0.00
+  63596,CT,F,RQ,65, 7/11/24,20/5/2025,NICOLAS JOAQUIN FONTAN,4888,MAYFLY,13.00,2,USD,        1537.54,        1537.54,           0.00,         112.61, 6.63,           0.00,  /  /,36,1,           0.00
+  63656,,FA,RQ,64, 8/11/24,23/1/2025,GRUPO BOMBAY 23JAN24,1356,BOMBAY VIAJES Y TURISM,15.00,15,USD,       50150.41,       12050.41,      15.313.86,        8724.86,22.03,           0.00,  /  /,23,1,           0.00
+  63690,BR,F,RQ,60,12/11/2024, 7/02/25,FRISONE HEARNE/JEAN LU,251,LORENA BORGOGNO VIAJES, 0.00,2,USD,        1679.65,        1679.65,           0.00,         119.95, 6.38,           0.00,  /  /,27,2,           0.00
+  63696,BR,F,RQ,26,16/12/2024,25/2/2025,BASTIANELLI/ MARIA ROS,2380,EXODO TRAVEL,14.00,2,USD,         899.00,         489.69,           0.00,          60.57, 6.01,           0.00,  /  /,11,1,           0.00
+  63701,BR,F,RQ,30,12/12/2024,25/2/2025,CEDRON/DIEGO ALEJANDRO,2380,EXODO TRAVEL,14.00,4,USD,        1429.00,         909.02,           0.00,          96.72, 6.04,           0.00,  /  /,11,1,           0.00
+  63702,BR,F,RQ,58,14/11/2024,25/2/2025,BASTIANELLI/  EDGAR AB,2380,EXODO TRAVEL,14.00,4,USD,        1452.00,        1060.23,           0.00,          98.08, 6.02,           0.00,  /  /,11,1,           0.00
+  63704,BR,F,RQ,26,16/12/2024,25/2/2025,CEDRON/WALTER ARIEL,2380,EXODO TRAVEL,14.00,4,USD,        1452.00,        1068.30,           0.00,          98.08, 6.02,           0.00,  /  /,11,1,           0.00
+  63724,PU,F,RQ,61,11/11/2024,11/4/2025,BRASC/NICOLAS AGUSTIN,714,LUX TRAVELS,12.00,15,USD,       10748.00,        9748.00,         894.24,        1086.26, 9.29,           0.00,  /  /,11,1,           0.00
+  63855,BY,F,RQ,58,14/11/2024,18/6/2025,GPO YOGA  BAYAHIBE,1988,TOURISM IN AMERICA,15.00,25,USD,       19070.00,       18870.00,       4.050.80,        1866.32, 8.69,           0.00,  /  /,11,1,           0.00
+  63933,EM,FA,RQ,23,19/12/2024,17/5/2025,TESTA//MARIA DEL CARME,3676,EUGENIA VIAJES RIO IV, 0.00,2,USD,       10186.26,        7186.26,           0.00,        2072.92,29.62,           0.00,  /  /,16,1,           0.00
+  63940,GR,FA,RQ,50,22/11/2024,26/5/2025,REINHEIMER/ANALIA RAQU,1838,TURISMO LA RIBERA SRL,12.00,1,USD,        3972.70,        2472.70,           0.00,         505.64,26.63,           0.00,  /  /,16,1,           0.00
+  63952,UB,F,RQ,51,21/11/2024,10/2/2025,MUCHUT/MARIO,714,LUX TRAVELS,14.00,3,USD,        2544.42,        2544.42,           0.00,         181.26, 6.37,           0.00,  /  /,39,1,           0.00
+  63991,RD,F,RQ,52,20/11/2024,15/2/2025,BALNAGERO / CARINA ELI,714,LUX TRAVELS,12.00,2,USD,        1806.43,        1806.43,           0.00,         228.32,11.71,           0.00,  /  /,39,1,           0.00
+  63998,MX,F,RQ,56,16/11/2024,14/2/2025,ARIAS / DIEGO JULIO,714,LUX TRAVELS,14.00,6,USD,       10470.18,       10470.18,           0.00,         545.38, 4.63,           0.00,  /  /,39,1,           0.00
+  64003,MX,F,RQ,31,11/12/2024, 1/03/25,QUINTERO/DIEGO LUIS RO,714,LUX TRAVELS,14.00,2,USD,        1759.52,        1759.52,           0.00,         154.52, 7.88,           0.00,  /  /,39,1,           0.00
+  64121,BR,FA,RQ,51,21/11/2024,17/2/2025,CARBO/MARCELA ELIZABET,714,LUX TRAVELS,14.00,5,USD,        5846.32,         926.32,           0.00,        1376.74,23.51,           0.00,  /  /,39,1,           0.00
+  64168,PM,FA,RQ,51,21/11/2024,13/3/2025,BRUNO/ADA MARIA LUCIA,1164,SAUL BANCHIO  SERVICIO,12.00,1,USD,        5478.40,        1846.18,           0.00,        1404.81,31.93,           0.00,  /  /,16,10,           0.00
+  64181,RD,F,RQ,50,22/11/2024, 5/03/25,DE ELEJALDE / CARLOS G,714,LUX TRAVELS,14.00,2,USD,        2897.57,        2897.57,           0.00,         194.70, 6.00,           0.00,  /  /,39,1,           0.00
+  64184,BR,FA,RQ,50,22/11/2024,31/1/2025,MORO/SEBASTIAN IGNACIO,714,LUX TRAVELS,14.00,2,USD,        3215.33,        1857.33,          48.00,        1021.02,31.93,           0.00,  /  /,39,1,           0.00
+  64207,BY,F,RQ,51,21/11/2024, 8/04/25,LONGHI/MAURO MATIAS,251,LORENA BORGOGNO VIAJES,14.00,4,USD,        8613.53,        8613.53,           0.00,         626.56, 6.50,           0.00,  /  /,36,2,           0.00
+  64223,PU,F,RQ,50,22/11/2024,29/3/2025,PICCOLI MIGUEL ALBERTO,4371,SOCIAL MEDIA CP,15.00,2,USD,        1805.85,         467.43,       1.615.45,         104.91, 5.11,           0.00,  /  /,36,1,           0.00
+  64262,BR,F,RQ,46,26/11/2024,15/3/2025,TORRES/CINTIA ROCIO,4371,SOCIAL MEDIA CP,14.00,2,USD,        1495.00,        1042.05,       1.239.05,         118.32, 7.07,           0.00,  /  /,39,1,           0.00
+  64278,RD,F,RQ,50,22/11/2024, 6/02/25,TISSERA/MAXIMILIANO,251,LORENA BORGOGNO VIAJES,14.00,2,USD,        2753.87,        2753.87,           0.00,         200.80, 6.52,           0.00,  /  /,39,2,           0.00
+  64288,PL,F,RQ,31,11/12/2024, 5/07/25,BALDA/LUCAS LEANDRO,714,LUX TRAVELS, 0.00,6,USD,        4636.82,        4636.82,           0.00,         475.76, 9.44,           0.00,  /  /,7,1,           0.00
+  64289,CU,F,RQ,47,25/11/2024, 8/07/25,BUSTOS/DANIEL OMAR,714,LUX TRAVELS, 0.00,13,USD,       14484.41,       14484.41,           0.00,        1465.25, 9.30,           0.00,  /  /,7,1,           0.00
+  64291,EM,FA,RQ,44,28/11/2024,31/5/2025,DOMIG/LUIS ALBERTO,2132,YAKARTA VIAJES,12.00,2,USD,       12382.23,        9927.14,           0.00,        2685.32,31.30,           0.00,  /  /,16,1,           0.00
+  64313,BR,F,RQ,47,25/11/2024,21/2/2025,AGUILERA/JUAN PABLO,991,ILUSIONES VIAJES & TUR,14.00,7,USD,        3624.84,        3150.68,           0.00,         281.03, 6.94,           0.00,  /  /,36,1,           0.00
+  64321,BY,F,RQ,47,25/11/2024, 5/03/25,CASAS MIRTA ERCILIA,4935,MATYJASCZYK MONICA VIV, 0.00,3,USD,        4350.01,        4350.01,           0.00,         469.72,11.31,           0.00,  /  /,36,1,           0.00
+  64342,GR,FA,RQ,44,28/11/2024,16/3/2025,ALEMANDRI/GISELA MARIS,2132,YAKARTA VIAJES,14.00,1,USD,        3069.76,          69.76,           0.00,         378.00,19.91,           0.00,  /  /,16,1,           0.00
+  64364,BR,F,RQ,45,27/11/2024,13/2/2025,ROMALDI/MARTIN ALEJAND,714,LUX TRAVELS, 0.00,4,USD,        2228.83,        2228.83,           0.00,         327.48,13.67,           0.00,  /  /,7,1,           0.00
+  64381,MX,F,RQ,38, 4/12/24,23/2/2025,RODRIGUEZ / ADRIANA MA,251,LORENA BORGOGNO VIAJES,14.00,25,USD,       31932.40,       28248.15,       4.684.00,        2197.13, 6.14,           0.00,  /  /,39,2,           0.00
+  64394,BR,F,RQ,45,27/11/2024,15/3/2025,ALANIZ/SOFIA RUTH,4371,SOCIAL MEDIA CP,14.00,2,USD,        1488.61,        1035.66,       1.178.83,         118.28, 7.10,           0.00,  /  /,39,1,           0.00
+  64396,UB,FV,RQ,45,27/11/2024, 4/01/25,JUDEZ/JUAN PABLO RICAR,4123,LATITUD 40 VIAJES, 0.00,2,USD,        2130.71,          82.71,       1.579.00,         242.42,11.89,           0.00,  /  /,7,1,           0.00
+  64403,PU,F,RQ,45,27/11/2024,15/4/2025,JAULE/CARLOS FABIAN,251,LORENA BORGOGNO VIAJES,14.00,3,USD,        3407.54,        3407.54,           0.00,         297.86, 7.84,           0.00,  /  /,36,2,           0.00
+  64467,AR,F,RQ,44,28/11/2024,28/11/2024,EURORIENTE 26/11 EVENT,3736,EURORIENTE TRAVEL, 0.00,1,USD,         370.00,         370.00,         368.99,           0.00, 0.00,           0.00,  /  /,9,1,           0.00
+  64472,RD,F,RQ,43,29/11/2024,19/3/2025,JARRYS/MARIO EMILIO,251,LORENA BORGOGNO VIAJES,14.00,2,USD,        3152.07,        3151.44,           0.00,         221.54, 6.28,           0.00,  /  /,39,2,           0.00
+  64476,MX,F,RQ,43,29/11/2024, 7/07/25,CASTRO/MATIAS,714,LUX TRAVELS,14.00,4,USD,        2331.27,        2331.27,           0.00,         156.60, 6.00,           0.00,  /  /,39,1,           0.00
+  64488,AR,F,RQ,44,28/11/2024,28/11/2024,EXOTIC 26/11 EVENTO EN,4939,EXOTIC TOURS AND TRAVE, 0.00,1,USD,         370.00,         370.00,         368.99,           0.00, 0.00,           0.00,  /  /,9,1,           0.00
+  64492,BZ,F,RQ,39, 3/12/24,13/2/2025,MOROSINI/EDUARDO NAZAR,714,LUX TRAVELS, 0.00,4,USD,        2295.31,        2295.31,           0.00,          84.09, 3.33,           0.00,  /  /,7,1,           0.00
+  64520,RD,F,RQ,39, 3/12/24, 1/02/25,MARTIN CONCI/ANTONELLA,4371,SOCIAL MEDIA CP,14.00,14,USD,       14447.52,        8779.12,           0.00,        1097.30, 6.77,           0.00,  /  /,39,1,           0.00
+  64538,RD,F,RQ,39, 3/12/24, 7/07/25,LENERT/ADRIAN,714,LUX TRAVELS,14.00,4,USD,        2331.27,        2331.27,           0.00,         156.60, 6.00,           0.00,  /  /,39,1,           0.00
+  64541,PU,F,RQ,43,29/11/2024,21/4/2025,BACCHETTA NESTOR ENRIQ,929,LIAGRE VIAJES,14.00,2,USD,        2582.34,        1082.34,           0.00,         180.59, 6.25,           0.00,  /  /,36,1,           0.00
+  64548,BY,F,RQ,43,29/11/2024,26/2/2025,GRUDINE SONIA ANABELLA,4701,MAZZUCCO VIAJES,14.00,2,USD,        2913.45,        1913.45,           0.00,         196.56, 6.02,           0.00,  /  /,36,1,           0.00
+  64577,RD,F,RQ,39, 3/12/24,16/6/2025,CARANTA/MIGUEL ANGEL,714,LUX TRAVELS,14.00,5,USD,        3930.87,        3930.87,           0.00,         264.22, 6.00,           0.00,  /  /,39,1,           0.00
+  64581,PU,F,RQ,40, 2/12/24,13/6/2025,IAGO BRUNO,929,LIAGRE VIAJES,14.00,3,USD,        2277.99,        1777.99,           0.00,         153.01, 6.00,           0.00,  /  /,36,1,           0.00
+  64590,RD,F,RQ,31,11/12/2024,14/9/2025,INSAURRALDE/AGUSTINA F,714,LUX TRAVELS,14.00,2,USD,        1165.22,        1165.22,           0.00,          78.15, 6.00,           0.00,  /  /,39,1,           0.00
+  64592,RD,F,RQ,39, 3/12/24,30/4/2025,VITALE/ANTONIO ANDRES,714,LUX TRAVELS,14.00,2,USD,        1715.68,        1715.68,           0.00,         114.10, 5.94,           0.00,  /  /,39,1,           0.00
+  64604,RD,F,RQ,39, 3/12/24,18/5/2025,GOMEZ / ENRIQUE JORGE,2935,MBV MARIANA BONELLI CB,14.00,2,USD,        1864.59,        1864.59,           0.00,         182.18, 8.76,           0.00,  /  /,39,1,           0.00
+  64608,SA,F,RQ,40, 2/12/24, 8/05/25,BALLADARES GUILLERMO H,714,LUX TRAVELS,14.00,2,USD,        2008.35,        2008.35,           0.00,         131.92, 5.87,           0.00,  /  /,36,1,           0.00
+  64611,EM,FA,RQ,29,13/12/2024,26/4/2025,MANITTA/AIDA ISABEL,1584,ALMAFUERTE VIAJES,12.00,1,USD,        7195.25,        5995.25,           0.00,        1083.13,20.10,           0.00,  /  /,16,1,           0.00
+  64624,RD,F,RQ,39, 3/12/24,26/2/2025,LOPEZ/JUAN CARLOS,714,LUX TRAVELS,14.00,8,USD,        6904.57,        6904.57,           0.00,         464.60, 6.00,           0.00,  /  /,39,1,           0.00
+  64653,,FA,RQ,38, 4/12/24, 3/03/25,DELLA GHELFA/GABRIEL M,1596,REAL TOUR,12.00,2,USD,        8015.75,        6015.75,           0.00,        1462.38,27.09,           0.00,  /  /,16,1,           0.00
+  64695,MX,F,RQ,38, 4/12/24,11/3/2025,FRATTIN / EZEQUIEL ONÉ,714,LUX TRAVELS,14.00,3,USD,        3484.29,        3484.29,           0.00,         246.00, 6.31,           0.00,  /  /,39,1,           0.00
+  64706,NJ,F,RQ,38, 4/12/24,17/3/2025,BERTINOTTI / SILVIA GA,714,LUX TRAVELS,14.00,4,USD,        2902.21,        2902.21,           0.00,         195.01, 6.00,           0.00,  /  /,39,1,           0.00
+  64726,GR,FA,RQ,33, 9/12/24,26/5/2025,FENOGLIO/MIRTA GRACIEL,251,LORENA BORGOGNO VIAJES,12.00,2,USD,        6273.03,        2667.12,           0.00,        1005.70,26.48,           0.00,  /  /,16,2,           0.00
+  64728,RD,F,RQ,35, 7/12/24,26/3/2025,MIO/GUSTAVO,4371,SOCIAL MEDIA CP,14.00,3,USD,        2458.44,        2458.44,           0.00,         167.96, 6.09,           0.00,  /  /,39,1,           0.00
+  64752,RD,F,RQ,36, 6/12/24, 7/03/25,PRIETO/LUIS MARIA,251,LORENA BORGOGNO VIAJES, 0.00,3,USD,        4595.20,        4593.66,           0.00,         360.30, 7.02,           0.00,  /  /,27,2,           0.00
+  64754,MX,F,RQ,35, 7/12/24, 5/05/25,HEFLING / MATIAS EZEQU,714,LUX TRAVELS,14.00,3,USD,        2150.73,        2150.73,         102.00,         298.20,12.58,           0.00,  /  /,39,1,           0.00
+  64814,BZ,F,RQ,36, 6/12/24,22/1/2025,TANA. EMILCE FABIANA,251,LORENA BORGOGNO VIAJES,14.00,2,USD,        1636.26,        1219.87,       1.456.18,         116.76, 6.38,           0.00,  /  /,36,2,           0.00
+  64836,MX,F,RQ,33, 9/12/24,31/3/2025,MAURINO/ GRACIELA DOMI,714,LUX TRAVELS,12.00,3,USD,        2783.00,        2783.00,           0.00,         420.06,14.16,           0.00,  /  /,11,1,           0.00
+  64846,SA,F,PM,36, 6/12/24,17/12/2024,ROBERT DANIEL,4969,ROBERT DANIEL ORLANDO, 0.00,3,USD,        7624.68,        3624.68,       8.464.38,        -929.80,12.20,           0.00,  /  /,2,1,           0.00
+  64851,BR,F,RQ,19,23/12/2024,25/2/2025,REFI BIASI / BIANCA,3306,DELTA TURISMO,14.00,3,USD,        2785.25,        1785.25,           0.00,         188.32, 6.04,           0.00,  /  /,39,1,           0.00
+  64907,BR,F,RQ,24,18/12/2024, 5/02/25,VILLALBA/GUSTAVO FERNA,1005,CRISTAL VYT - COSQUIN,14.00,2,USD,         817.29,         717.29,           0.00,          56.71, 6.22,           0.00,  /  /,39,1,           0.00
+  64928,,FA,OK,,10/12/2024,11/1/2025,ALZUGARAY X2,3435,COLVER TOURS, 0.00,2,USD,         906.18,           9.12,         897.90,           8.28, 1.17,           0.00,  /  /,42,1,           0.00
+  64937,RD,F,RQ,31,11/12/2024, 6/05/25,PASCHETTA/DIEGO GERMAN,251,LORENA BORGOGNO VIAJES, 0.00,2,USD,        1600.75,        1599.39,           0.00,         151.48, 8.53,           0.00,  /  /,27,2,           0.00
+  64947,,FA,RQ,31,11/12/2024,18/3/2025,MUSSO/PABLO MIGUEL,2063,SOUBERAN VIAJES & TURI,13.00,3,USD,        9527.29,        4527.29,           0.00,         851.46,12.39,           0.00,  /  /,16,1,           0.00
+  64980,MX,F,RQ,29,13/12/2024,18/4/2025,BALLADARES / GUILLERMO,714,LUX TRAVELS,14.00,6,USD,        9516.85,        9516.85,           0.00,         640.04, 6.00,           0.00,  /  /,39,1,           0.00
+  64986,MX,F,RQ,25,17/12/2024,13/2/2025,ANGIORAMA / JUAN CRUZ,251,LORENA BORGOGNO VIAJES,14.00,2,USD,        2151.55,        2151.55,           0.00,         179.20, 7.47,           0.00,  /  /,39,2,           0.00
+  65006,RD,F,RQ,25,17/12/2024,26/1/2025,GONZALEZ/MONICA - GRP,714,LUX TRAVELS,12.00,19,USD,       16552.60,       16552.60,       2.563.21,        1186.40, 6.39,           0.00,  /  /,27,1,           0.00
+  65012,BZ,FA,RQ,29,13/12/2024,24/2/2025,MAGLIONE/ JUAN HECTOR,1988,TOURISM IN AMERICA,14.00,6,USD,        9327.00,        4827.00,           0.00,        1472.30,15.35,           0.00,  /  /,11,1,           0.00
+  65015,CC,FA,RQ,30,12/12/2024,13/3/2025,TORRES/ SERGIO ALBERTO,1951,CONTADOR DE VIAJES,12.00,4,USD,       10906.00,        6306.00,       4.488.20,         731.36, 7.88,           0.00,  /  /,11,1,           0.00
+  65016,SA,F,RQ,30,12/12/2024,23/1/2025,PEREYRA/LAURA CECILIA,714,LUX TRAVELS,12.00,5,USD,        6144.00,        6144.00,           0.00,         781.64,11.77,           0.00,  /  /,11,1,           0.00
+  65017,RD,F,RQ,30,12/12/2024, 2/02/25,CARLETTI/PAULA,714,LUX TRAVELS,14.00,2,USD,        2004.87,        2004.87,           0.00,         134.64, 6.00,           0.00,  /  /,39,1,           0.00
+  65021,MX,F,RQ,19,23/12/2024, 3/02/25,AYUP / ALEJANDRA SUSAN,251,LORENA BORGOGNO VIAJES,14.00,2,USD,        2230.21,        2230.21,           0.00,         177.14, 7.11,           0.00,  /  /,39,2,           0.00
+  65026,PL,F,RQ,30,12/12/2024, 5/05/25,VARELA/ ENRIQUE ALFRRE,714,LUX TRAVELS,12.00,2,USD,        1530.00,        1530.00,           0.00,         154.46, 9.30,           0.00,  /  /,11,1,           0.00
+  65032,EU,F,RQ,30,12/12/2024,15/4/2025,SANCHEZ/JULIO CESAR,771,RECIFE TRAVEL GROUP,12.00,2,USD,        5291.10,        3191.18,           0.00,         783.72,13.77,           0.00,  /  /,39,1,           0.00
+  65041,PU,F,RQ,30,12/12/2024,26/2/2025,SANTARELLI AGUSTINA,714,LUX TRAVELS,14.00,5,USD,        5301.12,        5301.12,           0.00,         911.26,15.70,           0.00,  /  /,36,1,           0.00
+  65043,,FA,RQ,25,17/12/2024,22/5/2025,YAMPOTI/ROSA ARGENTINA,4649,TURIMOS GUADALQUIVIR,12.00,2,USD,       12113.76,       10113.76,           0.00,        1249.03,15.24,           0.00,  /  /,16,1,           0.00
+  65070,CC,FA,RQ,30,12/12/2024, 4/02/25,PONCE CLAUDIO,4977,PONCE CLAUDIO LUIS, 0.00,3,USD,        7825.01,        7825.01,       6.664.05,         685.78, 9.94,           0.00,  /  /,36,1,           0.00
+  65071,RM,F,PM,29,13/12/2024,19/12/2024,3R76K5 GARDIOL/MARIA A,4567,WONDERTRIP, 0.00,3,USD,        5912.00,        5912.00,       5.077.42,         657.67,11.41,           0.00,  /  /,45,1,           0.00
+  65073,CC,FA,RQ,25,17/12/2024,13/3/2025,15QSE2 SORIA/JOSE ALEJ,4567,WONDERTRIP,13.00,3,USD,        7317.12,        3477.12,       3.504.15,         386.16, 6.16,           0.00,  /  /,39,1,           0.00
+  65076,BY,F,RQ,29,13/12/2024, 7/03/25,GALAN ALFONSINA,714,LUX TRAVELS,14.00,18,USD,       22257.86,       22257.86,           0.00,         812.81, 3.31,           0.00,  /  /,36,1,           0.00
+  65086,PL,F,RQ,25,17/12/2024,18/2/2025,PAVESA/ ALEJANDRO  JOS,714,LUX TRAVELS,12.00,2,USD,        3171.00,        3171.00,           0.00,         280.58, 8.16,           0.00,  /  /,11,1,           0.00
+  65093,RD,F,RQ,29,13/12/2024,30/4/2025,GASSER LORENA,3836,GASSER LORENA ERICA, 0.00,13,USD,        6000.00,        6000.00,       5.598.25,         401.75, 6.70,           0.00,  /  /,2,1,           0.00
+  65104,PU,F,RQ,29,13/12/2024, 7/03/25,GODOY MARTINEZ PABLO J,714,LUX TRAVELS,14.00,8,USD,        8043.48,        8043.48,           0.00,         541.09, 6.00,           0.00,  /  /,36,1,           0.00
+  65140,CT,F,RQ,25,17/12/2024,28/1/2025,MORERO/JUAN CRUZ,251,LORENA BORGOGNO VIAJES,14.00,2,USD,        3107.58,        3107.58,           0.00,         243.79, 7.02,           0.00,  /  /,39,2,           0.00
+  65153,RJ,FA,RQ,23,19/12/2024,21/2/2025,QUEVEDO/ JOSE MATIAS,4990,EXOTIC LIFE,12.00,2,USD,        2229.00,        1029.00,           0.00,         608.67,28.44,           0.00,  /  /,11,1,           0.00
+  65155,PU,F,RQ,25,17/12/2024, 4/02/25,BABINI DANIEL EDUARDO,251,LORENA BORGOGNO VIAJES,14.00,2,USD,        4952.78,        4952.78,           0.00,         371.92, 6.71,           0.00,  /  /,45,2,           0.00
+  65164,MX,F,RQ,22,20/12/2024,15/2/2025,RIOS/RUBEN OSCAR,714,LUX TRAVELS,12.00,6,USD,       11258.00,       11258.00,           0.00,        1018.04, 8.30,           0.00,  /  /,11,1,           0.00
+  65178,BY,F,RQ,22,20/12/2024, 3/07/25,SPONIER/JAVIER OCTAVIO,714,LUX TRAVELS,12.00,2,USD,        2572.00,        2572.00,           0.00,         238.68, 8.53,           0.00,  /  /,11,1,           0.00
+  65213,EU,F,RQ,25,17/12/2024,11/1/2025,MARRANDINO/AUGUSTO AND,4370,SOCIAL MEDIA TRAVEL, 0.00,2,USD,        4487.39,         128.77,       4.198.56,         180.00, 4.11,           0.00,  /  /,29,1,           0.00
+  65230,EU,FA,RQ,24,18/12/2024,18/1/2025,DUTSCHMANN/REZENDE/INC,258,JAZZ OPERADOR CORDOBA, 0.00,3,USD,        6241.12,        6241.12,       5.851.80,         300.00, 8.35,           0.00,  /  /,27,1,           0.00
+  65232,,FA,OK,,18/12/2024,11/1/2025,BLARIZA/LIDIA DE LOS A,4994,BLARIZA LIDIA DE LOS A, 0.00,1,USD,         405.81,         224.86,         391.88,           8.12, 3.18,           0.00,  /  /,25,1,           0.00
+  65238,GR,FA,RQ,22,20/12/2024,26/5/2025,SACCHI/MARIO ENRIQUE,562,MUSICALISIMO VIAJES,12.00,2,USD,        6227.38,        3027.38,           0.00,         995.86,26.22,           0.00,  /  /,16,1,           0.00
+  65275,BR,FA,RQ,22,20/12/2024,14/2/2025,GARELLO/GASTON,714,LUX TRAVELS,14.00,2,USD,        2333.89,        2333.89,           0.00,         459.61,19.81,           0.00,  /  /,39,1,           0.00
+  65281,EU,F,RQ,23,19/12/2024,21/7/2025,BIRN RICARDO DANIEL,3306,DELTA TURISMO,14.00,2,USD,        1143.03,        1143.03,           0.00,          76.66, 6.00,           0.00,  /  /,36,1,           0.00
+  65287,BZ,FA,RQ,23,19/12/2024, 7/02/25,PEREA OJEDA MATIAS DAN,2940,SINDICATO ARGENTINO DE,13.00,3,USD,        4116.18,         895.46,           0.00,         725.87,17.66,           0.00,  /  /,36,1,           0.00
+  65306,BR,FA,RQ,22,20/12/2024,17/2/2025,SAHARREA CESAR DANIEL,2935,MBV MARIANA BONELLI CB,12.00,3,USD,        3666.81,        1166.81,           0.00,         907.52,25.23,           0.00,  /  /,36,1,           0.00
+  65325,,FA,RQ,21,21/12/2024,23/1/2025,29VCT8 /// ERRECART/DA,714,LUX TRAVELS, 0.00,2,USD,        6960.05,        3960.05,       3.550.41,         906.41,12.63,           0.00,  /  /,23,1,           0.00
+  65357,BR,F,RQ,21,21/12/2024, 3/04/25,SALINAS GLADYS BEATRIZ,714,LUX TRAVELS,14.00,3,USD,        1896.50,        1896.50,           0.00,         128.94, 6.16,           0.00,  /  /,36,1,           0.00
+  65376,RD,F,RQ,19,23/12/2024, 9/02/25,BLENCIO / YANINA,251,LORENA BORGOGNO VIAJES,14.00,4,USD,        3307.18,        3307.18,           0.00,         355.68, 9.72,           0.00,  /  /,39,2,           0.00
+  65379,EM,FA,RQ,15,27/12/2024,17/5/2025,FERNANDEZ/JORGE RAMON,3676,EUGENIA VIAJES RIO IV, 0.00,2,USD,       10186.25,        4281.06,           0.00,        2073.70,29.63,           0.00,  /  /,16,1,           0.00
+  65395,,FA,RQ,19,23/12/2024,28/1/2025,LINARES/MANUEL,2551,ABDALA SEBASTIAN IGNAC, 0.00,1,PES,      172782.19,        3436.79,     169.345.40,        3387.60, 2.52,           0.00,  /  /,25,1,           0.00
+  65431,,FA,RQ,16,26/12/2024, 2/02/25,WAQUIM NINI / DIEGO FE,2636,WAQUIM NINI DIEGO FERN, 0.00,6,USD,        7304.54,        7304.54,           0.00,         351.12, 6.55,           0.00,  /  /,29,1,           0.00
+  65434,PU,F,RQ,16,26/12/2024, 2/02/25,WAQUIM DIEGO,2636,WAQUIM NINI DIEGO FERN, 0.00,6,USD,       11698.08,       11698.08,           0.00,        1669.52,14.71,           0.00,  /  /,36,1,           0.00
+  65490,BR,F,RQ,15,27/12/2024,28/1/2025,BERTOZZI ERIKA,714,LUX TRAVELS,14.00,2,USD,         908.35,         908.35,           0.00,          69.54, 6.87,           0.00,  /  /,36,1,           0.00
+  65518,PU,F,RQ,15,27/12/2024,30/12/2024,HENFLEN CESAR LUIS,714,LUX TRAVELS, 0.00,6,USD,        9085.97,        9085.97,      12.057.00,       -2974.51,32.75,           0.00,  /  /,36,1,           0.00
+  65525,EU,F,RQ,15,27/12/2024, 6/04/25,3UDFT6 BASTOS/JUAN MAN,955,CHAU VIAJES - LOFT, 0.00,1,USD,         320.00,         320.00,         215.00,          88.23,29.10,           0.00,  /  /,25,1,           0.00
+  65550,PU,F,RQ,12,30/12/2024,11/2/2025,MILANESIO HUGO,714,LUX TRAVELS,14.00,2,USD,        2273.82,        2273.82,           0.00,         159.20, 6.26,           0.00,  /  /,36,1,           0.00
+  65590,,FA,OK,,30/12/2024, 1/01/25,VARTALITIS ERNESTO,2551,ABDALA SEBASTIAN IGNAC, 0.00,1,PES,      168140.86,        3344.06,     164.796.80,        3296.20, 2.53,           0.00,  /  /,25,1,           0.00
+  65619,BR,F,RQ,11,31/12/2024, 2/03/25,VIGLIANCO LUCIANO,714,LUX TRAVELS,14.00,7,USD,        5427.82,        5427.82,           0.00,         365.33, 6.01,           0.00,  /  /,36,1,           0.00
