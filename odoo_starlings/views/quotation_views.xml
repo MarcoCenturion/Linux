@@ -1,7 +1,7 @@
 <odoo>
     <record id="view_travel_quotation_form" model="ir.ui.view">
         <field name="name">travel.quotation.form</field>
-        <field name="model">travel.quotation</field>
+        <field name="model">starlings.travel.quotation</field>
         <field name="arch" type="xml">
             <form>
                 <header>
