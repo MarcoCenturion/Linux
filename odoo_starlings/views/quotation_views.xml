@@ -1,0 +1,24 @@
+<odoo>
+    <record id="view_travel_quotation_form" model="ir.ui.view">
+        <field name="name">travel.quotation.form</field>
+        <field name="model">travel.quotation</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="search_flights" string="Buscar Vuelos" type="object" class="oe_highlight"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="origin"/>
+                        <field name="destination"/>
+                        <field name="departure_date"/>
+                    </group>
+                    <group>
+                        <field name="flight_data" widget="json"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
