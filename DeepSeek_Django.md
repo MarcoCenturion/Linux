@@ -203,3 +203,97 @@ CONCLUSIÓN ESTRATÉGICA
 - **Escalamiento**: Añadir 1 GPU cada 50 usuarios concurrentes
 - **Backup Humano**: Mantener al menos 2 seniors full-time
 - **Nota Técnica**: La arquitectura soporta hasta 100 usuarios concurrentes sin degradación de performance. Incluye redundancia automática en servidores.
+
+## Diagrama estratégico evolutivo
+
+```mermaid
+flowchart LR
+    subgraph Fase1[Fase 1: Base]
+        A[Formulario Django] --> B[(PostgreSQL)]
+        B --> C[Reportes BI]
+    end
+    
+    subgraph Fase2[Fase 2: Cross-Selling]
+        C --> D{Motor Combinaciones}
+        D -->|Vuelo| E[+Hotel]
+        D -->|Hotel| F[+Vuelo]
+    end
+    
+    subgraph Fase3[Fase 3: Asistencia]
+        E --> G[Chatbot DeepSeek]
+        F --> G
+        G -->|Casos complejos| H[Panel Senior]
+    end
+    
+    subgraph Fase4[Fase 4: Autonomía]
+        G --> I[Chatbot para Agencias]
+        I --> J[Venta Directa]
+        J --> K((Modelo ML))
+        K --> D
+    end
+    
+    style Fase1 fill:#e3f2fd,stroke:#2196f3
+    style Fase2 fill:#e8f5e9,stroke:#4caf50
+    style Fase3 fill:#fff3e0,stroke:#ff9800
+    style Fase4 fill:#fce4ec,stroke:#e91e63
+```
+
+
+## Puntos clave de tu estrategia:
+
+###  Evolución gradual: Desde lo operativo (formularios) hasta lo autónomo (chatbot con ML).
+
+###    Data-Driven:
+
+PostgreSQL como single source of truth
+BI para optimizar ofertas
+ML para mejorar recomendaciones
+
+###  Automatización inteligente:
+
+Chatbot como "ayudante" → "vendedor autónomo"
+Escalado automático de excepciones
+
+### Recomendación adicional:
+
+### Añadir un módulo de feedback continuo donde:
+Los seniors corrijan recomendaciones del chatbot
+Las agencias califiquen cotizaciones
+Esto retroalimente el modelo de ML
+
+### MVP
+
+```mermaid
+gantt
+    title Cronograma Simplificado
+    dateFormat  YYYY-MM
+    section Fase 1
+    Base de Datos          :done, 2024-10, 2m
+    Formularios            :active, 2024-12, 2m
+    section Fase 2
+    APIs Proveedores       :2025-02, 3m
+    Motor Cross-Selling    :2025-05, 1m
+    section Fase 3
+    Chatbot Asistente      :2025-06, 2m
+    section Fase 4
+    Chatbot Autónomo       :2025-09, 3m
+```
+
+### Característica Clave
+- Tareas críticas marcadas con crit (no retrasables)
+- Dependencias entre fases (ej: motor combinaciones → chatbot)
+- Paralelismo donde posible (ej: entrenamiento ML mientras se desarrolla chatbot)
+- Hitos visuales por cada fase
+
+
+## Recomendaciones finales:
+
+- - Buffer temporal: Añade 15-30 días de colchón entre fases
+
+##  Hitlos clave:
+
+- 2025-01-15: Integración primera API
+- 2025-04-01: Lanzamiento MVP chatbot
+- 2025-09-01: Sistema autónomo operativo
+
+- Metodología: Considera usar Sprints de 2-4 semanas para desarrollo iterativo
