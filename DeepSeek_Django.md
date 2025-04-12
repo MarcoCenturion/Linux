@@ -5,11 +5,12 @@
 ### Costos de Implementación
 | **Concepto**               | **Costo Inicial (USD)** | **Recurrente Anual (USD)** |
 |----------------------------|-------------------------|----------------------------|
-| Desarrollo CRM             | $28,000                 | $6,000 (actualizaciones)   |
-| Hardware (2x GPU T4)       | $18,000                 | $3,600 (mantenimiento)     |
-| Capacitación (16 personas) | $8,000                  | $2,400 (refreshers)        |
-| Licencias                  | $3,500                  | $3,500                     |
-| **Total**                  | **$57,500**             | **$15,500**                |
+| Desarrollo CRM             | $28000                 | $6000 (actualizaciones)   |
+| Hardware (2x GPU T4)       | $18000                 | $3600 (mantenimiento)     |
+| Capacitación (16 personas) | $8000                  | $2400 (refreshers)        |
+| Licencia api Nemo          | $3500                  | $200                     |
+| Licencia api Starlings     | $1500| $1500
+| **Total**                  | **$59000**             | **$13700**                |
 
 ### Proyección de Ventas (3 años)
 
@@ -34,8 +35,7 @@ Una aproximación en el mediano plazo
 Etapas Clave
 
 ```mermaid
-
-%%{init: {'theme': 'neutral', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
+%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
 gantt
     title Cronograma MVP (6 meses)
     dateFormat  YY-MM-DD
@@ -60,9 +60,12 @@ Cliente → Login Google → Cotizador → ¿Vuelo+Hotel?
                                          └─ Sí → Panel Senior → Aprobación → Envío Directo
 ```
 
-## Cotización
+## Cotización 2.0
+
+### Esquema 
 
 ```mermaid
+%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
 graph TD
     A[Cliente] --> B{Login}
     B --> C[Cotizar]
@@ -80,7 +83,7 @@ graph TD
 ## Flujo de una cotización
 
 ```mermaid
-%%{init: {'theme': 'neutral', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
+%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
 sequenceDiagram
     title Flujo CRM Aéreos + Hoteles (Tiempos en minutos)
     participant C as Cliente
@@ -134,30 +137,33 @@ sequenceDiagram
 
 ## Hitos Prioritarios
 
-### Mes 1-2:
-
-Login Google OAuth
-Conexión API StarLings (vuelos)
-PDF básico con numeración única
-
-### Mes 3-4:
-
-Integración Nemo (hoteles)
-Motor de combinación automática
-Dashboard para juniors
-
-### Mes 5-6:
-
-Módulo de paquetes integrados
-Training presencial (2 semanas) 
-Implementación escalonada
+```mermaid
+%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
+gantt
+    title Cronograma Kickoff CRM vuelos + hotel 
+    dateFormat  YYYY-MM
+    section Meses 1-2
+    Login Google      :done, 2024-10, 2m
+    API Vuelos       :active, 2024-11, 1m
+    PDFs             :2024-11, 1m
+    section Meses 3-4
+    API Hoteles      :2025-01, 2m
+    Motor Combos     :2025-02, 1m
+    section Meses 5-6
+    Paquetes        :2025-04, 1m
+    Training        :2025-05, 2w
+```
 
 ### Subsistemas Críticos
-Componente	Tecnología	Performance
-Consulta APIs	Python Async	<3 seg por consulta
-Generación PDF	WeasyPrint	2.1 seg promedio
-Cola de Derivación	Redis + Celery	150 reqs/seg
-Base de Conocimiento	Elasticsearch	Búsquedas en 0.8 seg
+
+Detalle de sistemas que deben interactuar para el funcionamiento.
+
+| **Componente**|	**Tecnología**|	**Performance**
+|---|---|---
+| Consulta APIs|	Python Async|	< 3 seg por consulta
+| Generación PDF|	WeasyPrint|	2.1 seg promedio
+| Cola de Derivación|	Redis + Celery|	150 reqs/seg
+| Base de Conocimiento|	Elasticsearch|	Búsquedas en 0.8 se
 
 ## 4. Conclusión Estratégica
 #### ROI y Capacidad
@@ -207,6 +213,7 @@ CONCLUSIÓN ESTRATÉGICA
 ## Diagrama estratégico evolutivo
 
 ```mermaid
+%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
 flowchart LR
     subgraph Fase1[Fase 1: Base]
         A[Formulario Django] --> B[(PostgreSQL)]
@@ -232,10 +239,6 @@ flowchart LR
         K --> D
     end
     
-    style Fase1 fill:#e3f2fd,stroke:#2196f3
-    style Fase2 fill:#e8f5e9,stroke:#4caf50
-    style Fase3 fill:#fff3e0,stroke:#ff9800
-    style Fase4 fill:#fce4ec,stroke:#e91e63
 ```
 
 
@@ -245,25 +248,26 @@ flowchart LR
 
 ###    Data-Driven:
 
-PostgreSQL como single source of truth
-BI para optimizar ofertas
-ML para mejorar recomendaciones
+- PostgreSQL como single source of truth
+- BI para optimizar ofertas
+- ML para mejorar recomendaciones
 
 ###  Automatización inteligente:
 
-Chatbot como "ayudante" → "vendedor autónomo"
-Escalado automático de excepciones
+- Chatbot como "ayudante" → "vendedor autónomo"
+- Escalado automático de excepciones
 
 ### Recomendación adicional:
 
 ### Añadir un módulo de feedback continuo donde:
-Los seniors corrijan recomendaciones del chatbot
-Las agencias califiquen cotizaciones
-Esto retroalimente el modelo de ML
+- Los seniors corrijan recomendaciones del chatbot
+- Las agencias califiquen cotizaciones
+- Esto retroalimente el modelo de ML
 
 ### MVP
 
 ```mermaid
+%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
 gantt
     title Cronograma Simplificado
     dateFormat  YYYY-MM
@@ -288,7 +292,7 @@ gantt
 
 ## Recomendaciones finales:
 
-- - Buffer temporal: Añade 15-30 días de colchón entre fases
+- Buffer temporal: Añade 15-30 días de colchón entre fases
 
 ##  Hitlos clave:
 
@@ -296,4 +300,8 @@ gantt
 - 2025-04-01: Lanzamiento MVP chatbot
 - 2025-09-01: Sistema autónomo operativo
 
-- Metodología: Considera usar Sprints de 2-4 semanas para desarrollo iterativo
+## Metodología: 
+
+- Considera usar Sprints de 2-4 semanas para desarrollo iterativo
+- Entregables cortos, para cumplir modelo MVP
+
