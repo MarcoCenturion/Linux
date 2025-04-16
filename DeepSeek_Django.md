@@ -32,10 +32,11 @@ Una aproximación en el mediano plazo
 |Margen Operativo|	30%|	32%|	34%
 
 ## 2. Roadmap MVP
-Etapas Clave
+
+### Etapas Clave
 
 ```mermaid
-%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
+%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 10}}}%%
 gantt
     title Cronograma MVP (6 meses)
     dateFormat  YY-MM-DD
@@ -50,37 +51,21 @@ gantt
     Go-Live Full : golive, 24-04-17, 14d
 ```
 
-# Flujo de Procesos
-
-```
-Cliente → Login Google → Cotizador → ¿Vuelo+Hotel?
-                 ├─ No → PDF Individual → Envío Directo
-                 └─ Sí → Combinador → PDF Integrado → ¿Validar?
-                                         ├─ No → Envío Directo
-                                         └─ Sí → Panel Senior → Aprobación → Envío Directo
-```
-
-## Cotización 2.0
+## 3- Cotización 2.0
 
 ### Esquema 
 
-```mermaid
-%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
-graph TD
-    A[Cliente] --> B{Login}
-    B --> C[Cotizar]
-    C --> D{Combinado?}
-    D -->|No| E[PDF Simple]
-    D -->|Sí| F[Combinar]
-    F --> G[PDF Completo]
-    G --> H{Validar?}
-    H -->|No| I[Enviar]
-    H -->|Sí| J[Revisión]
-    J --> K[Aprobar]
-    K --> I
-```
+Agregar un chatbot conectado en el sitio web que responda consultas.  Cuando el tráfico es de una agencia de viajes, solicitar login a traves de gmail.  Identificado el usuario, el chatbot lo guiara con preguntas por el "journey".  Para el caso de la cotización, tanto de aéreo, como hotel, el bot va a solicitar la cantidad y tipos de pasajeros.  Algo que puede demorar diez minutos a través de un humano, el bot conectado a Starlings o Nemo responde en menos de un minuto.  Esas consultas podemos informarlas a un comercial, para hacerles seguimiento y tener feedback.  A su vez, los responsables de áreas contarán con un informe diario de la utilización tanto del bot, como de las cotizaciones enviadas por el ejecutivo humano.  La primera línea formada por vendedores Jr. detrás de la que habrá una segunda línea de Sr. que atenderán los problemas complejos.  
 
-## Flujo de una cotización
+El procesar toda la información por este canal de ingreso, va a posibilitar armar mapas de calor de destinos, fechas, cias aéreas, etc para hacer foco en eso.  
+
+Vamos a poder establecer ratios de efectividad de los vendedores.  Poder corregir estrategias comerciales en base a datos.
+
+Aleatoriamente puede agregarse una encuesta de satisfacción, para obtener feedback, puntualmente el que nos interesa, estamos caros?  No estaba la oferta que buscaba, etc.
+
+Para implementar un sistema así, un factor desicivo es diseñar tiempos / costos / entregables y setear espectativas.
+
+### Flujo de una cotización
 
 ```mermaid
 %%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
@@ -90,68 +75,95 @@ sequenceDiagram
     participant B as Bot Cotizador
     participant J as Junior
     participant S as Senior
-    participant SYS as Sistema
+    participant SYS as CRM VENTA
+    participant ERP as Sistema ERP
 
     rect rgb(240, 240, 240)
-        Note over C,B: Flujo Principal (Tiempo: 0-5 min)
-        C->>+B: Solicita cotización (datos viaje)
-        B->>+SYS: Consulta disponibilidad
-        SYS-->>-B: Resultados brutos
-        B->>B: Procesa reglas comerciales
-        B-->>-C: Opción básica (vuelo/hotel)
+        Note over C,B: Flujo automático sin ejecutivo (Tiempo: 0-1 min)
+        C->>+B: Chat cotización lenguaje humano
+        B->>+SYS: Dispo Aereo o tierra o ambos
+        SYS->>SYS: Conectores Api Nemo y Starlings con reglas comerciales
+        SYS-->>-B: Resultados aereos, hoteles o mix
+        B-->>-C: Opción básica (vuelo/hotel) solicita datos paxs
     end
 
     rect rgb(200, 230, 255)
-        Note over C,J: Cross-Selling (Tiempo: 5-10 min)
-        C->>+J: Pide mejoras
-        J->>+B: Solicita combinaciones
-        B->>B: Aplica algoritmos de upselling
-        B-->>-J: 3 opciones premium
-        J->>C: Ofrece paquete integrado
+        Note over C,J: Consulta simple al bot + CROSS SELLING (Tiempo: 1 min)
+        C->>+SYS: Busca Hotel o Aéreo
+        SYS->>C: Respuesta aéreo o terrestre 
+        Note over J,SYS: Cross selling (Tiempo: + 1 min)
+        SYS->>+SYS: Posible upsell? (ej. PUJ CUN RIO)
+        SYS->>+B: Arma combinaciones
+        B->>B: Respuesta Aéreo + oportunidad Upgrade
+        B->>B: Aprendizaje IA
+        B-->>C: Ofrece faltante al cliente.
+        Note over B,J: Pasadas 2 hs 
+        B-->>J: Alerta al ejecutivo.
+        J->>C: Ofrece paquete integrado / Solicita datos
     end
 
     rect rgb(255, 230, 200)
-        Note over J,S: Validación Senior (Tiempo: 10-15 min)
-        alt Requiere aprobación
+        Note over J,S: Validación Senior consulta compleja (Tiempo: 5-15 min)
+        alt Requiere Escalar 2do nivel
             J->>+S: Envía para revisión
             S->>S: Verifica márgenes
             S->>J: Sugiere ajustes
-            J->>B: Modifica parámetros
+            J->>B: Aprendizaje BOT
             B-->>S: Nueva cotización
             S-->>-J: Aprobación final
         else
-            J->>C: Confirma directamente
+            J->>C: Confirma cotización
         end
     end
 
     rect rgb(200, 255, 200)
-        Note over C,SYS: Cierre (Tiempo: 15-20 min)
-        C->>+J: Confirma compra
-        J->>+SYS: Bloquea inventario
+        Note over C,SYS: Cierre (Tiempo: 1-5 min)
+        C->>+J: Solicitud con datos paxs 
+        J->>+SYS: Reserva Aereo+terrestre
         SYS-->>-J: Reserva temporal
         J->>+S: Notifica venta
         S-->>-J: Valida pago
-        J->>C: Envía voucher y PDF
+        SYS->>J: Liquidación
+        SYS->>+ERP : File Automático
+        ERP-->>-C: Factura
+        J->>C: Envía e-Tkts y Voucher Htl
     end
 ```
 
 ## Hitos Prioritarios
 
-```mermaid
-%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
-gantt
-    title Cronograma Kickoff CRM vuelos + hotel 
-    dateFormat  YYYY-MM
-    section Meses 1-2
-    Login Google      :done, 2024-10, 2m
-    API Vuelos       :active, 2024-11, 1m
-    PDFs             :2024-11, 1m
-    section Meses 3-4
-    API Hoteles      :2025-01, 2m
-    Motor Combos     :2025-02, 1m
-    section Meses 5-6
-    Paquetes        :2025-04, 1m
-    Training        :2025-05, 2w
+Para un proyecto limpio es necesario proyectar tiempos.
+
+```plantuml
+@startgantt
+Project starts 2024-05-11
+printscale weekly 
+
+[Estudio Factibilidad] as [est] requires 30 days
+[Log AGY] as [auth1] starts at [est]'s end and lasts 15 days
+[API Vuelos] as [api1] starts at [auth1]'s end and lasts 30 days
+[Liq PDF] as [pdf1] starts at [auth1]'s end and lasts 20 days
+
+[API HTLS] as [api2] starts at [pdf1]'s end and lasts 50 days
+[Motor Cross] as [comb1] starts at [api2]'s end and lasts 25 days
+[Dashboard Juniors] as [dash1] starts at [api2]'s end and lasts 30 days
+
+[Pq Integrados] as [pack1] starts at [comb1]'s end and lasts 40 days
+[Training bot] as [train1] starts at [pack1]'s end and lasts 25 days
+[Imp Escalonada] as [rollout1] starts at [train1]'s end and lasts 30 days
+
+2024-08-18 to 2024-09-24 are named [Prototipo Beta]
+2024-08-18 to 2024-09-24 are colored in salmon 
+
+legend
+Tiempos:
+
+|= Kickoff |= MVP |
+|<#gray> | Planned |
+
+end legend
+@endgantt
+
 ```
 
 ### Subsistemas Críticos
@@ -167,6 +179,8 @@ Detalle de sistemas que deben interactuar para el funcionamiento.
 
 ## 4. Conclusión Estratégica
 #### ROI y Capacidad
+
+Existe una oportunidad en mejorar la capacidad operativa de los vendedores, mejorando además los tiempos de respuesta y reduciendo el monto de los errores.
 
 ```
 CONCLUSIÓN ESTRATÉGICA
@@ -189,18 +203,20 @@ CONCLUSIÓN ESTRATÉGICA
 ## ROI Esperado:
 
 - 21,930% en 3 años ($4.5M beneficio neto)
-- Break-even en Mes 4 post-implementación
+- Break-even en Mes 4 post-implementación.
 
 ## Escalabilidad:
 
-- Mismo equipo (12J+4S) puede gestionar $40M anuales
+- Mismo equipo (12J+4S) puede gestionar $40M anuales.
+- A partir de las primeras pruebas internas, puede escalarse a varios mercados.
 - Margen operativo potencial del 36% en año 4
 
 ## Factores Clave
 
 - Integración perfecta entre APIs de proveedores
-- Training continuo de juniors con IA
+- Training continuo del equipo de ventas Jr y Sr con IA
 - Monitoreo en tiempo real con Grafana/Prometheus
+- Mejora contínua.
 
 ## Recomendaciones Finales
 
@@ -241,7 +257,6 @@ flowchart LR
     
 ```
 
-
 ## Puntos clave de tu estrategia:
 
 ###  Evolución gradual: Desde lo operativo (formularios) hasta lo autónomo (chatbot con ML).
@@ -255,22 +270,24 @@ flowchart LR
 ###  Automatización inteligente:
 
 - Chatbot como "ayudante" → "vendedor autónomo"
-- Escalado automático de excepciones
+- Escalado automático de excepciones.
+- Cross selling, CRM para seguimiento de cotizaciones.
 
 ### Recomendación adicional:
 
 ### Añadir un módulo de feedback continuo donde:
+
 - Los seniors corrijan recomendaciones del chatbot
 - Las agencias califiquen cotizaciones
-- Esto retroalimente el modelo de ML
+- Esto retroalimenta el modelo de ML
 
 ### MVP
 
 ```mermaid
-%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
+%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 10}}}%%
 gantt
     title Cronograma Simplificado
-    dateFormat  YYYY-MM
+    dateFormat  YY-MM
     section Fase 1
     Base de Datos          :done, 2024-10, 2m
     Formularios            :active, 2024-12, 2m
@@ -284,11 +301,11 @@ gantt
 ```
 
 ### Característica Clave
+
 - Tareas críticas marcadas con crit (no retrasables)
 - Dependencias entre fases (ej: motor combinaciones → chatbot)
 - Paralelismo donde posible (ej: entrenamiento ML mientras se desarrolla chatbot)
-- Hitos visuales por cada fase
-
+- Hitos visuales por cada fases
 
 ## Recomendaciones finales:
 
@@ -296,12 +313,20 @@ gantt
 
 ##  Hitlos clave:
 
-- 2025-01-15: Integración primera API
-- 2025-04-01: Lanzamiento MVP chatbot
-- 2025-09-01: Sistema autónomo operativo
+|Fecha Estimada|Hitos
+|---|---
+|2025-07-15| Integración primera API
+|2025-11-01| Lanzamiento MVP chatbot
+|2026-01-01| Sistema autónomo operativo
 
-## Metodología: 
+## Recomendaciones para la Metodología: 
 
 - Considera usar Sprints de 2-4 semanas para desarrollo iterativo
 - Entregables cortos, para cumplir modelo MVP
+- Sistema OpenSource
+- Repositorio GitHub con:
+  - Wiki técnica
+  - Roadmap público
+  - Issues bien documentados-
+  - Plan de contingencia para cada tarea crítica
 
