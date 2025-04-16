@@ -203,7 +203,7 @@ CONCLUSIÓN ESTRATÉGICA
 ## ROI Esperado:
 
 - 21,930% en 3 años ($4.5M beneficio neto)
-- Break-even en Mes 4 post-implementación.
+- Break-even Pesismista en Mes 12 post-implementación.  Optimista 4 meses.  
 
 ## Escalabilidad:
 
@@ -213,6 +213,8 @@ CONCLUSIÓN ESTRATÉGICA
 
 ## Factores Clave
 
+- Frente a escenarios macroeconómicos cambiantes, es una herramienta que permite cambios en los equipos de venta.
+- Mediciones en tiempo real.
 - Integración perfecta entre APIs de proveedores
 - Training continuo del equipo de ventas Jr y Sr con IA
 - Monitoreo en tiempo real con Grafana/Prometheus
