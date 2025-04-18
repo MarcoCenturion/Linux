@@ -18,13 +18,13 @@ Una aproximación en el mediano plazo
 
 | Año  | Ventas (USD millones) | Barra           |
 |------|-----------------------|-----------------|
-| 2024 | 26                    | ██████ (26)     |
-| 2025 | 30                    | ████████ (30)   |
-| 2026 | 35                    | ██████████ (35) |
+| 2026 | 26                    | ██████ (26)     |
+| 2027 | 30                    | ████████ (30)   |
+| 2028 | 35                    | ██████████ (35) |
 
 ### Indicadores
 
-|KPI|	2024|	2025|	2026
+|KPI|	2026|	2027|	2028
 |---|---|---|---
 |Ventas Vuelos|	$14M|	$16M|	$18M
 |Ventas Hoteles|	$10M|	$12M|	$14M
@@ -35,21 +35,40 @@ Una aproximación en el mediano plazo
 
 ### Etapas Clave
 
-```mermaid
-%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 10}}}%%
-gantt
-    title Cronograma MVP (6 meses)
-    dateFormat  YY-MM-DD
-    section Núcleo
-    Autenticación : done, auth, 24-01-01, 14d
-    API Vuelos : active, vuelos, 24-01-15, 28d
-    section Complementos
-    API Hoteles : hoteles, 24-02-12, 21d
-    Generador PDF : pdf, 24-03-04, 14d
-    section Validación
-    Pilot Controlado : pilot, 24-03-18, 30d
-    Go-Live Full : golive, 24-04-17, 14d
-```
+````plantuml 
+@startgantt
+skinparam amigaFontName Arial
+skinparam amigaFontSize 10
+skinparam amigaBackgroundColor #FFFFFF
+skinparam amigaArrowColor #333333
+skinparam amigaActivityBackgroundColor #DDDDDD
+skinparam amigaActivityBorderColor #333333
+
+project starts on 2024-01-01
+saturday are closed
+sunday are closed
+
+-- Núcleo --
+[Authentication] as auth lasts 14 days
+[Flight API] as vuelos starts at auth's end and lasts 28 days
+
+-- Complementos --
+[Hotel API] as hoteles starts 2024-02-12 and lasts 21 days
+[PDF Generator] as pdf starts 2024-03-04 and lasts 14 days
+
+-- Validación --
+[Pilot Test] as pilot starts 2024-03-18 and lasts 30 days
+[Go-Live] as golive starts at pilot's end and lasts 14 days
+
+auth is colored in #4CAF50
+vuelos is colored in #2196F3
+hoteles is colored in #FFC107
+pdf is colored in #9C27B0
+pilot is colored in #FF5722
+golive is colored in #607D8B
+
+@enduml
+````
 
 ## 3- Cotización 2.0
 
@@ -67,68 +86,88 @@ Para implementar un sistema así, un factor desicivo es diseñar tiempos / costo
 
 ### Flujo de una cotización
 
-```mermaid
-%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
-sequenceDiagram
-    title Flujo CRM Aéreos + Hoteles (Tiempos en minutos)
-    participant C as Cliente
-    participant B as Bot Cotizador
-    participant J as Junior
-    participant S as Senior
-    participant SYS as CRM VENTA
-    participant ERP as Sistema ERP
+```plantuml
+@startuml
+skinparam amigaFontName Arial
+skinparam amigaFontSize 12
+skinparam amigaBackgroundColor #FFFFFF
+skinparam amigaArrowColor #333333
+skinparam amigaParticipantBackgroundColor #DDDDDD
+skinparam amigaParticipantBorderColor #333333
+skinparam amigaNoteBackgroundColor #F5F5F5
+skinparam amigaNoteBorderColor #666666
 
-    rect rgb(240, 240, 240)
-        Note over C,B: Flujo automático sin ejecutivo (Tiempo: 0-1 min)
-        C->>+B: Chat cotización lenguaje humano
-        B->>+SYS: Dispo Aereo o tierra o ambos
-        SYS->>SYS: Conectores Api Nemo y Starlings con reglas comerciales
-        SYS-->>-B: Resultados aereos, hoteles o mix
-        B-->>-C: Opción básica (vuelo/hotel) solicita datos paxs
-    end
+title Flujo CRM Aéreos + Hoteles (Tiempos en minutos)
 
-    rect rgb(200, 230, 255)
-        Note over C,J: Consulta simple al bot + CROSS SELLING (Tiempo: 1 min)
-        C->>+SYS: Busca Hotel o Aéreo
-        SYS->>C: Respuesta aéreo o terrestre 
-        Note over J,SYS: Cross selling (Tiempo: + 1 min)
-        SYS->>+SYS: Posible upsell? (ej. PUJ CUN RIO)
-        SYS->>+B: Arma combinaciones
-        B->>B: Respuesta Aéreo + oportunidad Upgrade
-        B->>B: Aprendizaje IA
-        B-->>C: Ofrece faltante al cliente.
-        Note over B,J: Pasadas 2 hs 
-        B-->>J: Alerta al ejecutivo.
-        J->>C: Ofrece paquete integrado / Solicita datos
-    end
+participant "Cliente" as C #FFCC99
+participant "Bot Cotizador" as B #99CCFF
+participant "Jr." as J #99FF99
+participant "Sr." as S #FF9999
+participant "CRM VENTA" as SYS #CCCCFF
+participant "Sistema ERP" as ERP #FFCCFF
 
-    rect rgb(255, 230, 200)
-        Note over J,S: Validación Senior consulta compleja (Tiempo: 5-15 min)
-        alt Requiere Escalar 2do nivel
-            J->>+S: Envía para revisión
-            S->>S: Verifica márgenes
-            S->>J: Sugiere ajustes
-            J->>B: Aprendizaje BOT
-            B-->>S: Nueva cotización
-            S-->>-J: Aprobación final
-        else
-            J->>C: Confirma cotización
-        end
-    end
+box "Flujo automático sin ejecutivo (0-1 min)" #F0F0F0
+  C -> B : Chat cotización lenguaje humano
+  B -> SYS : Dispo Aereo o tierra o ambos
+  activate SYS
+  SYS -> SYS : Conectores Api Nemo y Starlings
+  SYS --> B : Resultados aereos/hoteles/mix
+  deactivate SYS
+  B --> C : Opción básica\n(solicita datos paxs)
+end box
 
-    rect rgb(200, 255, 200)
-        Note over C,SYS: Cierre (Tiempo: 1-5 min)
-        C->>+J: Solicitud con datos paxs 
-        J->>+SYS: Reserva Aereo+terrestre
-        SYS-->>-J: Reserva temporal
-        J->>+S: Notifica venta
-        S-->>-J: Valida pago
-        SYS->>J: Liquidación
-        SYS->>+ERP : File Automático
-        ERP-->>-C: Factura
-        J->>C: Envía e-Tkts y Voucher Htl
-    end
+box "Consulta simple + CROSS SELLING (+1 min)" #C8E6FF
+  C -> SYS : Busca Hotel o Aéreo
+  SYS --> C : Respuesta aéreo/terrestre
+  note right: Cross selling (+1 min)
+  SYS -> SYS : Posible upsell?\n(PUJ CUN RIO)
+  SYS -> B : Arma combinaciones
+  activate B
+  B -> B : Respuesta Aéreo + Upgrade
+  B -> B : Aprendizaje IA
+  B --> C : Ofrece faltante
+  note right: Pasadas 2 hs
+  B --> J : Alerta al ejecutivo
+  deactivate B
+  J -> C : Ofrece paquete integrado
+end box
+
+box "Validación Senior (5-15 min)" #FFE6CC
+  alt Requiere Escalar
+    J -> S : Envía para revisión
+    activate S
+    S -> S : Verifica márgenes
+    S -> J : Sugiere ajustes
+    J -> B : Aprendizaje BOT
+    B --> S : Nueva cotización
+    S --> J : Aprobación final
+    deactivate S
+  else
+    J -> C : Confirma cotización
+  end
+end box
+
+box "Cierre (1-5 min)" #CCFFCC
+  C -> J : Solicitud con datos paxs
+  J -> SYS : Reserva Aereo+terrestre
+  activate SYS
+  SYS --> J : Reserva temporal
+  J -> S : Notifica venta
+  activate S
+  S --> J : Valida pago
+  deactivate S
+  SYS -> J : Liquidación
+  SYS -> ERP : File Automático
+  activate ERP
+  ERP --> C : Factura
+  deactivate ERP
+  J -> C : Envía e-Tkts y Voucher Htl
+  deactivate SYS
+end box
+
+@enduml
 ```
+
 
 ## Hitos Prioritarios
 
@@ -182,20 +221,49 @@ Detalle de sistemas que deben interactuar para el funcionamiento.
 
 Existe una oportunidad en mejorar la capacidad operativa de los vendedores, mejorando además los tiempos de respuesta y reduciendo el monto de los errores.
 
-```
-CONCLUSIÓN ESTRATÉGICA
-├─ BENEFICIOS
-│  ├─ +30% Eficiencia
-│  ├─ 25% menos tiempo
-│  └─ Cross-selling auto
-├─ IMPACTO
-│  ├─ ↑ 15% Ventas
-│  ├─ ↓ 20% Errores
-│  └─ Clientes más felices
-└─ SIGUIENTES PASOS
-   ├─ Implementar IA
-   ├─ Capacitar equipo
-   └─ Escalar a Tours
+```plantuml
+@startuml
+skinparam amigaFontName Arial
+skinparam amigaFontSize 12
+skinparam amigaBackgroundColor #FFFFFF
+skinparam amigaArrowColor #333333
+skinparam amigaRectangleBackgroundColor #F5F5F5
+skinparam amigaRectangleBorderColor #333333
+
+left to right direction
+
+rectangle "CONCLUSIÓN ESTRATÉGICA" as title #FFCC00 {
+  rectangle "BENEFICIOS" as benefits #99CCFF {
+    rectangle "+30% Eficiencia" as eff
+    rectangle "25% menos tiempo" as time
+    rectangle "Cross-selling auto" as cross
+  }
+  
+  rectangle "IMPACTO" as impact #99FF99 {
+    rectangle "↑ 15% Ventas" as sales
+    rectangle "↓ 20% Errores" as errors
+    rectangle "Clientes más felices" as happy
+  }
+  
+  rectangle "SIGUIENTES PASOS" as next #FF9999 {
+    rectangle "Implementar IA" as ia
+    rectangle "Capacitar equipo" as training
+    rectangle "Escalar a Tours" as scale
+  }
+}
+
+eff -[hidden]-> time
+time -[hidden]-> cross
+sales -[hidden]-> errors
+errors -[hidden]-> happy
+ia -[hidden]-> training
+training -[hidden]-> scale
+
+title -[hidden]-> benefits
+title -[hidden]-> impact
+title -[hidden]-> next
+
+@enduml
 ```
 
 # Principales Hallazgos:
@@ -230,33 +298,62 @@ CONCLUSIÓN ESTRATÉGICA
 
 ## Diagrama estratégico evolutivo
 
-```mermaid
-%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 40}}}%%
-flowchart LR
-    subgraph Fase1[Fase 1: Base]
-        A[Formulario Django] --> B[(PostgreSQL)]
-        B --> C[Reportes BI]
-    end
-    
-    subgraph Fase2[Fase 2: Cross-Selling]
-        C --> D{Motor Combinaciones}
-        D -->|Vuelo| E[+Hotel]
-        D -->|Hotel| F[+Vuelo]
-    end
-    
-    subgraph Fase3[Fase 3: Asistencia]
-        E --> G[Chatbot DeepSeek]
-        F --> G
-        G -->|Casos complejos| H[Panel Senior]
-    end
-    
-    subgraph Fase4[Fase 4: Autonomía]
-        G --> I[Chatbot para Agencias]
-        I --> J[Venta Directa]
-        J --> K((Modelo ML))
-        K --> D
-    end
-    
+
+```plantuml 
+@startuml
+skinparam amigaFontName Arial
+skinparam amigaFontSize 10
+skinparam amigaBackgroundColor #FFFFFF
+skinparam amigaArrowColor #333333
+skinparam amigaRectangleBackgroundColor #DDDDDD
+skinparam amigaRectangleBorderColor #333333
+skinparam amigaDatabaseBackgroundColor #CCCCFF
+skinparam amigaDatabaseBorderColor #6666CC
+
+left to right direction
+
+package "Fase 1: Base" #CCCCFF {
+  rectangle "Formulario Django" as A
+  database "PostgreSQL" as B
+  rectangle "Reportes BI" as C
+  A --> B
+  B --> C
+}
+
+package "Fase 2: Cross-Selling" #99CC99 {
+  rectangle "Motor Combinaciones" as D
+  rectangle "+Hotel" as E
+  rectangle "+Vuelo" as F
+  C --> D
+  D --> E : Vuelo
+  D --> F : Hotel
+}
+
+package "Fase 3: Asistencia" #FFCC99 {
+  rectangle "Chatbot DeepSeek" as G
+  rectangle "Panel Senior" as H
+  E --> G
+  F --> G
+  G --> H : Casos\ncomplejos
+}
+
+package "Fase 4: Autonomía" #FF9999 {
+  rectangle "Chatbot Agencias" as I
+  rectangle "Venta Directa" as J
+  circle "Modelo ML" as K
+  G --> I
+  I --> J
+  J --> K
+  K --> D : Retroalimentación
+}
+
+note right of K
+  <b>Ciclo de mejora continua</b>
+  El modelo machine learnig aprende de
+  las ventas realizadas
+end note
+
+@enduml
 ```
 
 ## Puntos clave de tu estrategia:
@@ -285,21 +382,73 @@ flowchart LR
 
 ### MVP
 
-```mermaid
-%%{init: {'theme': 'forest', 'fontFamily': 'Arial', 'gantt': {'barHeight': 10}}}%%
-gantt
-    title Cronograma Simplificado
-    dateFormat  YY-MM
-    section Fase 1
-    Base de Datos          :done, 2024-10, 2m
-    Formularios            :active, 2024-12, 2m
-    section Fase 2
-    APIs Proveedores       :2025-02, 3m
-    Motor Cross-Selling    :2025-05, 1m
-    section Fase 3
-    Chatbot Asistente      :2025-06, 2m
-    section Fase 4
-    Chatbot Autónomo       :2025-09, 3m
+```plantuml
+@startgantt
+skinparam amigaFontName Arial
+skinparam amigaFontSize 10
+skinparam amigaBackgroundColor #FFFFFF
+skinparam amigaArrowColor #333333
+skinparam amigaActivityBackgroundColor #DDDDDD
+skinparam amigaActivityBorderColor #333333
+skinparam amigaActivityDoneColor #99CC99
+skinparam amigaActivityActiveColor #FFCC99
+skinparam amigaActivityFutureColor #CCCCFF
+printscale weekly
+
+project starts on 2025-05-11
+
+-- Fase 1 -- 
+[DB config] as [db] lasts 30 days 
+[Formularios] as [forms] starts at [db]'s end and lasts 60 days
+note bottom
+  Back
+  Formularios
+  Diseño
+  CRM
+end note
+
+-- Fase 2 --
+[APIs conectores Nemo Stalings] as [apis] starts at [forms]'s end and lasts 90 days
+[Motor Cross-Selling] as [motor] starts at [apis]'s end and lasts 30 days
+note bottom
+  Conectores
+  Lógica Cross Selling
+end note
+
+-- Fase 3 --
+[Chatbot Asistente] as [chatbot] starts at [motor]'s end and lasts 60 days
+note bottom
+  Asistencia AI a Jr
+  Escalamiento a 2do nivel 
+  Mediciones
+end note
+-- Fase 4 --
+[Chatbot Autónomo] as [auton] starts at [chatbot]'s end and lasts 90 days
+note bottom
+  Robot asistente agencias
+  Feedback Agencias
+  Mediciones
+end note
+[KickOff] as [KO] starts at [auton]'s end 
+
+2025-05-11 to 2025-06-06 are named [Diseño L&F]
+2025-05-11 to 2025-06-06 are colored in salmon 
+
+2025-08-18 to 2025-09-24 are named [Prototipo Beta]
+2025-08-18 to 2025-09-24 are colored in salmon 
+
+2025-11-10 to 2025-12-13 are colored in salmon 
+2025-11-10 to 2025-12-13 are named [Aprendizaje AI]
+
+[db] is colored in #99CC99
+[db] is colored in #99CC99
+[forms] is colored in #FFCC99
+[apis] is colored in #CCCCFF
+[motor] is colored in #9999FF
+[chatbot] is colored in #FF9999
+[auton] is colored in #FF6666
+
+@endgantt
 ```
 
 ### Característica Clave
