@@ -22,6 +22,7 @@ Una aproximación en el mediano plazo
 | 2027 | 30                    | ████████ (30)   |
 | 2028 | 35                    | ██████████ (35) |
 
+
 ### Indicadores
 
 |KPI|	2026|	2027|	2028
@@ -83,6 +84,49 @@ Vamos a poder establecer ratios de efectividad de los vendedores.  Poder corregi
 Aleatoriamente puede agregarse una encuesta de satisfacción, para obtener feedback, puntualmente el que nos interesa, estamos caros?  No estaba la oferta que buscaba, etc.
 
 Para implementar un sistema así, un factor desicivo es diseñar tiempos / costos / entregables y setear espectativas.
+
+```plantuml
+@startwbs
+
+*[#pink] * <size:16> CRM para Vuelos y Hoteles</size>
+**[#skyblue] <&django> 1. Núcleo Django
+*** 1.1 Configuración inicial
+**** 1.1.1 Entorno virtual
+**** 1.1.2 Dependencias
+*** 1.2 Modelos principales
+**** 1.2.1 Clientes
+**** 1.2.2 Reservas
+*** 1.3 Vistas/Templates
+**[#skyblue] <&database> 2. Base de Datos
+*** 2.1 Diseño PostgreSQL
+**** 2.1.1 Esquema vuelos
+**** 2.1.2 Esquema hoteles
+*** 2.2 Migraciones
+*** 2.3 Geo-extensiones
+**[#pink] <&plane> 3. Módulo Vuelos
+*** 3.1 Búsqueda inteligente
+*** 3.2 Integración APIs
+**** 3.2.1 Proveedores GDS
+**** 3.2.2 Aerolíneas
+*** 3.3 Check-in automático
+**[#pink] <&hotel> 4. Módulo Hoteles
+*** 4.1 Gestión propiedades
+*** 4.2 Sistema de tarifas
+*** 4.3 Servicios adicionales
+**[#lightgreen] <&robot> 5. Machine Learning
+*** 5.1 Modelo recomendaciones
+**** 5.1.1 Entrenamiento
+**** 5.1.2 Implementación
+*** 5.2 Dynamic Pricing
+*** 5.3 Detección de fraudes
+**[#lightgreen] <&devices> 6. Frontend
+*** 6.1 Dashboard analítico
+*** 6.2 App móvil
+**** 6.2.1 iOS
+**** 6.2.2 Android
+*** 6.3 Panel administración
+@endwbs
+```
 
 ### Flujo de una cotización
 
