@@ -1,12 +1,16 @@
 #!/bin/bash
+#  ---------------------------------------------------
+#  Script para capturar resultados de una busqueda FXD 
+#  ---------------------------------------------------
+#  Marco Adrian Centurion
+#  ---------------------------------------------------
+
 
 # Configuración
+TIMESTAMP=$(date +"%d-%m-%y_%H-%M")
 OUTPUT_FILE="$HOME/disponibilidad_vuelos.txt"
 WINDOW_TITLE="Amadeus Selling Platform Connect"
 DELAY=1.0  # Delay aumentado para sistemas lentos
-
-# Limpiar archivo anterior
-> "$OUTPUT_FILE"
 
 # Verificar e instalar dependencias
 if ! command -v xdotool &> /dev/null || ! command -v xclip &> /dev/null; then
@@ -23,7 +27,29 @@ read -p "🔹 Origen (ej: MEX): " ORIGEN
 read -p "🔹 Destino (ej: JFK): " DESTINO
 read -p "* Fecha Ida (ej. 03JUL): " IDA 
 read -p "* Fecha Regreso (ej. 12JUL): " REGRESO
-sleep 2
+
+# Construir nombre de archivo según formato solicitado
+OUTPUT_FILE="${CAN}${ORIGEN}${DESTINO}${IDA}_${DESTINO}${ORIGEN}${REGRESO}_${TIMESTAMP}.txt"
+
+# Preguntar por tipo de vuelo
+read -p "¿Solo vuelos directos? (s/n): " DIRECTOS
+if [[ "$DIRECTOS" =~ ^[SsYy]$ ]]; then
+    FLIGHT_PARAMS="/FD,N"
+else
+    FLIGHT_PARAMS=""
+fi
+
+# Preguntar por moneda
+read -p "Moneda (ARS/USD): " MONEDA
+case "${MONEDA^^}" in
+    "ARS") CURRENCY="FC-ARS" ;;
+    "USD") CURRENCY="FC-USD" ;;
+    *) CURRENCY="FC-USD"  # Default
+       echo "Usando USD por defecto" ;;
+esac
+
+# Construir parámetros finales
+PARAMS="R,UP,U*OPERINT4,${CURRENCY}${FLIGHT_PARAMS}"
 
 # Función para capturar desde el portapapeles
 capture_from_clipboard() {
@@ -52,9 +78,11 @@ capture_from_clipboard() {
         sleep 1
         ((attempt++))
     done
-    
-    return 2
+    return 1
 }
+
+# Limpiar archivo anterior
+> "$OUTPUT_FILE"
 
 # 1. Enfocar y preparar ventana de Amadeus
 WINDOW_ID=$(xdotool search --name "$WINDOW_TITLE" | head -1)
@@ -80,14 +108,13 @@ send_sequence() {
     sleep "$DELAY"
     xdotool type "D$REGRESO$ORIGEN/"
     sleep "$DELAY"
-    xdotool type "R,UP,U*OPERINT4,FC-USD"
+    xdotool type "$PARAMS"
     sleep "$DELAY"
     xdotool key Return
     sleep 8  # Tiempo crítico para respuesta
 }
 
 send_sequence
-sleep 15
 
 # 4. Capturar contenido con múltiples intentos
 for attempt in {1..5}; do
@@ -102,7 +129,7 @@ for attempt in {1..5}; do
     
     if [ -n "$CONTENT" ]; then
         # Filtrar contenido relevante
-        FILTERED_CONTENT=$(echo "$CONTENT" | grep -E '[A-Z]{2}[0-9]{1,4}|FLIGHT|AVAILABLE|VUELO|DISPONIBLE')
+        FILTERED_CONTENT=$(echo "$CONTENT" | grep -E '[A-Z]{2}[0-9]{1,4}|FLIGHT|AVAILABLE|VUELO|DISPONIBLE|DIRECTO|PRECIO|${MONEDA}')
         
         if [ -n "$FILTERED_CONTENT" ]; then
             # Formatear salida
@@ -110,6 +137,9 @@ for attempt in {1..5}; do
                 echo "=== CONSULTA DISPONIBILIDAD ==="
                 echo "Ruta: $ORIGEN-$DESTINO $IDA / $DESTINO-$ORIGEN $REGRESO"
                 echo "Pasajeros: $CAN"
+                echo "Moneda: ${MONEDA^^}"
+                [[ -n "$FLIGHT_PARAMS" ]] && echo "Filtro: Solo vuelos directos"
+                echo "Parámetros: $PARAMS"
                 echo "------------------------"
                 echo "$FILTERED_CONTENT"
                 echo "------------------------"
@@ -118,7 +148,7 @@ for attempt in {1..5}; do
             
             echo "✔ Consulta completada. Resultados en: $OUTPUT_FILE"
             echo "--- Extracto ---"
-            head -n 20 "$OUTPUT_FILE"
+            tail -n 20 "$OUTPUT_FILE"
             exit 0
         fi
     fi
