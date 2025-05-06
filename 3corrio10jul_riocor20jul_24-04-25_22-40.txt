@@ -1,0 +1,21 @@
+=== CONSULTA DISPONIBILIDAD ===
+Ruta: cor-rio 10jul / rio-cor 20jul
+Pasajeros: 3
+Moneda: USD
+Filtro: Solo vuelos directos
+Parámetros: R,UP,U*OPERINT4,FC-USD/FD,N
+------------------------
+Proprietario/a CORG121MP
+FXD3cor/D10julrio/D20julcor/R,UP,U*OPERINT4,FC-USD/FD,N
+FXD3COR/D10JULRIO/D20JULCOR/R,UP,U*OPERINT4,FC-USD/FD,N
+1 ADT     3 USD    790.50    132.50           JNABBG2G        B510954
+>> FXS1 TO SELECT  >> FXZ1 TO BOOK  >> FXU1 TO BOOK AND CREATE TST
+>> FXY1 TO HAVE UPSELL RECOMMENDATION
+1 LAST TKT DTE10JUL25 - DATE OF ORIGIN
+1 CORPORATE NAME: OPERINT4
+FARE FAMILY:FC1:1:LT
+FARE FAMILY:FC2:2:LT
+1 ADT     3 USD   1186.40    158.40           UHO9AXEP+
+    ID de oficina: CORG121MP
+------------------------
+Consulta generada el: jue 24 abr 2025 22:40:36 -03
