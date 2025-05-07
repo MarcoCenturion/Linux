@@ -137,7 +137,7 @@ screens = [
                 widget.Prompt(),
                 widget.WindowName(),
                 widget.Systray(),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p'),
+                widget.Clock(format='%Y-%m-%d %a | Semana %W | %I:%M %p'),
                 widget.QuickExit(default_text='[⏻]', countdown_format='[{}]'),
             ],
             24,
