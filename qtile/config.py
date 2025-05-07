@@ -118,7 +118,7 @@ floating_layout = layout.Floating(
 # ========== BARRA ==========
 widget_defaults = dict(
     font='sans',
-    fontsize=12,
+    fontsize=14,
     padding=3,
 )
 extension_defaults = widget_defaults.copy()
@@ -136,13 +136,71 @@ screens = [
                 ),
                 widget.Prompt(),
                 widget.WindowName(),
+                
+                # Widget de Memoria mejorado
+                widget.Memory(
+                    format=' {MemUsed: .0f}{mm}/{MemTotal: .0f}{mm}',
+                    foreground='#ffc800',
+                    background='#333333',
+                    padding=5,
+                    measure_mem='G'
+                ),
+                
+                # Widget de CPU mejorado
+                widget.CPU(
+                    format=' {load_percent}%',
+                    foreground='#00c800',
+                    background='#333333',
+                    padding=5,
+                    update_interval=1
+                ),
+                
+                # Widget de Brillo
+                widget.Backlight(
+                    backlight_name='intel_backlight',  # Cambia según tu hardware
+                    format='☀ {percent:2.0%}',
+                    foreground='#ffffff',
+                    background='#444444',
+                    padding=5,
+                    step=5
+                ),
+                
+                # Widget de Batería avanzado
+                widget.Battery(
+                    format='{char} {percent:2.0%} {hour:d}:{min:02d}',
+                    foreground='#ff5555',
+                    background='#333333',
+                    padding=5,
+                    charge_char='⚡',
+                    discharge_char='🔋',
+                    empty_char='⚠',
+                    full_char='✓',
+                    low_percentage=0.2,
+                    show_short_text=False,
+                    update_interval=10,
+                    notify_below=15
+                ),
+                
                 widget.Systray(),
-                widget.Clock(format='%Y-%m-%d %a | Semana %W | %I:%M %p'),
-                widget.QuickExit(default_text='[⏻]', countdown_format='[{}]'),
+                
+                # Widget de Reloj mejorado
+                widget.Clock(
+                    format='%a - %d - %B - %Y | Semana %W | %H:%M %p',
+                    foreground='#ffffff',
+                    background='#222222',
+                    padding=10
+                ),
+                
+                widget.QuickExit(
+                    default_text='[⏻]', 
+                    countdown_format='[{}]',
+                    foreground='#ff5555'
+                ),
             ],
             24,
             background='#222222',
-            opacity=0.9
+            opacity=0.9,
+            margin=[5, 5, 0, 5]  # Margen: [top, right, bottom, left]
         ),
     ),
 ]
