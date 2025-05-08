@@ -157,14 +157,13 @@ screens = [
                 
                 # Widget de Brillo
                 widget.Backlight(
-                    backlight_name='intel_backlight',  # Cambia según tu hardware
-                    format='☀ {percent:2.0%}',
-                    foreground='#ffffff',
-                    background='#444444',
-                    padding=5,
-                    step=5
-                ),
-                
+		    backlight_name='intel_backlight',
+		    change_command='brightnessctl set {0}%',
+		    format='☀ {percent:2.0%}',
+		    foreground='#ffffff',
+		    background='#444444',
+		    padding=5
+		), 
                 # Widget de Batería avanzado
                 widget.Battery(
                     format='{char} {percent:2.0%} {hour:d}:{min:02d}',
