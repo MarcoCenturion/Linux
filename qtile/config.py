@@ -4,9 +4,30 @@ from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 import os
 import subprocess
+from datetime import datetime
 
 mod = "mod4"
 terminal = "i3-sensible-terminal"  # Puedes cambiarlo por tu terminal preferida
+
+def take_screenshot(qtile=None, area='screen'):
+    """Toma capturas de pantalla con maim"""
+    user = os.getenv('USER')
+    timestamp = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    screenshot_dir = f"/home/{user}/screenshot"
+    os.makedirs(screenshot_dir, exist_ok=True)
+    
+    if area == 'screen':
+        path = f"{screenshot_dir}/full_{timestamp}.jpg"
+        subprocess.run(["maim", path])
+    elif area == 'window':
+        path = f"{screenshot_dir}/window_{timestamp}.jpg"
+        subprocess.run(["maim", "-i", "$(xdotool getactivewindow)", path])
+    else:  # selection
+        path = f"{screenshot_dir}/selection_{timestamp}.jpg"
+        subprocess.run(["maim", "-s", path])
+    
+    # Notificación opcional
+    subprocess.run(["notify-send", "Captura guardada", path])
 
 # ========== KEYBINDINGS ==========
 keys = [
@@ -44,11 +65,15 @@ keys = [
     Key([], "XF86AudioLowerVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%")),
     Key([], "XF86AudioRaiseVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")),
     Key([], "XF86AudioMute", lazy.spawn("pactl set-sink-mute @DEFAULT_SINK@ toggle")),
+   
+    # Captura de pantalla completa
+    Key([], "Print", lazy.function(lambda qtile: take_screenshot(area='screen'))),
     
-    # Capturas de pantalla (como en i3)
-    Key([], "Print", lazy.spawn("maim /home/$USER/screenshot/$(date +%Y-%m-%d_%H-%M-%S).jpg")),
-    Key([mod], "Print", lazy.spawn("maim -i $(xdotool getactivewindow) /home/$USER/screenshot/$(date +%Y-%m-%d_%H-%M-%S).jpg")),
-    Key([mod, "shift"], "Print", lazy.spawn("maim -s /home/$USER/screenshot/$(date +%Y-%m-%d_%H-%M-%S).jpg")),
+    # Captura de ventana activa
+    Key([mod], "Print", lazy.function(lambda qtile: take_screenshot(area='window'))),
+    
+    # Captura de área seleccionada
+    Key([mod, "shift"], "Print", lazy.function(lambda qtile: take_screenshot(area='selection'))),
 
     # Atajos para aplicaciones (como en i3)
     Key([mod], "F1", lazy.spawn("firefox")),
@@ -62,7 +87,7 @@ keys = [
 ]
 
 # Grupos/Workspaces (como en i3)
-groups = [Group(i) for i in "123456789"]
+groups = [Group(i) for i in "123456"]
 
 for i in groups:
     keys.extend([
@@ -157,13 +182,14 @@ screens = [
                 
                 # Widget de Brillo
                 widget.Backlight(
-		    backlight_name='intel_backlight',
-		    change_command='brightnessctl set {0}%',
-		    format='☀ {percent:2.0%}',
-		    foreground='#ffffff',
-		    background='#444444',
-		    padding=5
-		), 
+                    backlight_name='intel_backlight',
+                    change_command='brightnessctl set {0}%',
+                    format='☀ {percent:2.0%}',
+                    foreground='#ffffff',
+                    background='#444444',
+                    padding=5 
+                ),
+
                 # Widget de Batería avanzado
                 widget.Battery(
                     format='{char} {percent:2.0%} {hour:d}:{min:02d}',
