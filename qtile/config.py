@@ -6,6 +6,18 @@ import os
 import subprocess
 from datetime import datetime
 
+
+def init_volume_widget():
+    return widget.Volume(
+        fmt='🔊 {}',
+        emoji=True,
+        foreground='#ffffff',
+        background='#3b4252',
+        padding=10,
+        step=5,
+        volume_app='pavucontrol'
+    )
+
 mod = "mod4"
 terminal = "i3-sensible-terminal"  # Puedes cambiarlo por tu terminal preferida
 
@@ -182,7 +194,7 @@ screens = [
                 
                 # Widget de Brillo
                 widget.Backlight(
-                    backlight_name='intel_backlight',
+                    backlight_name='amdgpu_bl1',
                     change_command='brightnessctl set {0}%',
                     format='☀ {percent:2.0%}',
                     foreground='#ffffff',
@@ -215,7 +227,15 @@ screens = [
                     background='#222222',
                     padding=10
                 ),
-                
+
+                widget.Volume(
+                    fmt='🔊 {}',
+                    emoji=True,
+                    foreground='#ffffff',
+                    background='#3b4252',
+                    padding=10
+                ),
+
                 widget.QuickExit(
                     default_text='[⏻]', 
                     countdown_format='[{}]',
