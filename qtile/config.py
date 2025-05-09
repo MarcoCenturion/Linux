@@ -192,6 +192,14 @@ screens = [
                     update_interval=1
                 ),
                 
+                widget.ThermalSensor(
+                    foreground="ff0000",  # Color rojo (opcional)
+                    threshold=70,        # Cambia de color si la temp. supera este valor 
+                    tag_sensor="Tctl",   # Sensor específico (AMD suele usar "Tctl" o "Tdie") 
+                    fmt="🌡️ {}°C",      # Formato del texto 
+                    padding=5,
+                ), 
+                
                 # Widget de Brillo
                 widget.Backlight(
                     backlight_name='amdgpu_bl1',
@@ -217,6 +225,13 @@ screens = [
                     update_interval=10,
                     notify_below=15
                 ),
+                
+                widget.GenPollText(
+                    func=lambda: subprocess.check_output("curl -s 'wttr.in/Alta_Gracia?format=%c+%t+%h+%m'", shell=True).decode(),
+                    update_interval=3600,  # Actualiza cada hora 
+                    fmt="{}", 
+                    padding=5,
+                ), 
                 
                 widget.Systray(),
                 
