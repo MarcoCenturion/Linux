@@ -2,7 +2,7 @@
 @startmindmap
 title Mapa de Aéreos
 *[#yellow] Equipo GDS\nStarlings
-** Guardia
+**[#lightgreen]  Guardia
 *** Amadeus
 **** Emisiones y Reemisiones
 ** Clientes
@@ -31,8 +31,8 @@ left side
 **** Emision
 **[#lightgreen] Equipo
 *** Distribucion tareas
-**** Plan y Objetivos
-**** Premios
+****[#lightgreen]  Plan y Objetivos
+****[#lightgreen]  Premios
 legend right
    Importantes en Celeste 
    Nuevo en Verde  
