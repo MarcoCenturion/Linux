@@ -1,0 +1,63 @@
+<GuitarTuner>:
+    orientation: 'vertical'
+    spacing: 20
+    padding: 20
+    canvas.before:
+        Color:
+            rgba: 0.1, 0.1, 0.1, 1  # Fondo oscuro
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+    # ... (conserva los Labels superiores iguales) ...
+
+    BoxLayout:
+        size_hint_y: 0.4
+        orientation: 'vertical'
+        spacing: 10
+
+        # Medidor tipo VU
+        BoxLayout:
+            size_hint_y: 0.6
+            pos_hint: {'center_x': 0.5}
+            canvas:
+                # Fondo del medidor
+                Color:
+                    rgba: 0.2, 0.2, 0.2, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+                
+                # Zona "afinado" (verde central)
+                Color:
+                    rgba: 0, 0.7, 0, 0.3 if abs(root.cents_diff) > 5 else 0.6
+                Rectangle:
+                    pos: self.center_x - self.width*0.1, self.y
+                    size: self.width*0.2, self.height
+                
+                # Indicador de posición
+                Color:
+                    rgba: 0.9, 0.1, 0.1, 1  # Rojo cuando está desafiando
+                Rectangle:
+                    pos: self.center_x - 5 + (root.cents_diff * 2), self.y
+                    size: 10, self.height
+
+        # Marcas de referencia
+        BoxLayout:
+            size_hint_y: 0.1
+            spacing: 5
+            Label:
+                text: "-50"
+                font_size: '14sp'
+                color: 0.8, 0.8, 0.8, 1
+            Label:
+                text: "0"
+                font_size: '16sp'
+                color: 0, 0.8, 0, 1
+                bold: True
+            Label:
+                text: "+50"
+                font_size: '14sp'
+                color: 0.8, 0.8, 0.8, 1
+
+    # ... (conserva el Label inferior igual) ...
