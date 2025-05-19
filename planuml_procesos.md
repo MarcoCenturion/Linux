@@ -22,6 +22,7 @@ left side
 **** Emisión Reemisión
 ****[#lightblue] Manual de uso
 ** Soporte
+***[#lightgreen] Reestablecer Interfaces
 ***[#lightgreen] TJQS - DBS NDCs
 *** Claim PNRS
 **** Seguimiento 
