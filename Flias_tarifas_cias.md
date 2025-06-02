@@ -35,6 +35,33 @@
 | **BOA (Boliviana)**<br>(Económica/Ejecutiva) | **Económica**:<br>✔ **CARRYON**: 5kg + personal item<br>✔ 1x23kg despachado<br>✔ Cambios con USD 30 | **Flex**:<br>✔ **CARRYON**: 5kg + personal item<br>✔ 1x23kg despachado<br>✔ Cambios con USD 20 | **Ejecutiva**:<br>✔ **CARRYON**: 10kg + personal item<br>✔ 2x32kg despachado<br>✔ Cambios sin costo |
 
 
+# Familias de tarifas que NO incluyen carry-on (solo personal item)
+
+## Aerolíneas domésticas/regionales
+
+| Aerolínea       | Tarifa sin carry-on               | Dimensiones personal item | Peso permitido |
+|-----------------|-----------------------------------|---------------------------|----------------|
+| **Sky Airline** | **Basic** (nacional/internacional)| 35x27x20cm                | 5kg            |
+| **JetSMART**    | **Simple** (cabotaje)             | 35x27x20cm                | 6kg            |
+
+## Aerolíneas internacionales
+
+| Aerolínea       | Tarifa sin carry-on               | Dimensiones personal item | Peso permitido |
+|-----------------|-----------------------------------|---------------------------|----------------|
+| **LATAM**       | **Basic Economy** (solo en algunas rutas) | 35x25x20cm         | 5kg            |
+| **British Airways** | **Basic** (no confundir con Light de otras aerolíneas) | 40x30x15cm | Sin límite especificado |
+| **Iberia**      | **Óptima Basic**                  | 40x30x15cm                | Sin límite especificado |
+| **American Airlines** | **Basic Economy**            | 45x35x20cm                | Sin límite especificado |
+| **United Airlines** | **Basic Economy**             | 43x25x22cm                | Sin límite especificado |
+| **Air Canada**  | **Basic**                        | 43x33x16cm                | Sin límite especificado |
+
+## Observaciones clave:
+1. **Sky y JetSMART** son las únicas low-cost que operan en Argentina con tarifas sin carry-on
+2. **LATAM Basic Economy** solo aplica en rutas seleccionadas (no disponible en todos los mercados)
+3. **Aerolíneas tradicionales** (AA, United, BA, Iberia) restringen carry-on solo en sus tarifas más básicas
+4. **Dimensiones variables**: El tamaño del personal item difiere significativamente entre aerolíneas (desde 35x27x20cm en low-cost hasta 45x35x20cm en AA)
+
+*Nota: Todas estas tarifas tampoco incluyen equipaje despachado y no permiten cambios (o solo con penalidades del 100%). Última verificación: Abril 2024.*
 
 ## Leyenda y observaciones
 - **Políticas de cambios**: 
@@ -64,3 +91,4 @@
 5. **Air France/KLM**: Mismos estándares (12kg de carry-on, cargos idénticos en EUR).
 
 *Nota: Todos los cargos son aproximados y sujetos a cambio. Verificar con la aerolínea al momento de la reserva.*
+
